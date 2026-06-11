@@ -3,7 +3,7 @@
 #       vim-classic with proper suffixes.
 pkgname=vim-classic
 version=8.3.0
-revision=1
+revision=2
 create_wrksrc=required
 hostmakedepends="gettext glib-devel pkg-config
  $(vopt_if gtk3 wayland-devel)"
@@ -11,7 +11,7 @@ makedepends="acl-devel ncurses-devel
  $(vopt_if x11 libXt-devel)
  $(vopt_if gtk3 gtk+3-devel)
  $(vopt_if huge 'lua53-devel perl python3-devel ruby-devel')"
-depends="vim-common>=${version}"
+depends="vim-classic-common>=${version}"
 checkdepends="libtool ncurses-base curl"
 conflicts="vim"
 short_desc="Vim Classic editor (vim fork)"
