@@ -1,0 +1,33 @@
+# Template file for 'kolourpaint'
+# group=kde-gear
+pkgname=kolourpaint
+version=26.08.1
+revision=1
+build_style=cmake
+configure_args="-DQT_MAJOR_VERSION=6 -DBUILD_TESTING=OFF
+ -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
+hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
+ qt6-base kf6-kconfig"
+makedepends="qt6-base-devel
+ kf6-ki18n-devel
+ kf6-kguiaddons-devel
+ kf6-kwidgetsaddons-devel
+ kf6-kio-devel
+ kf6-kxmlgui-devel
+ kf6-ktextwidgets-devel
+ kf6-kjobwidgets-devel
+ kf6-kcrash-devel
+ libksane6-devel"
+short_desc="Free, easy-to-use paint program for KDE"
+maintainer="Piotr Wójcik <chocimier@tlen.pl>"
+license="BSD-2-Clause, GPL-2.0-or-later, LGPL-2.1-only, GFDL-1.2-only"
+homepage="http://www.kolourpaint.org/"
+changelog="https://kde.org/announcements/changelogs/gear/${version}/#kolourpaint"
+distfiles="${KDE_SITE}/release-service/${version}/src/kolourpaint-${version}.tar.xz"
+checksum=e2ae301feb5e0ccb7634421b7e320808590fcf7c5bf4c4eb3c60d87bd68caca3
+
+post_install() {
+	vlicense COPYING
+	vlicense COPYING.DOC
+	vlicense COPYING.LIB
+}
