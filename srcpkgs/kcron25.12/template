@@ -1,0 +1,20 @@
+# Template file for 'kcron'
+# group=kde-gear
+pkgname=kcron
+version=26.08.1
+revision=1
+build_style=cmake
+configure_args="-DBUILD_TESTING=OFF
+ -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
+hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
+ kf6-kauth-tools pkg-config qt6-base kf6-kcmutils"
+makedepends="kf6-kio-devel kf6-kconfigwidgets-devel kf6-kauth-devel
+ kirigami-addons-devel qt6-declarative-devel
+ kf6-kcoreaddons-devel kf6-ki18n-devel kf6-kio-devel kf6-kcmutils-devel"
+short_desc="KDE Configure and schedule tasks"
+maintainer="Piotr Wójcik <chocimier@tlen.pl>"
+license="GPL-2.0-or-later"
+homepage="https://userbase.kde.org/System_Settings/Task_Scheduler"
+changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcron"
+distfiles="${KDE_SITE}/release-service/${version}/src/kcron-${version}.tar.xz"
+checksum=9577b6bb8377a0b22e0856bc9b9cbc33567235b59f7b8d10bcfd4e7f401ba251

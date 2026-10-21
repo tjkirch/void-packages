@@ -1,0 +1,27 @@
+# Template file for 'kclock'
+# group=kde-gear
+pkgname=kclock
+version=26.08.1
+revision=1
+build_style=cmake
+configure_args="-DBUILD_TESTING=OFF
+ -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
+ -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
+hostmakedepends="extra-cmake-modules gettext pkg-config qt6-base qt6-tools"
+makedepends="qt6-base-private-devel qt6-declarative-devel qt6-multimedia-devel
+ qt6-svg-devel kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kcrash-devel kf6-kdbusaddons-devel
+ kf6-ki18n-devel kf6-kio-devel kf6-kirigami-devel kirigami-addons-devel kf6-kjobwidgets-devel
+ kf6-knotifications-devel kf6-kservice-devel kf6-kstatusnotifieritem-devel kf6-ksvg-devel
+ libplasma-devel plasma-wayland-protocols wayland-protocols"
+depends="kirigami-addons"
+short_desc="Clock app for Plasma Mobile"
+maintainer="Nafis <mnabid.25@outlook.com>"
+license="GPL-2.0-or-later, LGPL-2.0-or-later"
+homepage="https://apps.kde.org/kclock/"
+distfiles="${KDE_SITE}/release-service/${version}/src/kclock-${version}.tar.xz"
+checksum=60a1a3048bf5d508dfe6dfbf0cc70f9a6041d33476f579a23dc67325368a8de7
+
+
+if [ "$CROSS_BUILD" ]; then
+	hostmakedepends+=" kf6-kconfig libplasma qt6-declarative-host-tools wayland-devel"
+fi
