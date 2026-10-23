@@ -1,24 +1,24 @@
-# Template file for 'lokalize'
+# Template file for 'lokalize25.12'
 # group=kde-gear
-pkgname=lokalize
+pkgname=lokalize25.12
 version=26.08.1
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules gettext pkg-config qt6-tools qt6-base
- kf6-kconfig kf6-kdoctools"
+hostmakedepends="extra-cmake-modules6.24 gettext pkg-config qt6-tools qt6-base
+ kf6-kconfig6.24 kf6-kdoctools6.24"
 makedepends="hunspell-devel qt6-base-devel
- kf6-ki18n-devel
- kf6-ktextwidgets-devel
- kf6-kio-devel
- kf6-kxmlgui-devel
- kf6-knotifications-devel
- kf6-kconfig-devel
- kf6-kcoreaddons-devel
- kf6-sonnet-devel
- kf6-kcrash-devel
- kf6-kiconthemes-devel
- kf6-kcolorscheme-devel
- kf6-kdbusaddons-devel"
+ kf6-ki18n6.24-devel
+ kf6-ktextwidgets6.24-devel
+ kf6-kio6.24-devel
+ kf6-kxmlgui6.24-devel
+ kf6-knotifications6.24-devel
+ kf6-kconfig6.24-devel
+ kf6-kcoreaddons6.24-devel
+ kf6-sonnet6.24-devel
+ kf6-kcrash6.24-devel
+ kf6-kiconthemes6.24-devel
+ kf6-kcolorscheme6.24-devel
+ kf6-kdbusaddons6.24-devel"
 depends="hicolor-icon-theme"
 short_desc="Computer-aided translation system"
 maintainer="Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>"

@@ -1,25 +1,25 @@
-# Template file for 'kompare'
+# Template file for 'kompare25.12'
 # group=kde-gear
-pkgname=kompare
+pkgname=kompare25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext qt6-tools qt6-base
- kf6-kconfig kf6-kdoctools"
+hostmakedepends="extra-cmake-modules6.24 gettext qt6-tools qt6-base
+ kf6-kconfig6.24 kf6-kdoctools6.24"
 makedepends="qt6-base-devel
- kf6-kcoreaddons-devel
- kf6-kcodecs-devel
- kf6-kdoctools-devel
- kf6-kiconthemes-devel
- kf6-kjobwidgets-devel
- kf6-kconfig-devel
- kf6-kparts-devel
- kf6-ktexteditor-devel
- kf6-kwidgetsaddons-devel
- kf6-ki18n-devel
- libkomparediff2-devel"
+ kf6-kcoreaddons6.24-devel
+ kf6-kcodecs6.24-devel
+ kf6-kdoctools6.24-devel
+ kf6-kiconthemes6.24-devel
+ kf6-kjobwidgets6.24-devel
+ kf6-kconfig6.24-devel
+ kf6-kparts6.24-devel
+ kf6-ktexteditor6.24-devel
+ kf6-kwidgetsaddons6.24-devel
+ kf6-ki18n6.24-devel
+ libkomparediff225.12-devel"
 short_desc="File difference viewer"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only, GFDL-1.2-only"

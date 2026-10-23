@@ -1,6 +1,6 @@
-# Template file for 'kamera'
+# Template file for 'kamera25.12'
 # group=kde-gear
-pkgname=kamera
+pkgname=kamera25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules pkg-config kf6-kdoctools gettext
- kf6-kcoreaddons kf6-kcmutils kf6-kconfig qt6-base qt6-tools"
-makedepends="qt6-base-devel kf6-kio-devel kf6-ki18n-devel libgphoto2-devel
- kf6-kcmutils-devel kf6-kconfig-devel kf6-kconfigwidgets-devel kf6-kxmlgui-devel
- kf6-kcoreaddons-devel kf6-kdoctools-devel"
+hostmakedepends="extra-cmake-modules6.24 pkg-config kf6-kdoctools6.24 gettext
+ kf6-kcoreaddons6.24 kf6-kcmutils6.24 kf6-kconfig6.24 qt6-base qt6-tools"
+makedepends="qt6-base-devel kf6-kio6.24-devel kf6-ki18n6.24-devel libgphoto2-devel
+ kf6-kcmutils6.24-devel kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kxmlgui6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-kdoctools6.24-devel"
 short_desc="KDE integration for gphoto2 cameras"
 maintainer="Kenneth Raplee <kenrap@kennethraplee.com>"
 license="GPL-2.0-or-later"

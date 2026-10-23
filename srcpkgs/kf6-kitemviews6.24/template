@@ -1,11 +1,11 @@
-# Template file for 'kf6-kitemviews'
+# Template file for 'kf6-kitemviews6.24'
 # group=kde-frameworks
-pkgname=kf6-kitemviews
+pkgname=kf6-kitemviews6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DBUILD_DESIGNERPLUGIN=ON -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base"
 makedepends="qt6-base-devel qt6-tools-devel"
 short_desc="Set of item views extending the Qt model-view framework"
 maintainer="John <me@johnnynator.dev>"

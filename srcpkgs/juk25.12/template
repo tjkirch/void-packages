@@ -1,19 +1,19 @@
-# Template file for 'juk'
+# Template file for 'juk25.12'
 # group=kde-gear
-pkgname=juk
+pkgname=juk25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules pkg-config qt6-base qt6-tools
- kf6-kcoreaddons kf6-kdoctools gettext kf6-kconfig"
-makedepends="qt6-svg-devel phonon-devel taglib-devel kf6-kcompletion-devel
- kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kcrash-devel kf6-kdoctools-devel
- kf6-kglobalaccel-devel kf6-ki18n-devel kf6-kiconthemes-devel kf6-kio-devel
- kf6-kjobwidgets-devel kf6-knotifications-devel kf6-kstatusnotifieritem-devel
- kf6-ktextwidgets-devel kf6-kwallet-devel kf6-kwidgetsaddons-devel
- kf6-kwindowsystem-devel kf6-kxmlgui-devel"
+hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-base qt6-tools
+ kf6-kcoreaddons6.24 kf6-kdoctools6.24 gettext kf6-kconfig6.24"
+makedepends="qt6-svg-devel phonon-devel taglib-devel kf6-kcompletion6.24-devel
+ kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-kdoctools6.24-devel
+ kf6-kglobalaccel6.24-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel
+ kf6-kjobwidgets6.24-devel kf6-knotifications6.24-devel kf6-kstatusnotifieritem6.24-devel
+ kf6-ktextwidgets6.24-devel kf6-kwallet6.24-devel kf6-kwidgetsaddons6.24-devel
+ kf6-kwindowsystem6.24-devel kf6-kxmlgui6.24-devel"
 depends="virtual?phonon-qt6-backend hicolor-icon-theme"
 short_desc="Jukebox, tagger and music collection manager"
 maintainer="John <me@johnnynator.dev>"

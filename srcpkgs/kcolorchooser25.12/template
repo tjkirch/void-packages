@@ -1,14 +1,14 @@
-# Template file for 'kcolorchooser'
+# Template file for 'kcolorchooser25.12'
 # group=kde-gear
-pkgname=kcolorchooser
+pkgname=kcolorchooser25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons gettext qt6-tools qt6-base
- kf6-kcoreaddons kf6-kconfig"
-makedepends="qt6-base-devel kf6-kcoreaddons-devel kf6-ki18n-devel kf6-kxmlgui-devel"
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 gettext qt6-tools qt6-base
+ kf6-kcoreaddons6.24 kf6-kconfig6.24"
+makedepends="qt6-base-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kxmlgui6.24-devel"
 short_desc="KDE's Color Chooser"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="MIT"

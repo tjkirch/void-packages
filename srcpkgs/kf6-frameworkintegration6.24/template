@@ -1,17 +1,17 @@
-# Template file for 'kf6-frameworkintegration'
+# Template file for 'kf6-frameworkintegration6.24'
 # group=kde-frameworks
-pkgname=kf6-frameworkintegration
+pkgname=kf6-frameworkintegration6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base gettext
- kf6-kpackage kf6-kconfig"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base gettext
+ kf6-kpackage6.24 kf6-kconfig6.24"
 # AppStreamQt >=0 and packagekitqt6
-makedepends="kf6-kcolorscheme-devel kf6-kconfig-devel kf6-ki18n-devel
- kf6-kiconthemes-devel kf6-knewstuff-devel kf6-knotifications-devel
- kf6-kwidgetsaddons-devel kf6-kpackage-devel"
+makedepends="kf6-kcolorscheme6.24-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel
+ kf6-kiconthemes6.24-devel kf6-knewstuff6.24-devel kf6-knotifications6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kpackage6.24-devel"
 short_desc="Framework to integrate applications with a KDE Workspace"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
@@ -25,8 +25,8 @@ shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-frameworkintegration-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision}
-	 kf6-kcolorscheme-devel kf6-kiconthemes-devel
-	 kf6-kwidgetsaddons-devel"
+	 kf6-kcolorscheme6.24-devel kf6-kiconthemes6.24-devel
+	 kf6-kwidgetsaddons6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

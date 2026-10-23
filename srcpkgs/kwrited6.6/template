@@ -1,12 +1,12 @@
-# Template file for 'kwrited'
+# Template file for 'kwrited6.6'
 # group=kde-plasma
-pkgname=kwrited
+pkgname=kwrited6.6
 version=6.7.5
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kcoreaddons qt6-base qt6-tools"
-makedepends="kf6-kdbusaddons-devel kf6-knotifications-devel kf6-kpty-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kcoreaddons qt6-base qt6-tools"
+makedepends="kf6-kdbusaddons6.24-devel kf6-knotifications6.24-devel kf6-kpty6.24-devel"
 short_desc="KDE daemon listening for wall and write messages"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"

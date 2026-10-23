@@ -1,16 +1,16 @@
-# Template file for 'kfind'
+# Template file for 'kfind25.12'
 # group=kde-gear
-pkgname=kfind
+pkgname=kfind25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons qt6-base
- kf6-kdoctools kf6-kconfig"
-makedepends="kf6-kfilemetadata-devel kf6-karchive-devel kf6-ki18n-devel
- kf6-kio-devel kf6-kwidgetsaddons-devel kf6-kxmlgui-devel kf6-kdoctools-devel
- qt6-qt5compat-devel kf6-kcrash-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 qt6-base
+ kf6-kdoctools6.24 kf6-kconfig6.24"
+makedepends="kf6-kfilemetadata6.24-devel kf6-karchive6.24-devel kf6-ki18n6.24-devel
+ kf6-kio6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kdoctools6.24-devel
+ qt6-qt5compat-devel kf6-kcrash6.24-devel"
 short_desc="Find files and folders"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"

@@ -1,10 +1,10 @@
-# Template file for 'kf6-attica'
+# Template file for 'kf6-attica6.24'
 # group=kde-frameworks
-pkgname=kf6-attica
+pkgname=kf6-attica6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base"
 makedepends="qt6-base-devel"
 short_desc="Qt library that implements the Open Collaboration Services API"
 maintainer="John <me@johnnynator.dev>"

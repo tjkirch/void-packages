@@ -1,6 +1,6 @@
-# Template file for 'kpimtextedit'
+# Template file for 'kpimtextedit25.12'
 # group=kde-gear
-pkgname=kpimtextedit
+pkgname=kpimtextedit25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext kf6-kconfig"
-makedepends="qt6-base-devel ktextaddons-devel kf6-kcodecs-devel kf6-kconfig-devel
- kf6-kconfigwidgets-devel kf6-kiconthemes-devel kf6-kio-devel qt6-tools-devel
- kf6-syntax-highlighting-devel kf6-sonnet-devel kf6-kxmlgui-devel
- kf6-kwidgetsaddons-devel kf6-kiconthemes-devel kf6-ki18n-devel ktextaddons-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext kf6-kconfig6.24"
+makedepends="qt6-base-devel ktextaddons-devel kf6-kcodecs6.24-devel kf6-kconfig6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel qt6-tools-devel
+ kf6-syntax-highlighting6.24-devel kf6-sonnet6.24-devel kf6-kxmlgui6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kiconthemes6.24-devel kf6-ki18n6.24-devel ktextaddons-devel"
 short_desc="Textedit with PIM-specific features"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

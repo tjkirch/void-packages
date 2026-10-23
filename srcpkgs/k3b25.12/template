@@ -1,6 +1,6 @@
-# Template file for 'k3b'
+# Template file for 'k3b25.12'
 # group=kde-gear
-pkgname=k3b
+pkgname=k3b25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,16 +8,16 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins -DQT_MAJOR_VERSION=6
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules pkg-config qt6-base gettext
- kf6-kauth-tools kf6-kdoctools kf6-kcoreaddons kf6-kconfig kf6-kcmutils"
-makedepends="kf6-kcmutils-devel kf6-kfilemetadata-devel kf6-knewstuff-devel
- kf6-knotifyconfig-devel kf6-kio-devel kf6-solid-devel lame-devel libXft-devel
- libcddb-devel libdvdread-devel libkcddb6-devel libmad-devel libmpcdec-devel
- kf6-karchive-devel kf6-kconfig-devel kf6-kcoreaddons-devel kf6-ki18n-devel
- kf6-kiconthemes-devel kf6-kjobwidgets-devel kf6-knotifications-devel
- kf6-kwidgetsaddons-devel kf6-kxmlgui-devel taglib-devel
+hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-base gettext
+ kf6-kauth-tools kf6-kdoctools6.24 kf6-kcoreaddons6.24 kf6-kconfig6.24 kf6-kcmutils6.24"
+makedepends="kf6-kcmutils6.24-devel kf6-kfilemetadata6.24-devel kf6-knewstuff6.24-devel
+ kf6-knotifyconfig6.24-devel kf6-kio6.24-devel kf6-solid6.24-devel lame-devel libXft-devel
+ libcddb-devel libdvdread-devel libkcddb6-25.12-devel libmad-devel libmpcdec-devel
+ kf6-karchive6.24-devel kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
+ kf6-kiconthemes6.24-devel kf6-kjobwidgets6.24-devel kf6-knotifications6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel taglib-devel
  ffmpeg6-devel libflac-devel libsndfile-devel lame-devel
- libmusicbrainz5-devel libsamplerate-devel kf6-kauth-devel"
+ libmusicbrainz5-devel libsamplerate-devel kf6-kauth6.24-devel"
 depends="cdrdao cdrtools dvd+rw-tools"
 short_desc="CD/DVD Kreator for Linux"
 maintainer="Enno Boland <gottox@voidlinux.org>"

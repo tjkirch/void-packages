@@ -1,10 +1,10 @@
-# Template file for 'breeze'
+# Template file for 'breeze6.6'
 # group=kde-plasma
-pkgname=breeze
+pkgname=breeze6.6
 version=6.7.3
 revision=1
 metapackage=yes
-depends="breeze-icons breeze-qt5 breeze-qt6 qqc2-breeze-style"
+depends="breeze-icons6.24 breeze-qt5 breeze-qt6 qqc2-breeze-style6.6"
 short_desc="Breeze visual style for the Plasma Desktop"
 maintainer="John <me@johnnynator.dev>"
 license="Public Domain"

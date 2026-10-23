@@ -1,11 +1,11 @@
-# Template file for 'breeze-icons'
+# Template file for 'breeze-icons6.24'
 # group=kde-frameworks
-pkgname=breeze-icons
+pkgname=breeze-icons6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DINSTALL_HOST_TOOLS=ON"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools python3-lxml libxml2"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3-lxml libxml2"
 makedepends="qt6-base-devel"
 checkdepends="fdupes"
 short_desc="Breeze icon theme"

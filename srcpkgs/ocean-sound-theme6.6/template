@@ -1,10 +1,10 @@
-# Template file for 'ocean-sound-theme'
+# Template file for 'ocean-sound-theme6.6'
 # group=kde-plasma
-pkgname=ocean-sound-theme
+pkgname=ocean-sound-theme6.6
 version=6.7.5
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-base"
+hostmakedepends="extra-cmake-modules6.24 qt6-base"
 makedepends="qt6-base-devel"
 short_desc="Ocean Sound Theme for Plasma"
 maintainer="Rose <rose@pinkro.se>"

@@ -1,13 +1,13 @@
-# Template file for 'kf6-knotifyconfig'
+# Template file for 'kf6-knotifyconfig6.24'
 # group=kde-frameworks
-pkgname=kf6-knotifyconfig
+pkgname=kf6-knotifyconfig6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- kf6-kconfig gettext"
-makedepends="kf6-kcompletion-devel kf6-kconfig-devel kf6-ki18n-devel
- kf6-kio-devel kf6-kxmlgui-devel libcanberra-devel kf6-knotifications-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ kf6-kconfig6.24 gettext"
+makedepends="kf6-kcompletion6.24-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel
+ kf6-kio6.24-devel kf6-kxmlgui6.24-devel libcanberra-devel kf6-knotifications6.24-devel
  qt6-base-devel"
 short_desc="KDE Configuration dialog for desktop notification"
 maintainer="John <me@johnnynator.dev>"

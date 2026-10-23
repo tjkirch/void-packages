@@ -1,16 +1,16 @@
-# Template file for 'partitionmanager'
+# Template file for 'partitionmanager25.12'
 # group=kde-gear
-pkgname=partitionmanager
+pkgname=partitionmanager25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="qt6-base-devel kf6-kdoctools kf6-kconfig qt6-base
- extra-cmake-modules pkg-config gettext kf6-kcoreaddons"
-makedepends="qt6-base-devel kf6-kconfig-devel kpmcore-devel kf6-kdoctools-devel
- kf6-kservice-devel kf6-kio-devel kf6-kxmlgui-devel kf6-kiconthemes-devel
- kf6-kconfigwidgets-devel kf6-kdbusaddons-devel kf6-kcrash-devel"
+hostmakedepends="qt6-base-devel kf6-kdoctools6.24 kf6-kconfig6.24 qt6-base
+ extra-cmake-modules6.24 pkg-config gettext kf6-kcoreaddons6.24"
+makedepends="qt6-base-devel kf6-kconfig6.24-devel kpmcore25.12-devel kf6-kdoctools6.24-devel
+ kf6-kservice6.24-devel kf6-kio6.24-devel kf6-kxmlgui6.24-devel kf6-kiconthemes6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kdbusaddons6.24-devel kf6-kcrash6.24-devel"
 depends="hicolor-icon-theme"
 short_desc="KDE utility that allows you to manage disks"
 maintainer="jambonmcyeah <jambonmcyeah@gmail.com>"

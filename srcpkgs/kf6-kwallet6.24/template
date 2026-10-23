@@ -1,14 +1,14 @@
-# Template file for 'kf6-kwallet'
+# Template file for 'kf6-kwallet6.24'
 # group=kde-frameworks
-pkgname=kf6-kwallet
+pkgname=kf6-kwallet6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- gettext kf6-kdoctools kf6-kconfig pkg-config"
-makedepends="kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kcrash-devel
- kf6-kwindowsystem-devel kf6-kcolorscheme-devel kf6-kdbusaddons-devel
- kf6-knotifications-devel kf6-kwidgetsaddons-devel kf6-kdoctools-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ gettext kf6-kdoctools6.24 kf6-kconfig6.24 pkg-config"
+makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel
+ kf6-kwindowsystem6.24-devel kf6-kcolorscheme6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-knotifications6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kdoctools6.24-devel
  gpgmepp-devel qca-qt6-devel libgcrypt-devel libsecret-devel"
 short_desc="KWallet: Credential Storage"
 maintainer="John <me@johnnynator.dev>"

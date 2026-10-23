@@ -1,20 +1,20 @@
-# Template file for 'kinfocenter'
+# Template file for 'kinfocenter6.6'
 # group=kde-plasma
-pkgname=kinfocenter
+pkgname=kinfocenter6.6
 version=6.7.5
 revision=3
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext pkg-config qt6-tools qt6-base
+hostmakedepends="extra-cmake-modules6.24 gettext pkg-config qt6-tools qt6-base
  qt6-concurrent qt6-plugin-odbc qt6-plugin-pgsql qt6-plugin-mysql qt6-plugin-sqlite
  qt6-plugin-tls-openssl qt6-plugin-tls-qcertonly qt6-plugin-networkinformation
- kf6-kdoctools kf6-kpackage kf6-kcmutils kf6-kconfig kf6-kauth-tools
- kf6-kauth-devel qt6-declarative-host-tools"
-makedepends="libplasma-devel kf6-kcmutils-devel kf6-kauth-devel
- qt6-base-private-devel libdrm-devel kf6-kio-devel kf6-kservice-devel
- kf6-kcoreaddons-devel qt6-declarative-private-devel
- kf6-kwayland-devel glu-devel pciutils-devel libraw1394-devel kf6-solid-devel"
+ kf6-kdoctools6.24 kf6-kpackage6.24 kf6-kcmutils6.24 kf6-kconfig6.24 kf6-kauth-tools
+ kf6-kauth6.24-devel qt6-declarative-host-tools"
+makedepends="libplasma6.6-devel kf6-kcmutils6.24-devel kf6-kauth6.24-devel
+ qt6-base-private-devel libdrm-devel kf6-kio6.24-devel kf6-kservice6.24-devel
+ kf6-kcoreaddons6.24-devel qt6-declarative-private-devel
+ kf6-kwayland-devel glu-devel pciutils-devel libraw1394-devel kf6-solid6.24-devel"
 depends="hwids aha"
 short_desc="KDE Info Center"
 maintainer="John <me@johnnynator.dev>"

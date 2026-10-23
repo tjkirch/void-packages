@@ -1,6 +1,6 @@
-# Template file for 'kpkpass'
+# Template file for 'kpkpass25.12'
 # group=kde-gear
-pkgname=kpkpass
+pkgname=kpkpass25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -9,9 +9,9 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTMETATYPESDIR=lib/qt6/metatypes
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools shared-mime-info
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools shared-mime-info
  qt6-declarative-host-tools"
-makedepends="kf6-karchive-devel qt6-base-devel qt6-declarative-devel qt6-qt5compat-devel"
+makedepends="kf6-karchive6.24-devel qt6-base-devel qt6-declarative-devel qt6-qt5compat-devel"
 short_desc="Apple Wallet Pass reader"
 maintainer="Louis Dupré Bertoni <contact@louisdb.xyz>"
 license="LGPL-2.1-or-later"

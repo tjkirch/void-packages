@@ -1,13 +1,13 @@
-# Template file for 'kf6-kirigami'
+# Template file for 'kf6-kirigami6.24'
 # group=kde-frameworks
-pkgname=kf6-kirigami
+pkgname=kf6-kirigami6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QTMETATYPESDIR=lib/qt6/metatypes"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base qt6-shadertools
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base qt6-shadertools
  qt6-declarative-host-tools"
 makedepends="qt6-declarative-private-devel qt6-shadertools-devel qt6-svg-devel
  qt6-base-private-devel"

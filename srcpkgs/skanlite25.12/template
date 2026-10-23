@@ -1,19 +1,19 @@
-# Template file for 'skanlite'
+# Template file for 'skanlite25.12'
 # group=kde-gear
-pkgname=skanlite
+pkgname=skanlite25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DBUILD_WITH_QT6=ON
  -DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
- qt6-base kf6-kconfig"
-makedepends="libksane6-devel kf6-kio-devel kf6-ki18n-devel kf6-kcoreaddons-devel
- kf6-kxmlgui-devel
- kf6-kcrash-devel
- kf6-kdoctools-devel
- kf6-kxmlgui-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24
+ qt6-base kf6-kconfig6.24"
+makedepends="libksane6-25.12-devel kf6-kio6.24-devel kf6-ki18n6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kxmlgui6.24-devel
+ kf6-kcrash6.24-devel
+ kf6-kdoctools6.24-devel
+ kf6-kxmlgui6.24-devel"
 short_desc="Image Scanning Application"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"

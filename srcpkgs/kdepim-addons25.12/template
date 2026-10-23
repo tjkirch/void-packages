@@ -1,6 +1,6 @@
-# Template file for 'kdepim-addons'
+# Template file for 'kdepim-addons25.12'
 # group=kde-gear
-pkgname=kdepim-addons
+pkgname=kdepim-addons25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,14 +8,14 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules python3 gettext pkg-config
- kf6-kdoctools kf6-kcoreaddons kf6-kconfig kf6-kpackage kf6-kcmutils
+hostmakedepends="extra-cmake-modules6.24 python3 gettext pkg-config
+ kf6-kdoctools6.24 kf6-kcoreaddons6.24 kf6-kconfig6.24 kf6-kpackage6.24 kf6-kcmutils6.24
  qt6-base qt6-tools"
-makedepends="akonadi-import-wizard-devel discount-devel incidenceeditor-devel
- kontactinterface-devel kitinerary-devel ktnef-devel libksieve-devel mailcommon-devel
- mailimporter-devel messagelib-devel poppler-qt6-devel qt6-base-devel kpkpass-devel
- kf6-kcmutils-devel kf6-kdoctools-devel kf6-kcoreaddons-devel kf6-kconfig-devel
- kf6-kpackage-devel kaddressbook-devel"
+makedepends="akonadi-import-wizard25.12-devel discount-devel incidenceeditor25.12-devel
+ kontactinterface25.12-devel kitinerary25.12-devel ktnef25.12-devel libksieve25.12-devel mailcommon25.12-devel
+ mailimporter25.12-devel messagelib25.12-devel poppler-qt6-devel qt6-base-devel kpkpass25.12-devel
+ kf6-kcmutils6.24-devel kf6-kdoctools6.24-devel kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel
+ kf6-kpackage6.24-devel kaddressbook25.12-devel"
 checkdepends=dbus
 short_desc="Addons for KDE PIM applications"
 maintainer="Louis Dupré Bertoni <contact@louis.xyz>"

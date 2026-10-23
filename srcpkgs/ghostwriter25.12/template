@@ -1,15 +1,15 @@
-# Template file for 'ghostwriter'
+# Template file for 'ghostwriter25.12'
 # group=kde-gear
-pkgname=ghostwriter
+pkgname=ghostwriter25.12
 version=26.08.2
 revision=1
 build_style=cmake
-hostmakedepends="pkg-config extra-cmake-modules qt6-base qt6-tools
- kf6-kdoctools kf6-kconfig"
+hostmakedepends="pkg-config extra-cmake-modules6.24 qt6-base qt6-tools
+ kf6-kdoctools6.24 kf6-kconfig6.24"
 makedepends="qt6-multimedia-devel qt6-svg-devel qt6-webengine-devel
- qt6-location-devel qt6-webchannel-devel qt6-declarative-devel kf6-sonnet-devel
- kf6-kdoctools-devel kf6-kconfig-devel
- kf6-kcoreaddons-devel kf6-kxmlgui-devel kf6-kconfigwidgets-devel"
+ qt6-location-devel qt6-webchannel-devel qt6-declarative-devel kf6-sonnet6.24-devel
+ kf6-kdoctools6.24-devel kf6-kconfig6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kconfigwidgets6.24-devel"
 depends="hicolor-icon-theme qt6-svg"
 short_desc="Distraction-free Markdown editor"
 maintainer="Andrew Benson <abenson+void@gmail.com>"

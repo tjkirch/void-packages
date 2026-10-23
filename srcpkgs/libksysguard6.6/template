@@ -1,19 +1,19 @@
-# Template file for 'libksysguard'
+# Template file for 'libksysguard6.6'
 # group=kde-plasma
-pkgname=libksysguard
+pkgname=libksysguard6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext pkg-config libcap-progs
+hostmakedepends="extra-cmake-modules6.24 gettext pkg-config libcap-progs
  qt6-tools qt6-base qt6-declarative-host-tools
- kf6-kauth-tools kf6-kpackage kf6-kconfig"
+ kf6-kauth-tools kf6-kpackage6.24 kf6-kconfig6.24"
 makedepends="qt6-base-devel qt6-declarative-devel qt6-webchannel-devel
- kf6-kcoreaddons-devel kf6-kconfig-devel kf6-ki18n-devel kf6-kauth-devel
- kf6-kservice-devel kf6-kpackage-devel kf6-knewstuff-devel
- kf6-solid-devel libpcap-devel libcap-devel libnl3-devel libsensors-devel
+ kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel kf6-kauth6.24-devel
+ kf6-kservice6.24-devel kf6-kpackage6.24-devel kf6-knewstuff6.24-devel
+ kf6-solid6.24-devel libpcap-devel libcap-devel libnl3-devel libsensors-devel
  libdrm-devel zlib-devel qt6-base-private-devel"
 short_desc="KDE libksysguard"
 maintainer="John <me@johnnynator.dev>"
@@ -33,7 +33,7 @@ do_check() {
 
 libksysguard-devel_package() {
 	short_desc+=" - development"
-	depends="kf6-ki18n-devel kf6-kconfig-devel qt6-base-devel
+	depends="kf6-ki18n6.24-devel kf6-kconfig6.24-devel qt6-base-devel
 	 ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {
 		vmove usr/include

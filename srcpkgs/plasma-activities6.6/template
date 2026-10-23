@@ -1,15 +1,15 @@
-# Template file for 'plasma-activities'
+# Template file for 'plasma-activities6.6'
 # group=kde-plasma
-pkgname=plasma-activities
+pkgname=plasma-activities6.6
 version=6.7.5
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools
- qt6-declarative-host-tools kf6-kconfig"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools
+ qt6-declarative-host-tools kf6-kconfig6.24"
 makedepends="qt6-base-devel qt6-declarative-devel boost-headers
- kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kwindowsystem-devel"
+ kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kwindowsystem6.24-devel"
 depends="qt6-plugin-sqlite"
 short_desc="Core components for the KDE's Activities System"
 maintainer="John <me@johnnynator.dev>"

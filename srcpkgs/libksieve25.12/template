@@ -1,6 +1,6 @@
-# Template file for 'libksieve'
+# Template file for 'libksieve25.12'
 # group=kde-gear
-pkgname=libksieve
+pkgname=libksieve25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,9 +8,9 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools python3
- gettext kf6-kcoreaddons kf6-kdoctools kf6-kconfig"
-makedepends="kidentitymanagement-devel kmailtransport-devel pimcommon-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3
+ gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24 kf6-kconfig6.24"
+makedepends="kidentitymanagement25.12-devel kmailtransport25.12-devel pimcommon25.12-devel
  qt6-webengine-devel qt6-webchannel-devel qt6-location-devel"
 short_desc="KDE PIM library for managing sieves"
 maintainer="John <me@johnnynator.dev>"

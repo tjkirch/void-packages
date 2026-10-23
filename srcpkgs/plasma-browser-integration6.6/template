@@ -1,24 +1,24 @@
-# Template file for 'plasma-browser-integration'
+# Template file for 'plasma-browser-integration6.6'
 # group=kde-plasma
-pkgname=plasma-browser-integration
+pkgname=plasma-browser-integration6.6
 version=6.7.5
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
- kf6-kconfig"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
+ kf6-kconfig6.24"
 makedepends="qt6-base-devel
- kf6-kio-devel kf6-ki18n-devel
- kf6-kcoreaddons-devel kf6-kconfig-devel
- kf6-kcrash-devel
- kf6-kdbusaddons-devel
- kf6-krunner-devel
- kf6-knotifications-devel kf6-kfilemetadata-devel
- kf6-kjobwidgets-devel
- kf6-kservice-devel
- kf6-kstatusnotifieritem-devel kf6-purpose-devel
- plasma-activities-devel plasma-workspace-devel"
+ kf6-kio6.24-devel kf6-ki18n6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel
+ kf6-kcrash6.24-devel
+ kf6-kdbusaddons6.24-devel
+ kf6-krunner6.24-devel
+ kf6-knotifications6.24-devel kf6-kfilemetadata6.24-devel
+ kf6-kjobwidgets6.24-devel
+ kf6-kservice6.24-devel
+ kf6-kstatusnotifieritem6.24-devel kf6-purpose6.24-devel
+ plasma-activities6.6-devel plasma-workspace6.6-devel"
 short_desc="Integration of web browsers with the KDE Plasma 6 desktop"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"

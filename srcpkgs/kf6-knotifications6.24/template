@@ -1,6 +1,6 @@
-# Template file for 'kf6-knotifications'
+# Template file for 'kf6-knotifications6.24'
 # group=kde-frameworks
-pkgname=kf6-knotifications
+pkgname=kf6-knotifications6.24
 version=6.30.0
 revision=1
 build_style=cmake
@@ -8,10 +8,10 @@ _llvmver=21
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  $(vopt_bool python BUILD_PYTHON_BINDINGS)"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- qt6-declarative-host-tools pkg-config kf6-kconfig
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ qt6-declarative-host-tools pkg-config kf6-kconfig6.24
  $(vopt_if python "python3-build python3-setuptools shiboken6 llvm${_llvmver}")"
-makedepends="kf6-kconfig-devel libcanberra-devel
+makedepends="kf6-kconfig6.24-devel libcanberra-devel
  qt6-declarative-devel qt6-base-devel qt6-tools-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
 short_desc="KDE Desktop notifications"
@@ -40,7 +40,7 @@ esac
 
 kf6-knotifications-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
-	 libcanberra-devel kf6-kconfig-devel"
+	 libcanberra-devel kf6-kconfig6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

@@ -1,22 +1,22 @@
-# Template file for 'kdialog'
+# Template file for 'kdialog25.12'
 # group=kde-gear
-pkgname=kdialog
+pkgname=kdialog25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons python3 kf6-kconfig
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 python3 kf6-kconfig6.24
  qt6-base qt6-tools gettext"
 makedepends="qt6-base-devel
- kf6-kconfig-devel
- kf6-ktextwidgets-devel
- kf6-knotifications-devel
- kf6-kguiaddons-devel
- kf6-kiconthemes-devel
- kf6-kwindowsystem-devel
- kf6-kio-devel
- kf6-kdbusaddons-devel"
+ kf6-kconfig6.24-devel
+ kf6-ktextwidgets6.24-devel
+ kf6-knotifications6.24-devel
+ kf6-kguiaddons6.24-devel
+ kf6-kiconthemes6.24-devel
+ kf6-kwindowsystem6.24-devel
+ kf6-kio6.24-devel
+ kf6-kdbusaddons6.24-devel"
 short_desc="Utility for displaying dialog boxes from shell scripts"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"

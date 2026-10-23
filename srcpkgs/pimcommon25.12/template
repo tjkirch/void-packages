@@ -1,6 +1,6 @@
-# Template file for 'pimcommon'
+# Template file for 'pimcommon25.12'
 # group=kde-gear
-pkgname=pimcommon
+pkgname=pimcommon25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,18 +8,18 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools python3
- gettext kf6-kconfig kf6-kcmutils"
-makedepends="kf6-ktextwidgets-devel kf6-kcmutils-devel kf6-karchive-devel
- kf6-kcodecs-devel kf6-kcompletion-devel kf6-kconfig-devel
- kf6-kconfigwidgets-devel kf6-kcontacts-devel kf6-kcoreaddons-devel
- kf6-kdbusaddons-devel kf6-ki18n-devel kf6-kiconthemes-devel kf6-kio-devel
- kf6-kitemmodels-devel kf6-kjobwidgets-devel kf6-knewstuff-devel
- kf6-kservice-devel kf6-ktexttemplate-devel kf6-kwidgetsaddons-devel
- kf6-kxmlgui-devel kf6-purpose-devel kf6-kmime-devel libkdepim-devel kimap-devel
- kpimtextedit-devel ktextaddons-devel kf6-akonadi-devel akonadi-contacts-devel
- plasma-activities-devel libkleo
- kldap-devel akonadi-search-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3
+ gettext kf6-kconfig6.24 kf6-kcmutils6.24"
+makedepends="kf6-ktextwidgets6.24-devel kf6-kcmutils6.24-devel kf6-karchive6.24-devel
+ kf6-kcodecs6.24-devel kf6-kcompletion6.24-devel kf6-kconfig6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kcontacts6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kdbusaddons6.24-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel
+ kf6-kitemmodels6.24-devel kf6-kjobwidgets6.24-devel kf6-knewstuff6.24-devel
+ kf6-kservice6.24-devel kf6-ktexttemplate6.24-devel kf6-kwidgetsaddons6.24-devel
+ kf6-kxmlgui6.24-devel kf6-purpose6.24-devel kf6-kmime25.12-devel libkdepim25.12-devel kimap25.12-devel
+ kpimtextedit25.12-devel ktextaddons-devel kf6-akonadi25.12-devel akonadi-contacts25.12-devel
+ plasma-activities6.6-devel libkleo25.12
+ kldap25.12-devel akonadi-search25.12-devel"
 depends="qt6-plugin-networkinformation"
 short_desc="Common libraries for KDE PIM"
 maintainer="John <me@johnnynator.dev>"

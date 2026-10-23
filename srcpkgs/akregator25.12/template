@@ -1,6 +1,6 @@
-# Template file for 'akregator'
+# Template file for 'akregator25.12'
 # group=kde-gear
-pkgname=akregator
+pkgname=akregator25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,10 +8,10 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools kf6-kdoctools
- kf6-kconfig kf6-kcoreaddons kf6-kcmutils gettext"
-makedepends="kf6-knotifyconfig-devel kf6-ktexteditor-devel kf6-syndication-devel
- kf6-kstatusnotifieritem-devel messagelib-devel kontactinterface-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kdoctools6.24
+ kf6-kconfig6.24 kf6-kcoreaddons6.24 kf6-kcmutils6.24 gettext"
+makedepends="kf6-knotifyconfig6.24-devel kf6-ktexteditor6.24-devel kf6-syndication6.24-devel
+ kf6-kstatusnotifieritem6.24-devel messagelib25.12-devel kontactinterface25.12-devel"
 short_desc="KDE feed reader"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only"

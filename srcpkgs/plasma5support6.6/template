@@ -1,18 +1,18 @@
-# Template file for 'plasma5support'
+# Template file for 'plasma5support6.6'
 # group=kde-plasma
-pkgname=plasma5support
+pkgname=plasma5support6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
- kf6-kconfig qt6-declarative-host-tools pkg-config"
-makedepends="qt6-declarative-devel kf6-kconfig-devel kf6-ki18n-devel
- kf6-kcoreaddons-devel kf6-knotifications-devel kf6-kguiaddons-devel
- kf6-solid-devel libksysguard-devel kf6-kio-devel kf6-kidletime-devel
- kf6-kservice-devel kf6-kio-devel kf6-kunitconversion-devel
- kf6-kholidays-devel kf6-networkmanager-qt-devel plasma-activities-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
+ kf6-kconfig6.24 qt6-declarative-host-tools pkg-config"
+makedepends="qt6-declarative-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-knotifications6.24-devel kf6-kguiaddons6.24-devel
+ kf6-solid6.24-devel libksysguard6.6-devel kf6-kio6.24-devel kf6-kidletime6.24-devel
+ kf6-kservice6.24-devel kf6-kio6.24-devel kf6-kunitconversion6.24-devel
+ kf6-kholidays6.24-devel kf6-networkmanager-qt6.24-devel plasma-activities6.6-devel
  qt6-base-private-devel libglib-devel"
 short_desc="Support components for porting from KF5/Qt5 to KF6/Qt6"
 maintainer="John <me@johnnynator.dev>"

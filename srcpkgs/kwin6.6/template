@@ -1,6 +1,6 @@
-# Template file for 'kwin'
+# Template file for 'kwin6.6'
 # group=kde-plasma
-pkgname=kwin
+pkgname=kwin6.6
 version=6.7.5
 revision=3
 build_style=cmake
@@ -8,29 +8,29 @@ build_helper=qemu
 configure_args="-DBUILD_TESTING=OFF -DFORCE_CROSSCOMPILED_TOOLS=ON
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext pkg-config kf6-kauth-tools
+hostmakedepends="extra-cmake-modules6.24 gettext pkg-config kf6-kauth-tools
  qt6-base qt6-tools qt6-declarative-host-tools libcap-progs
- kf6-kconfig kf6-kpackage kf6-kcmutils kf6-kwindowsystem
- kf6-kirigami libcap-devel wayland-devel"
-makedepends="libplasma-devel kf6-kcmutils-devel kf6-knewstuff-devel
- kscreenlocker-devel kglobalacceld-devel xcb-util-cursor-devel qt6-base-devel
+ kf6-kconfig6.24 kf6-kpackage6.24 kf6-kcmutils6.24 kf6-kwindowsystem6.24
+ kf6-kirigami6.24 libcap-devel wayland-devel"
+makedepends="libplasma6.6-devel kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel
+ kscreenlocker6.6-devel kglobalacceld6.6-devel xcb-util-cursor-devel qt6-base-devel
  qt6-base-private-devel plasma-wayland-protocols qt6-declarative-devel
- kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kwindowsystem-devel
- wayland-devel libepoxy-devel qt6-tools-devel plasma-activities-devel
- qt6-qt5compat-devel kf6-kdbusaddons-devel libei-devel
- qt6-multimedia-devel kf6-kdecoration-devel libxkbcommon-devel libinput-devel
+ kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kwindowsystem6.24-devel
+ wayland-devel libepoxy-devel qt6-tools-devel plasma-activities6.6-devel
+ qt6-qt5compat-devel kf6-kdbusaddons6.24-devel libei-devel
+ qt6-multimedia-devel kf6-kdecoration6.6-devel libxkbcommon-devel libinput-devel
  libSM-devel libICE-devel xcb-util-wm-devel qt6-sensors-devel lcms2-devel
- pipewire-devel kf6-krunner-devel xorg-server-xwayland libxcvt-devel hwids
+ pipewire-devel kf6-krunner6.24-devel xorg-server-xwayland libxcvt-devel hwids
  libdisplay-info-devel breeze-qt6 kf6-kwayland-devel libcap-devel
- libqaccessibilityclient-devel kf6-kirigami-devel qt6-svg-devel
- kf6-kcolorscheme-devel kf6-kcrash-devel knighttime-devel kf6-kxmlgui-devel
- kf6-kdeclarative-devel libcanberra-devel kf6-knotifications-devel
- kf6-kglobalaccel-devel kf6-kguiaddons kf6-ki18n-devel kf6-kidletime-devel
- kf6-kservice-devel kf6-ksvg-devel kf6-kwidgetsaddons-devel
- kf6-kpackage-devel kf6-kauth-devel kf6-kconfig-devel aurorae"
-# transitive deps from kscreenlocker, for build ordering
-makedepends+=" layer-shell-qt-devel libkf6screen-devel"
-depends="breeze-qt6 hicolor-icon-theme kglobalacceld hwids libcap-progs aurorae"
+ libqaccessibilityclient-devel kf6-kirigami6.24-devel qt6-svg-devel
+ kf6-kcolorscheme6.24-devel kf6-kcrash6.24-devel knighttime6.6-devel kf6-kxmlgui6.24-devel
+ kf6-kdeclarative6.24-devel libcanberra-devel kf6-knotifications6.24-devel
+ kf6-kglobalaccel6.24-devel kf6-kguiaddons6.24 kf6-ki18n6.24-devel kf6-kidletime6.24-devel
+ kf6-kservice6.24-devel kf6-ksvg6.24-devel kf6-kwidgetsaddons6.24-devel
+ kf6-kpackage6.24-devel kf6-kauth6.24-devel kf6-kconfig6.24-devel aurorae6.6"
+# transitive deps from kscreenlocker6.6, for build ordering
+makedepends+=" layer-shell-qt6.6-devel libkf6screen6.6-devel"
+depends="breeze-qt6 hicolor-icon-theme kglobalacceld6.6 hwids libcap-progs aurorae6.6"
 short_desc="KDE Window manager"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
@@ -46,8 +46,8 @@ shlib_requires="KDE_Plasma.${version}"
 kwin-devel_package() {
 	short_desc+=" - development"
 	depends="${sourcepkg}-${version}_${revision} qt6-base-devel
-	 qt6-declarative-devel kf6-kconfig-devel kf6-kcoreaddons-devel
-	 kf6-kwindowsystem-devel wayland-devel libepoxy-devel"
+	 qt6-declarative-devel kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel
+	 kf6-kwindowsystem6.24-devel wayland-devel libepoxy-devel"
 	replaces="kwayland-server-devel>=0"
 	pkg_install() {
 		vmove usr/include

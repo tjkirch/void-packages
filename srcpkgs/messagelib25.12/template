@@ -1,6 +1,6 @@
-# Template file for 'messagelib'
+# Template file for 'messagelib25.12'
 # group=kde-gear
-pkgname=messagelib
+pkgname=messagelib25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,12 +8,12 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools python3
- gettext kf6-kcoreaddons kf6-kconfig"
-makedepends="akonadi-contacts-devel gpgme-qt6-devel
- kidentitymanagement-devel kmailtransport-devel kmbox-devel libgravatar-devel
- libkdepim-devel qt6-webchannel-devel qt6-webengine-devel
- pimcommon-devel kf6-knewstuff-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3
+ gettext kf6-kcoreaddons6.24 kf6-kconfig6.24"
+makedepends="akonadi-contacts25.12-devel gpgme-qt6-devel
+ kidentitymanagement25.12-devel kmailtransport25.12-devel kmbox25.12-devel libgravatar25.12-devel
+ libkdepim25.12-devel qt6-webchannel-devel qt6-webengine-devel
+ pimcommon25.12-devel kf6-knewstuff6.24-devel"
 checkdepends="procps-ng gnupg dbus"
 short_desc="KDE PIM messaging library"
 maintainer="John <me@johnnynator.dev>"

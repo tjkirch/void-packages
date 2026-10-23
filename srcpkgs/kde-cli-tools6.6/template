@@ -1,18 +1,18 @@
-# Template file for 'kde-cli-tools'
+# Template file for 'kde-cli-tools6.6'
 # group=kde-plasma
-pkgname=kde-cli-tools
+pkgname=kde-cli-tools6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
- kf6-kwindowsystem kf6-kconfig kf6-kcmutils kf6-kdoctools"
-makedepends="plasma-activities-devel kf6-kcmutils-devel kf6-kdesu-devel
- qt6-svg-devel kf6-kconfig-devel kf6-kiconthemes-devel kf6-kio-devel
- kf6-kservice-devel kf6-kwindowsystem-devel kf6-kparts-devel
- kf6-kcoreaddons-devel kf6-kwidgetsaddons-devel kf6-kdoctools-devel
- plasma-workspace-devel kf6-ki18n-devel qt6-base-private-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
+ kf6-kwindowsystem6.24 kf6-kconfig6.24 kf6-kcmutils6.24 kf6-kdoctools6.24"
+makedepends="plasma-activities6.6-devel kf6-kcmutils6.24-devel kf6-kdesu6.24-devel
+ qt6-svg-devel kf6-kconfig6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel
+ kf6-kservice6.24-devel kf6-kwindowsystem6.24-devel kf6-kparts6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kdoctools6.24-devel
+ plasma-workspace6.6-devel kf6-ki18n6.24-devel qt6-base-private-devel"
 depends="xdg-utils"
 short_desc="KDE CLI tools"
 maintainer="John <me@johnnynator.dev>"

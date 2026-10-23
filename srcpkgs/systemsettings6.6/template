@@ -1,24 +1,24 @@
-# Template file for 'systemsettings'
+# Template file for 'systemsettings6.6'
 # group=kde-plasma
-pkgname=systemsettings
+pkgname=systemsettings6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="python3 qt6-base qt6-tools kf6-kcmutils kf6-kauth-tools
- kf6-kconfig
- extra-cmake-modules gettext kf6-kdoctools qt6-declarative-host-tools"
-makedepends="kf6-kcmutils-devel kf6-kirigami-devel plasma-workspace-devel
- qt6-declarative-devel qt6-base-devel kf6-kauth-devel kf6-kcrash-devel
- kf6-kitemviews-devel kf6-kitemmodels-devel kf6-ki18n-devel
- kf6-kio-devel kf6-kservice-devel kf6-kiconthemes-devel
- kf6-kwidgetsaddons-devel kf6-kwindowsystem-devel
- kf6-kxmlgui-devel kf6-kdbusaddons-devel kf6-kconfig-devel
- kf6-kguiaddons-devel kf6-kjobwidgets-devel kf6-krunner-devel
- kf6-kcolorscheme-devel plasma-activities-devel
- kwin kf6-kdoctools-devel"
-depends="kf6-kirigami setxkbmap xrdb"
+hostmakedepends="python3 qt6-base qt6-tools kf6-kcmutils6.24 kf6-kauth-tools
+ kf6-kconfig6.24
+ extra-cmake-modules6.24 gettext kf6-kdoctools6.24 qt6-declarative-host-tools"
+makedepends="kf6-kcmutils6.24-devel kf6-kirigami6.24-devel plasma-workspace6.6-devel
+ qt6-declarative-devel qt6-base-devel kf6-kauth6.24-devel kf6-kcrash6.24-devel
+ kf6-kitemviews6.24-devel kf6-kitemmodels6.24-devel kf6-ki18n6.24-devel
+ kf6-kio6.24-devel kf6-kservice6.24-devel kf6-kiconthemes6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kwindowsystem6.24-devel
+ kf6-kxmlgui6.24-devel kf6-kdbusaddons6.24-devel kf6-kconfig6.24-devel
+ kf6-kguiaddons6.24-devel kf6-kjobwidgets6.24-devel kf6-krunner6.24-devel
+ kf6-kcolorscheme6.24-devel plasma-activities6.6-devel
+ kwin6.6 kf6-kdoctools6.24-devel"
+depends="kf6-kirigami6.24 setxkbmap xrdb"
 short_desc="KDE System settings"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, GFDL-1.2-only"

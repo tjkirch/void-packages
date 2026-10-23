@@ -1,23 +1,23 @@
-# Template file for 'powerdevil'
+# Template file for 'powerdevil6.6'
 # group=kde-plasma
-pkgname=powerdevil
+pkgname=powerdevil6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
-hostmakedepends="extra-cmake-modules pkg-config gettext qt6-base qt6-tools
- qt6-declarative-host-tools kf6-kdoctools kf6-kcmutils kf6-kconfig
- kf6-kwindowsystem kf6-kauth-tools kf6-kpackage wayland-devel"
-makedepends="kf6-bluez-qt-devel libkf6screen-devel kf6-networkmanager-qt-devel
- kf6-solid-devel kf6-kcmutils-devel kf6-kauth-devel kf6-kdoctools-devel
- kf6-kidletime-devel kf6-kxmlgui-devel kf6-knotifications-devel kf6-kio-devel
- kf6-kirigami-devel kf6-kitemmodels-devel plasma-activities-devel
- qcoro-qt6-devel kf6-kconfig-devel kf6-kcrash-devel kf6-kdbusaddons-devel
- kf6-ki18n-devel kf6-kglobalaccel-devel kf6-krunner-devel
- kf6-kwindowsystem-devel libplasma-devel eudev-libudev-devel
+hostmakedepends="extra-cmake-modules6.24 pkg-config gettext qt6-base qt6-tools
+ qt6-declarative-host-tools kf6-kdoctools6.24 kf6-kcmutils6.24 kf6-kconfig6.24
+ kf6-kwindowsystem6.24 kf6-kauth-tools kf6-kpackage6.24 wayland-devel"
+makedepends="kf6-bluez-qt6.24-devel libkf6screen6.6-devel kf6-networkmanager-qt6.24-devel
+ kf6-solid6.24-devel kf6-kcmutils6.24-devel kf6-kauth6.24-devel kf6-kdoctools6.24-devel
+ kf6-kidletime6.24-devel kf6-kxmlgui6.24-devel kf6-knotifications6.24-devel kf6-kio6.24-devel
+ kf6-kirigami6.24-devel kf6-kitemmodels6.24-devel plasma-activities6.6-devel
+ qcoro-qt6-devel kf6-kconfig6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-ki18n6.24-devel kf6-kglobalaccel6.24-devel kf6-krunner6.24-devel
+ kf6-kwindowsystem6.24-devel libplasma6.6-devel eudev-libudev-devel
  libxcb-devel plasma-wayland-protocols wayland-devel
- plasma-workspace-devel ddcutil-devel qt6-base-private-devel"
+ plasma-workspace6.6-devel ddcutil-devel qt6-base-private-devel"
 short_desc="Power consumption settings of a Plasma"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"

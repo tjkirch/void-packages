@@ -1,15 +1,15 @@
-# Template file for 'sddm-kcm'
+# Template file for 'sddm-kcm6.6'
 # group=kde-plasma
-pkgname=sddm-kcm
+pkgname=sddm-kcm6.6
 version=6.7.5
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules pkg-config qt6-tools qt6-base gettext
- kf6-kcmutils kf6-kconfig kf6-kauth-tools"
-makedepends="kf6-kio-devel xcb-util-image-devel libXcursor-devel kf6-kconfig-devel
- kf6-kcmutils-devel kf6-knewstuff-devel kf6-kauth-devel"
+hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-tools qt6-base gettext
+ kf6-kcmutils6.24 kf6-kconfig6.24 kf6-kauth-tools"
+makedepends="kf6-kio6.24-devel xcb-util-image-devel libXcursor-devel kf6-kconfig6.24-devel
+ kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel kf6-kauth6.24-devel"
 depends="sddm"
 short_desc="KDE Config Module for SDDM"
 maintainer="John <me@johnnynator.dev>"

@@ -1,19 +1,19 @@
-# Template file for 'kate'
+# Template file for 'kate25.12'
 # group=kde-gear
-pkgname=kate
+pkgname=kate25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules pkg-config gettext qt6-tools qt6-base
- kf6-kconfig kf6-kdoctools"
-makedepends="kf6-kitemmodels-devel kf6-knewstuff-devel kf6-ktexteditor-devel
- kf6-threadweaver-devel kf6-kuserfeedback-devel kf6-kdoctools-devel
- kf6-ki18n-devel kf6-kcoreaddons-devel kf6-kguiaddons-devel kf6-kcrash-devel
- kf6-kiconthemes-devel kf6-ktexteditor-devel kf6-kdbusaddons-devel
- kf6-kwindowsystem-devel kf6-kwidgetsaddons-devel kf6-karchive-devel
- kf6-kconfig-devel qt6-base-private-devel"
+hostmakedepends="extra-cmake-modules6.24 pkg-config gettext qt6-tools qt6-base
+ kf6-kconfig6.24 kf6-kdoctools6.24"
+makedepends="kf6-kitemmodels6.24-devel kf6-knewstuff6.24-devel kf6-ktexteditor6.24-devel
+ kf6-threadweaver6.24-devel kf6-kuserfeedback6.24-devel kf6-kdoctools6.24-devel
+ kf6-ki18n6.24-devel kf6-kcoreaddons6.24-devel kf6-kguiaddons6.24-devel kf6-kcrash6.24-devel
+ kf6-kiconthemes6.24-devel kf6-ktexteditor6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kwindowsystem6.24-devel kf6-kwidgetsaddons6.24-devel kf6-karchive6.24-devel
+ kf6-kconfig6.24-devel qt6-base-private-devel"
 depends="hicolor-icon-theme"
 short_desc="KDE Text editor"
 maintainer="John <me@johnnynator.dev>"

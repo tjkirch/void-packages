@@ -1,30 +1,30 @@
-# Template file for 'kdeplasma-addons'
+# Template file for 'kdeplasma-addons6.6'
 # group=kde-plasma
-pkgname=kdeplasma-addons
+pkgname=kdeplasma-addons6.6
 version=6.7.5
 revision=2
 build_style=cmake
 build_helper="rust"
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools pkg-config gettext
- qt6-declarative-host-tools kf6-kcmutils kf6-kpackage kf6-kauth-tools corrosion
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools pkg-config gettext
+ qt6-declarative-host-tools kf6-kcmutils6.24 kf6-kpackage6.24 kf6-kauth-tools corrosion
  cargo"
-makedepends="kf6-kdeclarative-devel kf6-kholidays-devel kf6-krunner-devel
- libplasma-devel qt6-declarative-private-devel kf6-kglobalaccel-devel
- kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kdbusaddons-devel
- kf6-ki18n-devel kf6-kjobwidgets-devel kf6-purpose-devel
- kf6-sonnet-devel kf6-kunitconversion-devel kf6-knewstuff-devel
- plasma5support-devel qt6-qt5compat-devel kf6-kio-devel
- kf6-knotifications-devel kf6-kservice-devel kf6-kxmlgui-devel
- qt6-quick3d-devel icu-devel kf6-kauth-devel kf6-kpackage-devel
- kf6-kcmutils-devel libplasma-devel kf6-kauth-devel
- kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kglobalaccel-devel
- kf6-ki18n-devel kf6-kjobwidgets-devel kf6-ksvg-devel
- kf6-kitemmodels-devel kf6-purpose-devel kf6-kirigami-devel
- kf6-kdbusaddons-devel rust-std"
-depends="qt6-plugin-networkinformation qt6-location kf6-kirigami kf6-purpose
- kf6-kitemmodels"
+makedepends="kf6-kdeclarative6.24-devel kf6-kholidays6.24-devel kf6-krunner6.24-devel
+ libplasma6.6-devel qt6-declarative-private-devel kf6-kglobalaccel6.24-devel
+ kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-ki18n6.24-devel kf6-kjobwidgets6.24-devel kf6-purpose6.24-devel
+ kf6-sonnet6.24-devel kf6-kunitconversion6.24-devel kf6-knewstuff6.24-devel
+ plasma5support6.6-devel qt6-qt5compat-devel kf6-kio6.24-devel
+ kf6-knotifications6.24-devel kf6-kservice6.24-devel kf6-kxmlgui6.24-devel
+ qt6-quick3d-devel icu-devel kf6-kauth6.24-devel kf6-kpackage6.24-devel
+ kf6-kcmutils6.24-devel libplasma6.6-devel kf6-kauth6.24-devel
+ kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kglobalaccel6.24-devel
+ kf6-ki18n6.24-devel kf6-kjobwidgets6.24-devel kf6-ksvg6.24-devel
+ kf6-kitemmodels6.24-devel kf6-purpose6.24-devel kf6-kirigami6.24-devel
+ kf6-kdbusaddons6.24-devel rust-std"
+depends="qt6-plugin-networkinformation qt6-location kf6-kirigami6.24 kf6-purpose6.24
+ kf6-kitemmodels6.24"
 short_desc="Various Plasma addons"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

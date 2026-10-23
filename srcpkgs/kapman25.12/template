@@ -1,6 +1,6 @@
-# Template file for 'kapman'
+# Template file for 'kapman25.12'
 # group=kde-gear
-pkgname=kapman
+pkgname=kapman25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,12 +8,12 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base kf6-kdoctools kf6-kconfig
- kf6-kcoreaddons gettext"
-makedepends="qt6-base-devel qt6-svg-devel kf6-kcoreaddons-devel kf6-kconfig-devel
- kf6-kconfigwidgets-devel kf6-kxmlgui-devel kf6-kcrash-devel kf6-ki18n-devel
- kf6-kwidgetsaddons-devel kf6-kiconthemes-devel
- kf6-kdbusaddons-devel kf6-kdoctools-devel libkdegames-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base kf6-kdoctools6.24 kf6-kconfig6.24
+ kf6-kcoreaddons6.24 gettext"
+makedepends="qt6-base-devel qt6-svg-devel kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kxmlgui6.24-devel kf6-kcrash6.24-devel kf6-ki18n6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kiconthemes6.24-devel
+ kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel libkdegames25.12-devel"
 short_desc="Clone of the well known game Pac-Man"
 maintainer="toluschr <toluschr@protonmail.com>"
 license="GPL-2.0-or-later"

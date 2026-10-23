@@ -1,18 +1,18 @@
-# Template file for 'tokodon'
+# Template file for 'tokodon25.12'
 # group=kde-gear
-pkgname=tokodon
+pkgname=tokodon25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
-hostmakedepends="extra-cmake-modules gettext kf6-kconfig kf6-kcoreaddons
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons6.24
  pkg-config qt6-base qt6-declarative-host-tools"
-makedepends="kf6-kcolorscheme-devel kf6-kdbusaddons-devel kf6-kdeclarative-devel
- kf6-ki18n-devel kf6-kio-devel kf6-kirigami-devel kf6-kitemmodels-devel
- kf6-knotifications-devel kf6-prison-devel kf6-purpose-devel
- kf6-qqc2-desktop-style-devel kirigami-addons-devel kunifiedpush-devel
+makedepends="kf6-kcolorscheme6.24-devel kf6-kdbusaddons6.24-devel kf6-kdeclarative6.24-devel
+ kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-kirigami6.24-devel kf6-kitemmodels6.24-devel
+ kf6-knotifications6.24-devel kf6-prison6.24-devel kf6-purpose6.24-devel
+ kf6-qqc2-desktop-style6.24-devel kirigami-addons-devel kunifiedpush25.12-devel
  qcoro-qt6-devel qt6-multimedia-devel qt6-svg-devel qt6-websockets-devel
  qt6-webview-devel qtkeychain-qt6-devel"
 short_desc="Mastodon client for Plasma"

@@ -1,14 +1,14 @@
-# Template file for 'krecorder'
+# Template file for 'krecorder25.12'
 # group=kde-gear
-pkgname=krecorder
+pkgname=krecorder25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
-hostmakedepends="extra-cmake-modules gettext kf6-kconfig qt6-base
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 qt6-base
  qt6-declarative-host-tools qt6-tools"
-makedepends="kf6-kconfig-devel kf6-kcoreaddons-devel kf6-ki18n-devel
- kf6-kio-devel kf6-kirigami-devel kirigami-addons-devel qt6-base-devel
+makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
+ kf6-kio6.24-devel kf6-kirigami6.24-devel kirigami-addons-devel qt6-base-devel
  qt6-declarative-devel qt6-multimedia-devel qt6-svg-devel"
 depends="kirigami-addons"
 short_desc="Convergent audio recording application for Plasma"

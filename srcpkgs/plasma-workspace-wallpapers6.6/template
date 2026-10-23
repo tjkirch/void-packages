@@ -1,11 +1,11 @@
-# Template file for 'plasma-workspace-wallpapers'
+# Template file for 'plasma-workspace-wallpapers6.6'
 # group=kde-plasma
-pkgname=plasma-workspace-wallpapers
+pkgname=plasma-workspace-wallpapers6.6
 version=6.7.5
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
-hostmakedepends="extra-cmake-modules"
+hostmakedepends="extra-cmake-modules6.24"
 short_desc="KDE Plasma wallpapers"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"

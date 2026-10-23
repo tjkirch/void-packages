@@ -1,6 +1,6 @@
-# Template file for 'mailimporter'
+# Template file for 'mailimporter25.12'
 # group=kde-gear
-pkgname=mailimporter
+pkgname=mailimporter25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,9 +8,9 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons qt6-base qt6-tools python3
- gettext kf6-kconfig"
-makedepends="libkdepim-devel pimcommon-devel"
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 qt6-base qt6-tools python3
+ gettext kf6-kconfig6.24"
+makedepends="libkdepim25.12-devel pimcommon25.12-devel"
 short_desc="Mail importer library"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

@@ -1,15 +1,15 @@
-# Template file for 'libkcddb6'
+# Template file for 'libkcddb6-25.12'
 # group=kde-gear
-pkgname=libkcddb6
+pkgname=libkcddb6-25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DQT_MAJOR_VERSION=6
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kconfig kf6-kcoreaddons
- kf6-kdoctools qt6-base qt6-tools kf6-kcmutils"
-makedepends="kf6-kcmutils-devel kf6-kio-devel libmusicbrainz5-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons6.24
+ kf6-kdoctools6.24 qt6-base qt6-tools kf6-kcmutils6.24"
+makedepends="kf6-kcmutils6.24-devel kf6-kio6.24-devel libmusicbrainz5-devel"
 short_desc="KDE CDDB library"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, BSD-3-Clause, GFDL-1.2-only"

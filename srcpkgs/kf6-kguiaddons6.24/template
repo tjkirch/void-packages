@@ -1,6 +1,6 @@
-# Template file for 'kf6-kguiaddons'
+# Template file for 'kf6-kguiaddons6.24'
 # group=kde-frameworks
-pkgname=kf6-kguiaddons
+pkgname=kf6-kguiaddons6.24
 version=6.30.0
 revision=1
 build_style=cmake
@@ -9,7 +9,7 @@ configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QTMETATYPESDIR=lib/qt6/metatypes
  $(vopt_bool python BUILD_PYTHON_BINDINGS)"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  $(vopt_if python "shiboken6 python3-build python3-setuptools llvm${_llvmver}")
  wayland-devel pkg-config qt6-declarative-host-tools"
 makedepends="plasma-wayland-protocols wayland-devel

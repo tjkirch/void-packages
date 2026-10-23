@@ -1,12 +1,12 @@
-# Template file for 'layer-shell-qt'
+# Template file for 'layer-shell-qt6.6'
 # group=kde-plasma
-pkgname=layer-shell-qt
+pkgname=layer-shell-qt6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base pkg-config
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base pkg-config
  wayland-devel qt6-declarative-host-tools"
 makedepends="qt6-base-private-devel qt6-declarative-devel qt6-base-private-devel
  libxkbcommon-devel wayland-protocols wayland-devel"

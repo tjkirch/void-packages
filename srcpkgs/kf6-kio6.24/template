@@ -1,19 +1,19 @@
-# Template file for 'kf6-kio'
+# Template file for 'kf6-kio6.24'
 # group=kde-frameworks
-pkgname=kf6-kio
+pkgname=kf6-kio6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- gettext kf6-kdoctools kf6-kconfig kf6-kauth-tools"
-makedepends="kf6-karchive-devel kf6-kauth-devel kf6-kbookmarks-devel
- kf6-kservice-devel kf6-solid-devel kf6-kcrash-devel kf6-kdbusaddons-devel
- kf6-kcompletion-devel kf6-kiconthemes-devel kf6-kitemviews-devel
- kf6-kjobwidgets-devel kf6-kwindowsystem-devel kf6-kwallet-devel
- kf6-kded-devel qt6-qt5compat-devel qt6-tools-devel acl-devel
- qt6-base-private-devel kf6-kdoctools-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ gettext kf6-kdoctools6.24 kf6-kconfig6.24 kf6-kauth-tools"
+makedepends="kf6-karchive6.24-devel kf6-kauth6.24-devel kf6-kbookmarks6.24-devel
+ kf6-kservice6.24-devel kf6-solid6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kcompletion6.24-devel kf6-kiconthemes6.24-devel kf6-kitemviews6.24-devel
+ kf6-kjobwidgets6.24-devel kf6-kwindowsystem6.24-devel kf6-kwallet6.24-devel
+ kf6-kded6.24-devel qt6-qt5compat-devel qt6-tools-devel acl-devel
+ qt6-base-private-devel kf6-kdoctools6.24-devel"
 checkdepends="xvfb-run dbus"
 short_desc="KDE Network transparent access to files and data"
 maintainer="John <me@johnnynator.dev>"
@@ -61,9 +61,9 @@ do_check() {
 
 kf6-kio-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision}
-	 kf6-kbookmarks-devel kf6-kcompletion-devel kf6-kitemviews-devel
-	 kf6-kjobwidgets-devel kf6-solid-devel kf6-kwidgetsaddons-devel
-	 kf6-kwindowsystem-devel kf6-kservice-devel qt6-base-devel"
+	 kf6-kbookmarks6.24-devel kf6-kcompletion6.24-devel kf6-kitemviews6.24-devel
+	 kf6-kjobwidgets6.24-devel kf6-solid6.24-devel kf6-kwidgetsaddons6.24-devel
+	 kf6-kwindowsystem6.24-devel kf6-kservice6.24-devel qt6-base-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

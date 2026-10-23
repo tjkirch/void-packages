@@ -1,14 +1,14 @@
-# Template file for 'kunifiedpush'
+# Template file for 'kunifiedpush25.12'
 # group=kde-gear
-pkgname=kunifiedpush
+pkgname=kunifiedpush25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext kf6-kcmutils"
-makedepends="kf6-ki18n-devel kf6-kcoreaddons-devel kf6-solid-devel
- kf6-kservice-devel kf6-kcmutils-devel kf6-kcrash-devel qt6-websockets-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext kf6-kcmutils6.24"
+makedepends="kf6-ki18n6.24-devel kf6-kcoreaddons6.24-devel kf6-solid6.24-devel
+ kf6-kservice6.24-devel kf6-kcmutils6.24-devel kf6-kcrash6.24-devel qt6-websockets-devel"
 checkdepends="dbus"
 short_desc="UnifiedPush client library and distributor daemon"
 maintainer="John <me@johnnynator.dev>"

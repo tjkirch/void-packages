@@ -1,15 +1,15 @@
-# Template file for 'libkf6screen'
+# Template file for 'libkf6screen6.6'
 # group=kde-plasma
-pkgname=libkf6screen
+pkgname=libkf6screen6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="pkg-config extra-cmake-modules qt6-tools qt6-base
+hostmakedepends="pkg-config extra-cmake-modules6.24 qt6-tools qt6-base
  wayland-devel"
 makedepends="qt6-base-devel libXrandr-devel qt6-base-private-devel
- kf6-kconfig-devel wayland-devel plasma-wayland-protocols"
+ kf6-kconfig6.24-devel wayland-devel plasma-wayland-protocols"
 short_desc="KDE screen management software"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

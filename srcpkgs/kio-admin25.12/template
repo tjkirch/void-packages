@@ -1,15 +1,15 @@
-# Template file for 'kio-admin'
+# Template file for 'kio-admin25.12'
 # group=kde-gear
-pkgname=kio-admin
+pkgname=kio-admin25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DQT_MAJOR_VERSION=6
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules pkg-config gettext
- qt6-base kf6-kconfig"
-makedepends="kf6-kio-devel qt6-base-devel kf6-ki18n-devel polkit-qt6-devel
- kf6-kcoreaddons-devel kf6-kconfig-devel"
+hostmakedepends="extra-cmake-modules6.24 pkg-config gettext
+ qt6-base kf6-kconfig6.24"
+makedepends="kf6-kio6.24-devel qt6-base-devel kf6-ki18n6.24-devel polkit-qt6-devel
+ kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel"
 short_desc="Manage files as administrator using the admin:// KIO protocol"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"

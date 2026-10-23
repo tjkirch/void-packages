@@ -1,16 +1,16 @@
-# Template file for 'aurorae'
+# Template file for 'aurorae6.6'
 # group=kde-plasma
-pkgname=aurorae
+pkgname=aurorae6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext qt6-base qt6-tools
- kf6-kcmutils kf6-kpackage kf6-kconfig qt6-declarative-host-tools"
-makedepends="kf6-kconfig-devel kf6-ki18n-devel kf6-kcmutils-devel
- kf6-kpackage-devel kf6-kcoreaddons-devel kf6-kcolorscheme-devel
- kf6-knewstuff-devel kf6-kdecoration-devel kf6-ksvg-devel qt6-tools-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools
+ kf6-kcmutils6.24 kf6-kpackage6.24 kf6-kconfig6.24 qt6-declarative-host-tools"
+makedepends="kf6-kconfig6.24-devel kf6-ki18n6.24-devel kf6-kcmutils6.24-devel
+ kf6-kpackage6.24-devel kf6-kcoreaddons6.24-devel kf6-kcolorscheme6.24-devel
+ kf6-knewstuff6.24-devel kf6-kdecoration6.6-devel kf6-ksvg6.24-devel qt6-tools-devel"
 short_desc="Themeable window decoration for KWin"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.0-or-later"

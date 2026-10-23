@@ -1,11 +1,11 @@
-# Template file for 'libkexiv2'
+# Template file for 'libkexiv225.12'
 # group=kde-gear
-pkgname=libkexiv2
+pkgname=libkexiv225.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DQT_MAJOR_VERSION=6"
-hostmakedepends="extra-cmake-modules pkg-config qt6-base qt6-tools"
+hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-base qt6-tools"
 makedepends="qt6-base-devel exiv2-devel"
 short_desc="Library to manipulate pictures metadata"
 maintainer="Orphaned <orphan@voidlinux.org>"

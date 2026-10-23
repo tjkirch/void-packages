@@ -1,5 +1,5 @@
-# Template file for 'oxygen'
-pkgname=oxygen
+# Template file for 'oxygen6.6'
+pkgname=oxygen6.6
 version=6.7.0
 revision=1
 metapackage=yes

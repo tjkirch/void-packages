@@ -1,6 +1,6 @@
-# Template file for 'libkdegames'
+# Template file for 'libkdegames25.12'
 # group=kde-gear
-pkgname=libkdegames
+pkgname=libkdegames25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,18 +8,18 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules pkg-config qt6-base qt6-declarative-host-tools
+hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-base qt6-declarative-host-tools
  qt6-xml
- kf6-kconfig kf6-kcoreaddons kf6-kdoctools kf6-kpackage gettext"
+ kf6-kconfig6.24 kf6-kcoreaddons6.24 kf6-kdoctools6.24 kf6-kpackage6.24 gettext"
 makedepends="qt6-svg-devel qt6-declarative-devel qt6-base-devel
- kf6-karchive-devel
- kf6-kconfig-devel
- kf6-kguiaddons-devel
- kf6-kiconthemes-devel
- kf6-ki18n-devel
- kf6-knewstuff-devel kf6-kdnssd-devel
- kf6-kdeclarative-devel kf6-kcolorscheme-devel kf6-kxmlgui-devel
- kf6-kcompletion-devel kf6-kconfigwidgets-devel
+ kf6-karchive6.24-devel
+ kf6-kconfig6.24-devel
+ kf6-kguiaddons6.24-devel
+ kf6-kiconthemes6.24-devel
+ kf6-ki18n6.24-devel
+ kf6-knewstuff6.24-devel kf6-kdnssd6.24-devel
+ kf6-kdeclarative6.24-devel kf6-kcolorscheme6.24-devel kf6-kxmlgui6.24-devel
+ kf6-kcompletion6.24-devel kf6-kconfigwidgets6.24-devel
  libopenal-devel libsndfile-devel"
 short_desc="Common code and data for many KDE games"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"

@@ -1,6 +1,6 @@
-# Template file for 'extra-cmake-modules'
+# Template file for 'extra-cmake-modules6.24'
 # group=kde-frameworks
-pkgname=extra-cmake-modules
+pkgname=extra-cmake-modules6.24
 version=6.30.0
 revision=1
 build_style=cmake

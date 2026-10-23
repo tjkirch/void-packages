@@ -1,6 +1,6 @@
-# Template file for 'kmail-account-wizard'
+# Template file for 'kmail-account-wizard25.12'
 # group=kde-gear
-pkgname=kmail-account-wizard
+pkgname=kmail-account-wizard25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,10 +8,10 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons qt6-base qt6-tools python3
- gettext kf6-kdoctools kf6-kconfig qt6-declarative-host-tools"
-makedepends="libkleo-devel kmailtransport-devel kidentitymanagement-devel
- pimcommon-devel kf6-knotifyconfig-devel kf6-ktexteditor-devel"
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 qt6-base qt6-tools python3
+ gettext kf6-kdoctools6.24 kf6-kconfig6.24 qt6-declarative-host-tools"
+makedepends="libkleo25.12-devel kmailtransport25.12-devel kidentitymanagement25.12-devel
+ pimcommon25.12-devel kf6-knotifyconfig6.24-devel kf6-ktexteditor6.24-devel"
 short_desc="KMail account wizard"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"

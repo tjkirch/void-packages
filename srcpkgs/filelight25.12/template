@@ -1,18 +1,18 @@
-# Template file for 'filelight'
+# Template file for 'filelight25.12'
 # group=kde-gear
-pkgname=filelight
+pkgname=filelight25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
- kf6-kpackage qt6-base qt6-tools kf6-kconfig qt6-declarative-host-tools"
-makedepends="kirigami-addons-devel kf6-kio-devel kf6-kcoreaddons-devel
- kf6-kconfig-devel kf6-kpackage-devel kf6-kdoctools-devel
- kf6-qqc2-desktop-style-devel kf6-kirigami-devel kf6-kquickcharts-devel
- kf6-kxmlgui-devel kf6-ki18n-devel kf6-kcrash-devel"
-depends="kirigami-addons kf6-kquickcharts kf6-kcoreaddons kf6-qqc2-desktop-style qt6-declarative"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24
+ kf6-kpackage6.24 qt6-base qt6-tools kf6-kconfig6.24 qt6-declarative-host-tools"
+makedepends="kirigami-addons-devel kf6-kio6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kconfig6.24-devel kf6-kpackage6.24-devel kf6-kdoctools6.24-devel
+ kf6-qqc2-desktop-style6.24-devel kf6-kirigami6.24-devel kf6-kquickcharts6.24-devel
+ kf6-kxmlgui6.24-devel kf6-ki18n6.24-devel kf6-kcrash6.24-devel"
+depends="kirigami-addons kf6-kquickcharts6.24 kf6-kcoreaddons6.24 kf6-qqc2-desktop-style6.24 qt6-declarative"
 short_desc="Interactive map that helps visualize disk usage on your computer"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only"
