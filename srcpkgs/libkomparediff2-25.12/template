@@ -1,6 +1,6 @@
-# Template file for 'libkomparediff225.12'
+# Template file for 'libkomparediff2-25.12'
 # group=kde-gear
-pkgname=libkomparediff225.12
+pkgname=libkomparediff2-25.12
 version=26.08.1
 revision=1
 build_style=cmake

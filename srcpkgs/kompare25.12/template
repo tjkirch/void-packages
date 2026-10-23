@@ -19,7 +19,7 @@ makedepends="qt6-base-devel
  kf6-ktexteditor6.24-devel
  kf6-kwidgetsaddons6.24-devel
  kf6-ki18n6.24-devel
- libkomparediff225.12-devel"
+ libkomparediff2-25.12-devel"
 short_desc="File difference viewer"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only, GFDL-1.2-only"
