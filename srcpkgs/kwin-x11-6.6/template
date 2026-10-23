@@ -1,6 +1,6 @@
-# Template file for 'kwin-x116.6'
+# Template file for 'kwin-x11-6.6'
 # group=kde-plasma
-pkgname=kwin-x116.6
+pkgname=kwin-x11-6.6
 version=6.7.5
 revision=3
 build_style=cmake

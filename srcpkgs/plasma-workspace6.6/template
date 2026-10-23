@@ -23,7 +23,7 @@ makedepends="qt6-declarative-private-devel libplasma6.6-devel qt6-base-private-d
  kf6-ksvg6.24-devel kf6-kdeclarative6.24-devel kf6-kwayland-devel qt6-location-devel
  kscreenlocker6.6-devel plasma-wayland-protocols qt6-position-devel
  kf6-kuserfeedback6.24-devel phonon-devel polkit-qt6-devel qt6-base-private-devel
- kpipewire6.6-devel kirigami-addons-devel libkexiv225.12-devel qcoro-qt6-devel
+ kpipewire6.6-devel kirigami-addons-devel libkexiv2-25.12-devel qcoro-qt6-devel
  layer-shell-qt6.6-devel kf6-karchive6.24-devel kf6-kauth6.24-devel kf6-kcoreaddons6.24-devel
  kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel kf6-kglobalaccel6.24-devel
  kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel
@@ -62,7 +62,7 @@ kworkspace_package() {
 
 plasma-workspace-x11_package() {
 	short_desc+=" - X11 Session"
-	depends="${sourcepkg} kwin-x116.6"
+	depends="${sourcepkg} kwin-x11-6.6"
 	pkg_install() {
 		vmove usr/bin/startplasma-x11
 		vmove usr/share/xsessions/plasmax11.desktop
