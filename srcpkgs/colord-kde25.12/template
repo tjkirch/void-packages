@@ -1,18 +1,18 @@
-# Template file for 'colord-kde'
+# Template file for 'colord-kde25.12'
 # group=kde-gear
-pkgname=colord-kde
+pkgname=colord-kde25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="kf6-kcoreaddons-devel extra-cmake-modules gettext
- pkg-config qt6-declarative-host-tools qt6-base-devel kf6-kpackage
- kf6-kconfig kf6-kcmutils"
-makedepends="kf6-kcmutils-devel libXrandr-devel lcms2-devel
- kf6-kdbusaddons-devel kf6-kconfig-devel kf6-kpackage-devel
- kf6-kcoreaddons-devel kf6-ki18n-devel kf6-kwidgetsaddons-devel
- kf6-kwindowsystem-devel libplasma-devel kf6-kitemmodels-devel"
+hostmakedepends="kf6-kcoreaddons6.24-devel extra-cmake-modules6.24 gettext
+ pkg-config qt6-declarative-host-tools qt6-base-devel kf6-kpackage6.24
+ kf6-kconfig6.24 kf6-kcmutils6.24"
+makedepends="kf6-kcmutils6.24-devel libXrandr-devel lcms2-devel
+ kf6-kdbusaddons6.24-devel kf6-kconfig6.24-devel kf6-kpackage6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kwidgetsaddons6.24-devel
+ kf6-kwindowsystem6.24-devel libplasma6.6-devel kf6-kitemmodels6.24-devel"
 depends="colord"
 short_desc="KDE colord integration"
 maintainer="Danila Kryukov <danila.kryukov.dev@yandex.ru>"

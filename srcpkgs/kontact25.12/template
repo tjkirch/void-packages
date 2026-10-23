@@ -1,6 +1,6 @@
-# Template file for 'kontact'
+# Template file for 'kontact25.12'
 # group=kde-gear
-pkgname=kontact
+pkgname=kontact25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools kf6-kdoctools
- kf6-kcmutils kf6-kcoreaddons kf6-kconfig gettext"
-makedepends="kontactinterface-devel qt6-location-devel qt6-webchannel-devel
- libkdepim-devel kf6-akonadi-devel kpimtextedit-devel kf6-kcmutils-devel
- qt6-webengine-devel pimcommon-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kdoctools6.24
+ kf6-kcmutils6.24 kf6-kcoreaddons6.24 kf6-kconfig6.24 gettext"
+makedepends="kontactinterface25.12-devel qt6-location-devel qt6-webchannel-devel
+ libkdepim25.12-devel kf6-akonadi25.12-devel kpimtextedit25.12-devel kf6-kcmutils6.24-devel
+ qt6-webengine-devel pimcommon25.12-devel"
 short_desc="KDE Personal Information Manager"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"

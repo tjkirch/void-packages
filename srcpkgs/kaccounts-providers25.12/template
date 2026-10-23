@@ -1,18 +1,18 @@
-# Template file for 'kaccounts-providers'
+# Template file for 'kaccounts-providers25.12'
 # group=kde-gear
-pkgname=kaccounts-providers
+pkgname=kaccounts-providers25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools gettext
- kf6-kconfig
- kf6-kpackage pkg-config kf6-kcoreaddons libaccounts-qt6-devel signond-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools gettext
+ kf6-kconfig6.24
+ kf6-kpackage6.24 pkg-config kf6-kcoreaddons6.24 libaccounts-qt6-devel signond-devel"
 makedepends="qt6-base-devel qt6-declarative-devel
- kf6-kio-devel
- kf6-kparts-devel kf6-kpackage-devel kf6-kaccounts-integration-devel
- qcoro-qt6-devel kf6-ki18n-devel kf6-kpackage-devel
+ kf6-kio6.24-devel
+ kf6-kparts6.24-devel kf6-kpackage6.24-devel kf6-kaccounts-integration25.12-devel
+ qcoro-qt6-devel kf6-ki18n6.24-devel kf6-kpackage6.24-devel
  glib-devel libaccounts-qt6-devel signond-devel"
 short_desc="KDE Accounts Providers"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"

@@ -1,13 +1,13 @@
-# Template file for 'picmi'
+# Template file for 'picmi25.12'
 # group=kde-gear
-pkgname=picmi
+pkgname=picmi25.12
 version=26.08.1
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules gettext kf6-kconfig kf6-kcoreaddons
- kf6-kdoctools qt6-base"
-makedepends="kf6-kconfig-devel kf6-kcrash-devel kf6-kdbusaddons-devel
- kf6-kdoctools-devel libkdegames-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons6.24
+ kf6-kdoctools6.24 qt6-base"
+makedepends="kf6-kconfig6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kdoctools6.24-devel libkdegames25.12-devel"
 short_desc="Puzzle game based on number logic"
 maintainer="chrysos349 <chrysostom349@gmail.com>"
 license="GPL-2.0-or-later"

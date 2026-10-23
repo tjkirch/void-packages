@@ -1,15 +1,15 @@
-# Template file for 'bovo'
+# Template file for 'bovo25.12'
 # group=kde-gear
-pkgname=bovo
+pkgname=bovo25.12
 version=26.08.1
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules gettext kf6-kconfig kf6-kcoreaddons
- kf6-kdoctools qt6-base"
-makedepends="kf6-kcoreaddons-devel kf6-kcrash-devel kf6-kdbusaddons-devel
- qt6-svg-devel qt6-base-devel kf6-ki18n-devel kf6-kconfig-devel
- kf6-kwidgetsaddons-devel kf6-kxmlgui-devel kf6-kiconthemes-devel
- kf6-kdoctools-devel libkdegames-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons6.24
+ kf6-kdoctools6.24 qt6-base"
+makedepends="kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
+ qt6-svg-devel qt6-base-devel kf6-ki18n6.24-devel kf6-kconfig6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kiconthemes6.24-devel
+ kf6-kdoctools6.24-devel libkdegames25.12-devel"
 short_desc="Gomoku like game for two players"
 maintainer="chrysos349 <chrysostom349@gmail.com>"
 license="GPL-2.0-or-later"

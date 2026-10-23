@@ -1,6 +1,6 @@
-# Template file for 'akonadi-mime'
+# Template file for 'akonadi-mime25.12'
 # group=kde-gear
-pkgname=akonadi-mime
+pkgname=akonadi-mime25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,16 +8,16 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons kf6-kdoctools python3
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 kf6-kdoctools6.24 python3
  shared-mime-info libxslt
- gettext qt6-base qt6-declarative-host-tools qt6-tools kf6-kconfig"
+ gettext qt6-base qt6-declarative-host-tools qt6-tools kf6-kconfig6.24"
 makedepends="qt6-declarative-devel
- kf6-kio-devel
- kf6-ki18n-devel
- kf6-kxmlgui-devel
- kf6-kitemmodels-devel
- kf6-kmime-devel kf6-akonadi-devel kf6-kconfig-devel kf6-kdoctools-devel
- kf6-kcoreaddons-devel"
+ kf6-kio6.24-devel
+ kf6-ki18n6.24-devel
+ kf6-kxmlgui6.24-devel
+ kf6-kitemmodels6.24-devel
+ kf6-kmime25.12-devel kf6-akonadi25.12-devel kf6-kconfig6.24-devel kf6-kdoctools6.24-devel
+ kf6-kcoreaddons6.24-devel"
 short_desc="Libraries and daemons to implement basic email handling"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"

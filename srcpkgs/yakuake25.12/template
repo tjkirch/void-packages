@@ -1,6 +1,6 @@
-# Template file for 'yakuake'
+# Template file for 'yakuake25.12'
 # group=kde-gear
-pkgname=yakuake
+pkgname=yakuake25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,13 +8,13 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kconfig kf6-kcoreaddons qt6-tools gettext
+hostmakedepends="extra-cmake-modules6.24 kf6-kconfig6.24 kf6-kcoreaddons6.24 qt6-tools gettext
  qt6-base plasma-wayland-protocols wayland-devel"
-makedepends="kf6-knewstuff-devel kf6-knotifyconfig-devel kf6-kparts-devel
- qt6-base-private-devel kf6-kcrash-devel kf6-kdbusaddons-devel
- qt6-svg-devel kf6-kglobalaccel-devel kf6-kiconthemes-devel kf6-knotifications-devel
- kf6-kwayland-devel kf6-kstatusnotifieritem-devel"
-depends="konsole"
+makedepends="kf6-knewstuff6.24-devel kf6-knotifyconfig6.24-devel kf6-kparts6.24-devel
+ qt6-base-private-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
+ qt6-svg-devel kf6-kglobalaccel6.24-devel kf6-kiconthemes6.24-devel kf6-knotifications6.24-devel
+ kf6-kwayland-devel kf6-kstatusnotifieritem6.24-devel"
+depends="konsole25.12"
 short_desc="Drop-down terminal emulator based on KDE konsole technology"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only, GFDL-1.2-only"

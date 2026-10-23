@@ -1,6 +1,6 @@
-# Template file for 'kio-gdrive'
+# Template file for 'kio-gdrive25.12'
 # group=kde-gear
-pkgname=kio-gdrive
+pkgname=kio-gdrive25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins -DQT_MAJOR_VERSION=6
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules intltool pkg-config qt6-base
- kf6-kcoreaddons libaccounts-qt6-devel kf6-kdoctools kf6-kconfig"
-makedepends="libaccounts-qt6-devel kf6-kaccounts-integration-devel kf6-kparts-devel
- libkgapi-devel kf6-purpose-devel"
-depends="kaccounts-providers"
+hostmakedepends="extra-cmake-modules6.24 intltool pkg-config qt6-base
+ kf6-kcoreaddons6.24 libaccounts-qt6-devel kf6-kdoctools6.24 kf6-kconfig6.24"
+makedepends="libaccounts-qt6-devel kf6-kaccounts-integration25.12-devel kf6-kparts6.24-devel
+ libkgapi25.12-devel kf6-purpose6.24-devel"
+depends="kaccounts-providers25.12"
 short_desc="KIO slave that enables access and edit Google Drive files"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"

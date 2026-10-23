@@ -1,19 +1,19 @@
-# Template file for 'plasma-systemmonitor'
+# Template file for 'plasma-systemmonitor6.6'
 # group=kde-plasma
-pkgname=plasma-systemmonitor
+pkgname=plasma-systemmonitor6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
-hostmakedepends="extra-cmake-modules gettext qt6-base qt6-tools kf6-kpackage
- kf6-kconfig kf6-kcoreaddons qt6-declarative-host-tools"
-makedepends="kf6-kirigami-devel libksysguard-devel kf6-kitemmodels-devel
- kf6-knewstuff-devel kf6-kio-devel kf6-kdbusaddons-devel kf6-kconfig-devel
- kf6-kwindowsystem-devel kf6-kcrash-devel qt6-declarative-private-devel
- kf6-ki18n-devel kf6-kpackage-devel
- kf6-kservice-devel kf6-kglobalaccel-devel kirigami-addons-devel"
-depends="kf6-kirigami kf6-qqc2-desktop-style kf6-kquickcharts ksystemstats"
+hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools kf6-kpackage6.24
+ kf6-kconfig6.24 kf6-kcoreaddons6.24 qt6-declarative-host-tools"
+makedepends="kf6-kirigami6.24-devel libksysguard6.6-devel kf6-kitemmodels6.24-devel
+ kf6-knewstuff6.24-devel kf6-kio6.24-devel kf6-kdbusaddons6.24-devel kf6-kconfig6.24-devel
+ kf6-kwindowsystem6.24-devel kf6-kcrash6.24-devel qt6-declarative-private-devel
+ kf6-ki18n6.24-devel kf6-kpackage6.24-devel
+ kf6-kservice6.24-devel kf6-kglobalaccel6.24-devel kirigami-addons-devel"
+depends="kf6-kirigami6.24 kf6-qqc2-desktop-style6.24 kf6-kquickcharts6.24 ksystemstats6.6"
 short_desc="Application for monitoring system resources"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-only, GPL-3.0-only, LGPL-2.1-only, LGPL-3.0-only"
@@ -27,6 +27,6 @@ shlib_requires="KDE_Plasma.${version}"
 
 ksysguard_package() {
 	metapackage=yes
-	depends="plasma-systemmonitor"
+	depends="plasma-systemmonitor6.6"
 	short_desc+=" - transition"
 }

@@ -1,6 +1,6 @@
-# Template file for 'akonadi-import-wizard'
+# Template file for 'akonadi-import-wizard25.12'
 # group=kde-gear
-pkgname=akonadi-import-wizard
+pkgname=akonadi-import-wizard25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,10 +8,10 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons kf6-kdoctools qt6-base qt6-tools
- gettext kf6-kconfig kf6-kauth-tools"
-makedepends="kf6-kcontacts-devel mailcommon-devel mailimporter-devel messagelib-devel
- kcalutils-devel kf6-kdoctools-devel kf6-kconfig-devel kf6-kauth-devel"
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 kf6-kdoctools6.24 qt6-base qt6-tools
+ gettext kf6-kconfig6.24 kf6-kauth-tools"
+makedepends="kf6-kcontacts6.24-devel mailcommon25.12-devel mailimporter25.12-devel messagelib25.12-devel
+ kcalutils25.12-devel kf6-kdoctools6.24-devel kf6-kconfig6.24-devel kf6-kauth6.24-devel"
 short_desc="Import data from other mail clients to KMail"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

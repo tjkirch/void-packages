@@ -1,10 +1,10 @@
-# Template file for 'kf6-solid'
+# Template file for 'kf6-solid6.24'
 # group=kde-frameworks
-pkgname=kf6-solid
+pkgname=kf6-solid6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base flex pkg-config"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base flex pkg-config"
 makedepends="qt6-base-devel libmount-devel libplist-devel
  libimobiledevice-devel"
 depends="upower udisks2 media-player-info"

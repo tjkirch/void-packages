@@ -1,6 +1,6 @@
-# Template file for 'libkgapi'
+# Template file for 'libkgapi25.12'
 # group=kde-gear
-pkgname=libkgapi
+pkgname=libkgapi25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,9 +8,9 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base python3 qt6-tools kf6-kconfig
- gettext kf6-kcoreaddons"
-makedepends="kf6-kcalendarcore-devel kf6-kcontacts-devel kf6-kio-devel kf6-kwallet-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base python3 qt6-tools kf6-kconfig6.24
+ gettext kf6-kcoreaddons6.24"
+makedepends="kf6-kcalendarcore6.24-devel kf6-kcontacts6.24-devel kf6-kio6.24-devel kf6-kwallet6.24-devel"
 short_desc="KDE-based library for accessing various Google services"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

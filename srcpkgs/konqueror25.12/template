@@ -1,6 +1,6 @@
-# Template file for 'konqueror'
+# Template file for 'konqueror25.12'
 # group=kde-gear
-pkgname=konqueror
+pkgname=konqueror25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,15 +8,15 @@ configure_args="-DBUILD_WITH_QT6=ON -DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules python3 qt6-base qt6-tools kf6-kdoctools
- kf6-kwindowsystem kf6-kcoreaddons kf6-kconfig gettext kf6-kcmutils hunspell"
+hostmakedepends="extra-cmake-modules6.24 python3 qt6-base qt6-tools kf6-kdoctools6.24
+ kf6-kwindowsystem6.24 kf6-kcoreaddons6.24 kf6-kconfig6.24 gettext kf6-kcmutils6.24 hunspell"
 makedepends="qt6-base-private-devel qt6-webengine-devel qt6-webchannel-devel
- kf6-kwindowsystem-devel kf6-kguiaddons-devel kf6-ki18n-devel
- kf6-sonnet-devel kf6-kcodecs-devel kf6-kdoctools-devel kf6-kxmlgui-devel
- kf6-kwallet-devel kf6-knotifications-devel kf6-kjobwidgets-devel
- kf6-karchive-devel kf6-kdesu-devel kf6-kcrash-devel kf6-kdbusaddons-devel
- kf6-kiconthemes-devel kf6-ktextwidgets-devel kf6-kparts-devel hunspell-devel
- kf6-kcmutils-devel plasma-activities-devel"
+ kf6-kwindowsystem6.24-devel kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel
+ kf6-sonnet6.24-devel kf6-kcodecs6.24-devel kf6-kdoctools6.24-devel kf6-kxmlgui6.24-devel
+ kf6-kwallet6.24-devel kf6-knotifications6.24-devel kf6-kjobwidgets6.24-devel
+ kf6-karchive6.24-devel kf6-kdesu6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kiconthemes6.24-devel kf6-ktextwidgets6.24-devel kf6-kparts6.24-devel hunspell-devel
+ kf6-kcmutils6.24-devel plasma-activities6.6-devel"
 short_desc="KDE File Manager & Web Browser"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
@@ -34,9 +34,9 @@ do_check() {
 
 konqueror-devel_package() {
 	short_desc+=" - development files"
-	depends="${sourcepkg}>=${version}_${revision} kf6-kxmlgui-devel
-	 kf6-kconfig-devel kf6-kio-devel kf6-kcoreaddons-devel
-	 kf6-kservice-devel kf6-kparts-devel"
+	depends="${sourcepkg}>=${version}_${revision} kf6-kxmlgui6.24-devel
+	 kf6-kconfig6.24-devel kf6-kio6.24-devel kf6-kcoreaddons6.24-devel
+	 kf6-kservice6.24-devel kf6-kparts6.24-devel"
 	pkg_install() {
 		vmove usr/include
 		vmove usr/lib/cmake

@@ -1,20 +1,20 @@
-# Template file for 'kscreen'
+# Template file for 'kscreen6.6'
 # group=kde-plasma
-pkgname=kscreen
+pkgname=kscreen6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
- kf6-kcmutils kf6-kpackage pkg-config wayland-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
+ kf6-kcmutils6.24 kf6-kpackage6.24 pkg-config wayland-devel
  qt6-declarative-host-tools"
-makedepends="kf6-kxmlgui-devel kf6-kcmutils-devel kf6-ksvg-devel
- kf6-kdbusaddons-devel kf6-kcrash-devel
- kf6-kpackage-devel libkf6screen-devel layer-shell-qt-devel libplasma-devel
+makedepends="kf6-kxmlgui6.24-devel kf6-kcmutils6.24-devel kf6-ksvg6.24-devel
+ kf6-kdbusaddons6.24-devel kf6-kcrash6.24-devel
+ kf6-kpackage6.24-devel libkf6screen6.6-devel layer-shell-qt6.6-devel libplasma6.6-devel
  qt6-sensors-devel qt6-base-private-devel wayland-protocols
- kf6-kitemmodels-devel plasma5support-devel"
-depends="hicolor-icon-theme kf6-kimageformats"
+ kf6-kitemmodels6.24-devel plasma5support6.6-devel"
+depends="hicolor-icon-theme kf6-kimageformats6.24"
 short_desc="KDE screen management software"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

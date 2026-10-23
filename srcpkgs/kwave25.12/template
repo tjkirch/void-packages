@@ -1,20 +1,20 @@
-# Template file for 'kwave'
+# Template file for 'kwave25.12'
 # group=kde-gear
-pkgname=kwave
+pkgname=kwave25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext librsvg-utils pkg-config python3
- kf6-kconfig kf6-kcoreaddons kf6-kdoctools qt6-base"
+hostmakedepends="extra-cmake-modules6.24 gettext librsvg-utils pkg-config python3
+ kf6-kconfig6.24 kf6-kcoreaddons6.24 kf6-kdoctools6.24 qt6-base"
 makedepends="alsa-lib-devel appstream-glib-devel audiofile-devel doxygen
  fftw-devel id3lib-devel ImageMagick libmad-devel libflac-devel
  qt6-base-devel qt6-multimedia-devel
- kf6-karchive-devel kf6-kcompletion-devel kf6-kconfig-devel
- kf6-kconfigwidgets-devel kf6-kcoreaddons-devel kf6-kcrash-devel
- kf6-kdbusaddons-devel kf6-kdoctools-devel kf6-ki18n-devel
- kf6-kiconthemes-devel kf6-kio-devel kf6-ktextwidgets-devel kf6-kxmlgui-devel
- kf6-kwidgetsaddons-devel
+ kf6-karchive6.24-devel kf6-kcompletion6.24-devel kf6-kconfig6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel
+ kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel kf6-ki18n6.24-devel
+ kf6-kiconthemes6.24-devel kf6-kio6.24-devel kf6-ktextwidgets6.24-devel kf6-kxmlgui6.24-devel
+ kf6-kwidgetsaddons6.24-devel
  libogg-devel librsvg-devel libsamplerate-devel libvorbis-devel opus-devel
  freetype-devel fontconfig-devel
  pulseaudio-devel samurai"

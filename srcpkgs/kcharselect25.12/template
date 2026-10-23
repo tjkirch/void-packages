@@ -1,16 +1,16 @@
-# Template file for 'kcharselect'
+# Template file for 'kcharselect25.12'
 # group=kde-gear
-pkgname=kcharselect
+pkgname=kcharselect25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons gettext qt6-base qt6-tools
- kf6-kconfig kf6-kdoctools python3"
-makedepends="kf6-kbookmarks-devel kf6-kcoreaddons-devel kf6-kcrash-devel kf6-ki18n-devel
- kf6-kdoctools-devel kf6-kconfig-devel kf6-ki18n-devel kf6-kconfigwidgets-devel
- kf6-kiconthemes-devel kf6-kwidgetsaddons-devel kf6-kxmlgui-devel"
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 gettext qt6-base qt6-tools
+ kf6-kconfig6.24 kf6-kdoctools6.24 python3"
+makedepends="kf6-kbookmarks6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-ki18n6.24-devel
+ kf6-kdoctools6.24-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel kf6-kconfigwidgets6.24-devel
+ kf6-kiconthemes6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel"
 short_desc="Character Selector"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"

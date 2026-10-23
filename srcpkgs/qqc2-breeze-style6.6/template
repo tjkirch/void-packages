@@ -1,14 +1,14 @@
-# Template file for 'qqc2-breeze-style'
+# Template file for 'qqc2-breeze-style6.6'
 # group=kde-plasma
-pkgname=qqc2-breeze-style
+pkgname=qqc2-breeze-style6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base kf6-kconfig qt6-declarative-host-tools"
-makedepends="kf6-kconfig-devel kf6-kconfigwidgets-devel kf6-kguiaddons-devel
- kf6-kiconthemes-devel kf6-kirigami-devel kf6-kquickcharts-devel kf6-kconfig-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-base kf6-kconfig6.24 qt6-declarative-host-tools"
+makedepends="kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kguiaddons6.24-devel
+ kf6-kiconthemes6.24-devel kf6-kirigami6.24-devel kf6-kquickcharts6.24-devel kf6-kconfig6.24-devel
  qt6-declarative-private-devel"
 short_desc="Breeze-inspired QQC2 style"
 maintainer="John <me@johnnynator.dev>"

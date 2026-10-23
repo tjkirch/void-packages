@@ -1,6 +1,6 @@
-# Template file for 'incidenceeditor'
+# Template file for 'incidenceeditor25.12'
 # group=kde-gear
-pkgname=incidenceeditor
+pkgname=incidenceeditor25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,9 +8,9 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools kf6-kcoreaddons kf6-kconfig
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kcoreaddons6.24 kf6-kconfig6.24
  gettext"
-makedepends="calendarsupport-devel eventviews-devel kdiagram6-devel"
+makedepends="calendarsupport25.12-devel eventviews25.12-devel kdiagram6-devel"
 short_desc="KDE PIM incidence editor"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"

@@ -1,14 +1,14 @@
-# Template file for 'knighttime'
+# Template file for 'knighttime6.6'
 # group=kde-plasma
-pkgname=knighttime
+pkgname=knighttime6.6
 version=6.7.5
 revision=1
 build_style=cmake
-hostmakedepends="qt6-base extra-cmake-modules kf6-kconfig gettext
+hostmakedepends="qt6-base extra-cmake-modules6.24 kf6-kconfig6.24 gettext
  qt6-tools"
 makedepends="qt6-base-devel qt6-position-devel
- kf6-kcoreaddons-devel kf6-kconfig-devel kf6-kdbusaddons-devel
- kf6-kholidays-devel kf6-ki18n-devel"
+ kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kholidays6.24-devel kf6-ki18n6.24-devel"
 short_desc="Helpers for scheduling the dark-light cycle"
 maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="LGPL-2.0-or-later"

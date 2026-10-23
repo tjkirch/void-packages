@@ -1,6 +1,6 @@
-# Template file for 'kcalc'
+# Template file for 'kcalc25.12'
 # group=kde-gear
-pkgname=kcalc
+pkgname=kcalc25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,12 +8,12 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kcoreaddons kf6-kconfig kf6-kdoctools python3
+hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 kf6-kconfig6.24 kf6-kdoctools6.24 python3
  qt6-base qt6-tools gettext"
-makedepends="gmp-devel mpfr-devel libmpc-devel qt6-base-devel kf6-kconfig-devel
- kf6-kconfigwidgets-devel kf6-kcrash-devel kf6-kdoctools-devel kf6-kguiaddons-devel
- kf6-ki18n-devel kf6-kiconthemes-devel kf6-knotifications-devel qt6-qt5compat-devel
- kf6-kcoreaddons-devel kf6-kcolorscheme-devel kf6-kxmlgui-devel"
+makedepends="gmp-devel mpfr-devel libmpc-devel qt6-base-devel kf6-kconfig6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kcrash6.24-devel kf6-kdoctools6.24-devel kf6-kguiaddons6.24-devel
+ kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-knotifications6.24-devel qt6-qt5compat-devel
+ kf6-kcoreaddons6.24-devel kf6-kcolorscheme6.24-devel kf6-kxmlgui6.24-devel"
 short_desc="Simple and scientific calculator"
 maintainer="Norbert Vegh <vegh@norvegh.com>"
 license="GPL-2.0-or-later"

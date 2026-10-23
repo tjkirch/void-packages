@@ -1,6 +1,6 @@
-# Template file for 'falkon'
+# Template file for 'falkon25.12'
 # group=kde-gear
-pkgname=falkon
+pkgname=falkon25.12
 version=26.08.2
 revision=1
 build_style=cmake
@@ -8,17 +8,17 @@ _llvmver=21
 configure_args="
  -DBUILD_TESTING=OFF
  -DBUILD_PYTHON_SUPPORT=$(vopt_if python ON OFF)"
-hostmakedepends="extra-cmake-modules gettext pkg-config
- qt6-base qt6-tools python3 kf6-kcoreaddons kf6-kconfig"
-makedepends="qt6-base-private-devel qt6-plugin-mysql kf6-kconfig-devel
+hostmakedepends="extra-cmake-modules6.24 gettext pkg-config
+ qt6-base qt6-tools python3 kf6-kcoreaddons6.24 kf6-kconfig6.24"
+makedepends="qt6-base-private-devel qt6-plugin-mysql kf6-kconfig6.24-devel
  qt6-plugin-sqlite qt6-declarative-devel qt6-webchannel-devel
  qt6-webengine-devel qt6-location-devel
  openssl-devel
- kf6-karchive-devel
- kf6-kcrash-devel
- kf6-kjobwidgets-devel
- kf6-kwallet-devel kf6-kio-devel kf6-purpose-devel kf6-ki18n-devel
- xcb-util-devel kf6-kcoreaddons-devel"
+ kf6-karchive6.24-devel
+ kf6-kcrash6.24-devel
+ kf6-kjobwidgets6.24-devel
+ kf6-kwallet6.24-devel kf6-kio6.24-devel kf6-purpose6.24-devel kf6-ki18n6.24-devel
+ xcb-util-devel kf6-kcoreaddons6.24-devel"
 depends="qt6-plugin-sqlite"
 checkdepends="dbus"
 short_desc="Cross-platform Qt Web Browser"

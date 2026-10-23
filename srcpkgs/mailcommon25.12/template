@@ -1,6 +1,6 @@
-# Template file for 'mailcommon'
+# Template file for 'mailcommon25.12'
 # group=kde-gear
-pkgname=mailcommon
+pkgname=mailcommon25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -9,11 +9,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules kf6-kconfig libxslt qt6-base qt6-tools
+hostmakedepends="extra-cmake-modules6.24 kf6-kconfig6.24 libxslt qt6-base qt6-tools
  gettext python3"
-makedepends="mailimporter-devel messagelib-devel qt6-tools-devel
- plasma-activities-devel
- pimcommon-devel libkleo-devel qt6-multimedia-devel phonon-devel kf6-kcontacts-devel"
+makedepends="mailimporter25.12-devel messagelib25.12-devel qt6-tools-devel
+ plasma-activities6.6-devel
+ pimcommon25.12-devel libkleo25.12-devel qt6-multimedia-devel phonon-devel kf6-kcontacts6.24-devel"
 checkdepends="dbus"
 short_desc="KDE PIM library providing support for mail applications"
 maintainer="John <me@johnnynator.dev>"
@@ -35,9 +35,9 @@ do_check() {
 
 mailcommon-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
-	 kf6-akonadi-devel libkdepim-devel kf6-kmime-devel kf6-kconfig-devel
-	 kf6-kio-devel messagelib-devel kf6-ki18n-devel akonadi-mime-devel
-	 pimcommon-devel kf6-kcompletion-devel"
+	 kf6-akonadi25.12-devel libkdepim25.12-devel kf6-kmime25.12-devel kf6-kconfig6.24-devel
+	 kf6-kio6.24-devel messagelib25.12-devel kf6-ki18n6.24-devel akonadi-mime25.12-devel
+	 pimcommon25.12-devel kf6-kcompletion6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

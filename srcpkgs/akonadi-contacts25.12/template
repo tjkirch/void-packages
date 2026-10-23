@@ -1,6 +1,6 @@
-# Template file for 'akonadi-contacts'
+# Template file for 'akonadi-contacts25.12'
 # group=kde-gear
-pkgname=akonadi-contacts
+pkgname=akonadi-contacts25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kcmutils
- qt6-base qt6-tools python3 kf6-kconfig"
-makedepends="kf6-kio-devel kf6-kcontacts-devel kf6-prison-devel kf6-ktextwidgets-devel
- kf6-ktexttemplate-devel libkleo-devel kf6-grantleetheme-devel
- kf6-kmime-devel akonadi-mime-devel kf6-syntax-highlighting-devel ktextaddons-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kcmutils6.24
+ qt6-base qt6-tools python3 kf6-kconfig6.24"
+makedepends="kf6-kio6.24-devel kf6-kcontacts6.24-devel kf6-prison6.24-devel kf6-ktextwidgets6.24-devel
+ kf6-ktexttemplate6.24-devel libkleo25.12-devel kf6-grantleetheme25.12-devel
+ kf6-kmime25.12-devel akonadi-mime25.12-devel kf6-syntax-highlighting6.24-devel ktextaddons-devel"
 short_desc="Libraries and daemons to implement Contact Management in Akonadi"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"

@@ -1,6 +1,6 @@
-# Template file for 'akonadi-calendar'
+# Template file for 'akonadi-calendar25.12'
 # group=kde-gear
-pkgname=akonadi-calendar
+pkgname=akonadi-calendar25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -9,13 +9,13 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules
  $(vopt_bool python BUILD_PYTHON_BINDINGS)"
-hostmakedepends="extra-cmake-modules python3 qt6-base gettext
- kf6-kcoreaddons kf6-kconfig
+hostmakedepends="extra-cmake-modules6.24 python3 qt6-base gettext
+ kf6-kcoreaddons6.24 kf6-kconfig6.24
  $(vopt_if python "python3-build python3-setuptools shiboken6 llvm${_llvmver}")"
-makedepends="kf6-kconfig-devel kf6-kmime-devel kf6-kcodecs-devel kf6-ki18n-devel
- kf6-kwidgetsaddons-devel kf6-kxmlgui-devel kf6-kio-devel kf6-kdbusaddons-devel
- kf6-kcalendarcore-devel kf6-knotifications-devel kmailtransport-devel
- kidentitymanagement-devel kcalutils-devel messagelib-devel kf6-kcrash-devel
+makedepends="kf6-kconfig6.24-devel kf6-kmime25.12-devel kf6-kcodecs6.24-devel kf6-ki18n6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kio6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kcalendarcore6.24-devel kf6-knotifications6.24-devel kmailtransport25.12-devel
+ kidentitymanagement25.12-devel kcalutils25.12-devel messagelib25.12-devel kf6-kcrash6.24-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
 short_desc="Akonadi calendar integration"
 maintainer="John <me@johnnynator.dev>"

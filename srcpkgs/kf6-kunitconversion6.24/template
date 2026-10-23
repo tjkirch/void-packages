@@ -1,14 +1,14 @@
-# Template file for 'kf6-kunitconversion'
+# Template file for 'kf6-kunitconversion6.24'
 # group=kde-frameworks
-pkgname=kf6-kunitconversion
+pkgname=kf6-kunitconversion6.24
 version=6.30.0
 revision=1
 _llvmver=21
 build_style=cmake
 configure_args="$(vopt_bool python BUILD_PYTHON_BINDINGS)"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base gettext
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base gettext
  $(vopt_if python "python3-build python3-setuptools shiboken6 llvm${_llvmver}")"
-makedepends="kf6-ki18n-devel
+makedepends="kf6-ki18n6.24-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
 short_desc="KDE Converting physical units"
 maintainer="John <me@johnnynator.dev>"

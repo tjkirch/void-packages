@@ -1,16 +1,16 @@
-# Template file for 'kf6-ksvg'
+# Template file for 'kf6-ksvg6.24'
 # group=kde-frameworks
-pkgname=kf6-ksvg
+pkgname=kf6-ksvg6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- qt6-declarative-host-tools kf6-kconfig"
-makedepends="qt6-declarative-devel qt6-svg-devel kf6-karchive-devel
- kf6-kconfig-devel kf6-kcolorscheme-devel kf6-kcoreaddons-devel
- kf6-kirigami-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ qt6-declarative-host-tools kf6-kconfig6.24"
+makedepends="qt6-declarative-devel qt6-svg-devel kf6-karchive6.24-devel
+ kf6-kconfig6.24-devel kf6-kcolorscheme6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kirigami6.24-devel"
 short_desc="Components for handling SVGs"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

@@ -1,16 +1,16 @@
-# Template file for 'plasma-vault'
+# Template file for 'plasma-vault6.6'
 # group=kde-plasma
-pkgname=plasma-vault
+pkgname=plasma-vault6.6
 version=6.7.5
 revision=1
 build_style=cmake
 configure_args="
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools
- pkg-config gettext kf6-kconfig kf6-kpackage"
-makedepends="libplasma-devel libksysguard-devel kf6-kdbusaddons-devel
- kf6-kio-devel kf6-kirigami-devel kf6-kservice-devel plasma-activities-devel
- kf6-kitemmodels-devel kf6-networkmanager-qt-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools
+ pkg-config gettext kf6-kconfig6.24 kf6-kpackage6.24"
+makedepends="libplasma6.6-devel libksysguard6.6-devel kf6-kdbusaddons6.24-devel
+ kf6-kio6.24-devel kf6-kirigami6.24-devel kf6-kservice6.24-devel plasma-activities6.6-devel
+ kf6-kitemmodels6.24-devel kf6-networkmanager-qt6.24-devel"
 short_desc="Plasma applet and services for creating encrypted vaults"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, LGPL-2.1-or-later"

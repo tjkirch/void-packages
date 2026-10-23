@@ -1,16 +1,16 @@
-# Template file for 'kcron'
+# Template file for 'kcron25.12'
 # group=kde-gear
-pkgname=kcron
+pkgname=kcron25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
- kf6-kauth-tools pkg-config qt6-base kf6-kcmutils"
-makedepends="kf6-kio-devel kf6-kconfigwidgets-devel kf6-kauth-devel
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24
+ kf6-kauth-tools pkg-config qt6-base kf6-kcmutils6.24"
+makedepends="kf6-kio6.24-devel kf6-kconfigwidgets6.24-devel kf6-kauth6.24-devel
  kirigami-addons-devel qt6-declarative-devel
- kf6-kcoreaddons-devel kf6-ki18n-devel kf6-kio-devel kf6-kcmutils-devel"
+ kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-kcmutils6.24-devel"
 short_desc="KDE Configure and schedule tasks"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"

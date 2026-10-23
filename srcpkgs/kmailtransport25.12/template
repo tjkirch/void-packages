@@ -1,6 +1,6 @@
-# Template file for 'kmailtransport'
+# Template file for 'kmailtransport25.12'
 # group=kde-gear
-pkgname=kmailtransport
+pkgname=kmailtransport25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,10 +8,10 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base python3 gettext
- kf6-kcoreaddons kf6-kconfig"
-makedepends="kf6-kconfig-devel kf6-kconfigwidgets-devel kf6-kio-devel libkgapi-devel
- ksmtp-devel qtkeychain-qt6-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base python3 gettext
+ kf6-kcoreaddons6.24 kf6-kconfig6.24"
+makedepends="kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kio6.24-devel libkgapi25.12-devel
+ ksmtp25.12-devel qtkeychain-qt6-devel"
 short_desc="Mail Transport Service"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
