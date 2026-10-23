@@ -16,7 +16,7 @@ makedepends="qcoro-qt6-devel kf6-karchive6.24-devel kf6-kconfig6.24-devel
  kf6-kcmutils6.24-devel kf6-ktextwidgets6.24-devel plasma-activities6.6-devel
  plasma-activities-stats6.6-devel phonon-devel samba-devel libssh-devel
  libmtp-devel libimobiledevice-devel libplist-devel KDSoap-devel
- libtirpc-devel libopenexr-devel taglib-devel libkexiv225.12-devel libnfs-devel
+ libtirpc-devel libopenexr-devel taglib-devel libkexiv2-25.12-devel libnfs-devel
  libproxy-devel qt6-svg-devel qt6-base-private-devel kf6-knotifications6.24-devel
  kdsoap-ws-discovery-client-devel qt6-qt5compat-devel"
 short_desc="Additional KIO components"

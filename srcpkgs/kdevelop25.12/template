@@ -47,7 +47,7 @@ makedepends="
  kf6-kpackage6.24-devel
  apr-util-devel subversion-devel
  llvm${_llvmver}-devel clang${_llvmver}-devel
- libkomparediff225.12-devel
+ libkomparediff2-25.12-devel
  astyle
  libedit-devel libplasma6.6-devel
  boost-headers"

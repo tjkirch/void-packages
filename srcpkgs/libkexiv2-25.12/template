@@ -1,6 +1,6 @@
-# Template file for 'libkexiv225.12'
+# Template file for 'libkexiv2-25.12'
 # group=kde-gear
-pkgname=libkexiv225.12
+pkgname=libkexiv2-25.12
 version=26.08.1
 revision=1
 build_style=cmake
