@@ -1,14 +1,14 @@
-# Template file for 'kglobalacceld'
+# Template file for 'kglobalacceld6.6'
 # group=kde-plasma
-pkgname=kglobalacceld
+pkgname=kglobalacceld6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools kf6-kconfig"
-makedepends="kf6-kglobalaccel-devel kf6-kconfig-devel kf6-kcrash-devel
- kf6-kdbusaddons-devel kf6-kwindowsystem-devel kf6-kservice-devel
- kf6-kio-devel qt6-base-private-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kconfig6.24"
+makedepends="kf6-kglobalaccel6.24-devel kf6-kconfig6.24-devel kf6-kcrash6.24-devel
+ kf6-kdbusaddons6.24-devel kf6-kwindowsystem6.24-devel kf6-kservice6.24-devel
+ kf6-kio6.24-devel qt6-base-private-devel"
 short_desc="Daemon providing Global Keyboard Shortcut functionality"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"
@@ -37,6 +37,6 @@ kglobalacceld-devel_package() {
 
 khotkeys_package() {
 	metapackage=yes
-	depends="kglobalacceld"
+	depends="kglobalacceld6.6"
 	short_desc+=" - transition"
 }

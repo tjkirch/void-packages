@@ -1,23 +1,23 @@
-# Template file for 'kolourpaint'
+# Template file for 'kolourpaint25.12'
 # group=kde-gear
-pkgname=kolourpaint
+pkgname=kolourpaint25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DQT_MAJOR_VERSION=6 -DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
- qt6-base kf6-kconfig"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24
+ qt6-base kf6-kconfig6.24"
 makedepends="qt6-base-devel
- kf6-ki18n-devel
- kf6-kguiaddons-devel
- kf6-kwidgetsaddons-devel
- kf6-kio-devel
- kf6-kxmlgui-devel
- kf6-ktextwidgets-devel
- kf6-kjobwidgets-devel
- kf6-kcrash-devel
- libksane6-devel"
+ kf6-ki18n6.24-devel
+ kf6-kguiaddons6.24-devel
+ kf6-kwidgetsaddons6.24-devel
+ kf6-kio6.24-devel
+ kf6-kxmlgui6.24-devel
+ kf6-ktextwidgets6.24-devel
+ kf6-kjobwidgets6.24-devel
+ kf6-kcrash6.24-devel
+ libksane6-25.12-devel"
 short_desc="Free, easy-to-use paint program for KDE"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="BSD-2-Clause, GPL-2.0-or-later, LGPL-2.1-only, GFDL-1.2-only"

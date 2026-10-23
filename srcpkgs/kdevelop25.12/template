@@ -1,6 +1,6 @@
-# Template file for 'kdevelop'
+# Template file for 'kdevelop25.12'
 # group=kde-gear
-pkgname=kdevelop
+pkgname=kdevelop25.12
 version=26.08.1
 revision=1
 _llvmver=21
@@ -8,51 +8,51 @@ build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DClang_DIR=${XBPS_CROSS_BASE}/usr/lib/llvm/${_llvmver}/lib/cmake/clang
  -DCMAKE_C_STANDARD=11" # Required for static_assert
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools shared-mime-info
- pkg-config clang-tools-extra${_llvmver} meson clazy kf6-kpackage
- kdevelop-pg-qt gettext tar kf6-kdoctools kf6-kconfig kf6-kcmutils"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools shared-mime-info
+ pkg-config clang-tools-extra${_llvmver} meson clazy kf6-kpackage6.24
+ kdevelop-pg-qt gettext tar kf6-kdoctools6.24 kf6-kconfig6.24 kf6-kcmutils6.24"
 makedepends="
  qt6-base-devel
  qt6-qt5compat-devel
  qt6-declarative-devel
  qt6-tools-devel
  qt6-location-devel qt6-webchannel-devel qt6-webengine-devel
- kf6-kconfig-devel
- kf6-kiconthemes-devel
- kf6-ki18n-devel
- kf6-kitemmodels-devel
- kf6-kitemviews-devel
- kf6-kjobwidgets-devel
- kf6-kcmutils-devel
- kf6-kio-devel
- kf6-knewstuff-devel
- kf6-knotifyconfig-devel
- kf6-kparts-devel
- kf6-kservice-devel
- kf6-ktexteditor-devel
- kf6-threadweaver-devel
- kf6-kxmlgui-devel
- kf6-kwindowsystem-devel
- kf6-kcrash-devel
- kf6-kguiaddons-devel
- kf6-karchive-devel
- kf6-knotifications-devel
- kf6-sonnet-devel
- kf6-ktexttemplate-devel
- kf6-ktextwidgets-devel
- kf6-krunner-devel
- kf6-kwidgetsaddons-devel
- kf6-purpose-devel
- libksysguard-devel
- kf6-kpackage-devel
+ kf6-kconfig6.24-devel
+ kf6-kiconthemes6.24-devel
+ kf6-ki18n6.24-devel
+ kf6-kitemmodels6.24-devel
+ kf6-kitemviews6.24-devel
+ kf6-kjobwidgets6.24-devel
+ kf6-kcmutils6.24-devel
+ kf6-kio6.24-devel
+ kf6-knewstuff6.24-devel
+ kf6-knotifyconfig6.24-devel
+ kf6-kparts6.24-devel
+ kf6-kservice6.24-devel
+ kf6-ktexteditor6.24-devel
+ kf6-threadweaver6.24-devel
+ kf6-kxmlgui6.24-devel
+ kf6-kwindowsystem6.24-devel
+ kf6-kcrash6.24-devel
+ kf6-kguiaddons6.24-devel
+ kf6-karchive6.24-devel
+ kf6-knotifications6.24-devel
+ kf6-sonnet6.24-devel
+ kf6-ktexttemplate6.24-devel
+ kf6-ktextwidgets6.24-devel
+ kf6-krunner6.24-devel
+ kf6-kwidgetsaddons6.24-devel
+ kf6-purpose6.24-devel
+ libksysguard6.6-devel
+ kf6-kpackage6.24-devel
  apr-util-devel subversion-devel
  llvm${_llvmver}-devel clang${_llvmver}-devel
- libkomparediff2-devel
+ libkomparediff225.12-devel
  astyle
- libedit-devel libplasma-devel
+ libedit-devel libplasma6.6-devel
  boost-headers"
 # khelpcenter is required to display documentation
-depends="khelpcenter"
+depends="khelpcenter25.12"
 short_desc="Integrated Development Environment for C/C++"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
@@ -70,8 +70,8 @@ post_install() {
 }
 
 kdevelop-devel_package() {
-	depends="kdevelop>=${version}_${revision} qt6-webengine-devel
-	 qt6-qt5compat-devel kf6-ktexteditor-devel kf6-threadweaver-devel"
+	depends="kdevelop25.12>=${version}_${revision} qt6-webengine-devel
+	 qt6-qt5compat-devel kf6-ktexteditor6.24-devel kf6-threadweaver6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

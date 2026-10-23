@@ -1,16 +1,16 @@
-# Template file for 'kdevelop-python'
+# Template file for 'kdevelop-python25.12'
 # group=kde-gear
-pkgname=kdevelop-python
+pkgname=kdevelop-python25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
 pycompile_dirs="usr/share/kdevpythonsupport"
-hostmakedepends="extra-cmake-modules tar gettext qt6-base
- kf6-kconfig kf6-kcmutils python3"
-makedepends="python3-devel kf6-knewstuff-devel kf6-kitemmodels-devel
- kf6-threadweaver-devel kf6-ktexteditor-devel kf6-kcmutils-devel
- kf6-knotifyconfig-devel kdevelop-devel"
+hostmakedepends="extra-cmake-modules6.24 tar gettext qt6-base
+ kf6-kconfig6.24 kf6-kcmutils6.24 python3"
+makedepends="python3-devel kf6-knewstuff6.24-devel kf6-kitemmodels6.24-devel
+ kf6-threadweaver6.24-devel kf6-ktexteditor6.24-devel kf6-kcmutils6.24-devel
+ kf6-knotifyconfig6.24-devel kdevelop25.12-devel"
 short_desc="Python 3 language and Django project support for KDevelop"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"

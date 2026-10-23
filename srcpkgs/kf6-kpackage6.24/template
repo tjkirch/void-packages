@@ -1,13 +1,13 @@
-# Template file for 'kf6-kpackage'
+# Template file for 'kf6-kpackage6.24'
 # group=kde-frameworks
-pkgname=kf6-kpackage
+pkgname=kf6-kpackage6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base kf6-kdoctools
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base kf6-kdoctools6.24
  gettext"
-makedepends="kf6-karchive-devel kf6-kcoreaddons-devel kf6-ki18n-devel
- kf6-kdoctools-devel"
+makedepends="kf6-karchive6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
+ kf6-kdoctools6.24-devel"
 short_desc="Aplications to manage user installable packages of non-binary assets"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

@@ -1,12 +1,12 @@
-# Template file for 'kf6-kdav'
+# Template file for 'kf6-kdav6.24'
 # group=kde-frameworks
-pkgname=kf6-kdav
+pkgname=kf6-kdav6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- kf6-kconfig gettext"
-makedepends="qt6-base-devel kf6-kio-devel kf6-ki18n-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ kf6-kconfig6.24 gettext"
+makedepends="qt6-base-devel kf6-kio6.24-devel kf6-ki18n6.24-devel"
 short_desc="DAV protocol implementation with KJobs"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

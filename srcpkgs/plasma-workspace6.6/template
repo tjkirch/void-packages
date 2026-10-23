@@ -1,43 +1,43 @@
-# Template file for 'plasma-workspace'
+# Template file for 'plasma-workspace6.6'
 # group=kde-plasma
-pkgname=plasma-workspace
+pkgname=plasma-workspace6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DWaylandScanner_EXECUTABLE=/usr/bin/wayland-scanner
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules iso-codes pkg-config gettext
- qt6-base qt6-tools SPIRV-Tools qt6-shadertools kf6-kcmutils kf6-kconfig
- qt6-declarative-host-tools kf6-kdoctools kf6-kwindowsystem
- kf6-kpackage kf6-kauth-tools wayland-devel"
-makedepends="qt6-declarative-private-devel libplasma-devel qt6-base-private-devel
- kf6-krunner-devel kf6-knotifyconfig-devel kf6-kdesu-devel kf6-knewstuff-devel
- kf6-kcmutils-devel kf6-kidletime-devel libksysguard-devel
- kf6-baloo-devel kf6-ktexteditor-devel kwin-devel libxcb-devel libXtst-devel
- libqalculate-devel kf6-prison-devel kf6-kholidays-devel kf6-solid-devel
- kf6-kpeople-devel kf6-kunitconversion-devel kf6-kstatusnotifieritem-devel
- libXft-devel libkf6screen-devel plasma5support-devel kf6-kitemmodels-devel
- plasma-activities-stats-devel kf6-kwallet-devel plasma-activities-devel
- kf6-kded-devel kf6-networkmanager-qt-devel kf6-kirigami-devel
- kf6-ksvg-devel kf6-kdeclarative-devel kf6-kwayland-devel qt6-location-devel
- kscreenlocker-devel plasma-wayland-protocols qt6-position-devel
- kf6-kuserfeedback-devel phonon-devel polkit-qt6-devel qt6-base-private-devel
- kpipewire-devel kirigami-addons-devel libkexiv2-devel qcoro-qt6-devel
- layer-shell-qt-devel kf6-karchive-devel kf6-kauth-devel kf6-kcoreaddons-devel
- kf6-kcrash-devel kf6-kdbusaddons-devel kf6-kglobalaccel-devel
- kf6-kguiaddons-devel kf6-ki18n-devel kf6-kiconthemes-devel kf6-kio-devel
- kf6-knotifications-devel kf6-kpackage-devel kf6-kparts-devel
- kf6-ktextwidgets-devel kf6-kcolorscheme-devel kf6-kdoctools-devel
- knighttime-devel AppStream-qt-devel eudev-libudev-devel
+hostmakedepends="extra-cmake-modules6.24 iso-codes pkg-config gettext
+ qt6-base qt6-tools SPIRV-Tools qt6-shadertools kf6-kcmutils6.24 kf6-kconfig6.24
+ qt6-declarative-host-tools kf6-kdoctools6.24 kf6-kwindowsystem6.24
+ kf6-kpackage6.24 kf6-kauth-tools wayland-devel"
+makedepends="qt6-declarative-private-devel libplasma6.6-devel qt6-base-private-devel
+ kf6-krunner6.24-devel kf6-knotifyconfig6.24-devel kf6-kdesu6.24-devel kf6-knewstuff6.24-devel
+ kf6-kcmutils6.24-devel kf6-kidletime6.24-devel libksysguard6.6-devel
+ kf6-baloo6.24-devel kf6-ktexteditor6.24-devel kwin6.6-devel libxcb-devel libXtst-devel
+ libqalculate-devel kf6-prison6.24-devel kf6-kholidays6.24-devel kf6-solid6.24-devel
+ kf6-kpeople6.24-devel kf6-kunitconversion6.24-devel kf6-kstatusnotifieritem6.24-devel
+ libXft-devel libkf6screen6.6-devel plasma5support6.6-devel kf6-kitemmodels6.24-devel
+ plasma-activities-stats6.6-devel kf6-kwallet6.24-devel plasma-activities6.6-devel
+ kf6-kded6.24-devel kf6-networkmanager-qt6.24-devel kf6-kirigami6.24-devel
+ kf6-ksvg6.24-devel kf6-kdeclarative6.24-devel kf6-kwayland-devel qt6-location-devel
+ kscreenlocker6.6-devel plasma-wayland-protocols qt6-position-devel
+ kf6-kuserfeedback6.24-devel phonon-devel polkit-qt6-devel qt6-base-private-devel
+ kpipewire6.6-devel kirigami-addons-devel libkexiv225.12-devel qcoro-qt6-devel
+ layer-shell-qt6.6-devel kf6-karchive6.24-devel kf6-kauth6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel kf6-kglobalaccel6.24-devel
+ kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel
+ kf6-knotifications6.24-devel kf6-kpackage6.24-devel kf6-kparts6.24-devel
+ kf6-ktextwidgets6.24-devel kf6-kcolorscheme6.24-devel kf6-kdoctools6.24-devel
+ knighttime6.6-devel AppStream-qt-devel eudev-libudev-devel
  wayland-devel icu-devel zlib-devel libcanberra-devel elogind-devel
- libqalculate-devel kf6-kquickcharts-devel NetworkManager-devel
+ libqalculate-devel kf6-kquickcharts6.24-devel NetworkManager-devel
  libglib-devel fontconfig-devel libxcb-devel xcb-util-devel
  xcb-util-cursor-devel xcb-util-image-devel qt6-shadertools-devel
  qt6-qt5compat-devel"
 # qt6-tools for qdbus
-depends="kactivitymanagerd kwin iso-codes milou plasma-integration kpipewire
- xorg-server-xwayland qt6-tools kf6-kquickcharts kirigami-addons"
+depends="kactivitymanagerd6.6 kwin6.6 iso-codes milou6.6 plasma-integration6.6 kpipewire6.6
+ xorg-server-xwayland qt6-tools kf6-kquickcharts6.24 kirigami-addons"
 short_desc="KDE Plasma Workspace"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, GFDL-1.2-or-later, LGPL-2.1-or-later"
@@ -62,7 +62,7 @@ kworkspace_package() {
 
 plasma-workspace-x11_package() {
 	short_desc+=" - X11 Session"
-	depends="${sourcepkg} kwin-x11"
+	depends="${sourcepkg} kwin-x116.6"
 	pkg_install() {
 		vmove usr/bin/startplasma-x11
 		vmove usr/share/xsessions/plasmax11.desktop
@@ -72,7 +72,7 @@ plasma-workspace-x11_package() {
 plasma-workspace-devel_package() {
 	short_desc+=" - development files"
 	depends="kworkspace>=${version}_${revision} qt6-base-devel
-	 qt6-declarative-devel kf6-kitemmodels-devel
+	 qt6-declarative-devel kf6-kitemmodels6.24-devel
 	 ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {
 		vmove usr/include

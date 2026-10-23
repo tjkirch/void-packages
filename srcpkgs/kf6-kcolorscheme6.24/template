@@ -1,14 +1,14 @@
-# Template file for 'kf6-kcolorscheme'
+# Template file for 'kf6-kcolorscheme6.24'
 # group=kde-frameworks
-pkgname=kf6-kcolorscheme
+pkgname=kf6-kcolorscheme6.24
 version=6.30.0
 revision=1
 build_style=cmake
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
- kf6-kconfig gettext"
-makedepends="kf6-kconfig-devel kf6-kguiaddons-devel kf6-ki18n-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
+ kf6-kconfig6.24 gettext"
+makedepends="kf6-kconfig6.24-devel kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel
  qt6-base-private-devel"
-# transitive deps from kf6-kguiaddons, for build ordering
+# transitive deps from kf6-kguiaddons6.24, for build ordering
 makedepends+=" libpyside6-devel"
 short_desc="Classes to read and interact with KColorScheme"
 maintainer="John <me@johnnynator.dev>"
@@ -23,7 +23,7 @@ shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kcolorscheme-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision}
-	 kf6-kguiaddons-devel qt6-base-devel kf6-ki18n-devel"
+	 kf6-kguiaddons6.24-devel qt6-base-devel kf6-ki18n6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

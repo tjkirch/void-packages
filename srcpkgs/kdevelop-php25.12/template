@@ -1,15 +1,15 @@
-# Template file for 'kdevelop-php'
+# Template file for 'kdevelop-php25.12'
 # group=kde-gear
-pkgname=kdevelop-php
+pkgname=kdevelop-php25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
-hostmakedepends="extra-cmake-modules qt6-base gettext tar
- kdevelop-pg-qt kf6-kconfig kf6-kcmutils"
-makedepends="kf6-knewstuff-devel kf6-kitemmodels-devel kf6-ki18n-devel
- kf6-threadweaver-devel kf6-ktexteditor-devel kf6-kcmutils-devel
- kf6-knotifyconfig-devel kdevelop-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base gettext tar
+ kdevelop-pg-qt kf6-kconfig6.24 kf6-kcmutils6.24"
+makedepends="kf6-knewstuff6.24-devel kf6-kitemmodels6.24-devel kf6-ki18n6.24-devel
+ kf6-threadweaver6.24-devel kf6-ktexteditor6.24-devel kf6-kcmutils6.24-devel
+ kf6-knotifyconfig6.24-devel kdevelop25.12-devel"
 short_desc="PHP language support for KDevelop"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"

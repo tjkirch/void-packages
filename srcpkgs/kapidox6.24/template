@@ -1,5 +1,5 @@
-# Template file for 'kapidox'
-pkgname=kapidox
+# Template file for 'kapidox6.24'
+pkgname=kapidox6.24
 version=6.29.0
 revision=1
 build_style=python3-module

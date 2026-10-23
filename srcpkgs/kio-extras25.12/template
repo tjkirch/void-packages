@@ -1,23 +1,23 @@
-# Template file for 'kio-extras'
+# Template file for 'kio-extras25.12'
 # group=kde-gear
-pkgname=kio-extras
+pkgname=kio-extras25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DWITH_LIBPROXY=ON"
-hostmakedepends="extra-cmake-modules pkg-config gperf qt6-base qt6-tools
- kf6-kdoctools kf6-kcoreaddons kf6-kio gettext KDSoap kf6-kcmutils"
-makedepends="qcoro-qt6-devel kf6-karchive-devel kf6-kconfig-devel
- kf6-kconfigwidgets-devel kf6-kcoreaddons-devel kf6-kdbusaddons-devel
- kf6-kdoctools-devel kf6-kdnssd-devel kf6-ki18n-devel kf6-kio-devel
- kf6-solid-devel kf6-kguiaddons-devel kf6-syntax-highlighting-devel
- kf6-kcmutils-devel kf6-ktextwidgets-devel plasma-activities-devel
- plasma-activities-stats-devel phonon-devel samba-devel libssh-devel
+hostmakedepends="extra-cmake-modules6.24 pkg-config gperf qt6-base qt6-tools
+ kf6-kdoctools6.24 kf6-kcoreaddons6.24 kf6-kio6.24 gettext KDSoap kf6-kcmutils6.24"
+makedepends="qcoro-qt6-devel kf6-karchive6.24-devel kf6-kconfig6.24-devel
+ kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6.24-devel kf6-kdbusaddons6.24-devel
+ kf6-kdoctools6.24-devel kf6-kdnssd6.24-devel kf6-ki18n6.24-devel kf6-kio6.24-devel
+ kf6-solid6.24-devel kf6-kguiaddons6.24-devel kf6-syntax-highlighting6.24-devel
+ kf6-kcmutils6.24-devel kf6-ktextwidgets6.24-devel plasma-activities6.6-devel
+ plasma-activities-stats6.6-devel phonon-devel samba-devel libssh-devel
  libmtp-devel libimobiledevice-devel libplist-devel KDSoap-devel
- libtirpc-devel libopenexr-devel taglib-devel libkexiv2-devel libnfs-devel
- libproxy-devel qt6-svg-devel qt6-base-private-devel kf6-knotifications-devel
+ libtirpc-devel libopenexr-devel taglib-devel libkexiv225.12-devel libnfs-devel
+ libproxy-devel qt6-svg-devel qt6-base-private-devel kf6-knotifications6.24-devel
  kdsoap-ws-discovery-client-devel qt6-qt5compat-devel"
 short_desc="Additional KIO components"
 maintainer="Orphaned <orphan@voidlinux.org>"

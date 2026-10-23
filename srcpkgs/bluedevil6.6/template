@@ -1,19 +1,19 @@
-# Template file for 'bluedevil'
+# Template file for 'bluedevil6.6'
 # group=kde-plasma
-pkgname=bluedevil
+pkgname=bluedevil6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
- qt6-declarative-host-tools kf6-kcmutils kf6-kpackage"
-makedepends="kf6-bluez-qt-devel kf6-kded-devel kf6-kio-devel kf6-kcmutils-devel
- kf6-kcoreaddons-devel kf6-kdbusaddons-devel kf6-ki18n-devel kf6-kjobwidgets-devel
- kf6-knotifications-devel kf6-kservice-devel kf6-kwidgetsaddons-devel
- kf6-kwindowsystem-devel
- kf6-ksvg-devel kf6-kpackage-devel libplasma-devel qt6-declarative-devel"
-depends="kf6-kirigami"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
+ qt6-declarative-host-tools kf6-kcmutils6.24 kf6-kpackage6.24"
+makedepends="kf6-bluez-qt6.24-devel kf6-kded6.24-devel kf6-kio6.24-devel kf6-kcmutils6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-kdbusaddons6.24-devel kf6-ki18n6.24-devel kf6-kjobwidgets6.24-devel
+ kf6-knotifications6.24-devel kf6-kservice6.24-devel kf6-kwidgetsaddons6.24-devel
+ kf6-kwindowsystem6.24-devel
+ kf6-ksvg6.24-devel kf6-kpackage6.24-devel libplasma6.6-devel qt6-declarative-devel"
+depends="kf6-kirigami6.24"
 short_desc="KDE Bluetooth integration"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

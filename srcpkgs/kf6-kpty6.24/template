@@ -1,13 +1,13 @@
-# Template file for 'kf6-kpty'
+# Template file for 'kf6-kpty6.24'
 # group=kde-frameworks
-pkgname=kf6-kpty
+pkgname=kf6-kpty6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DUTEMPTER_EXECUTABLE=/usr/lib/utempter/utempter"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  gettext"
-makedepends="kf6-kcoreaddons-devel kf6-ki18n-devel libutempter-devel"
+makedepends="kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel libutempter-devel"
 short_desc="KDE Interfacing with pseudo terminal devices"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"

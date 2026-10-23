@@ -1,6 +1,6 @@
-# Template file for 'kmines'
+# Template file for 'kmines25.12'
 # group=kde-gear
-pkgname=kmines
+pkgname=kmines25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools kf6-kdoctools
- kf6-kconfig kf6-kcoreaddons gettext"
-makedepends="kf6-kconfig-devel kf6-kconfigwidgets-devel kf6-kcoreaddons-devel
- kf6-kcrash-devel kf6-kdbusaddons-devel kf6-kdoctools-devel kf6-ki18n-devel
- kf6-ktextwidgets-devel kf6-kxmlgui-devel libkdegames-devel kf6-kio-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kdoctools6.24
+ kf6-kconfig6.24 kf6-kcoreaddons6.24 gettext"
+makedepends="kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel kf6-ki18n6.24-devel
+ kf6-ktextwidgets6.24-devel kf6-kxmlgui6.24-devel libkdegames25.12-devel kf6-kio6.24-devel"
 short_desc="Classic Minesweeper game"
 maintainer="toluschr <toluschr@protonmail.com>"
 license="GPL-2.0-or-later"

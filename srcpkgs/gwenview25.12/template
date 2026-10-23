@@ -1,22 +1,22 @@
-# Template file for 'gwenview'
+# Template file for 'gwenview25.12'
 # group=kde-gear
-pkgname=gwenview
+pkgname=gwenview25.12
 version=26.08.2
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules pkg-config gettext qt6-base
- qt6-tools python3 kf6-kdoctools kf6-kconfig kf6-kcoreaddons
+hostmakedepends="extra-cmake-modules6.24 pkg-config gettext qt6-base
+ qt6-tools python3 kf6-kdoctools6.24 kf6-kconfig6.24 kf6-kcoreaddons6.24
  wayland-devel"
-makedepends="kf6-baloo-devel kf6-kdoctools-devel kf6-ki18n-devel
- kf6-kiconthemes-devel kf6-kio-devel kf6-kitemmodels-devel
- kf6-knotifications-devel kf6-kparts-devel kf6-kwindowsystem-devel
- kf6-purpose-devel plasma-activities-devel qt6-svg-devel qt6-base-devel
+makedepends="kf6-baloo6.24-devel kf6-kdoctools6.24-devel kf6-ki18n6.24-devel
+ kf6-kiconthemes6.24-devel kf6-kio6.24-devel kf6-kitemmodels6.24-devel
+ kf6-knotifications6.24-devel kf6-kparts6.24-devel kf6-kwindowsystem6.24-devel
+ kf6-purpose6.24-devel plasma-activities6.6-devel qt6-svg-devel qt6-base-devel
  qt6-base-private-devel qt6-multimedia-devel
- libkdcraw-qt6-devel libpng-devel libjpeg-turbo-devel lcms2-devel wayland-devel
+ libkdcraw-qt6-25.12-devel libpng-devel libjpeg-turbo-devel lcms2-devel wayland-devel
  kImageAnnotator-devel phonon-devel cfitsio-devel"
-depends="qt6-imageformats kf6-kimageformats"
+depends="qt6-imageformats kf6-kimageformats6.24"
 short_desc="Fast and easy to use image viewer by KDE"
 maintainer="Helmut Pozimski <helmut@pozimski.eu>"
 license="GPL-2.0-or-later"

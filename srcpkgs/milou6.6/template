@@ -1,17 +1,17 @@
-# Template file for 'milou'
+# Template file for 'milou6.6'
 # group=kde-plasma
-pkgname=milou
+pkgname=milou6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
- kf6-kconfig kf6-kpackage qt6-declarative-host-tools"
-makedepends="kf6-krunner-devel kf6-kitemmodels-devel kf6-ksvg-devel
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
+ kf6-kconfig6.24 kf6-kpackage6.24 qt6-declarative-host-tools"
+makedepends="kf6-krunner6.24-devel kf6-kitemmodels6.24-devel kf6-ksvg6.24-devel
  qt6-declarative-devel qt6-base-private-devel
- kf6-kpackage-devel kf6-kwindowsystem-devel libplasma-devel"
+ kf6-kpackage6.24-devel kf6-kwindowsystem6.24-devel libplasma6.6-devel"
 short_desc="KDE dedicated search application built on top of Baloo"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

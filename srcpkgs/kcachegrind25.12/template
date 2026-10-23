@@ -1,16 +1,16 @@
-# Template file for 'kcachegrind'
+# Template file for 'kcachegrind25.12'
 # group=kde-gear
-pkgname=kcachegrind
+pkgname=kcachegrind25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools kf6-kconfig
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24 kf6-kconfig6.24
  pkg-config qt6-tools qt6-base"
-makedepends="kf6-karchive-devel kf6-kcoreaddons-devel kf6-kdoctools-devel
- kf6-kwidgetsaddons-devel kf6-kxmlgui-devel kf6-ki18n-devel kf6-kconfig-devel
- kf6-kio-devel kf6-kdbusaddons-devel"
+makedepends="kf6-karchive6.24-devel kf6-kcoreaddons6.24-devel kf6-kdoctools6.24-devel
+ kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-ki18n6.24-devel kf6-kconfig6.24-devel
+ kf6-kio6.24-devel kf6-kdbusaddons6.24-devel"
 depends="python3 hicolor-icon-theme"
 short_desc="Visualization of Performance Profiling Data"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"

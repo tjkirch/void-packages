@@ -1,18 +1,18 @@
-# Template file for 'kf6-grantleetheme'
+# Template file for 'kf6-grantleetheme25.12'
 # group=kde-gear
-pkgname=kf6-grantleetheme
+pkgname=kf6-grantleetheme25.12
 version=26.08.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-base python3
- gettext kf6-kcoreaddons kf6-kconfig"
+hostmakedepends="extra-cmake-modules6.24 qt6-base python3
+ gettext kf6-kcoreaddons6.24 kf6-kconfig6.24"
 makedepends="qt6-base-devel
- kf6-kguiaddons-devel
- kf6-ki18n-devel kf6-kiconthemes-devel kf6-knewstuff-devel
- kf6-kxmlgui-devel
- kf6-kcolorscheme-devel
- kf6-ktexttemplate-devel"
+ kf6-kguiaddons6.24-devel
+ kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-knewstuff6.24-devel
+ kf6-kxmlgui6.24-devel
+ kf6-kcolorscheme6.24-devel
+ kf6-ktexttemplate6.24-devel"
 short_desc="Library for Grantlee theming support"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"

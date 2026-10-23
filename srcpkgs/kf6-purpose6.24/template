@@ -1,18 +1,18 @@
-# Template file for 'kf6-purpose'
+# Template file for 'kf6-purpose6.24'
 # group=kde-frameworks
-pkgname=kf6-purpose
+pkgname=kf6-purpose6.24
 version=6.30.0
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules qt6-tools qt6-base qt6-wayland-client
- qt6-declarative-host-tools gettext kf6-kconfig kf6-kitemmodels
- accounts-qml-module kf6-prison kf6-kdeclarative"
-makedepends="qt6-declarative-devel kf6-kcoreaddons-devel kf6-ki18n-devel
- kf6-kirigami-devel kf6-knotifications-devel kf6-kio-devel
- kf6-kaccounts-integration-devel"
-depends="accounts-qml-module kf6-prison kf6-kdeclarative kf6-kitemmodels"
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base qt6-wayland-client
+ qt6-declarative-host-tools gettext kf6-kconfig6.24 kf6-kitemmodels6.24
+ accounts-qml-module kf6-prison6.24 kf6-kdeclarative6.24"
+makedepends="qt6-declarative-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
+ kf6-kirigami6.24-devel kf6-knotifications6.24-devel kf6-kio6.24-devel
+ kf6-kaccounts-integration25.12-devel"
+depends="accounts-qml-module kf6-prison6.24 kf6-kdeclarative6.24 kf6-kitemmodels6.24"
 short_desc="Offers available actions for a specific purpose"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
@@ -25,7 +25,7 @@ makedepends+=" kf6-base"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-purpose-devel_package() {
-	depends="${sourcepkg}>=${version}_${revision} kf6-kcoreaddons-devel"
+	depends="${sourcepkg}>=${version}_${revision} kf6-kcoreaddons6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {
 		vmove usr/include

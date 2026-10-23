@@ -1,6 +1,6 @@
-# Template file for 'kturtle'
+# Template file for 'kturtle25.12'
 # group=kde-gear
-pkgname=kturtle
+pkgname=kturtle25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules gettext kf6-kcoreaddons kf6-kdoctools
- pkg-config qt6-base qt6-tools kf6-kconfig"
-makedepends="qt6-qt5compat-devel qt6-svg-devel kf6-kcrash-devel kf6-kio-devel
- kf6-knewstuff-devel kf6-ktextwidgets-devel kf6-ki18n-devel kf6-kcoreaddons-devel
- kf6-kxmlgui-devel"
+hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24
+ pkg-config qt6-base qt6-tools kf6-kconfig6.24"
+makedepends="qt6-qt5compat-devel qt6-svg-devel kf6-kcrash6.24-devel kf6-kio6.24-devel
+ kf6-knewstuff6.24-devel kf6-ktextwidgets6.24-devel kf6-ki18n6.24-devel kf6-kcoreaddons6.24-devel
+ kf6-kxmlgui6.24-devel"
 short_desc="Educational Programming Environment"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later, GFDL-1.2-only"

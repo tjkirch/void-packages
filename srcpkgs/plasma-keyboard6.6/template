@@ -1,19 +1,19 @@
-# Template file for 'plasma-keyboard'
+# Template file for 'plasma-keyboard6.6'
 # group=kde-plasma
-pkgname=plasma-keyboard
+pkgname=plasma-keyboard6.6
 version=6.7.5
 revision=2
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules gettext wayland-devel
+hostmakedepends="extra-cmake-modules6.24 gettext wayland-devel
  wayland-protocols plasma-wayland-protocols pkg-config
  qt6-declarative-host-tools qt6-base qt6-tools
- kf6-kcmutils kf6-kconfig kf6-kpackage"
-makedepends="libplasma-devel kf6-kcoreaddons-devel kf6-ki18n-devel
- kf6-kcmutils-devel kf6-kconfig-devel qt6-virtualkeyboard-devel
- qt6-wayland-private-devel qt6-base-private-devel kf6-kcrash-devel
- kf6-kirigami-devel"
+ kf6-kcmutils6.24 kf6-kconfig6.24 kf6-kpackage6.24"
+makedepends="libplasma6.6-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
+ kf6-kcmutils6.24-devel kf6-kconfig6.24-devel qt6-virtualkeyboard-devel
+ qt6-wayland-private-devel qt6-base-private-devel kf6-kcrash6.24-devel
+ kf6-kirigami6.24-devel"
 short_desc="Virtual Keyboard for Qt based desktops"
 maintainer="John <me@johnnynator.dev>"
 license="(GPL-2.0-only OR GPL-3.0-only OR custom:LicenseRef-KDE-Accepted-GPL) AND GPL-3.0-or-later AND (LGPL-2.1-only OR LGPL-3.0-only OR custom:LicenseRef-KDE-Accepted-LGPL)"

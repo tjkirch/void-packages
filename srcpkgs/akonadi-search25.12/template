@@ -1,6 +1,6 @@
-# Template file for 'akonadi-search'
+# Template file for 'akonadi-search25.12'
 # group=kde-gear
-pkgname=akonadi-search
+pkgname=akonadi-search25.12
 version=26.08.1
 revision=1
 build_style=cmake
@@ -9,11 +9,11 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
-hostmakedepends="extra-cmake-modules qt6-base qt6-tools python3 AppStream
- gettext kf6-kcoreaddons kf6-kpackage corrosion cargo kf6-kconfig kf6-kcmutils"
-makedepends="kf6-akonadi-devel akonadi-mime-devel xapian-core-devel rust-std
- ktextaddons-devel kf6-krunner-devel
- kf6-kcmutils-devel kf6-kcontacts-devel kf6-kcalendarcore-devel"
+hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3 AppStream
+ gettext kf6-kcoreaddons6.24 kf6-kpackage6.24 corrosion cargo kf6-kconfig6.24 kf6-kcmutils6.24"
+makedepends="kf6-akonadi25.12-devel akonadi-mime25.12-devel xapian-core-devel rust-std
+ ktextaddons-devel kf6-krunner6.24-devel
+ kf6-kcmutils6.24-devel kf6-kcontacts6.24-devel kf6-kcalendarcore6.24-devel"
 short_desc="Libraries and daemons to implement searching in Akonadi"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
