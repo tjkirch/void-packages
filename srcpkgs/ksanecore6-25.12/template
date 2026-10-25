@@ -17,7 +17,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/ksanecore-${version}.tar.x
 checksum=0555c4109b6132a774ce4081c12d9deeed8fdb152fa65714f7f73cb20965494d
 conflicts="ksanecore6"
 
-ksanecore6-devel_package() {
+ksanecore6-25.12-devel_package() {
 	conflicts="ksanecore6-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

@@ -37,14 +37,14 @@ editannotationcontentstest|addremoveannotationtest|translateannotationtest|modif
 editformstest|calculatetexttest|mainshelltest|annotationtoolbartest|signatureformtest|jsfunctionstest|editannotationcontentstest|editformstest"
 }
 
-libokular_package() {
+libokular25.12_package() {
 	short_desc+=" - runtime library"
 	pkg_install() {
 		vmove "usr/lib/*.so.*"
 	}
 }
 
-libokular-devel_package() {
+libokular25.12-devel_package() {
 	conflicts="okular-devel"
 	short_desc+=" - development files"
 	depends="lib${sourcepkg}>=${version}_${revision}"

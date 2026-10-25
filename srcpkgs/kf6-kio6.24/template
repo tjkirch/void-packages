@@ -60,7 +60,7 @@ do_check() {
 	dbus-run-session xvfb-run ctest -E "($( echo ${tests[@]} | tr " " "|"))"
 }
 
-kf6-kio-devel_package() {
+kf6-kio6.24-devel_package() {
 	conflicts="kf6-kio-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kbookmarks6.24-devel kf6-kcompletion6.24-devel kf6-kitemviews6.24-devel

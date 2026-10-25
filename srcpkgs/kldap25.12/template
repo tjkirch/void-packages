@@ -17,7 +17,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/kldap-${version}.tar.xz"
 checksum=e4be78254cfd19976544ad10981bae5aacdd96b778a9eaa4cec28be233722505
 conflicts="kldap"
 
-kldap-devel_package() {
+kldap25.12-devel_package() {
 	conflicts="kldap-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

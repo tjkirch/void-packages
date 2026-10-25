@@ -24,7 +24,7 @@ do_check() {
 	: # XXX: QFATAL : FakeServerTest::testLoadScenario() Unable to start the server
 }
 
-kimap-devel_package() {
+kimap25.12-devel_package() {
 	conflicts="kimap-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"

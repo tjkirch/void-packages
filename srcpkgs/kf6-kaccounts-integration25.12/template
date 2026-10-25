@@ -28,7 +28,7 @@ if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
 	depends+=" signon-ui"
 fi
 
-kf6-kaccounts-integration-devel_package() {
+kf6-kaccounts-integration25.12-devel_package() {
 	conflicts="kf6-kaccounts-integration-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel

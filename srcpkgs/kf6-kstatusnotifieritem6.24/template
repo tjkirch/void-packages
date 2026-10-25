@@ -35,7 +35,7 @@ case "$XBPS_TARGET_MACHINE" in
 	arm*) configure_args+=" -DSHIBOKEN_GENERATOR_EXTRA_FLAGS=--clang-option=-mfloat-abi=hard" ;;
 esac
 
-kf6-kstatusnotifieritem-devel_package() {
+kf6-kstatusnotifieritem6.24-devel_package() {
 	conflicts="kf6-kstatusnotifieritem-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kwindowsystem6.24-devel"

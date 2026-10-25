@@ -23,7 +23,7 @@ do_check() {
 	:
 }
 
-libkgapi-devel_package() {
+libkgapi25.12-devel_package() {
 	conflicts="libkgapi-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}-${version}_${revision} ${makedepends}"

@@ -34,7 +34,7 @@ do_check() {
 	dbus-run-session ctest -E "($broken)"
 }
 
-mailcommon-devel_package() {
+mailcommon25.12-devel_package() {
 	conflicts="mailcommon-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-akonadi25.12-devel libkdepim25.12-devel kf6-kmime25.12-devel kf6-kconfig6.24-devel

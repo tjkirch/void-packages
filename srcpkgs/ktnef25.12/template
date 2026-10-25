@@ -19,7 +19,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/ktnef-${version}.tar.xz"
 checksum=f044833403ac6d9352287ccaed35af4eea07a95b9d89dfb740b01061e5af48a1
 conflicts="ktnef"
 
-ktnef-devel_package() {
+ktnef25.12-devel_package() {
 	conflicts="ktnef-devel"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

@@ -45,7 +45,7 @@ do_check() {
 	ctest -E "kformattest"
 }
 
-kf6-kcoreaddons-devel_package() {
+kf6-kcoreaddons6.24-devel_package() {
 	conflicts="kf6-kcoreaddons-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

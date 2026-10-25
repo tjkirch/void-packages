@@ -30,7 +30,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/libkdegames-${version}.tar
 checksum=5644fb0ffc9074465fda0d533e5cf5cd663197fddfafa3e749468eeba58640cb
 conflicts="libkdegames"
 
-libkdegames-devel_package() {
+libkdegames25.12-devel_package() {
 	conflicts="libkdegames-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

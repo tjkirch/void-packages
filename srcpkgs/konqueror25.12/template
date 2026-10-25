@@ -33,7 +33,7 @@ do_check() {
 	:
 }
 
-konqueror-devel_package() {
+konqueror25.12-devel_package() {
 	conflicts="konqueror-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}>=${version}_${revision} kf6-kxmlgui6.24-devel

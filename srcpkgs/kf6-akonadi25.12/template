@@ -52,7 +52,7 @@ do_check() {
 		"(AkonadiServer-dbconfig|entitytreemodel|akonadixml-xmldocument|mimetypechecker|AkonadiControl-agenttype|.*sqlite.*)test|AkonadiServer-itemcreatehandlertest|tagmodeltest"
 }
 
-kf6-akonadi-devel_package() {
+kf6-akonadi25.12-devel_package() {
 	conflicts="kf6-akonadi-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"

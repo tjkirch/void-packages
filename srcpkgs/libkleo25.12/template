@@ -25,7 +25,7 @@ do_check() {
 	ctest -E 'newkeyapprovaldialogtest'
 }
 
-libkleo-devel_package() {
+libkleo25.12-devel_package() {
 	conflicts="libkleo-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 gpgmepp-devel gpgme-qt6-devel kf6-kconfig6.24-devel qt6-base-devel

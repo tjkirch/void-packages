@@ -30,7 +30,7 @@ do_check() {
 	ctest -E "($broken)"
 }
 
-libkcddb6-devel_package() {
+libkcddb6-25.12-devel_package() {
 	conflicts="libkcddb6-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
