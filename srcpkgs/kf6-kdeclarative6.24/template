@@ -16,12 +16,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdeclarative"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=7ec3583a2cf2cd7143e39936ffb39e22d20563f4c87a8462e0e9d12c59ea89a6
+conflicts="kf6-kdeclarative"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kdeclarative-devel_package() {
+	conflicts="kf6-kdeclarative-devel"
 	depends="${sourcepkg}>=${version}_${revision} kf6-kconfig6.24-devel
 	 qt6-declarative-devel"
 	short_desc+=" - development files"

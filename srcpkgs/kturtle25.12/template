@@ -20,3 +20,4 @@ homepage="https://www.kde.org/applications/education/kturtle/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kturtle"
 distfiles="${KDE_SITE}/release-service/${version}/src/kturtle-${version}.tar.xz"
 checksum=07be25f8754521ddb0d14510133cc0e82227b7a3d659abdc05b2268121df5e1c
+conflicts="kturtle"

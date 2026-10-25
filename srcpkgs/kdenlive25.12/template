@@ -29,6 +29,7 @@ license="GPL-3.0-or-later"
 homepage="https://kdenlive.org"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdenlive-${version}.tar.xz"
 checksum=8a0e2cc6451de6901fec778a8b6d00165399879233a264ca5bb1b1b283266513
+conflicts="kdenlive"
 
 case "$XBPS_TARGET_MACHINE" in
 	ppc64*) depends+=" opencv";;

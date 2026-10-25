@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kfilemetadata"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=5e14cd8e395e927042cb3eb7cff47e0effda5e8bf2520cf18d1082a9403b2e62
+conflicts="kf6-kfilemetadata"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -28,6 +29,7 @@ do_check() {
 }
 
 kf6-kfilemetadata-devel_package() {
+	conflicts="kf6-kfilemetadata-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

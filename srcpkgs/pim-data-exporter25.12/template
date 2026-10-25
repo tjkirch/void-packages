@@ -18,6 +18,7 @@ license="GPL-2.0-or-later"
 homepage="https://kontact.kde.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=597b9a5c4bf5d643d9da967ba58770aaf6a42ecb5e08dc11860a1cf37384d651
+conflicts="pim-data-exporter"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"

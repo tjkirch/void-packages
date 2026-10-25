@@ -14,12 +14,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/solid"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=bdbfdc9f26b87e12b951097825af2956f2dee3f14c701d780277b69701f2c74e
+conflicts="kf6-solid"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-solid-devel_package() {
+	conflicts="kf6-solid-devel"
 	depends="qt6-base-devel ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

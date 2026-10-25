@@ -12,12 +12,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcompletion"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=96ad9c429ca53b830359c45614ca4c32ed6b759f3023f1b3db1650ba1c19bd58
+conflicts="kf6-kcompletion"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kcompletion-devel_package() {
+	conflicts="kf6-kcompletion-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

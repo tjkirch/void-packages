@@ -20,3 +20,4 @@ homepage="https://kde.org/applications/games/palapeli"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#palapeli"
 distfiles="${KDE_SITE}/release-service/${version}/src/palapeli-${version}.tar.xz"
 checksum=7d117962db230e30fad9fa00e3604fa352010d2d050fe850b6db4bd20c651825
+conflicts="palapeli"

@@ -20,3 +20,4 @@ homepage="https://kde.org/applications/games/org.kde.kmines"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kmines"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmines-${version}.tar.xz"
 checksum=0097fd3f17033f9a8ad518ce613ceb0920668a3c7fd6321af6ab18fa2c058074
+conflicts="kmines"

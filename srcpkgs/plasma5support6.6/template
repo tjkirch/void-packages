@@ -20,6 +20,7 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma5support"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=dcd58d280b9c3f9570b1790134f692374ecae633cd15c60b1ee76947d5543e80
+conflicts="plasma5support"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
@@ -31,6 +32,7 @@ do_check() {
 }
 
 plasma5support-devel_package() {
+	conflicts="plasma5support-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

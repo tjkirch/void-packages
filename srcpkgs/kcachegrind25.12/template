@@ -19,4 +19,5 @@ homepage="https://kde.org/applications/development/kcachegrind/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcachegrind"
 distfiles="${KDE_SITE}/release-service/${version}/src/kcachegrind-${version}.tar.xz"
 checksum=179753cb1884fbad0ad43517ef660dda4ceeb161be741fcd54553485d7fbd852
+conflicts="kcachegrind"
 python_version=3

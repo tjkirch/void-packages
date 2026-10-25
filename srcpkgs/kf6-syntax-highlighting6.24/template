@@ -17,6 +17,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/syntax-highlighting"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=fc429b093058bec4878306cbbfb3aa0560ff4a3f166c69504036c507fe72afcc
+conflicts="kf6-syntax-highlighting"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -34,6 +35,7 @@ post_install() {
 }
 
 kf6-syntax-highlighting-devel_package() {
+	conflicts="kf6-syntax-highlighting-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

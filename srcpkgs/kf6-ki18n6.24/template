@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ki18n"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=dfbfc8af89b3bc68810b094bf87746db87c3eeb35b75caeb1882681ebed563bd
+conflicts="kf6-ki18n"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -28,6 +29,7 @@ do_check() {
 }
 
 kf6-ki18n-devel_package() {
+	conflicts="kf6-ki18n-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

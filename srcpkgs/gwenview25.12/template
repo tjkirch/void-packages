@@ -23,3 +23,4 @@ license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/graphics/gwenview"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=bc6eb96196daeb5879e3551b834e65e296409d2252804ee26fedcbb376826a72
+conflicts="gwenview"

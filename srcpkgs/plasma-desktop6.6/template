@@ -36,6 +36,7 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-lat
 homepage="https://invent.kde.org/plasma/plasma-desktop"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=079fcf6b87d7bf65e3f2a4670d605fac9469344c279a285a98ad549332d7b53e
+conflicts="plasma-desktop"
 replaces="user-manager>=0"
 python_version=3
 

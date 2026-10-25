@@ -22,3 +22,4 @@ homepage="https://invent.kde.org/graphics/svgpart"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#svgpart"
 distfiles="${KDE_SITE}/release-service/${version}/src/svgpart-${version}.tar.xz"
 checksum=4523b439a76ec06bce4309ddfc177769f0d67c43b66b4c4f7f611d7d6e9c7468
+conflicts="svgpart"

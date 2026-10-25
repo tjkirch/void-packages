@@ -24,3 +24,4 @@ homepage="https://invent.kde.org/utilities/kdialog"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdialog"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdialog-${version}.tar.xz"
 checksum=e7142c812d2b4b202abd12bea054f8368fdba9bb0552a9f46d3a7d7283339c72
+conflicts="kdialog"

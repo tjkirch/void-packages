@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/oxygen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname%-qt5}-${version}.tar.xz"
 checksum=ffa4b969197f6e09a6ee4f468925e67223666d761ee9801a8ea612e09b756037
+conflicts="oxygen-qt5"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

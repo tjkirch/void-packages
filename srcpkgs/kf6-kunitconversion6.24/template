@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kunitconversion"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=3dcaa45875bab5a2dcadc34cf57cf06689b8d86ff40e20fee01ca2b18987175f
+conflicts="kf6-kunitconversion"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -35,6 +36,7 @@ case "$XBPS_TARGET_MACHINE" in
 esac
 
 kf6-kunitconversion-devel_package() {
+	conflicts="kf6-kunitconversion-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

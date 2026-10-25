@@ -17,6 +17,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/krunner"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=0885d0936aec6dc8553c673f1c685013e345b933a52812a07c5bddd1eebdb551
+conflicts="kf6-krunner"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -28,6 +29,7 @@ do_check() {
 }
 
 kf6-krunner-devel_package() {
+	conflicts="kf6-krunner-devel"
 	depends="${makedepends//private-} ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

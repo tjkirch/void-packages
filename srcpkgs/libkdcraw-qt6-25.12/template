@@ -14,8 +14,10 @@ license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/graphics/"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkdcraw-${version}.tar.xz"
 checksum=cf49479043a75557f82b0213019c45291d612267e454b66d939f04b189c4f182
+conflicts="libkdcraw-qt6"
 
 libkdcraw-qt6-devel_package() {
+	conflicts="libkdcraw-qt6-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

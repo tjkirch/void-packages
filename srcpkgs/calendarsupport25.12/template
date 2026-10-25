@@ -17,12 +17,14 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/calendarsupport-${version}.tar.xz"
 checksum=6490d2a70fcf393a8af1daaf571ba0b88972f9ab1b091ffb2dff19ac520423bc
+conflicts="calendarsupport"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"
 fi
 
 calendarsupport-devel_package() {
+	conflicts="calendarsupport-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

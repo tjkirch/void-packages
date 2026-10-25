@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kuserfeedback"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=c8a463c8e570f6d532cbe150732220575c6385df97c91399b6c84450691771ca
+conflicts="kf6-kuserfeedback"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -28,6 +29,7 @@ do_check() {
 }
 
 kf6-kuserfeedback-devel_package() {
+	conflicts="kf6-kuserfeedback-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

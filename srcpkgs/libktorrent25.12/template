@@ -18,8 +18,10 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/en/ktorrent"
 distfiles="${KDE_SITE}/release-service/${version}/src/libktorrent-${version}.tar.xz"
 checksum=0a55d129024f39b474ceb108bfa536caca15fea6cb0fb3aa7bb0b87acc476845
+conflicts="libktorrent"
 
 libktorrent-devel_package() {
+	conflicts="libktorrent-devel"
 	depends="${sourcepkg}>=${version}_${revision} kf6-karchive6.24-devel
 	 kf6-kio6.24-devel kf6-solid6.24-devel kf6-ki18n6.24-devel qt6-base-devel
 	 libgcrypt-devel gmp-devel boost-headers"

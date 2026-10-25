@@ -17,6 +17,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kjobwidgets"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=bf36e3619df1c6ad3d900bd36433d97ab295be41c1cc401ff0e766380788bbae
+conflicts="kf6-kjobwidgets"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -36,6 +37,7 @@ case "$XBPS_TARGET_MACHINE" in
 esac
 
 kf6-kjobwidgets-devel_package() {
+	conflicts="kf6-kjobwidgets-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kcoreaddons6.24-devel"
 	short_desc+=" - development files"

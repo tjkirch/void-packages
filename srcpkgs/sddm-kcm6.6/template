@@ -17,6 +17,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/sddm-kcm"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=b7641d15996f590df27d8f820dffc79d83ce9e4e19a88f03bb1d8651faa25887
+conflicts="sddm-kcm"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

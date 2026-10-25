@@ -22,6 +22,7 @@ license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later, AGPL-3.0-or-late
 homepage="https://invent.kde.org/unmaintained/kdepimlibs"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=524910cc66b8279c1fa8eba517ec63121e4b74cccbfe0549d73ddf5cfd6ee837
+conflicts="kdepim-runtime"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"

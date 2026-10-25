@@ -14,12 +14,14 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-activities-stats"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=9896396e29d5841c7a0f42814ced01ab58fcad406a552ddee2c950f205549acf
+conflicts="plasma-activities-stats"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 plasma-activities-stats-devel_package() {
+	conflicts="plasma-activities-stats-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

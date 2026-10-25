@@ -20,6 +20,7 @@ homepage="https://apps.kde.org/kweather/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kweather"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=21b61ca4a29f49c2ab717624605e9dbe0abd8054aac2fd26098492f29c871cfa
+conflicts="kweather"
 
 # build ordering
 makedepends+=" kf6-ksvg6.24-devel"

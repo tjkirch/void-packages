@@ -13,6 +13,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdav"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=08d95cf546c941dbe21a76fbc8b88a466f276ab29e866600994f4f60d604c7f4
+conflicts="kf6-kdav"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -20,6 +21,7 @@ shlib_requires="KDE_Frameworks.${version%.*}"
 replaces="kdav>=0"
 
 kf6-kdav-devel_package() {
+	conflicts="kf6-kdav-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

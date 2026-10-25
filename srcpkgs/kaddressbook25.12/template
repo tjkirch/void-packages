@@ -18,8 +18,10 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.kaddressbook"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=fb37324db737ccdb3f8680ed7b1f03ac24418aeb6f1545e78486c2b9b05cdec9
+conflicts="kaddressbook"
 
 kaddressbook-devel_package() {
+	conflicts="kaddressbook-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

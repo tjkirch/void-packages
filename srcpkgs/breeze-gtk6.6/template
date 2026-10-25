@@ -13,6 +13,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/breeze-gtk"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=4e0e913b0515de75492155d028c086c4a522a3f68ebb6f4fab10f8bc646cd518
+conflicts="breeze-gtk"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

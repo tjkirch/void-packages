@@ -14,8 +14,10 @@ homepage="https://projects.kde.org/projects/kde/kdegraphics-mobipocket"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdegraphics-mobipocket"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdegraphics-mobipocket-${version}.tar.xz"
 checksum=69ec5076b02332f23d96cfd7b560ae716726bfab2984ce0285e0a67c1270522a
+conflicts="libqmobipocket6"
 
 libqmobipocket6-devel_package() {
+	conflicts="libqmobipocket6-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

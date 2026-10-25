@@ -23,3 +23,4 @@ homepage="https://apps.kde.org/kteatime/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kteatime"
 distfiles="${KDE_SITE}/release-service/${version}/src/kteatime-${version}.tar.xz"
 checksum=4b047d3c4682b05a12b8e93f8ec2506b5911e31d812d30755ec24c3a7b1b2572
+conflicts="kteatime"

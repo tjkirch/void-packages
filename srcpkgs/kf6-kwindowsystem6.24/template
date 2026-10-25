@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwindowsystem"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=639a501b877446b19905399d27e2be2b6ebb0bb481abe3209dc4d535a12e12ca
+conflicts="kf6-kwindowsystem"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -47,6 +48,7 @@ do_check() {
 }
 
 kf6-kwindowsystem-devel_package() {
+	conflicts="kf6-kwindowsystem-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"
 	pkg_install() {

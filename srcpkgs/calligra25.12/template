@@ -36,6 +36,7 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://www.calligra-suite.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/calligra-${version}.tar.xz"
 checksum=9084f93eccd3b865d638ae8cb989bcb334edea6f550ba6874a282048284fcccc
+conflicts="calligra"
 
 replaces="calligra-braindump>=0 calligra-flow>=0"
 

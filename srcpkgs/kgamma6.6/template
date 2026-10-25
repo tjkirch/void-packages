@@ -16,6 +16,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kgamma"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=b45ad6608693034046b65bf68a3843f394f78def02c6f059bc69c5de07cace57
+conflicts="kgamma"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

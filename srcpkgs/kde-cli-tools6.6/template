@@ -20,6 +20,7 @@ license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kde-cli-tools"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=18f3c421b305003caf73f9e9fbec09fbf30f472dbe81fec328046cca7883a31d
+conflicts="kde-cli-tools"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

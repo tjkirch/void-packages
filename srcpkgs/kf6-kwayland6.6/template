@@ -15,12 +15,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kwayland"
 distfiles="${KDE_SITE}/plasma/${version}/kwayland-${version}.tar.xz"
 checksum=8d4c83524919dc87b5dec546d0fb14c591c03957888cb7b240a4a9d1bbdc8269
+conflicts="kf6-kwayland"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 kf6-kwayland-devel_package() {
+	conflicts="kf6-kwayland-devel"
 	short_desc+=" - development"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	pkg_install() {

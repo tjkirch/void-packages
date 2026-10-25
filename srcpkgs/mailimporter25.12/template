@@ -17,8 +17,10 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/mailimporter-${version}.tar.xz"
 checksum=e3181bb3502a5433be41af82ade8012ae50f970ca4c2092068b0ab399b757752
+conflicts="mailimporter"
 
 mailimporter-devel_package() {
+	conflicts="mailimporter-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

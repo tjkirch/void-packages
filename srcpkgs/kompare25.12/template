@@ -27,3 +27,4 @@ homepage="https://www.kde.org/applications/development/kompare/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kompare"
 distfiles="${KDE_SITE}/release-service/${version}/src/kompare-${version}.tar.xz"
 checksum=0bf656d9bab64b710a7dc44458cba13d4afbe09acff98ff63280efdec7950dcc
+conflicts="kompare"

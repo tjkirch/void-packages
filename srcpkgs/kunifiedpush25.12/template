@@ -16,9 +16,11 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/libraries/kunifiedpush"
 distfiles="${KDE_SITE}/release-service/${version}/src/kunifiedpush-${version}.tar.xz"
 checksum=818476fbf87df903f92f875302ab9d76fc136d05f42530d35f58f3cc10f0a904
+conflicts="kunifiedpush"
 make_check_pre="dbus-run-session"
 
 kunifiedpush-devel_package() {
+	conflicts="kunifiedpush-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

@@ -21,6 +21,7 @@ homepage="https://invent.kde.org/network/kaccounts-integration"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kaccounts-integration"
 distfiles="${KDE_SITE}/release-service/${version}/src/kaccounts-integration-${version}.tar.xz"
 checksum=7b12dc58c368690428ccaa71528f1dfe231eb99fc3a222cf2a8d6cf93dccbb6a
+conflicts="kf6-kaccounts-integration"
 
 # depends on webengine
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
@@ -28,6 +29,7 @@ if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
 fi
 
 kf6-kaccounts-integration-devel_package() {
+	conflicts="kf6-kaccounts-integration-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kcoreaddons6.24-devel libaccounts-qt6-devel signond-devel"

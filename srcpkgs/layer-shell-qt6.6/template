@@ -16,12 +16,14 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/layer-shell-qt"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=ccdcfec7081ca956f7a52c9113a4df3a226575bfbe98b56a2a9a4d7d7e19e8f0
+conflicts="layer-shell-qt"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 layer-shell-qt-devel_package() {
+	conflicts="layer-shell-qt-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"
 	pkg_install() {

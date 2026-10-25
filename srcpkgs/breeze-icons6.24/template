@@ -14,6 +14,7 @@ license="LGPL-3.0-or-later"
 homepage="https://community.kde.org/Frameworks"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname}-${version}.tar.xz"
 checksum=93866c19791838fc9757b305e010e23bb38cb5f201e4ecc96cc8ef5f1173ebe6
+conflicts="breeze-icons"
 nostrip=yes
 
 if [ -z "$CROSS_BUILD" ]; then
@@ -30,6 +31,7 @@ libbreeze-icons_package() {
 }
 
 libbreeze-icons-devel_package() {
+	conflicts="breeze-icons-devel"
 	depends="libbreeze-icons6.24>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

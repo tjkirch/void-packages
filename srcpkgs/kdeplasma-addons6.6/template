@@ -31,6 +31,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kdeplasma-addons"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=1bc1c861487733f4944695d509c81f19b90a4d80c5825cc6df633b0313e3e8cc
+conflicts="kdeplasma-addons"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

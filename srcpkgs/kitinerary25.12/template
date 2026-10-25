@@ -21,6 +21,7 @@ homepage="https://kontact.kde.org"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kitinerary"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=0969f558a912506d52a06a4ca10a52f3b400e8671fd1451efe1b74b2b5bec907
+conflicts="kitinerary"
 
 do_check() {
 	cd build
@@ -30,6 +31,7 @@ do_check() {
 }
 
 kitinerary-devel_package() {
+	conflicts="kitinerary-devel"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

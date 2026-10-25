@@ -17,6 +17,7 @@ license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/aurorae"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=7e4305d4e28698024fcd797554ccad84bfd4ed4e5bdcb0f42b5da77fab244416
+conflicts="aurorae"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

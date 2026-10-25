@@ -21,6 +21,7 @@ license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/krdp"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=483fb1d9ffd6954e7b12aa4321763a31726e5c0daac10e135cd13a503ced5330
+conflicts="krdp"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

@@ -18,3 +18,4 @@ homepage="https://www.kde.org/applications/utilities/kfind/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kfind"
 distfiles="${KDE_SITE}/release-service/${version}/src/kfind-${version}.tar.xz"
 checksum=946df18e730a5b97c421816163533b3511aae361d69e4e9856dc5b9f549be8af
+conflicts="kfind"

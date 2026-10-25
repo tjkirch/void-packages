@@ -19,12 +19,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/purpose"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=4fda64d235927e3cc230416d5c9304f5d3e040dc2553b77b2c69bf54c6f04862
+conflicts="kf6-purpose"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-purpose-devel_package() {
+	conflicts="kf6-purpose-devel"
 	depends="${sourcepkg}>=${version}_${revision} kf6-kcoreaddons6.24-devel"
 	short_desc+=" - development files"
 	pkg_install() {

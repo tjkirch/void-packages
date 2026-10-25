@@ -17,3 +17,4 @@ homepage="https://www.kde.org/applications/utilities/kmag/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kmag"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmag-${version}.tar.xz"
 checksum=7e6b7d29bbc492b697f22a9a7bd1b707d9cfd7559da46f54f80be096a6bf8f2c
+conflicts="kmag"

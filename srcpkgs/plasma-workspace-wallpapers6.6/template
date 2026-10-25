@@ -12,6 +12,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-workspace-wallpapers"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=c481ac4b937a2b1b080c3273e0557cd0c9d57b644156b941902483fd8e1646b5
+conflicts="plasma-workspace-wallpapers"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

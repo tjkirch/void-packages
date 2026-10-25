@@ -24,4 +24,5 @@ homepage="https://konversation.kde.org"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#konversation"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%5}-${version}.tar.xz"
 checksum=0ee0926868f312379f5a51e9f81897f1a8b122d01207733393b3804a8f9ef886
+conflicts="konversation"
 python_version=3

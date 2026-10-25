@@ -21,6 +21,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/libksysguard"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=9069bcf3fe4e491ea774d0d70eb17f99b567299871045a38543fcabcdb56dfc4
+conflicts="libksysguard"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
@@ -32,6 +33,7 @@ do_check() {
 }
 
 libksysguard-devel_package() {
+	conflicts="libksysguard-devel"
 	short_desc+=" - development"
 	depends="kf6-ki18n6.24-devel kf6-kconfig6.24-devel qt6-base-devel
 	 ${sourcepkg}>=${version}_${revision}"

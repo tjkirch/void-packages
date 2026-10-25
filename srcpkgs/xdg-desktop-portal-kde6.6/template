@@ -25,6 +25,7 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/xdg-desktop-portal-kde"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=5ebedc3dcf508e85f2f7bbddffa2cca6805650ffe1dce350c4a1dfc5d2f07c50
+conflicts="xdg-desktop-portal-kde"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

@@ -20,3 +20,4 @@ license="LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/games/org.kde.knights"
 distfiles="${KDE_SITE}/release-service/${version}/src/knights-${version}.tar.xz"
 checksum=8808b6894715e77aee13b86b25d13f1277c9fa7dea696fee5bf776f00d4bbdb3
+conflicts="knights"

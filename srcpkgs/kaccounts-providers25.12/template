@@ -21,6 +21,7 @@ homepage="https://invent.kde.org/network/kaccounts-providers"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kaccounts-providers"
 distfiles="${KDE_SITE}/release-service/${version}/src/kaccounts-providers-${version}.tar.xz"
 checksum=59d70593a7b8917500fa65ee8ec6c876d30ea2213d1a7a454aaff7d1da1fccb1
+conflicts="kaccounts-providers"
 
 build_options="nextcloud"
 desc_option_nextcloud="Build nextcloud support (needs Qt6 WebEngine)"

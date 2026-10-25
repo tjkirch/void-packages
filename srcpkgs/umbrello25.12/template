@@ -30,6 +30,7 @@ homepage="https://apps.kde.org/umbrello/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#umbrello"
 distfiles="${KDE_SITE}/release-service/${version}/src/umbrello-${version}.tar.xz"
 checksum=25cc282f9cba45f4b83d6c7b1e87ef9974c04cd269c8643a032db0f6d486838b
+conflicts="umbrello"
 python_version=3
 
 build_options="php"

@@ -16,12 +16,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcolorscheme"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=a4128e82e47cd474c777754c4dd8af28a00a57ecf388da1a62f8173d898890d0
+conflicts="kf6-kcolorscheme"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kcolorscheme-devel_package() {
+	conflicts="kf6-kcolorscheme-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kguiaddons6.24-devel qt6-base-devel kf6-ki18n6.24-devel"
 	short_desc+=" - development files"

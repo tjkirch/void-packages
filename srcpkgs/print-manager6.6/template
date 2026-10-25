@@ -23,6 +23,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/print-manager"
 distfiles="${KDE_SITE}/plasma/${version}/print-manager-${version}.tar.xz"
 checksum=f1658390a7104f2b806176f188ea38f148e7900cb928b4ddfcae0616af52f6ce
+conflicts="print-manager"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

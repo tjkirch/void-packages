@@ -28,6 +28,7 @@ license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM/Akonadi"
 distfiles="${KDE_SITE}/release-service/${version}/src/akonadi-${version}.tar.xz"
 checksum=40b7eac471333eaa4ea0a010586660d2539def5ba61f9169d4129c2b569b4c34
+conflicts="kf6-akonadi"
 replaces="akonadi5>=0"
 
 build_options="python"
@@ -52,6 +53,7 @@ do_check() {
 }
 
 kf6-akonadi-devel_package() {
+	conflicts="kf6-akonadi-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

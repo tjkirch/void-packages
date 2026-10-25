@@ -20,6 +20,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://www.kde.org/applications/utilities/kleopatra/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=f05abd1f28c5c61b0c58d96a31ffcf8a005c0f4264aac6d8661a6687688fc756
+conflicts="kleopatra"
 make_check=no # no test found
 
 post_install() {

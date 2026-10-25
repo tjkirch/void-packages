@@ -17,12 +17,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/libkgapi"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=435dd7b20d0547d45627a471e12d9695119dc044f770046cb33017757af375de
+conflicts="libkgapi"
 
 do_check() {
 	:
 }
 
 libkgapi-devel_package() {
+	conflicts="libkgapi-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}-${version}_${revision} ${makedepends}"
 	pkg_install() {

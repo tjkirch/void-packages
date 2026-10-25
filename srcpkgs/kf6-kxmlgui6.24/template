@@ -19,6 +19,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kxmlgui"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=10fb8a0f7b874248ff60d9a8ee4e1f06a0efcf01b0d34d7635dfff86e848c352
+conflicts="kf6-kxmlgui"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -44,6 +45,7 @@ do_check() {
 }
 
 kf6-kxmlgui-devel_package() {
+	conflicts="kf6-kxmlgui-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kguiaddons6.24-devel"
 	short_desc+=" - development files"

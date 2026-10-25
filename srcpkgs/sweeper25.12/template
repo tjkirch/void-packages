@@ -20,3 +20,4 @@ homepage="https://apps.kde.org/sweeper"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#sweeper"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=4ad649504927a359eed0aeacff85d74ac958577cf78685a659d69a4890df0603
+conflicts="sweeper"

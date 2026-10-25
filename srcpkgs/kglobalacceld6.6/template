@@ -15,6 +15,7 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/kglobalacceld"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=83e9a4e226e695fe1544cfa19a9659c5f1000be46c669fe3a9e299029c6c2abf
+conflicts="kglobalacceld"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
@@ -26,6 +27,7 @@ do_check() {
 }
 
 kglobalacceld-devel_package() {
+	conflicts="kglobalacceld-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

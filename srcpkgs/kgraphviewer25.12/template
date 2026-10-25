@@ -17,8 +17,10 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kgraphviewer/"
 distfiles="https://download.kde.org/stable/kgraphviewer/${version}/kgraphviewer-${version}.tar.xz"
 checksum=872bee63fb4df6f7fb2b4eaf02ff825cba3ca953ac02509a287fe5cd0f1e2b69
+conflicts="kgraphviewer"
 
 kgraphviewer-devel_package() {
+	conflicts="kgraphviewer-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

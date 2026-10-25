@@ -14,6 +14,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kactivitymanagerd"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=6e549b0dacd28797153696e4ee27f8e19aee6f3711f94ee379b8fae8ecfd937a
+conflicts="kactivitymanagerd"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

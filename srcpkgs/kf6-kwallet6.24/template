@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwallet"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=93cb9c1df2630807c04bf8c30312e75ae3bb466c77dd9b29bb2c752e71d34a26
+conflicts="kf6-kwallet"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -27,6 +28,7 @@ post_install() {
 }
 
 kf6-kwallet-devel_package() {
+	conflicts="kf6-kwallet-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/qqc2-desktop-style"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=74c6402fa697a76254e1c68ebd86136be49e03fad86482e86a27e5478f662c41
+conflicts="kf6-qqc2-desktop-style"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -27,6 +28,7 @@ do_check() {
 }
 
 kf6-qqc2-desktop-style-devel_package() {
+	conflicts="kf6-qqc2-desktop-style-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

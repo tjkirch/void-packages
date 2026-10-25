@@ -20,6 +20,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcoreaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=cc68fe15beb0fca2036cff8742f468c1345406bf99793fffacbf8f2a3f89bc4b
+conflicts="kf6-kcoreaddons"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -45,6 +46,7 @@ do_check() {
 }
 
 kf6-kcoreaddons-devel_package() {
+	conflicts="kf6-kcoreaddons-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"
 	pkg_install() {

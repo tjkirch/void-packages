@@ -19,8 +19,10 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/kidentitymanagement"
 distfiles="${KDE_SITE}/release-service/${version}/src/kidentitymanagement-${version}.tar.xz"
 checksum=afd285bac8ce85e87b9f06672423311e299ce75ce1baf4720a59c65e4b4d235a
+conflicts="kidentitymanagement"
 
 kidentitymanagement-devel_package() {
+	conflicts="kidentitymanagement-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

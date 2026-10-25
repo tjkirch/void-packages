@@ -22,3 +22,4 @@ homepage="https://www.kde.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#keditbookmarks"
 distfiles="${KDE_SITE}/release-service/${version}/src/keditbookmarks-${version}.tar.xz"
 checksum=d1c4f6d837490e5bde6ddea0ca1de5726cc511b0f7a522a25425e5f0387a2365
+conflicts="keditbookmarks"

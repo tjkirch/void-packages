@@ -22,6 +22,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kguiaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=e98864228d1c5e23f3428025eb9928697374fdc3eddebb3a9dec570de028a62d
+conflicts="kf6-kguiaddons"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -49,6 +50,7 @@ kf6-kguiaddons-geo-uri-handler_package() {
 }
 
 kf6-kguiaddons-devel_package() {
+	conflicts="kf6-kguiaddons-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"
 	pkg_install() {

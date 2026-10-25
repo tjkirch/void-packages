@@ -19,6 +19,7 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.kontact"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=5be086d1e47793f78bbe607fd9e9c171212db8649bb92d9463dd739800e86424
+conflicts="kontact"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"

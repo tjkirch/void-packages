@@ -25,8 +25,10 @@ license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/internet/org.kde.krdc"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=291ce5f05fc4e67ed659eec9aa8c9f1f06bf1b13a5180375e68d2402341a0ed0
+conflicts="krdc"
 
 krdc-devel_package() {
+	conflicts="krdc-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

@@ -19,6 +19,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/grantleetheme-${version}.tar.xz"
 checksum=bab8da9c6ab35dcc2e4a83e6890c53099aad5dec5be6bfa2d21dc127bb8413bf
+conflicts="kf6-grantleetheme"
 
 do_check() {
 	cd build
@@ -26,6 +27,7 @@ do_check() {
 }
 
 kf6-grantleetheme-devel_package() {
+	conflicts="kf6-grantleetheme-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedpends}"
 	short_desc+=" - development files"
 	pkg_install() {
