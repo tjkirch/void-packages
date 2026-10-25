@@ -44,9 +44,3 @@ kwrite_package() {
 		done
 	}
 }
-
-kate5_package() {
-	short_desc+=" - (Dummy transitional package)"
-	metapackage=yes
-	depends="kate-${version}_${revision}"
-}

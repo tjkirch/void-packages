@@ -39,9 +39,3 @@ shlib_requires="KDE_Plasma.${version}"
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
 	makedepends+=" qt6-webengine-devel"
 fi
-
-kdeplasma-addons5_package() {
-	metapackage=yes
-	short_desc+=" - (Dummy transistional package)"
-	depends="${sourcepkg}"
-}
