@@ -36,7 +36,7 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=6c41ce2cb79d2b85d4fbe5a3a61c09e40c70e5a869ae6f0352c7e1cb3b44606b
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 kscreenlocker-devel_package() {

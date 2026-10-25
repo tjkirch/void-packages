@@ -19,7 +19,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=bf36e3619df1c6ad3d900bd36433d97ab295be41c1cc401ff0e766380788bbae
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 build_options="python"

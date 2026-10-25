@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-base gettext
  qt6-xml kf6-kcoreaddons6.24 kf6-kdoctools6.24 kf6-kconfig6.24 python3"
 makedepends="discount-devel djvulibre-devel ebook-tools-devel phonon-devel
  libchmlib-devel libkexiv2-25.12-devel poppler-qt6-devel libspectre-devel
- libqmobipocket6-devel libzip-devel libkexiv2-25.12-devel qca-qt6-devel
+ libqmobipocket6-25.12-devel libzip-devel libkexiv2-25.12-devel qca-qt6-devel
  qt6-svg-devel
  qt6-speech-devel kf6-purpose6.24-devel kf6-kbookmarks6.24-devel
  kf6-kcompletion6.24-devel kf6-kconfig6.24-devel qt6-base-private-devel

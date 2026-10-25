@@ -18,7 +18,7 @@ distfiles="${KDE_SITE}/plasma/${version}/libkscreen-${version}.tar.xz"
 checksum=df317e03acfadfcbc68981b78131750103fadf4d5c5df6368c9e91e698677219
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 libkf6screen-devel_package() {

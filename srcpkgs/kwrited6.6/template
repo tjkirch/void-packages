@@ -15,5 +15,5 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=f8aa905734d0ccde796884cfcb06b36084e441fb199ea5aab2bc92cfa4c0506d
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"

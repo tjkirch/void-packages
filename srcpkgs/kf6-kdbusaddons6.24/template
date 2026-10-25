@@ -16,7 +16,7 @@ checksum=063ef80460f76d86dc4b033ef04b65b69ba82ee0de410440fe609465e7f5a997
 make_check_pre="dbus-run-session"
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kdbusaddons-devel_package() {

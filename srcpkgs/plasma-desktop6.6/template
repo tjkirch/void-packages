@@ -7,7 +7,7 @@ build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="extra-cmake-modules6.24 pkg-config gettext qt6-base qt6-shadertools
- qt6-tools wayland-protocols plasma-wayland-protocols kf6-kdoctools6.24 kf6-kauth-tools
+ qt6-tools wayland-protocols plasma-wayland-protocols kf6-kdoctools6.24 kf6-kauth-tools6.24
  kf6-kconfig6.24 kf6-kcmutils6.24 kf6-kpackage6.24 wayland-devel qt6-declarative-host-tools"
 makedepends="kf6-kcrash6.24-devel kf6-kdoctools6.24-devel kf6-kauth6.24-devel
  kf6-ki18n6.24-devel kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel
@@ -40,5 +40,5 @@ replaces="user-manager>=0"
 python_version=3
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"

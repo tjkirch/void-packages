@@ -10,7 +10,7 @@ configure_args="-DBUILD_TESTING=OFF -DKDE_INSTALL_QMLDIR=lib/qt6/qml
 hostmakedepends="extra-cmake-modules6.24 iso-codes pkg-config gettext
  qt6-base qt6-tools SPIRV-Tools qt6-shadertools kf6-kcmutils6.24 kf6-kconfig6.24
  qt6-declarative-host-tools kf6-kdoctools6.24 kf6-kwindowsystem6.24
- kf6-kpackage6.24 kf6-kauth-tools wayland-devel"
+ kf6-kpackage6.24 kf6-kauth-tools6.24 wayland-devel"
 makedepends="qt6-declarative-private-devel libplasma6.6-devel qt6-base-private-devel
  kf6-krunner6.24-devel kf6-knotifyconfig6.24-devel kf6-kdesu6.24-devel kf6-knewstuff6.24-devel
  kf6-kcmutils6.24-devel kf6-kidletime6.24-devel libksysguard6.6-devel
@@ -20,7 +20,7 @@ makedepends="qt6-declarative-private-devel libplasma6.6-devel qt6-base-private-d
  libXft-devel libkf6screen6.6-devel plasma5support6.6-devel kf6-kitemmodels6.24-devel
  plasma-activities-stats6.6-devel kf6-kwallet6.24-devel plasma-activities6.6-devel
  kf6-kded6.24-devel kf6-networkmanager-qt6.24-devel kf6-kirigami6.24-devel
- kf6-ksvg6.24-devel kf6-kdeclarative6.24-devel kf6-kwayland-devel qt6-location-devel
+ kf6-ksvg6.24-devel kf6-kdeclarative6.24-devel kf6-kwayland6.6-devel qt6-location-devel
  kscreenlocker6.6-devel plasma-wayland-protocols qt6-position-devel
  kf6-kuserfeedback6.24-devel phonon-devel polkit-qt6-devel qt6-base-private-devel
  kpipewire6.6-devel kirigami-addons-devel libkexiv2-25.12-devel qcoro-qt6-devel
@@ -46,7 +46,7 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=94ab21e2243b7876f65c315f1e545081c6437f5bd0a041ca4fb6c2533ae874c9
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 if [ "$XBPS_TARGET_LIBC" = "glibc" ]; then
@@ -71,7 +71,7 @@ plasma-workspace-x11_package() {
 
 plasma-workspace-devel_package() {
 	short_desc+=" - development files"
-	depends="kworkspace>=${version}_${revision} qt6-base-devel
+	depends="kworkspace6.6>=${version}_${revision} qt6-base-devel
 	 qt6-declarative-devel kf6-kitemmodels6.24-devel
 	 ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

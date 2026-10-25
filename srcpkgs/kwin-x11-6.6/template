@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF -DFORCE_CROSSCOMPILED_TOOLS=ON
 hostmakedepends="extra-cmake-modules6.24 gettext pkg-config libcap-progs
  qt6-base qt6-tools qt6-declarative-host-tools wayland-devel hwids
  kf6-kwindowsystem6.24
- python3 kf6-kpackage6.24 kf6-kconfig6.24 kf6-kauth-tools kf6-kcmutils6.24 kf6-kdoctools6.24"
+ python3 kf6-kpackage6.24 kf6-kconfig6.24 kf6-kauth-tools6.24 kf6-kcmutils6.24 kf6-kdoctools6.24"
 makedepends="qt6-tools-devel qt6-base-private-devel qt6-sensors-devel
  kf6-kglobalaccel6.24-devel qt6-svg-devel kf6-kcolorscheme6.24-devel kf6-kconfig6.24-devel
  kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6.24-devel kf6-kguiaddons6.24-devel
@@ -20,7 +20,7 @@ makedepends="qt6-tools-devel qt6-base-private-devel qt6-sensors-devel
  kf6-kxmlgui6.24-devel kf6-kdecoration6.6-devel libdisplay-info-devel xorg-server-xwayland
  plasma-wayland-protocols kscreenlocker6.6-devel plasma-activities6.6-devel
  libqaccessibilityclient-devel kf6-kdeclarative6.24-devel kf6-kauth6.24-devel
- qt6-qt5compat-devel libcap-devel breeze-qt6 aurorae6.6 kglobalacceld6.6-devel
+ qt6-qt5compat-devel libcap-devel breeze-qt6-6.6 aurorae6.6 kglobalacceld6.6-devel
  kf6-kidletime6.24-devel kf6-kcrash6.24-devel kf6-kwindowsystem6.24-devel
  knighttime6.6-devel kf6-kdoctools6.24-devel libplasma6.6-devel wayland-devel
  libcanberra-devel libX11-devel libxkbcommon-devel libdrm-devel
@@ -39,7 +39,7 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=995236b90e3e92626a4991dcea47c9fcfa9bf163fdf01f2abe00e467fc9f2291
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 kwin-x11-devel_package() {

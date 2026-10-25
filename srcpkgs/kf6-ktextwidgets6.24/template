@@ -17,7 +17,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=b06b11bb727bf9c3578797b1e40daad5f48e10433e456a337f1c40b4082879c8
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-ktextwidgets-devel_package() {

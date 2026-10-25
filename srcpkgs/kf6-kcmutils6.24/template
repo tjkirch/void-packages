@@ -20,7 +20,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=0159f80d030ac250b0b353113a55c013ed7e38cb0b678df44d2f0d0b2aca944c
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kcmutils-devel_package() {
