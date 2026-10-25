@@ -27,4 +27,5 @@ homepage="https://apps.kde.org/lokalize"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#lokalize"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=085526120fbcd7335a48373ef6305612a5e8a41c063710f282abe3f90da7417e
+conflicts="lokalize"
 python_version=3

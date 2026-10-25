@@ -18,12 +18,14 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=af5c26b74dce64974403bac9182c8477fbfd99369978670b5e2aee588fad4699
+conflicts="akonadi-import-wizard"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"
 fi
 
 akonadi-import-wizard-devel_package() {
+	conflicts="akonadi-import-wizard-devel"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

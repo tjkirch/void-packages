@@ -26,6 +26,7 @@ license="GPL-3.0-only, GPL-3.0-or-later, GPL-2.0-or-later, BSD-2-Clause"
 homepage="https://apps.kde.org/en/neochat"
 distfiles="${KDE_SITE}/release-service/${version}/src/neochat-${version}.tar.xz"
 checksum=d745a8cd878c89d9bd3227ed027332933bcb9b5415b1d55ff2987c0587fd8182
+conflicts="neochat"
 
 build_options="webview"
 desc_option_webview="Use Qt6 WebView"

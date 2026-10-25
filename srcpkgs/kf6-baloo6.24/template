@@ -18,6 +18,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/baloo"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=a59d33a919bfa1d164c8f3a6f992c609edaf2131ac5f52ea4ecb77f6fbc53be1
+conflicts="kf6-baloo"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -30,6 +31,7 @@ do_check() {
 }
 
 kf6-baloo-devel_package() {
+	conflicts="kf6-baloo-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

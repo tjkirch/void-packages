@@ -23,6 +23,7 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/discover"
 distfiles="${KDE_SITE}/plasma/${version}/discover-${version}.tar.xz"
 checksum=e9830fffebc54c781dcb076db4ab9462ee27ddd7fd3769403a211743636e1f67
+conflicts="discover"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

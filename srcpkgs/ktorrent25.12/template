@@ -25,6 +25,7 @@ homepage="https://apps.kde.org/ktorrent"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ktorrent"
 distfiles="${KDE_SITE}/release-service/${version}/src/ktorrent-${version}.tar.xz"
 checksum=f1bde77b179217013f0baf1020a5202e0d8bedfc332587d9866df699cac7b9eb
+conflicts="ktorrent"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
 	makedepends+=" qt6-webengine-devel"

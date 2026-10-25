@@ -18,6 +18,7 @@ license="GPL-2.0-or-later, GFDL-1.2-only"
 homepage="https://www.kde.org/applications/internet/akregator"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=efdbec77e803012072c3bebcf53e810e17e48461a166124840f6fe429a336f01
+conflicts="akregator"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"

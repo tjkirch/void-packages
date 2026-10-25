@@ -14,12 +14,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kpty"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=ad66149c20470de29d483f0ccdcb057d42ccf778f3f8cc8e68aefca5380bace7
+conflicts="kf6-kpty"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kpty-devel_package() {
+	conflicts="kf6-kpty-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

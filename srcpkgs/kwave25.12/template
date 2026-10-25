@@ -28,3 +28,4 @@ homepage="https://apps.kde.org/kwave"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kwave"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=7f64ac6a23a8e3d7600451f05e610e7d028220a1f0aedcbdcf7e249c3bab3f15
+conflicts="kwave"

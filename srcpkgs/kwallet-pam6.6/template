@@ -13,7 +13,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kwallet-pam"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=d71f5945ef3086f56f52f531508c2ab363078fbbd5ae4084bd3647049e6ee94f
-conflicts="kwallet<=5.115.0_1"
+conflicts="kwallet<=5.115.0_1 kwallet-pam"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

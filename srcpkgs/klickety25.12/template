@@ -19,3 +19,4 @@ homepage="https://apps.kde.org/klickety"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#klickety"
 distfiles="${KDE_SITE}/release-service/${version}/src/klickety-${version}.tar.xz"
 checksum=b5d4d53f37579a9c029ddb12d4e6c24eaf85fbc0e30288ac65e7ce126f42d9f3
+conflicts="klickety"

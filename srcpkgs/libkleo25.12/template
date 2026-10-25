@@ -18,6 +18,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkleo-${version}.tar.xz"
 checksum=57868f2f89ec307423d4986aa181380be58bea311e45fc29a617f7f0a32e4eec
+conflicts="libkleo"
 
 do_check() {
 	cd build
@@ -25,6 +26,7 @@ do_check() {
 }
 
 libkleo-devel_package() {
+	conflicts="libkleo-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 gpgmepp-devel gpgme-qt6-devel kf6-kconfig6.24-devel qt6-base-devel
 	 kf6-kitemmodels6.24-devel kf6-kwidgetsaddons6.24-devel"

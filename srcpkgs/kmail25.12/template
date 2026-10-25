@@ -22,6 +22,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/internet/org.kde.kmail2"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmail-${version}.tar.xz"
 checksum=2e5035d0f4219f7ec77a1859d483e8f902663db9bcc1c2fdd0a2a4337cc7bf89
+conflicts="kmail"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"

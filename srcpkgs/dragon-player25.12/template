@@ -20,3 +20,4 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/multimedia/org.kde.dragonplayer"
 distfiles="${KDE_SITE}/release-service/${version}/src/dragon-${version}.tar.xz"
 checksum=0b0c153f3918a24a0c7aa35601466202bfdc8865f74e536194acf8c0d217dd33
+conflicts="dragon-player"

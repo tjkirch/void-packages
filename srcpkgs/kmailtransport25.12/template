@@ -18,6 +18,7 @@ license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmailtransport-${version}.tar.xz"
 checksum=2a227c011a54d38b61c33e6a7d0d7b499174ed35ed4f1dd5b05ab38afda47614
+conflicts="kmailtransport"
 
 do_check() {
 	cd build
@@ -25,6 +26,7 @@ do_check() {
 }
 
 kmailtransport-devel_package() {
+	conflicts="kmailtransport-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

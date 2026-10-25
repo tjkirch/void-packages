@@ -23,6 +23,7 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.konsole"
 distfiles="${KDE_SITE}/release-service/${version}/src/konsole-${version}.tar.xz"
 checksum=64d8aaba741f4412ede26ffbbbe3824523e941b725d3046ec27f510fd42d82e6
+conflicts="konsole"
 replaces="konsole5>=0"
 
 do_check() {

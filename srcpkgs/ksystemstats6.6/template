@@ -15,6 +15,7 @@ license="GPL-3.0-only,LGPL-3.0-only"
 homepage="https://invent.kde.org/plasma/ksystemstats"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=27cfb9a189244b897ae23f3a8681e7c4b45cc67ec27faff8961783edce16f1fc
+conflicts="ksystemstats"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

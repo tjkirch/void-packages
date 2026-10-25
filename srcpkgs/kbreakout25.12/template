@@ -21,3 +21,4 @@ homepage="https://kde.org/applications/games/org.kde.kbreakout"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kbreakout"
 distfiles="${KDE_SITE}/release-service/${version}/src/kbreakout-${version}.tar.xz"
 checksum=091dc77db85a11818d69277870dd18875aea63e86078b2b5c466882118492f1b
+conflicts="kbreakout"

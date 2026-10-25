@@ -19,8 +19,10 @@ homepage="https://www.kde.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#libkomparediff2"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkomparediff2-${version}.tar.xz"
 checksum=d222901b0a90f853f21e86bf08db73c3edb65e8d4bbf820626512df82c8430c2
+conflicts="libkomparediff2"
 
 libkomparediff2-devel_package() {
+	conflicts="libkomparediff2-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

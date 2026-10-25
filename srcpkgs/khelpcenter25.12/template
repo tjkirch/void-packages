@@ -19,6 +19,7 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.Help"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=061bd1a929b175cf35c9830f1306b1da8dc9cb3c70d9c371a3767f47401edcfa
+conflicts="khelpcenter"
 
 if [ "$CROSS_BUILD" ]; then
 	configure_args+=" -DXAPIAN_LIBRARIES=${XBPS_CROSS_BASE}/usr/lib/libxapian.so

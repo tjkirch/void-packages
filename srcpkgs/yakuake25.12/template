@@ -22,3 +22,4 @@ homepage="https://kde.org/applications/system/org.kde.yakuake"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#yakuake"
 distfiles="${KDE_SITE}/release-service/${version}/src/yakuake-${version}.tar.xz"
 checksum=723a806681faeb3d4aa2fbc93e11392f6fbb66d8bfadcc5508c355d2eaa893ee
+conflicts="yakuake"

@@ -17,6 +17,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcalendarcore"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=e8bf60e398e2f8098a4db7db44c5475d70540ad8f8948a123c8bc109dc4db776
+conflicts="kf6-kcalendarcore"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -42,6 +43,7 @@ do_check() {
 }
 
 kf6-kcalendarcore-devel_package() {
+	conflicts="kf6-kcalendarcore-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

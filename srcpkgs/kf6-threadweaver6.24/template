@@ -12,12 +12,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/threadweaver"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=e5400968a41820393e76190ab5dbb276c09513263d1b185d64b40f82dcd9b457
+conflicts="kf6-threadweaver"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-threadweaver-devel_package() {
+	conflicts="kf6-threadweaver-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

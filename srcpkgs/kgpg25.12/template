@@ -24,6 +24,7 @@ homepage="https://kde.org/applications/en/utilities/org.kde.kgpg"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kgpg"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=76b71fa853e24d6ab521caaf0e180faca06aa5a0e4103c78a59bc932f4c55381
+conflicts="kgpg"
 
 do_check() {
 	cd build

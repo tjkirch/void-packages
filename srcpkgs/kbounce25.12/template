@@ -20,3 +20,4 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kbounce/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kbounce-${version}.tar.xz"
 checksum=09a7a6aaa5624475da706a4de0d5162f9a05df14b971730e03f4e6fce89424df
+conflicts="kbounce"

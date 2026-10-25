@@ -21,3 +21,4 @@ homepage="https://apps.kde.org/skanlite"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#skanlite"
 distfiles="${KDE_SITE}/release-service/${version}/src/skanlite-${version}.tar.xz"
 checksum=7ab83ff5c3d5bfe5e3534a77a5423de88a0ea43850a6a5666551f2e684d87bb2
+conflicts="skanlite"

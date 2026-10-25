@@ -16,6 +16,7 @@ license="LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL"
 homepage="https://invent.kde.org/plasma/qqc2-breeze-style"
 distfiles="${KDE_SITE}/plasma/${version}/qqc2-breeze-style-${version}.tar.xz"
 checksum=788f0698c904112cc33bf6f8fb446b2e4fd7231d38c0955cbc3baa50d375d1ee
+conflicts="qqc2-breeze-style"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

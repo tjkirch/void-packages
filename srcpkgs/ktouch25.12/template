@@ -30,5 +30,6 @@ homepage="https://apps.kde.org/ktouch"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ktouch"
 distfiles="${KDE_SITE}/release-service/${version}/src/ktouch-${version}.tar.xz"
 checksum=262d9374dbf2a4407db7af780f734e8d91fc2005424a24af6db1a2dd8b8a05f7
+conflicts="ktouch"
 build_options="x11"
 build_options_default="x11"

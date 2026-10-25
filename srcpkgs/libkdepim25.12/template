@@ -16,12 +16,14 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkdepim-${version}.tar.xz"
 checksum=f4de990ab9a8e38b9f73870c1f9523d51c69ede75b8ccf2d62e51be48a861682
+conflicts="libkdepim"
 
 if [ "$CROSS_BUILD" ]; then
 	configure_args+=" -DDESKTOPTOJSON_EXECUTABLE=/usr/bin/desktoptojson"
 fi
 
 libkdepim-devel_package() {
+	conflicts="libkdepim-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

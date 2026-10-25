@@ -25,3 +25,4 @@ license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/kasts"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=175b9cfc837c6ca5b3b31909088e18ced5fda885ae1897a611235c7087264515
+conflicts="kasts"

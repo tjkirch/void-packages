@@ -18,6 +18,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/flatpak-kcm"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=acf25d4c7eed41e0d0ba9c897e6dae081b9021f9bcb75e3ca532ef5406ffa0ad
+conflicts="flatpak-kcm"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

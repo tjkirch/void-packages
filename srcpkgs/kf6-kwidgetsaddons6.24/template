@@ -17,6 +17,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwidgetsaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=ab1333c258678caa7562120a1c03bb71779f7232f1a0e75b9525d921dee3e0a3
+conflicts="kf6-kwidgetsaddons"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -42,6 +43,7 @@ do_check() {
 }
 
 kf6-kwidgetsaddons-devel_package() {
+	conflicts="kf6-kwidgetsaddons-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

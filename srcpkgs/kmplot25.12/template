@@ -17,3 +17,4 @@ license="GPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://apps.kde.org/kmplot"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=eee7e1c2dfe2e1a2e378871929bb70c984664291526b93c8f2984b09c12e3f1b
+conflicts="kmplot"

@@ -60,6 +60,7 @@ homepage="https://www.kdevelop.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdevelop"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdevelop-${version}.tar.xz"
 checksum=dd77921d7e403bfbb60bfa8a7998a2e2c1eb53ab7b4b1a2f8a52360493c586ab
+conflicts="kdevelop"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="no qt6-webengine"
@@ -70,6 +71,7 @@ post_install() {
 }
 
 kdevelop-devel_package() {
+	conflicts="kdevelop-devel"
 	depends="kdevelop25.12>=${version}_${revision} qt6-webengine-devel
 	 qt6-qt5compat-devel kf6-ktexteditor6.24-devel kf6-threadweaver6.24-devel"
 	short_desc+=" - development files"

@@ -25,6 +25,7 @@ license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/libplasma"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=27b28823254aa489c094c40a314ce1575fd7906eeb521e636bb8fd2dc2981f2f
+conflicts="libplasma"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
@@ -37,6 +38,7 @@ do_check() {
 }
 
 libplasma-devel_package() {
+	conflicts="libplasma-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-declarative-devel
 	 qt6-base-devel kf6-kpackage6.24-devel kf6-kwindowsystem6.24-devel"
 	short_desc+=" - development files"

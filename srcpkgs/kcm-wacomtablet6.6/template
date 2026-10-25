@@ -23,6 +23,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/wacomtablet"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname#kcm-}-${version}.tar.xz"
 checksum=f668f1dbd18d5f9060b016dbc5667619b214e4e6ac0456be7d322214c20e9cbe
+conflicts="kcm-wacomtablet"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

@@ -21,6 +21,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kio"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=c19cbd4878347b67a9e05ee6541083f51dd90f9e58ee245b4d7634e09f9c04b2
+conflicts="kf6-kio"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -60,6 +61,7 @@ do_check() {
 }
 
 kf6-kio-devel_package() {
+	conflicts="kf6-kio-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kbookmarks6.24-devel kf6-kcompletion6.24-devel kf6-kitemviews6.24-devel
 	 kf6-kjobwidgets6.24-devel kf6-solid6.24-devel kf6-kwidgetsaddons6.24-devel

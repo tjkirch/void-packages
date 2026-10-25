@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kstatusnotifieritem"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=373fb23fe6a5c0c5c755c473e7cf272796ea59891c05157c3a7e9607a4c4af4f
+conflicts="kf6-kstatusnotifieritem"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -35,6 +36,7 @@ case "$XBPS_TARGET_MACHINE" in
 esac
 
 kf6-kstatusnotifieritem-devel_package() {
+	conflicts="kf6-kstatusnotifieritem-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kwindowsystem6.24-devel"
 	short_desc+=" - development files"

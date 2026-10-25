@@ -21,6 +21,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/mailcommon-${version}.tar.xz"
 checksum=055bbae0e0df9f0610fca2a4303fe6caabdfc206910a04832cbd717b3c1374e4
+conflicts="mailcommon"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"
@@ -34,6 +35,7 @@ do_check() {
 }
 
 mailcommon-devel_package() {
+	conflicts="mailcommon-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-akonadi25.12-devel libkdepim25.12-devel kf6-kmime25.12-devel kf6-kconfig6.24-devel
 	 kf6-kio6.24-devel messagelib25.12-devel kf6-ki18n6.24-devel akonadi-mime25.12-devel
