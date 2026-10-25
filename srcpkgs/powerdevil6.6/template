@@ -24,6 +24,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/powerdevil"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=6a738fccf01e4d1b10fea68ff8b404a406f95bc36fcb593bcc70fafb1c53258b
+conflicts="powerdevil"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

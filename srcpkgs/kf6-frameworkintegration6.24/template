@@ -18,12 +18,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/frameworkintegration"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=817c49b2f6abbfe624e32f9a21ffcac7edf6e0486a0883050a1441e2fef3c932
+conflicts="kf6-frameworkintegration"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-frameworkintegration-devel_package() {
+	conflicts="kf6-frameworkintegration-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kcolorscheme6.24-devel kf6-kiconthemes6.24-devel
 	 kf6-kwidgetsaddons6.24-devel"

@@ -18,6 +18,7 @@ homepage="https://www.kdevelop.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdev-python"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdev-python-${version}.tar.xz"
 checksum=b134e0b58307099b49dd3043d5d199d5fe589e543395c3c7a1e65965fd3f4b3d
+conflicts="kdevelop-python"
 python_version=3
 
 post_install() {

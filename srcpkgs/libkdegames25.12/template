@@ -28,8 +28,10 @@ homepage="https://kde.org/applications/games"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#libkdegames"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkdegames-${version}.tar.xz"
 checksum=5644fb0ffc9074465fda0d533e5cf5cd663197fddfafa3e749468eeba58640cb
+conflicts="libkdegames"
 
 libkdegames-devel_package() {
+	conflicts="libkdegames-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

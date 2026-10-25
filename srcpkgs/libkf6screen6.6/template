@@ -16,12 +16,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/libkscreen"
 distfiles="${KDE_SITE}/plasma/${version}/libkscreen-${version}.tar.xz"
 checksum=df317e03acfadfcbc68981b78131750103fadf4d5c5df6368c9e91e698677219
+conflicts="libkf6screen"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 libkf6screen-devel_package() {
+	conflicts="libkf6screen-devel"
 	short_desc+=" - development"
 	depends="${sourcepkg}-${version}_${revision} qt6-base-devel"
 	pkg_install() {

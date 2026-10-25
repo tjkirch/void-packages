@@ -16,6 +16,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kconfig"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=0e98bac324cd716849202d4b246a948e363d6792a8eb09c78417cdde9559f56e
+conflicts="kf6-kconfig"
 
 # stage builds
 makedepends+=" kf6-base6.24"
@@ -28,6 +29,7 @@ do_check() {
 }
 
 kf6-kconfig-devel_package() {
+	conflicts="kf6-kconfig-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 qt6-declarative-devel"
 	short_desc+=" - development files"

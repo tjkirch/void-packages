@@ -17,6 +17,7 @@ homepage="https://projects.kde.org/projects/kde/kdemultimedia/libkcddb"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#libkcddb"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkcddb-${version}.tar.xz"
 checksum=2d86bd59ff8d1d5474e594ca0a8ce2ef5a1cabf9a27f357c6e83c9920dd1dafb
+conflicts="libkcddb6"
 
 do_check() {
 	cd build
@@ -30,6 +31,7 @@ do_check() {
 }
 
 libkcddb6-devel_package() {
+	conflicts="libkcddb6-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

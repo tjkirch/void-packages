@@ -27,6 +27,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-nm"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=6469ff89e26d44565292c968df595b3a68f353707255ba48725c1bae2a67f3be
+conflicts="plasma-nm"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

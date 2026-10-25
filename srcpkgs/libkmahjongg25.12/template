@@ -14,8 +14,10 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/games/libkmahjongg"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=11d68a9cbbdab3a0331a6b6a353b522cbdc45ac4dac23ec7a0805595f9e01bac
+conflicts="libkmahjongg"
 
 libkmahjongg-devel_package() {
+	conflicts="libkmahjongg-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

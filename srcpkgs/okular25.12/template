@@ -26,6 +26,7 @@ license="GPL-2.0-only"
 homepage="https://kde.org/applications/en/graphics/org.kde.okular"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=7eb26c37ee42b6657526aeddd1bce71c5556e3865772a677f49b68deb46885d6
+conflicts="okular"
 
 do_check() {
 	cd build
@@ -44,6 +45,7 @@ libokular_package() {
 }
 
 libokular-devel_package() {
+	conflicts="okular-devel"
 	short_desc+=" - development files"
 	depends="lib${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

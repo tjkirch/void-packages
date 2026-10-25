@@ -17,12 +17,14 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/libraries/kweathercore"
 distfiles="${KDE_SITE}/release-service/${version}/src/kweathercore-${version}.tar.xz"
 checksum=e89bcad036347f76b39bf4d83b68ab37d903e13cde24347e3d724b0e509ea7fd
+conflicts="kf6-kweathercore"
 
 if [ "$CROSS_BUILD" ]; then
 	hostmakedepends+=" qt6-declarative-host-tools"
 fi
 
 kf6-kweathercore-devel_package() {
+	conflicts="kf6-kweathercore-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

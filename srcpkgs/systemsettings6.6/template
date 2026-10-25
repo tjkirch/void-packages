@@ -25,6 +25,7 @@ license="GPL-2.0-or-later, GFDL-1.2-only"
 homepage="https://invent.kde.org/plasma/systemsettings"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=317a21165709d61796fba19f5454397577ffd8aa96655b29dd286a1df252cddb
+conflicts="systemsettings"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

@@ -18,3 +18,4 @@ homepage="https://userbase.kde.org/System_Settings/Task_Scheduler"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcron"
 distfiles="${KDE_SITE}/release-service/${version}/src/kcron-${version}.tar.xz"
 checksum=9577b6bb8377a0b22e0856bc9b9cbc33567235b59f7b8d10bcfd4e7f401ba251
+conflicts="kcron"

@@ -18,3 +18,4 @@ license="GPL-2.0-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmail-account-wizard-${version}.tar.xz"
 checksum=4ace348a96e1080882ddb768af2414da8299727b11f94d336f1f6594a367ec8b
+conflicts="kmail-account-wizard"

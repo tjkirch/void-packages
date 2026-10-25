@@ -24,6 +24,7 @@ homepage="https://invent.kde.org/pim/kdepim-addons"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdepim-addons"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=09a604e46cbacde0cc99848e18f51ae64019382beb1da11e94319bc48cc8937d
+conflicts="kdepim-addons"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"

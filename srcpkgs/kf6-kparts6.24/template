@@ -14,12 +14,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kparts"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=99f5a0e3a4da10e1a0fbfb505ae966cd87627f887dd07929a920afe41c862ac0
+conflicts="kf6-kparts"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kparts-devel_package() {
+	conflicts="kf6-kparts-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

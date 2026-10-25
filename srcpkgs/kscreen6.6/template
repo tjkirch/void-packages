@@ -21,6 +21,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kscreen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=a1742210a0cf4ea76959f708c55180b2573648e9cd35cb4e38f349fe5694c9df
+conflicts="kscreen"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

@@ -20,6 +20,7 @@ license="(GPL-2.0-only OR GPL-3.0-only OR custom:LicenseRef-KDE-Accepted-GPL) AN
 homepage="https://invent.kde.org/plasma/plasma-keyboard"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=0dd91212308e6c6999db55b95b5b462cadc2766935272e9caf2f138b9a063788
+conflicts="plasma-keyboard"
 
 # stage builds
 makedepends+=" kde-plasma-base6.6"

@@ -30,3 +30,4 @@ homepage="https://kde.org/applications/games/org.kde.kdiamond"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdiamond"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdiamond-${version}.tar.xz"
 checksum=f33d98e23670527120ccc214efdc79dfc9963fea0712c8919c85d7f4b7ed97d0
+conflicts="kdiamond"

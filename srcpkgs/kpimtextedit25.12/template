@@ -19,6 +19,7 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/kpimtextedit"
 distfiles="${KDE_SITE}/release-service/${version}/src/kpimtextedit-${version}.tar.xz"
 checksum=e8cd1bdcd58af6c7eac9ede5ec00c635766e9d32c3922e766028cb0c26eb7163
+conflicts="kpimtextedit"
 
 do_check() {
 	cd build
@@ -26,6 +27,7 @@ do_check() {
 }
 
 kpimtextedit-devel_package() {
+	conflicts="kpimtextedit-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	pkg_install() {

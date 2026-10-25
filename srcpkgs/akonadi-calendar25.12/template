@@ -23,6 +23,7 @@ license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/akonadi-calendar-${version}.tar.xz"
 checksum=7fd92f7b4be2b36ff33b96ec8668285b967d3a0dcd26d61ac9826524dc99cfba
+conflicts="akonadi-calendar"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"
@@ -48,6 +49,7 @@ do_check() {
 }
 
 akonadi-calendar-devel_package() {
+	conflicts="akonadi-calendar-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

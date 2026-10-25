@@ -19,3 +19,4 @@ homepage="https://apps.kde.org/partitionmanager"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#partitionmanager"
 distfiles="${KDE_SITE}/release-service/${version}/src/partitionmanager-${version}.tar.xz"
 checksum=acbdb57638d75f47b6f07d6ead12af370d3f538858d74523a673548cec771110
+conflicts="partitionmanager"

@@ -23,3 +23,4 @@ homepage="https://kde.org/applications/games/kpat"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kpat"
 distfiles="${KDE_SITE}/release-service/${version}/src/kpat-${version}.tar.xz"
 checksum=832240e17910682795ab26c789390f4cfaa39c6c768523cc3da7c205a0a3a96f
+conflicts="kpat"

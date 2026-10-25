@@ -12,12 +12,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcrash"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=b17f8242309e1502119c48b1ef5059a396a3068596a84fb79fdef6d9e2cd4f49
+conflicts="kf6-kcrash"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kcrash-devel_package() {
+	conflicts="kf6-kcrash-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

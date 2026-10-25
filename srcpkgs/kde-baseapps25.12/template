@@ -16,3 +16,4 @@ homepage="https://www.kde.org"
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
 	depends+=" khelpcenter25.12>=${version}"
 fi
+conflicts="kde-baseapps"

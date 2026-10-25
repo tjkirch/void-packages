@@ -21,6 +21,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/messagelib-${version}.tar.xz"
 checksum=0f3d5b72a4c49bee88aa4c432b127f85e1f152eafecd6d5bd6abca5c05206d68
+conflicts="messagelib"
 make_check_pre="dbus-run-session"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
@@ -59,6 +60,7 @@ if [ "$CROSS_BUILD" ]; then
 fi
 
 messagelib-devel_package() {
+	conflicts="messagelib-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"
 	pkg_install() {

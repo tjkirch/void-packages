@@ -27,6 +27,7 @@ license="GPL-3.0-or-later"
 homepage="https://www.falkon.org"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=f59ed0b6fb12aee5a3ed310e489104b815e35a19278bd7e80f9c5ef444616f07
+conflicts="falkon"
 
 LDFLAGS="-Wl,--no-fatal-warnings"
 

@@ -21,3 +21,4 @@ license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.krfb"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
 checksum=4f84ade2d03a0452fa9f9553b95101c24b86b7eebc2e81d3f1d5fea904dd41dd
+conflicts="krfb"

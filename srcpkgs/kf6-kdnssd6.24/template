@@ -12,12 +12,14 @@ license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdnssd"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
 checksum=6d59a98f58c66842d29fd7a00e07e0f74e375061aabdfb4c52bbe3140c278225
+conflicts="kf6-kdnssd"
 
 # stage builds
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kdnssd-devel_package() {
+	conflicts="kf6-kdnssd-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {
