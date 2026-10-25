@@ -19,7 +19,7 @@ conflicts="kf6-kitemviews"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kitemviews-devel_package() {
+kf6-kitemviews6.24-devel_package() {
 	conflicts="kf6-kitemviews-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

@@ -21,7 +21,7 @@ conflicts="kf6-kquickcharts"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kquickcharts-devel_package() {
+kf6-kquickcharts6.24-devel_package() {
 	conflicts="kf6-kquickcharts-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

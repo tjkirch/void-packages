@@ -17,7 +17,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname}-${version}.tar.xz"
 checksum=88b5970c2d6f6d5f46e6ffac66233bf23f2fcf016dea39fffbd9f47b1fc0aed8
 conflicts="kwayland"
 
-kwayland-devel_package() {
+kwayland6.6-devel_package() {
 	conflicts="kwayland-devel"
 	short_desc+=" - development"
 	depends="${sourcepkg}-${version}_${revision} qt5-devel"

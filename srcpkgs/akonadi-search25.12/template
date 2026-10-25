@@ -28,7 +28,7 @@ do_check() {
 	ctest -E '(akonadi-sqlite-schedulertest|akonadi-sqlite-collectionindexingjobtest)'
 }
 
-akonadi-search-devel_package() {
+akonadi-search25.12-devel_package() {
 	conflicts="akonadi-search-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

@@ -47,7 +47,7 @@ do_check() {
 	ctest -E "($( echo ${tests[@]} | tr " " "|" ))"
 }
 
-kf6-kwindowsystem-devel_package() {
+kf6-kwindowsystem6.24-devel_package() {
 	conflicts="kf6-kwindowsystem-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

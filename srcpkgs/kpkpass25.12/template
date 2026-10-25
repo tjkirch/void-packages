@@ -21,7 +21,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.
 checksum=d1b9f52e266d7be21e818780a1a4578c3d8cf574925f5c0265e583f82408c903
 conflicts="kpkpass"
 
-kpkpass-devel_package() {
+kpkpass25.12-devel_package() {
 	conflicts="kpkpass-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

@@ -26,7 +26,7 @@ do_check() {
 	ctest -E "ksycocatest|kapplicationtradertest|kservicetest|ksycocathreadtest|ksycoca_xdgdirstest"
 }
 
-kf6-kservice-devel_package() {
+kf6-kservice6.24-devel_package() {
 	conflicts="kf6-kservice-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

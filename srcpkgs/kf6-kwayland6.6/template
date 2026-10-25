@@ -21,7 +21,7 @@ conflicts="kf6-kwayland"
 makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
-kf6-kwayland-devel_package() {
+kf6-kwayland6.6-devel_package() {
 	conflicts="kf6-kwayland-devel"
 	short_desc+=" - development"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"

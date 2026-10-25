@@ -20,7 +20,7 @@ checksum=227c0578def79612a4cae9745445e5dff023458ffffabf305e06d953248f72a0
 conflicts="ksmtp"
 make_check=no # XXX: requires smtp server?
 
-ksmtp-devel_package() {
+ksmtp25.12-devel_package() {
 	conflicts="ksmtp-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

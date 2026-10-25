@@ -56,7 +56,7 @@ pre_check() {
 	ln -sf $wrksrc/data "$HOME/.local/share/marble/"
 }
 
-marble-devel_package() {
+marble25.12-devel_package() {
 	conflicts="marble-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"

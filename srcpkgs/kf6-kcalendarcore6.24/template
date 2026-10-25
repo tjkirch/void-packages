@@ -42,7 +42,7 @@ do_check() {
 	ctest -E "testicaltimezones|Compat-AppleICal_1.5.ics|Compat-KOrganizer_3.1a.ics|Compat-Mozilla_1.0.ics"
 }
 
-kf6-kcalendarcore-devel_package() {
+kf6-kcalendarcore6.24-devel_package() {
 	conflicts="kf6-kcalendarcore-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

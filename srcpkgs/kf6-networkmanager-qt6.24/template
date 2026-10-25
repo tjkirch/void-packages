@@ -26,7 +26,7 @@ do_check() {
 	ctest -E "managertest|settingstest|activeconnectiontest"
 }
 
-kf6-networkmanager-qt-devel_package() {
+kf6-networkmanager-qt6.24-devel_package() {
 	conflicts="kf6-networkmanager-qt-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

@@ -54,14 +54,14 @@ if [ "$XBPS_TARGET_LIBC" = "glibc" ]; then
 	makedepends+=" libxcrypt-devel"
 fi
 
-kworkspace_package() {
+kworkspace6.6_package() {
 	short_desc="Plasma Workspace Library for KF6"
 	pkg_install() {
 		vmove "usr/lib/libkworkspace6.so.6*"
 	}
 }
 
-plasma-workspace-x11_package() {
+plasma-workspace-x11-6.6_package() {
 	short_desc+=" - X11 Session"
 	depends="${sourcepkg} kwin-x11-6.6"
 	pkg_install() {
@@ -70,7 +70,7 @@ plasma-workspace-x11_package() {
 	}
 }
 
-plasma-workspace-devel_package() {
+plasma-workspace6.6-devel_package() {
 	conflicts="plasma-workspace-devel"
 	short_desc+=" - development files"
 	depends="kworkspace6.6>=${version}_${revision} qt6-base-devel

@@ -23,7 +23,7 @@ if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"
 fi
 
-calendarsupport-devel_package() {
+calendarsupport25.12-devel_package() {
 	conflicts="calendarsupport-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

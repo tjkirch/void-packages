@@ -24,14 +24,14 @@ checksum=b7d690761e37c29b425375ee42b959b59a9de693789de86e0fb826bace5b3d7f
 conflicts="kate"
 replaces="kate5>=0"
 
-libkate_package() {
+libkate25.12_package() {
 	short_desc+=" - libraries"
 	pkg_install() {
 		vmove usr/lib/libkateprivate.so.*
 	}
 }
 
-kwrite_package() {
+kwrite25.12_package() {
 	short_desc+=" - kwrite"
 	pkg_install() {
 		vmove usr/bin/kwrite

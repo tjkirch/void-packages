@@ -29,7 +29,7 @@ do_check() {
 	ctest -E ".*sqlite.*test"
 }
 
-incidenceeditor-devel_package() {
+incidenceeditor25.12-devel_package() {
 	conflicts="incidenceeditor-devel"
 	short_desc+=" - development"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"

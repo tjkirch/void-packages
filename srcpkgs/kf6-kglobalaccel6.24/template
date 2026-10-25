@@ -18,7 +18,7 @@ conflicts="kf6-kglobalaccel"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kglobalaccel-devel_package() {
+kf6-kglobalaccel6.24-devel_package() {
 	conflicts="kf6-kglobalaccel-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

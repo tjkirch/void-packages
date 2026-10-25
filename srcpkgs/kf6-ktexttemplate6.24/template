@@ -21,7 +21,7 @@ conflicts="kf6-ktexttemplate"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-ktexttemplate-devel_package() {
+kf6-ktexttemplate6.24-devel_package() {
 	conflicts="kf6-ktexttemplate-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

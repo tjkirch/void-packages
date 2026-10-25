@@ -70,7 +70,7 @@ post_install() {
 	vdoc "${FILESDIR}/README.voidlinux"
 }
 
-kdevelop-devel_package() {
+kdevelop25.12-devel_package() {
 	conflicts="kdevelop-devel"
 	depends="kdevelop25.12>=${version}_${revision} qt6-webengine-devel
 	 qt6-qt5compat-devel kf6-ktexteditor6.24-devel kf6-threadweaver6.24-devel"

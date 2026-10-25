@@ -27,7 +27,7 @@ do_check() {
 	dbus-run-session ctest
 }
 
-kf6-kauth-tools_package() {
+kf6-kauth-tools6.24_package() {
 	short_desc+=" - tools"
 	pkg_install() {
 		vmove usr/libexec
@@ -35,7 +35,7 @@ kf6-kauth-tools_package() {
 	}
 }
 
-kf6-kauth-devel_package() {
+kf6-kauth6.24-devel_package() {
 	conflicts="kf6-kauth-devel"
 	depends="$makedepends kf6-kauth-tools6.24>=${version}_${revision}
 	 ${sourcepkg}>=${version}_${revision}"

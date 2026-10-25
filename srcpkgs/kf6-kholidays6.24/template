@@ -21,7 +21,7 @@ conflicts="kf6-kholidays"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kholidays-devel_package() {
+kf6-kholidays6.24-devel_package() {
 	conflicts="kf6-kholidays-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

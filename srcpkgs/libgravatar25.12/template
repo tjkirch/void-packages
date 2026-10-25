@@ -19,7 +19,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/libgravatar-${version}.tar
 checksum=459e245db0872ee5f780d4cc90808e90d9fcb63f0ee9c22552c15d60754c388f
 conflicts="libgravatar"
 
-libgravatar-devel_package() {
+libgravatar25.12-devel_package() {
 	conflicts="libgravatar-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

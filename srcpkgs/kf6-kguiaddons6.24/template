@@ -41,7 +41,7 @@ case "$XBPS_TARGET_MACHINE" in
 	arm*) configure_args+=" -DSHIBOKEN_GENERATOR_EXTRA_FLAGS=--clang-option=-mfloat-abi=hard" ;;
 esac
 
-kf6-kguiaddons-geo-uri-handler_package() {
+kf6-kguiaddons-geo-uri-handler6.24_package() {
 	short_desc+=" - Geo URI handler"
 	pkg_install() {
 		vmove usr/share/applications
@@ -49,7 +49,7 @@ kf6-kguiaddons-geo-uri-handler_package() {
 	}
 }
 
-kf6-kguiaddons-devel_package() {
+kf6-kguiaddons6.24-devel_package() {
 	conflicts="kf6-kguiaddons-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

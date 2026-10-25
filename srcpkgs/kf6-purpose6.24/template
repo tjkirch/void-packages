@@ -25,7 +25,7 @@ conflicts="kf6-purpose"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-purpose-devel_package() {
+kf6-purpose6.24-devel_package() {
 	conflicts="kf6-purpose-devel"
 	depends="${sourcepkg}>=${version}_${revision} kf6-kcoreaddons6.24-devel"
 	short_desc+=" - development files"
