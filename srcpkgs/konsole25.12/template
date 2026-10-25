@@ -29,9 +29,3 @@ do_check() {
 	cd build
 	ctest -E "ScreenTest|Vt102EmulationTest|TerminalInterfaceTest"
 }
-
-konsole5_package() {
-	metapackage=yes
-	short_desc+=" (transitional dummy package)"
-	depends="konsole25.12>=${version}_${revision}"
-}

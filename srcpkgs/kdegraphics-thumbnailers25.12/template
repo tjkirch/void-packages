@@ -16,9 +16,3 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/graphics/kdegraphics-thumbnailers"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdegraphics-thumbnailers-${version}.tar.xz"
 checksum=dfa5ff87674eb255fdf25fa7e5adbef387fc712fe9e1180fe6dcced138f3092d
-
-kdegraphics-mobipocket_package() {
-	short_desc+=" (transitional dummy package)"
-	depends="${sourcepkg}>=${version}_${revision}"
-	metapackage=yes
-}
