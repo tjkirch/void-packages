@@ -34,9 +34,3 @@ kglobalacceld-devel_package() {
 		#vmove "usr/lib/*.so"
 	}
 }
-
-khotkeys_package() {
-	metapackage=yes
-	depends="kglobalacceld6.6"
-	short_desc+=" - transition"
-}

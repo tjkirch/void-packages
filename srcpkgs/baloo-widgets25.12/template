@@ -37,15 +37,3 @@ baloo-widgets-devel_package() {
 		vmove "usr/lib/*.so"
 	}
 }
-
-baloo-widgets5_package() {
-	short_desc+=" (transitional dummy package)"
-	metapackage=yes
-	depends="baloo-widgets-${version}_${revision}"
-}
-
-baloo-widgets5-devel_package() {
-	short_desc+=" (transitional dummy package)"
-	metapackage=yes
-	depends="baloo-widgets-devel-${version}_${revision}"
-}

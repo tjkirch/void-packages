@@ -107,24 +107,12 @@ calligra-karbon_package() {
 	}
 }
 
-calligra-kexi_package() {
-	metapackage=yes
-	depends="kexi"
-	short_desc+=" - Develop desktop db apps (transitional dummy package)"
-}
-
 calligra-stage_package() {
 	short_desc+=" - Write presentation documents"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
 		cmake -P ${wrksrc}/build/stage/cmake_install.cmake
 	}
-}
-
-calligra-krita_package() {
-	metapackage=yes
-	short_desc+=" - Edit and paint images (transitional dummy package)"
-	depends="krita>=${version}_${revision}"
 }
 
 calligra-sheets_package() {

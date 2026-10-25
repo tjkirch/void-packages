@@ -66,9 +66,3 @@ marble-devel_package() {
 		vmove usr/lib/qt6/mkspecs
 	}
 }
-
-marble5_package() {
-	metapackage=yes
-	short_desc+=" - transition"
-	depends="marble25.12>=25.08.1_1"
-}

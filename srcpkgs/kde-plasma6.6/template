@@ -34,11 +34,3 @@ maintainer="John <me@johnnynator.dev>"
 license="Public Domain"
 homepage="https://kde.org/plasma-desktop"
 replaces="kde5>=0"
-
-kde5_package() {
-	metapackage=yes
-	depends="${sourcepkg}>=${version}_${revision}
-	 oxygen-qt5-6.6>=${version}
-	 kwayland-integration6.6>=${version}"
-	short_desc+=" (transitional dummy package)"
-}

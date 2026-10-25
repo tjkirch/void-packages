@@ -59,9 +59,3 @@ do_check() {
 	cd build
 	dbus-run-session ctest --output-on-failure --force-new-ctest-process
 }
-
-kalendar_package() {
-	depends="${sourcepkg}>=${version}_${revision}"
-	short_desc+=" - transitional dummy package"
-	metapackage=yes
-}
