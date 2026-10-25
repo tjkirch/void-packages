@@ -20,7 +20,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.
 checksum=fb37324db737ccdb3f8680ed7b1f03ac24418aeb6f1545e78486c2b9b05cdec9
 conflicts="kaddressbook"
 
-kaddressbook-devel_package() {
+kaddressbook25.12-devel_package() {
 	conflicts="kaddressbook-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

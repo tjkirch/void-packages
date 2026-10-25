@@ -25,7 +25,7 @@ do_check() {
 	ctest -E '(smtpjob|akonadi-sqlite-attribute|akonadi-sqlite-messagequeuejob)test'
 }
 
-kmailtransport-devel_package() {
+kmailtransport25.12-devel_package() {
 	conflicts="kmailtransport-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

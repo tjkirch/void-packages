@@ -19,7 +19,7 @@ checksum=818476fbf87df903f92f875302ab9d76fc136d05f42530d35f58f3cc10f0a904
 conflicts="kunifiedpush"
 make_check_pre="dbus-run-session"
 
-kunifiedpush-devel_package() {
+kunifiedpush25.12-devel_package() {
 	conflicts="kunifiedpush-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

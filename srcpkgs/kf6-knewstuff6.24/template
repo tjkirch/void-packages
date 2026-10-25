@@ -23,7 +23,7 @@ conflicts="kf6-knewstuff"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-knewstuff-devel_package() {
+kf6-knewstuff6.24-devel_package() {
 	conflicts="kf6-knewstuff-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kcoreaddons6.24-devel kf6-attica6.24-devel"

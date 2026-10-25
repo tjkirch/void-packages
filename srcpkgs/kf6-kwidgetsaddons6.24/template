@@ -42,7 +42,7 @@ do_check() {
 	ctest -E "ktooltipwidgettest|kwidgetsaddons-kcolumnresizertest"
 }
 
-kf6-kwidgetsaddons-devel_package() {
+kf6-kwidgetsaddons6.24-devel_package() {
 	conflicts="kf6-kwidgetsaddons-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

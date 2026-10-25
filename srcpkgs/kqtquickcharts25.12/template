@@ -16,7 +16,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.
 checksum=c768f41e62d71d7ffe8400cfd48986be3a6ebdf6aec64364655abd122210a39a
 conflicts="kqtquickcharts"
 
-kqtquickcharts-devel_package() {
+kqtquickcharts25.12-devel_package() {
 	conflicts="kqtquickcharts-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

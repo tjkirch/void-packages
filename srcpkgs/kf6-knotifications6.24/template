@@ -39,7 +39,7 @@ case "$XBPS_TARGET_MACHINE" in
 	arm*) configure_args+=" -DSHIBOKEN_GENERATOR_EXTRA_FLAGS=--clang-option=-mfloat-abi=hard" ;;
 esac
 
-kf6-knotifications-devel_package() {
+kf6-knotifications6.24-devel_package() {
 	conflicts="kf6-knotifications-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 libcanberra-devel kf6-kconfig6.24-devel"

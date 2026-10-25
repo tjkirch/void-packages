@@ -22,7 +22,7 @@ if [ "$CROSS_BUILD" ]; then
 	configure_args+=" -DDESKTOPTOJSON_EXECUTABLE=/usr/bin/desktoptojson"
 fi
 
-libkdepim-devel_package() {
+libkdepim25.12-devel_package() {
 	conflicts="libkdepim-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

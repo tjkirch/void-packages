@@ -16,7 +16,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/kdegraphics-mobipocket-${v
 checksum=69ec5076b02332f23d96cfd7b560ae716726bfab2984ce0285e0a67c1270522a
 conflicts="libqmobipocket6"
 
-libqmobipocket6-devel_package() {
+libqmobipocket6-25.12-devel_package() {
 	conflicts="libqmobipocket6-devel"
 	short_desc+=" - development files"
 	depends="${sourcepkg}>=${version}_${revision}"

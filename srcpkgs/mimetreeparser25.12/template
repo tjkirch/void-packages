@@ -22,7 +22,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.
 checksum=b81506a5876039c0aa9969f7bd71040880b171b53014a76a8bbaed02287cc5f9
 conflicts="mimetreeparser"
 
-mimetreeparser-devel_package() {
+mimetreeparser25.12-devel_package() {
 	conflicts="mimetreeparser-devel"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

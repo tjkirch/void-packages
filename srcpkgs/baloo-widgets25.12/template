@@ -28,7 +28,7 @@ checksum=b4af5cc65d886ab9d2a807254e11295e585d7cedd993d2b3b78f2f17e3a7f544
 conflicts="baloo-widgets"
 replaces="baloo-widgets5>=0"
 
-baloo-widgets-devel_package() {
+baloo-widgets25.12-devel_package() {
 	conflicts="baloo-widgets-devel"
 	short_desc+=" - development files"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"

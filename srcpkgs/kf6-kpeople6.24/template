@@ -28,7 +28,7 @@ do_check() {
 	ctest -E "personsmodeltest"
 }
 
-kf6-kpeople-devel_package() {
+kf6-kpeople6.24-devel_package() {
 	conflicts="kf6-kpeople-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

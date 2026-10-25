@@ -19,7 +19,7 @@ conflicts="kf6-kbookmarks"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kbookmarks-devel_package() {
+kf6-kbookmarks6.24-devel_package() {
 	conflicts="kf6-kbookmarks-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kwidgetsaddons6.24-devel qt6-base-devel"

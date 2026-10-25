@@ -19,7 +19,7 @@ distfiles="https://download.kde.org/stable/kgraphviewer/${version}/kgraphviewer-
 checksum=872bee63fb4df6f7fb2b4eaf02ff825cba3ca953ac02509a287fe5cd0f1e2b69
 conflicts="kgraphviewer"
 
-kgraphviewer-devel_package() {
+kgraphviewer25.12-devel_package() {
 	conflicts="kgraphviewer-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

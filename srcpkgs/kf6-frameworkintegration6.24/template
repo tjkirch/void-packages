@@ -24,7 +24,7 @@ conflicts="kf6-frameworkintegration"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-frameworkintegration-devel_package() {
+kf6-frameworkintegration6.24-devel_package() {
 	conflicts="kf6-frameworkintegration-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kcolorscheme6.24-devel kf6-kiconthemes6.24-devel

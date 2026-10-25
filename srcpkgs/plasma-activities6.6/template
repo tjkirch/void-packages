@@ -23,7 +23,7 @@ conflicts="plasma-activities"
 makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
-plasma-activities-devel_package() {
+plasma-activities6.6-devel_package() {
 	conflicts="plasma-activities-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

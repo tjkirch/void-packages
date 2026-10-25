@@ -36,7 +36,7 @@ case "$XBPS_TARGET_MACHINE" in
 	arm*) configure_args+=" -DSHIBOKEN_GENERATOR_EXTRA_FLAGS=--clang-option=-mfloat-abi=hard" ;;
 esac
 
-kf6-kjobwidgets-devel_package() {
+kf6-kjobwidgets6.24-devel_package() {
 	conflicts="kf6-kjobwidgets-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kcoreaddons6.24-devel"

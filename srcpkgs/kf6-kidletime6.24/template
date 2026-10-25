@@ -22,7 +22,7 @@ conflicts="kf6-kidletime"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kidletime-devel_package() {
+kf6-kidletime6.24-devel_package() {
 	conflicts="kf6-kidletime-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

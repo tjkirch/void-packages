@@ -21,7 +21,7 @@ conflicts="kf6-knotifyconfig"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-knotifyconfig-devel_package() {
+kf6-knotifyconfig6.24-devel_package() {
 	conflicts="kf6-knotifyconfig-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel"
 	short_desc+=" - development files"

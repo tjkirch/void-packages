@@ -59,7 +59,7 @@ if [ "$CROSS_BUILD" ]; then
 	LDFLAGS=" -Wl,-rpath-link,../../bin"
 fi
 
-messagelib-devel_package() {
+messagelib25.12-devel_package() {
 	conflicts="messagelib-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

@@ -24,7 +24,7 @@ if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then
 	broken="Qt6 WebEngine"
 fi
 
-akonadi-import-wizard-devel_package() {
+akonadi-import-wizard25.12-devel_package() {
 	conflicts="akonadi-import-wizard-devel"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

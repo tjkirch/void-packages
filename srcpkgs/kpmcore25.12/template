@@ -20,7 +20,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/kpmcore-${version}.tar.xz"
 checksum=22cac5b6432c4ad606aef72bf884983d9cb7d5245c43e75edd1c5a36f9058668
 conflicts="kpmcore"
 
-kpmcore-devel_package() {
+kpmcore25.12-devel_package() {
 	conflicts="kpmcore-devel"
 	short_desc+=" - development"
 	depends="${makedepends} ${sourcepkg}>=${version}_${revision}"

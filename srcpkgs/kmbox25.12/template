@@ -19,7 +19,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/kmbox-${version}.tar.xz"
 checksum=4bda0a789e010d383db7a56294941853cc2d878ddd57b33f1e08daeb2714a75b
 conflicts="kmbox"
 
-kmbox-devel_package() {
+kmbox25.12-devel_package() {
 	conflicts="kmbox-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

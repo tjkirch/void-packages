@@ -35,7 +35,7 @@ case "$XBPS_TARGET_MACHINE" in
 	arm*) configure_args+=" -DSHIBOKEN_GENERATOR_EXTRA_FLAGS=--clang-option=-mfloat-abi=hard" ;;
 esac
 
-kf6-kunitconversion-devel_package() {
+kf6-kunitconversion6.24-devel_package() {
 	conflicts="kf6-kunitconversion-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

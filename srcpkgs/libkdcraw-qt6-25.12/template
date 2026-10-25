@@ -16,7 +16,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/libkdcraw-${version}.tar.x
 checksum=cf49479043a75557f82b0213019c45291d612267e454b66d939f04b189c4f182
 conflicts="libkdcraw-qt6"
 
-libkdcraw-qt6-devel_package() {
+libkdcraw-qt6-25.12-devel_package() {
 	conflicts="libkdcraw-qt6-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

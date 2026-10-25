@@ -27,7 +27,7 @@ do_check() {
 	ctest -E "animationspeedmodifiertest|TextFieldContextMenuTest"
 }
 
-kf6-qqc2-desktop-style-devel_package() {
+kf6-qqc2-desktop-style6.24-devel_package() {
 	conflicts="kf6-qqc2-desktop-style-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

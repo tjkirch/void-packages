@@ -28,7 +28,7 @@ do_check() {
 	ctest -E "sieveeditorhelphtmlwidgettest"
 }
 
-libksieve-devel_package() {
+libksieve25.12-devel_package() {
 	conflicts="libksieve-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

@@ -24,13 +24,13 @@ else
 	configure_args+=" -DBINARY_ICONS_RESOURCE=OFF"
 fi
 
-libbreeze-icons_package() {
+libbreeze-icons6.24_package() {
 	pkg_install() {
 		vmove "usr/lib/*.so.*"
 	}
 }
 
-libbreeze-icons-devel_package() {
+libbreeze-icons6.24-devel_package() {
 	conflicts="breeze-icons-devel"
 	depends="libbreeze-icons6.24>=${version}_${revision}"
 	short_desc+=" - development files"

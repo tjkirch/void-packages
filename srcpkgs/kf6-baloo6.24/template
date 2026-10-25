@@ -30,7 +30,7 @@ do_check() {
 	ctest -E "(filemonitortest|filewatchtest)"
 }
 
-kf6-baloo-devel_package() {
+kf6-baloo6.24-devel_package() {
 	conflicts="kf6-baloo-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

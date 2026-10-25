@@ -24,7 +24,7 @@ conflicts="kf6-kcmutils"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kcmutils-devel_package() {
+kf6-kcmutils6.24-devel_package() {
 	conflicts="kf6-kcmutils-devel"
 	depends="${sourcepkg}>=${version}_${revision}
 	 kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6.24-devel

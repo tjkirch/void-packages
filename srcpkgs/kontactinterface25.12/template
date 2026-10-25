@@ -19,7 +19,7 @@ distfiles="${KDE_SITE}/release-service/${version}/src/kontactinterface-${version
 checksum=c330d3c6f531ec13cd0dd2f291ca12a787cbc35cc4c9a1722e4d117d456eb821
 conflicts="kontactinterface"
 
-kontactinterface-devel_package() {
+kontactinterface25.12-devel_package() {
 	conflicts="kontactinterface-devel"
 	depends="${sourcepkg}>=${version}_${revision} kf6-kparts6.24-devel"
 	short_desc+=" - development files"

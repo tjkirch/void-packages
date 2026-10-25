@@ -22,7 +22,7 @@ conflicts="kf6-kdeclarative"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kdeclarative-devel_package() {
+kf6-kdeclarative6.24-devel_package() {
 	conflicts="kf6-kdeclarative-devel"
 	depends="${sourcepkg}>=${version}_${revision} kf6-kconfig6.24-devel
 	 qt6-declarative-devel"

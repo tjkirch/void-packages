@@ -21,7 +21,7 @@ conflicts="kf6-kmime"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kmime-devel_package() {
+kf6-kmime25.12-devel_package() {
 	conflicts="kf6-kmime-devel"
 	depends="${sourcepkg}>=${version}_${revision} ${makedepends}"
 	short_desc+=" - development files"

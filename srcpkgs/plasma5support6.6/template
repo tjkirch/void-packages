@@ -31,7 +31,7 @@ do_check() {
 	ctest -E "pluginloadertest"
 }
 
-plasma5support-devel_package() {
+plasma5support6.6-devel_package() {
 	conflicts="plasma5support-devel"
 	depends="${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

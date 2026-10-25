@@ -23,7 +23,7 @@ conflicts="kf6-kirigami"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kirigami-devel_package() {
+kf6-kirigami6.24-devel_package() {
 	conflicts="kf6-kirigami-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 qt6-declarative-devel"

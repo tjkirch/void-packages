@@ -27,7 +27,7 @@ post_install() {
 	rm ${DESTDIR}/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kwallet.service
 }
 
-kf6-kwallet-devel_package() {
+kf6-kwallet6.24-devel_package() {
 	conflicts="kf6-kwallet-devel"
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

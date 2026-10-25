@@ -20,7 +20,7 @@ make_check_pre="dbus-run-session"
 makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
-kf6-kdbusaddons-devel_package() {
+kf6-kdbusaddons6.24-devel_package() {
 	conflicts="kf6-kdbusaddons-devel"
 	depends="qt6-base-devel ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"

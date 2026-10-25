@@ -44,7 +44,7 @@ do_check() {
 	ctest -E "ktoolbar_unittest|kxmlgui_unittest"
 }
 
-kf6-kxmlgui-devel_package() {
+kf6-kxmlgui6.24-devel_package() {
 	conflicts="kf6-kxmlgui-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
 	 kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kguiaddons6.24-devel"
