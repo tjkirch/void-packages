@@ -18,7 +18,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=93cb9c1df2630807c04bf8c30312e75ae3bb466c77dd9b29bb2c752e71d34a26
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 # https://bugs.kde.org/show_bug.cgi?id=509680 / https://github.com/void-linux/void-packages/issues/57348

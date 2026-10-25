@@ -17,9 +17,9 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=60b75e02abc2bfbb247c586e3ab94def7ecd7b4e1ddb8260358951d84d9ea8c9
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
-subpackages="kf6-kauth-tools kf6-kauth6.24-devel"
+subpackages="kf6-kauth-tools6.24 kf6-kauth6.24-devel"
 
 do_check() {
 	cd build
@@ -35,7 +35,7 @@ kf6-kauth-tools_package() {
 }
 
 kf6-kauth-devel_package() {
-	depends="$makedepends kf6-kauth-tools>=${version}_${revision}
+	depends="$makedepends kf6-kauth-tools6.24>=${version}_${revision}
 	 ${sourcepkg}>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {

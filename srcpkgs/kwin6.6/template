@@ -8,7 +8,7 @@ build_helper=qemu
 configure_args="-DBUILD_TESTING=OFF -DFORCE_CROSSCOMPILED_TOOLS=ON
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules6.24 gettext pkg-config kf6-kauth-tools
+hostmakedepends="extra-cmake-modules6.24 gettext pkg-config kf6-kauth-tools6.24
  qt6-base qt6-tools qt6-declarative-host-tools libcap-progs
  kf6-kconfig6.24 kf6-kpackage6.24 kf6-kcmutils6.24 kf6-kwindowsystem6.24
  kf6-kirigami6.24 libcap-devel wayland-devel"
@@ -21,7 +21,7 @@ makedepends="libplasma6.6-devel kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel
  qt6-multimedia-devel kf6-kdecoration6.6-devel libxkbcommon-devel libinput-devel
  libSM-devel libICE-devel xcb-util-wm-devel qt6-sensors-devel lcms2-devel
  pipewire-devel kf6-krunner6.24-devel xorg-server-xwayland libxcvt-devel hwids
- libdisplay-info-devel breeze-qt6 kf6-kwayland-devel libcap-devel
+ libdisplay-info-devel breeze-qt6-6.6 kf6-kwayland6.6-devel libcap-devel
  libqaccessibilityclient-devel kf6-kirigami6.24-devel qt6-svg-devel
  kf6-kcolorscheme6.24-devel kf6-kcrash6.24-devel knighttime6.6-devel kf6-kxmlgui6.24-devel
  kf6-kdeclarative6.24-devel libcanberra-devel kf6-knotifications6.24-devel
@@ -30,7 +30,7 @@ makedepends="libplasma6.6-devel kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel
  kf6-kpackage6.24-devel kf6-kauth6.24-devel kf6-kconfig6.24-devel aurorae6.6"
 # transitive deps from kscreenlocker6.6, for build ordering
 makedepends+=" layer-shell-qt6.6-devel libkf6screen6.6-devel"
-depends="breeze-qt6 hicolor-icon-theme kglobalacceld6.6 hwids libcap-progs aurorae6.6"
+depends="breeze-qt6-6.6 hicolor-icon-theme kglobalacceld6.6 hwids libcap-progs aurorae6.6"
 short_desc="KDE Window manager"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
@@ -40,7 +40,7 @@ checksum=6baa910b732d93c48c90f9c1cc685cc93d0b8de0cdf138c24192c045bc3a48e2
 replaces="kwayland-server>=0"
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 kwin-devel_package() {

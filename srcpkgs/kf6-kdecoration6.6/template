@@ -15,7 +15,7 @@ distfiles="${KDE_SITE}/plasma/${version}/kdecoration-${version}.tar.xz"
 checksum=7ff1fe2854ca08a21a1ba47f1b0c97d12ea24f1db618631319cba4023ca53d86
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 kf6-kdecoration-devel_package() {

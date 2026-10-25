@@ -17,5 +17,5 @@ checksum=deb5698b5682bc15d22446db9cf8641857d0bd7785e145b7b6e9247a68d35fd2
 alternatives="ssh-askpass:/usr/libexec/ssh-askpass:/usr/bin/ksshaskpass"
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"

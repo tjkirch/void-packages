@@ -19,7 +19,7 @@ nostrip=yes
 if [ -z "$CROSS_BUILD" ]; then
 	configure_args+=" -DBINARY_ICONS_RESOURCE=ON"
 else
-	hostmakedepends+=" libbreeze-icons-devel"
+	hostmakedepends+=" libbreeze-icons6.24-devel"
 	configure_args+=" -DBINARY_ICONS_RESOURCE=OFF"
 fi
 
@@ -30,7 +30,7 @@ libbreeze-icons_package() {
 }
 
 libbreeze-icons-devel_package() {
-	depends="libbreeze-icons>=${version}_${revision}"
+	depends="libbreeze-icons6.24>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {
 		if [ -z "$CROSS_BUILD" ]; then

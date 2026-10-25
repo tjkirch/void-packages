@@ -7,7 +7,7 @@ build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml"
 hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools pkg-config
  pipewire wayland-devel qt6-declarative-host-tools"
-makedepends="ffmpeg6-devel kf6-kcoreaddons6.24-devel kf6-kwayland-devel
+makedepends="ffmpeg6-devel kf6-kcoreaddons6.24-devel kf6-kwayland6.6-devel
  kf6-ki18n6.24-devel libva-devel libepoxy-devel pipewire-devel
  plasma-wayland-protocols
  wayland-devel qt6-declarative-devel qt6-base-private-devel"
@@ -20,7 +20,7 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=20af39d9450d495468c56a50930810d82137f7ccd3a710592e02b6f620758f55
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 do_check() {
