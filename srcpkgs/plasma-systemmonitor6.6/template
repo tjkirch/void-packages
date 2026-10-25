@@ -22,7 +22,7 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=5708e8f0e1833e0829144a14aba1f177262661cc57b20c4a5a34bfd6973d1f1b
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 ksysguard_package() {

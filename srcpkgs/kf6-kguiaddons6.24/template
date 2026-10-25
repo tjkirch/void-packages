@@ -15,7 +15,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
 makedepends="plasma-wayland-protocols wayland-devel
  qt6-declarative-devel qt6-base-private-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
-depends="kf6-kguiaddons-geo-uri-handler"
+depends="kf6-kguiaddons-geo-uri-handler6.24"
 short_desc="Addons to QtGui"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
@@ -24,7 +24,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=e98864228d1c5e23f3428025eb9928697374fdc3eddebb3a9dec570de028a62d
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 build_options="python"

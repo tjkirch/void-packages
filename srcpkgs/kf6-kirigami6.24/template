@@ -19,7 +19,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=6de811e559c20dc1086c0cf2c34bb98712dbe4d45f960c62c3c3f887332c95f8
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kirigami-devel_package() {

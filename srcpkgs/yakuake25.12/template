@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 kf6-kconfig6.24 kf6-kcoreaddons6.24 qt6
 makedepends="kf6-knewstuff6.24-devel kf6-knotifyconfig6.24-devel kf6-kparts6.24-devel
  qt6-base-private-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
  qt6-svg-devel kf6-kglobalaccel6.24-devel kf6-kiconthemes6.24-devel kf6-knotifications6.24-devel
- kf6-kwayland-devel kf6-kstatusnotifieritem6.24-devel"
+ kf6-kwayland6.6-devel kf6-kstatusnotifieritem6.24-devel"
 depends="konsole25.12"
 short_desc="Drop-down terminal emulator based on KDE konsole technology"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"

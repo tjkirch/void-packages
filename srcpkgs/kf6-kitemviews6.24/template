@@ -15,7 +15,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=9452f2b0cc5dd0214b88c4ce33297866be89af4177af14f5390cfb616e49c153
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kitemviews-devel_package() {

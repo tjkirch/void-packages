@@ -18,7 +18,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=22873204292ddb757e5a0a57004c57debe1285cd0fd4e796d07e9de2402e60c3
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kidletime-devel_package() {

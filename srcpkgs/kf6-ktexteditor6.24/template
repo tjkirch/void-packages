@@ -7,7 +7,7 @@ build_style=cmake
 configure_args="
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base kf6-kauth-tools
+hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base kf6-kauth-tools6.24
  qt6-declarative-host-tools gettext kf6-kconfig6.24"
 makedepends="kf6-karchive6.24-devel kf6-kauth6.24-devel kf6-kconfig6.24-devel
  kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-kxmlgui6.24-devel
@@ -23,7 +23,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=d90f24e33a7aa0e6a179af253dfdeca0977992adb62bf1b6f7ad11537ab6e3e7
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-ktexteditor-devel_package() {

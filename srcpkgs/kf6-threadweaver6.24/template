@@ -14,7 +14,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=e5400968a41820393e76190ab5dbb276c09513263d1b185d64b40f82dcd9b457
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-threadweaver-devel_package() {

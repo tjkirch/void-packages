@@ -14,7 +14,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=e532ebd4cbfc8d6d79c6c38c556f1871315fedae8db2b69b574b9c496f171473
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 kf6-kglobalaccel-devel_package() {

@@ -23,13 +23,13 @@ makedepends="ecm-devel eigen boost-headers zlib-devel
  kf6-kdbusaddons6.24-devel
  qt6-base-devel qt6-svg-devel qt6-declarative-devel
  qtkeychain-qt6-devel kdiagram6-devel qca-qt6-devel poppler-qt6-devel
- libokular-devel phonon-devel
+ libokular25.12-devel phonon-devel
  lcms2-devel fontconfig-devel freetype-devel librevenge-devel
  libodfgen-devel libwpd-devel libwpg-devel libwps-devel
  libvisio-devel libetonyek-devel"
-depends="calligra-filters calligra-libs calligra-plugins calligra-karbon
- kexi calligra-stage calligra-sheets calligra-extras
- calligra-words calligra-handbook calligra-gemini calligra-plan"
+depends="calligra-filters25.12 calligra-libs25.12 calligra-plugins25.12 calligra-karbon25.12
+ kexi calligra-stage25.12 calligra-sheets25.12 calligra-extras25.12
+ calligra-words25.12 calligra-handbook25.12 calligra-gemini25.12 calligra-plan"
 short_desc="Illustration application"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
@@ -46,7 +46,7 @@ fi
 CXXFLAGS="-DKDE_NO_DEBUG_OUTPUT"
 
 if [ "$CROSS_BUILD" ]; then
-	hostmakedepends+=" calligra-devtools"
+	hostmakedepends+=" calligra-devtools25.12"
 	configure_args+=" -DMODERN_ICONV_RUN=1"
 fi
 
@@ -137,7 +137,7 @@ calligra-sheets_package() {
 
 calligra-words_package() {
 	short_desc+=" - Word Processor"
-	depends="calligra-plugins"
+	depends="calligra-plugins25.12"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
 		cmake -P ${wrksrc}/build/words/cmake_install.cmake

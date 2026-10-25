@@ -8,7 +8,7 @@ configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  gettext pkg-config kf6-kconfig6.24"
 makedepends="qt6-base-devel kf6-kcodecs6.24-devel kf6-ki18n6.24-devel kf6-karchive6.24-devel
- kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel attr-devel taglib-devel libqmobipocket6-devel
+ kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel attr-devel taglib-devel libqmobipocket6-25.12-devel
  exiv2-devel ffmpeg6-devel ebook-tools-devel poppler-qt6-devel"
 short_desc="Library for extracting file metadata"
 maintainer="John <me@johnnynator.dev>"
@@ -18,7 +18,7 @@ distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.x
 checksum=5e14cd8e395e927042cb3eb7cff47e0effda5e8bf2520cf18d1082a9403b2e62
 
 # stage builds
-makedepends+=" kf6-base"
+makedepends+=" kf6-base6.24"
 shlib_requires="KDE_Frameworks.${version%.*}"
 
 do_check() {

@@ -7,7 +7,7 @@ build_style=cmake
 configure_args="
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext python3
- kf6-kconfig6.24 kf6-kauth-tools kf6-kcmutils6.24"
+ kf6-kconfig6.24 kf6-kauth-tools6.24 kf6-kcmutils6.24"
 makedepends="kf6-kcmutils6.24-devel libplasma6.6-devel plasma5support6.6-devel
  kf6-kconfig6.24-devel kf6-kauth6.24-devel"
 short_desc="Control Panel for ufw (Uncomplicated Firewall)"
@@ -18,5 +18,5 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=adbc6a62d272a3866461274bb78de49e0f83c9971225f619adb3042399be6997
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"

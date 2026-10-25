@@ -51,7 +51,7 @@ makedepends="
  astyle
  libedit-devel libplasma6.6-devel
  boost-headers"
-# khelpcenter is required to display documentation
+# khelpcenter25.12 is required to display documentation
 depends="khelpcenter25.12"
 short_desc="Integrated Development Environment for C/C++"
 maintainer="Orphaned <orphan@voidlinux.org>"

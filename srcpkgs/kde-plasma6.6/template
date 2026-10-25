@@ -1,0 +1,44 @@
+# Template file for 'kde-plasma6.6'
+# group=kde-plasma
+pkgname=kde-plasma6.6
+version=6.7.4
+revision=1
+metapackage=yes
+depends="bluedevil6.6>=${version}
+ breeze-gtk6.6>=${version}
+ kde-gtk-config6.6>=${version}
+ kdeplasma-addons6.6>=${version}
+ kgamma6.6>=${version}
+ kinfocenter6.6>=${version}
+ kscreen6.6>=${version}
+ ksshaskpass6.6>=${version}
+ plasma-systemmonitor6.6>=${version}
+ kwallet-pam6.6>=${version}
+ kwrited6.6>=${version}
+ oxygen-qt6-6.6>=${version}
+ plasma-desktop6.6>=${version}
+ plasma-nm6.6>=${version}
+ plasma-pa6.6>=${version}
+ plasma-workspace-wallpapers6.6>=${version}
+ powerdevil6.6>=${version}
+ sddm-kcm6.6>=${version}
+ xdg-desktop-portal-kde6.6>=${version}
+ plasma-thunderbolt6.6>=${version}
+ kf6-kded6.24>=${version}
+ plasma-workspace-x11-6.6>=${version}
+ elogind
+ upower
+ udisks2"
+short_desc="KDE Plasma Desktop meta-package for Void Linux"
+maintainer="John <me@johnnynator.dev>"
+license="Public Domain"
+homepage="https://kde.org/plasma-desktop"
+replaces="kde5>=0"
+
+kde5_package() {
+	metapackage=yes
+	depends="${sourcepkg}>=${version}_${revision}
+	 oxygen-qt5-6.6>=${version}
+	 kwayland-integration6.6>=${version}"
+	short_desc+=" (transitional dummy package)"
+}

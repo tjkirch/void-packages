@@ -7,7 +7,7 @@ build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="extra-cmake-modules6.24 qt6-base-devel qt6-base pkg-config kf6-kcoreaddons6.24
-gettext kf6-kauth-tools"
+gettext kf6-kauth-tools6.24"
 makedepends="qt6-base-devel libatasmart-devel libparted-devel kf6-kwidgetsaddons6.24-devel
  kf6-ki18n6.24-devel polkit-qt6-devel kf6-kauth6.24-devel kf6-kcoreaddons6.24-devel"
 depends="parted"

@@ -6,7 +6,7 @@ revision=2
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
-hostmakedepends="python3 qt6-base qt6-tools kf6-kcmutils6.24 kf6-kauth-tools
+hostmakedepends="python3 qt6-base qt6-tools kf6-kcmutils6.24 kf6-kauth-tools6.24
  kf6-kconfig6.24
  extra-cmake-modules6.24 gettext kf6-kdoctools6.24 qt6-declarative-host-tools"
 makedepends="kf6-kcmutils6.24-devel kf6-kirigami6.24-devel plasma-workspace6.6-devel
@@ -27,5 +27,5 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=317a21165709d61796fba19f5454397577ffd8aa96655b29dd286a1df252cddb
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"

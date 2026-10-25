@@ -21,7 +21,7 @@ distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
 checksum=6590fefad29e37be7d51ed89e9dbaf67884ae0a3fed14f8d58ac1352c0c0503d
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
 
 kde-gtk-config5_package() {

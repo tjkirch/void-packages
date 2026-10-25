@@ -13,7 +13,7 @@ makedepends="kf6-ki18n6.24-devel kf6-kcompletion6.24-devel kf6-kconfig6.24-devel
  kf6-knotifications6.24-devel kf6-kwallet6.24-devel kf6-kdoctools6.24-devel
  kf6-kwidgetsaddons6.24-devel kf6-kstatusnotifieritem6.24-devel
  kf6-kxmlgui6.24-devel libvncserver-devel libXtst-devel xcb-util-image-devel
- kf6-kwayland-devel pipewire-devel plasma-wayland-protocols kpipewire6.6-devel
+ kf6-kwayland6.6-devel pipewire-devel plasma-wayland-protocols kpipewire6.6-devel
  qt6-base-private-devel"
 short_desc="KDE Desktop Sharing"
 maintainer="Orphaned <orphan@voidlinux.org>"

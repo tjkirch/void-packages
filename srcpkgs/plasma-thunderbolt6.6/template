@@ -20,5 +20,5 @@ checksum=d8179c353f89de0eee69619e300b9df9b7788fce4864cfb2ce1255f0bc691664
 make_check=no # Requires running dbus and bolt services
 
 # stage builds
-makedepends+=" kde-plasma-base"
+makedepends+=" kde-plasma-base6.6"
 shlib_requires="KDE_Plasma.${version}"
