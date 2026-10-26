@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/solid"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=bdbfdc9f26b87e12b951097825af2956f2dee3f14c701d780277b69701f2c74e
+checksum=2f506908ff32ffcdd9918879070b666c9384b079493c25f80735553e332a53fd
 conflicts="kf6-solid"
 
 # stage builds

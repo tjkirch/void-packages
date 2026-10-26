@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kwrited"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=f8aa905734d0ccde796884cfcb06b36084e441fb199ea5aab2bc92cfa4c0506d
+checksum=9ce7b06f2344aef5c144276b75cf9821a5a429fd0c1f0130ba4e406d7336d1d1
 conflicts="kwrited"
 
 # stage builds

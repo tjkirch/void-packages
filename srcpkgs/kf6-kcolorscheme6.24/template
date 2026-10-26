@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcolorscheme"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=a4128e82e47cd474c777754c4dd8af28a00a57ecf388da1a62f8173d898890d0
+checksum=e9c9e0155e9b8049ad8588049645c998494b91145648467ddcbef178e31e84c5
 conflicts="kf6-kcolorscheme"
 
 # stage builds

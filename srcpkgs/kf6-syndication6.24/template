@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/syndication"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=2d44e45b05766d342d3fe19e92d2b039c916a7a83f9e4dff0f9fa15860e140ee
+checksum=99e282bf23a0398dd9a22ce94168a8228bbf1b72aaaf9c52154b70b8a768a05c
 conflicts="kf6-syndication"
 
 # stage builds

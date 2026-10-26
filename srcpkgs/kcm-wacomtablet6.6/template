@@ -22,7 +22,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/wacomtablet"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname#kcm-}-${version}.tar.xz"
-checksum=f668f1dbd18d5f9060b016dbc5667619b214e4e6ac0456be7d322214c20e9cbe
+checksum=161243517f3e901d947219ccee87fe6cae6b3cd1bd0b335ef976fb3d43f1b761
 conflicts="kcm-wacomtablet"
 
 # stage builds

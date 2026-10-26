@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kservice"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=e63062504ede4ebfda4c93e3484a63817731e1157cdcac6e33fb47fe6abc1657
+checksum=f7b3e5fab52949d16c0fce96afc5aaeb1cc94b47536e024d580750ffb1739723
 conflicts="kf6-kservice"
 
 # stage builds

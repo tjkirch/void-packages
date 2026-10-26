@@ -20,5 +20,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://juk.kde.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/juk-${version}.tar.xz"
-checksum=aedbb4558959a4fb6e854461ed47afa84ca07726423c9a223f8eac3b339af816
+checksum=75a10c8707f83fd76e08c9608723b5181d9f828d7d50e21763d1fd25623fdd04
 conflicts="juk"

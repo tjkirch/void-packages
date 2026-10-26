@@ -10,7 +10,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/oxygen-sounds"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=0cc5b60004d8feb8b1de032cb5d3c056c98f62a8713589b90b471e5943e31ad9
+checksum=f87e721b7b1196538d2b2e5f4f6fbc92da0f47cec7a1360bfa77fbdd51026d9c
 conflicts="oxygen-sounds"
 
 # stage builds

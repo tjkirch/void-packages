@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://kontact.kde.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kontactinterface-${version}.tar.xz"
-checksum=c330d3c6f531ec13cd0dd2f291ca12a787cbc35cc4c9a1722e4d117d456eb821
+checksum=5e39b97021293811346a659926bbe8830d40fe8349d5cb7f9e8b63a180d78790
 conflicts="kontactinterface"
 
 kontactinterface25.12-devel_package() {

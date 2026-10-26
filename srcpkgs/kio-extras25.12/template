@@ -24,7 +24,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://invent.kde.org/network/kio-extras"
 distfiles="${KDE_SITE}/release-service/${version}/src/kio-extras-${version}.tar.xz"
-checksum=8050c3dd33fed06a60dda8205f4e0134d3aac95f0647b1d9c05419845341397c
+checksum=b161e363320f96cffba0195e4045a88049fc3c5b93272532dce5ab6ce886916a
 conflicts="kio-extras"
 
 CFLAGS="-D_GNU_SOURCE"

@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.korganizer"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=5589e15d154831ccdbe0aed38ea04ad5c5569e34d71038f0effdebf270908d2f
+checksum=9bb837f1a1f9aedbf35f3254a526cc6f5c7591b4c27e649817db6b563ad698c3
 conflicts="korganizer"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

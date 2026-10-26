@@ -27,5 +27,5 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/skanpage"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#skanpage"
 distfiles="${KDE_SITE}/release-service/${version}/src/skanpage-${version}.tar.xz"
-checksum=849338282311c9a2c936f3aae8f38be8b7ee7a890592912452eb4424e5a82b01
+checksum=2133b783bafb2e7d8cae873b648f10bf2d6edd7baa31d34fcc6c4b0d6507a13d
 conflicts="skanpage"

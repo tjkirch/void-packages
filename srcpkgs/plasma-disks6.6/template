@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-disks"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=34125cd31e559d4d0fef49bb33a6ffc1803112a17495ae1bfbcf5e8beda464c4
+checksum=7ca18810d1d361b9e5a23c95791328f403c989f610f9b5c493baf0d498e19d5e
 conflicts="plasma-disks"
 
 # stage builds

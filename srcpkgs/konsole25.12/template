@@ -22,7 +22,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.konsole"
 distfiles="${KDE_SITE}/release-service/${version}/src/konsole-${version}.tar.xz"
-checksum=64d8aaba741f4412ede26ffbbbe3824523e941b725d3046ec27f510fd42d82e6
+checksum=c3e13be55cbe553ebd6ba5f04f9194c79a4ba15d1ed8f3d151ac7afae016f232
 conflicts="konsole"
 replaces="konsole5>=0"
 

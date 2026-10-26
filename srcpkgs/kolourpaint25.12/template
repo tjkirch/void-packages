@@ -24,7 +24,7 @@ license="BSD-2-Clause, GPL-2.0-or-later, LGPL-2.1-only, GFDL-1.2-only"
 homepage="http://www.kolourpaint.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kolourpaint"
 distfiles="${KDE_SITE}/release-service/${version}/src/kolourpaint-${version}.tar.xz"
-checksum=e2ae301feb5e0ccb7634421b7e320808590fcf7c5bf4c4eb3c60d87bd68caca3
+checksum=ecbd48b7a13eb46bad63b0afe638c6c87f1b661b79740320902c890861543568
 conflicts="kolourpaint"
 
 post_install() {

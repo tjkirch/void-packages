@@ -14,7 +14,7 @@ license="LGPL-2.1-or-later"
 homepage="https://kde.org/applications/graphics"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ksanecore"
 distfiles="${KDE_SITE}/release-service/${version}/src/ksanecore-${version}.tar.xz"
-checksum=0555c4109b6132a774ce4081c12d9deeed8fdb152fa65714f7f73cb20965494d
+checksum=60476b5e7ad764142cf69af1f827e9f7af8883eae3cbd3faa6d1a42d635ee282
 conflicts="ksanecore6"
 
 ksanecore6-25.12-devel_package() {

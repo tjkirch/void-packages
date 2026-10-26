@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/utilities/org.kde.ark"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=0b277a28263074359ce1a1b994c83e974187c0901e320dcbac6042e104b4d8ce
+checksum=81f27ef08e216f3cedce10a2b2e2c74ba27735219d8f149c9d1399f7565e028b
 conflicts="ark"
 
 do_check() {

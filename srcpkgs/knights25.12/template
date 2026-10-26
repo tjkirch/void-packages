@@ -19,5 +19,5 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/games/org.kde.knights"
 distfiles="${KDE_SITE}/release-service/${version}/src/knights-${version}.tar.xz"
-checksum=8808b6894715e77aee13b86b25d13f1277c9fa7dea696fee5bf776f00d4bbdb3
+checksum=a4ce42235f47bd5a90c87c9fb51c43de40bd325c7ba046634a36499bbd16dff3
 conflicts="knights"

@@ -23,7 +23,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://community.kde.org/KDE_PIM/Akonadi"
 distfiles="${KDE_SITE}/release-service/${version}/src/akonadi-mime-${version}.tar.xz"
-checksum=344240cc5277cbc0a68c913f6a4a138287adbd7651f9fb7ef36cf10a70538993
+checksum=15e4c7ff51fa3f3d9373b3f8fc9fb87a9ddddb260103161e08c249ce8dbfbfa0
 conflicts="akonadi-mime"
 
 do_check() {

@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/purpose"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=4fda64d235927e3cc230416d5c9304f5d3e040dc2553b77b2c69bf54c6f04862
+checksum=e95dba236f79bf1655a0581e9f1c3ce64d342750135fde700d463dd205bebc47
 conflicts="kf6-purpose"
 
 # stage builds

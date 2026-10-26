@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/kpimtextedit"
 distfiles="${KDE_SITE}/release-service/${version}/src/kpimtextedit-${version}.tar.xz"
-checksum=e8cd1bdcd58af6c7eac9ede5ec00c635766e9d32c3922e766028cb0c26eb7163
+checksum=100f5dd703adea988f63f2975034a0eff3d4e7d55d088009b02031dc0e47b9c5
 conflicts="kpimtextedit"
 
 do_check() {

@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="http://kde.github.io/ghostwriter"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=03ad5d604205bc6a33f6dcd0cc4c1e04e7c4a4e0ba88ef3169e2aaf971d21700
+checksum=b70127c420e1d8f72379cee4c70c809104b581f63c9da7c83ff344497934d796
 conflicts="ghostwriter"
 
 if [ "$XBPS_TARGET_WORDSIZE" = "32" ]; then

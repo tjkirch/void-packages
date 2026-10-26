@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/libkscreen"
 distfiles="${KDE_SITE}/plasma/${version}/libkscreen-${version}.tar.xz"
-checksum=df317e03acfadfcbc68981b78131750103fadf4d5c5df6368c9e91e698677219
+checksum=c7319c0527a2a4886409fb2b1b7bced5e9ab57da57489875c610116a4956d689
 conflicts="libkf6screen"
 
 # stage builds

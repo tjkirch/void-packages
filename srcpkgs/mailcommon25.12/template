@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/mailcommon-${version}.tar.xz"
-checksum=055bbae0e0df9f0610fca2a4303fe6caabdfc206910a04832cbd717b3c1374e4
+checksum=8ac657f8050b968b592e5ec24c7123a9f33bc2703c3c461c4a87531b5f15da59
 conflicts="mailcommon"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

@@ -20,5 +20,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kblocks"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kblocks"
 distfiles="${KDE_SITE}/release-service/${version}/src/kblocks-${version}.tar.xz"
-checksum=cc25b631cf44c6d70d0e6e6938eb52b447b22b3e2db4fee4916b5ff8c39184c1
+checksum=23ffac3c3bfcd8064df9e2487cca03af685cd42ec6b8403d26ba8baeb14f6a47
 conflicts="kblocks"

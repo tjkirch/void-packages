@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kquickcharts"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=9fe8c0c78ffd23ccfb99cc36477550a229c114ad057def938f38cdec35f82ab1
+checksum=3b4a14a8197e2c225dc4717971cc626c9f9b0606c612bcb740f80ef9b6bd1aab
 conflicts="kf6-kquickcharts"
 
 # stage builds

@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/aurorae"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=7e4305d4e28698024fcd797554ccad84bfd4ed4e5bdcb0f42b5da77fab244416
+checksum=2c3eee8259355c364a47d584c81ccdc7b10530b0505545a7ce7dc0fd221e9af7
 conflicts="aurorae"
 
 # stage builds

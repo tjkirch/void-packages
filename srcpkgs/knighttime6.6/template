@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/knighttime"
 distfiles="${KDE_SITE}/plasma/${version}/knighttime-${version}.tar.xz"
-checksum=5cb23e736e4be4952e63c855cfb45850e1085d650e67b7cae3cbf9721921cb9f
+checksum=698d673a32e720562e6bbdf4b3b7de44beb1228ff6d91ad318db05fc45b229e5
 conflicts="knighttime"
 
 # stage builds

@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kpeople"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=094868f11c8c46e57a077c2788a39c6ee0b0ebc2b64279c6f7c70a5152f518e7
+checksum=d3e267753eb64c3bbba8e4af4a4503695ee62d015b30c2dad1a1f1343890fea4
 conflicts="kf6-kpeople"
 
 # stage builds

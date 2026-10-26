@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-activities-stats"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=9896396e29d5841c7a0f42814ced01ab58fcad406a552ddee2c950f205549acf
+checksum=4151c75ef14802d6f67a5576c50bc53095f15260a67d9f0da8104084557c25e6
 conflicts="plasma-activities-stats"
 
 # stage builds

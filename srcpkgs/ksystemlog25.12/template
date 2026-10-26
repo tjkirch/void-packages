@@ -21,5 +21,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/system/ksystemlog/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ksystemlog"
 distfiles="${KDE_SITE}/release-service/${version}/src/ksystemlog-${version}.tar.xz"
-checksum=f7307547bebaff4703023a747e9bc44df91db919ee1d17ba930df42f1ea13231
+checksum=70d7ae368b1522dcaced130dd3fa49e552a794c80c819c92700cb0776ab5d385
 conflicts="ksystemlog"

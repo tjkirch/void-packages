@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/libkgapi"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=435dd7b20d0547d45627a471e12d9695119dc044f770046cb33017757af375de
+checksum=3d8f6dd6e0d4274102cbf7c3dff67d8cef074e25fbf34bb8e505fd38273656b1
 conflicts="libkgapi"
 
 do_check() {

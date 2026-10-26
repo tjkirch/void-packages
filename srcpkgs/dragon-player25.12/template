@@ -19,5 +19,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/multimedia/org.kde.dragonplayer"
 distfiles="${KDE_SITE}/release-service/${version}/src/dragon-${version}.tar.xz"
-checksum=0b0c153f3918a24a0c7aa35601466202bfdc8865f74e536194acf8c0d217dd33
+checksum=3af4f7ef4b848ab6ee9a4169721c6c59d6cf19acd876619d647001a86d7ae4ce
 conflicts="dragon-player"

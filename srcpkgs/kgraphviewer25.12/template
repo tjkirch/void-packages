@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kgraphviewer/"
 distfiles="https://download.kde.org/stable/kgraphviewer/${version}/kgraphviewer-${version}.tar.xz"
-checksum=872bee63fb4df6f7fb2b4eaf02ff825cba3ca953ac02509a287fe5cd0f1e2b69
+checksum=634d92f9bedb09e5e491e7c8ceb1c4a6607ccb8ef87f8c8b1c8a9f52e3f8c0c6
 conflicts="kgraphviewer"
 
 kgraphviewer25.12-devel_package() {

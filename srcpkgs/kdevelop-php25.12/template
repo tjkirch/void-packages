@@ -16,5 +16,5 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://www.kdevelop.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdev-php"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdev-php-${version}.tar.xz"
-checksum=cbb566e00335153e824bb6b20f8f4db554e2b224f1dc5035ec7e4665bebf1d5d
+checksum=b011e0e5a92d4853c57b97dd6b8cb9407bcdd1bc54a9e34e219d14ce2725b56d
 conflicts="kdevelop-php"

@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kio"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=c19cbd4878347b67a9e05ee6541083f51dd90f9e58ee245b4d7634e09f9c04b2
+checksum=9fbe26ae37924f92f558ccdc09b573db38d8f07828894042ea3f8ddd4568f3c4
 conflicts="kf6-kio"
 
 # stage builds

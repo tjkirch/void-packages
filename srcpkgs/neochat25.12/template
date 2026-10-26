@@ -25,7 +25,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-only, GPL-3.0-or-later, GPL-2.0-or-later, BSD-2-Clause"
 homepage="https://apps.kde.org/en/neochat"
 distfiles="${KDE_SITE}/release-service/${version}/src/neochat-${version}.tar.xz"
-checksum=d745a8cd878c89d9bd3227ed027332933bcb9b5415b1d55ff2987c0587fd8182
+checksum=58f7a58d577466277ed96be7ca10481c52645241400afafd49ba8dc46120a6d9
 conflicts="neochat"
 
 build_options="webview"

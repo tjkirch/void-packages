@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/knewstuff"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=85408768b5c3f4b0b51ee6a14ae73fea263f451404e266e286c55e0c17e44037
+checksum=9759f4e158d1f466030131443201441b2f7cff12638a24f6184bdae4b08e2a05
 conflicts="kf6-knewstuff"
 
 # stage builds

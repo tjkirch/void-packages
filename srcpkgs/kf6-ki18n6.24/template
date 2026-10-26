@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ki18n"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=dfbfc8af89b3bc68810b094bf87746db87c3eeb35b75caeb1882681ebed563bd
+checksum=7424b61c152764c84d4dbba51ad960a9d7894e6909ecfaaa13e7b129585c0b57
 conflicts="kf6-ki18n"
 
 # stage builds

@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-workspace-wallpapers"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=c481ac4b937a2b1b080c3273e0557cd0c9d57b644156b941902483fd8e1646b5
+checksum=2aa1fb82adc2e988868e982c0742c09f5f2e94e65917f58c56b1aecc1b858a1e
 conflicts="plasma-workspace-wallpapers"
 
 # stage builds

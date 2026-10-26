@@ -24,7 +24,7 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/ktorrent"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ktorrent"
 distfiles="${KDE_SITE}/release-service/${version}/src/ktorrent-${version}.tar.xz"
-checksum=f1bde77b179217013f0baf1020a5202e0d8bedfc332587d9866df699cac7b9eb
+checksum=d7aeef6fd792ecffc0a836c2978cfb8754223d725db1a12397dfcc9787be98d2
 conflicts="ktorrent"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then

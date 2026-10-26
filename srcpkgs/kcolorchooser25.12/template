@@ -15,7 +15,7 @@ license="MIT"
 homepage="https://kde.org/applications/en/graphics/org.kde.kcolorchooser"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcolorchooser"
 distfiles="${KDE_SITE}/release-service/${version}/src/kcolorchooser-${version}.tar.xz"
-checksum=7fa2b2d5e552d8205921f25df1a9359d64ceb9f7844d7cf351bf45ca36850a46
+checksum=088b44471b0fec80fb5099c69bc737b67a4e68a08a3d52f901821417defdc865
 conflicts="kcolorchooser"
 
 post_install() {

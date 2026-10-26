@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdoctools"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=b90b42ab222a3034729e517d0c06258abf6bdc28591ec78ad56f24aebbaaed94
+checksum=aee351c52f783813c6c114ade520c8578c570ee6dc25ecbd64c83e3d2d9660d4
 conflicts="kf6-kdoctools"
 
 # stage builds

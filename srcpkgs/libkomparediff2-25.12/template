@@ -18,7 +18,7 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://www.kde.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#libkomparediff2"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkomparediff2-${version}.tar.xz"
-checksum=d222901b0a90f853f21e86bf08db73c3edb65e8d4bbf820626512df82c8430c2
+checksum=b864e90f77c8bae73d3191b4a55e1a40441184c2251c68a664f89000d62472ac
 conflicts="libkomparediff2"
 
 libkomparediff2-25.12-devel_package() {

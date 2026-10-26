@@ -19,5 +19,5 @@ license="GPL-2.0-only"
 homepage="https://utils.kde.org/projects/filelight/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#filelight"
 distfiles="${KDE_SITE}/release-service/${version}/src/filelight-${version}.tar.xz"
-checksum=dbb3aebe51871bf0d9a6d06cefabe1a081a3305d3d0d21b28e0368ccb49b8149
+checksum=914876f16e0a07da4c84fbac66b260a5b03ecebeb55c2ff3743781fe5039d3dc
 conflicts="filelight"

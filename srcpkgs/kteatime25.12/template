@@ -22,5 +22,5 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kteatime/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kteatime"
 distfiles="${KDE_SITE}/release-service/${version}/src/kteatime-${version}.tar.xz"
-checksum=4b047d3c4682b05a12b8e93f8ec2506b5911e31d812d30755ec24c3a7b1b2572
+checksum=a83e1c8fc7a3f009c2ccdb0a1106b098aeaf9d5b3c2e2658e2ce2f8e6a0c70cd
 conflicts="kteatime"

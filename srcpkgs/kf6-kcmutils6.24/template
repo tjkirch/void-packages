@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcmutils"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=0159f80d030ac250b0b353113a55c013ed7e38cb0b678df44d2f0d0b2aca944c
+checksum=893346002b53a11bc9dd4053ad3d987d2545fac94fe38770f5d440343ee8e58a
 conflicts="kf6-kcmutils"
 
 # stage builds

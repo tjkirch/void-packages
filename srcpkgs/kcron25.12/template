@@ -17,5 +17,5 @@ license="GPL-2.0-or-later"
 homepage="https://userbase.kde.org/System_Settings/Task_Scheduler"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcron"
 distfiles="${KDE_SITE}/release-service/${version}/src/kcron-${version}.tar.xz"
-checksum=9577b6bb8377a0b22e0856bc9b9cbc33567235b59f7b8d10bcfd4e7f401ba251
+checksum=0b3e9bdaf3a9f2766efb7007dff9bb1278d4753eaa05eca138f24231ac485de2
 conflicts="kcron"

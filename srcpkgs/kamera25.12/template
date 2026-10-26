@@ -18,5 +18,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kamera/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kamera-${version}.tar.xz"
-checksum=3a81883e06889a3aefd97da8a7b7a0d0ecfeb7501d068c25e59fa606922e5e11
+checksum=fdeff4611a2ee78b4b43152256232dc23208c72bec49938c0f742742ff998063
 conflicts="kamera"

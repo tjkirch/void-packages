@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/prison"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=2cdb0a2689ab45b907c76c9a01c1dc14855b8e5329ad0a9cf65c1ad64e5fed1b
+checksum=39ea2b51fd0e405b964c1f22d64ad0111c79895894590d68b29712d7dde4cd34
 conflicts="kf6-prison"
 
 # stage builds

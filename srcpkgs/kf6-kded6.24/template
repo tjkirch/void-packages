@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kded"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=0adf6e22300cee74d57e790b5db844f03a1366a4d6315edbaa49174b12bf1861
+checksum=f60981d4000961425cbeabe90f0f77e9792cbd5421e55b4c224fdb14aa96b2a5
 conflicts="kf6-kded"
 
 # stage builds

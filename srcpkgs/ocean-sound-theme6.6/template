@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="CC-BY-SA-4.0"
 homepage="https://invent.kde.org/plasma/ocean-sound-theme"
 distfiles="${KDE_SITE}/plasma/${version}/ocean-sound-theme-${version}.tar.xz"
-checksum=452e5ab04f5e2d7cbf9357e4e12badf8493aefda437ba130eb38c9e511313b72
+checksum=c5caea15a37e17923c786da3e5e139ab881a7699e62a76205efd90c9945244cf
 conflicts="ocean-sound-theme"
 
 # stage builds

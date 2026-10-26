@@ -28,6 +28,6 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kdeconnect.kde.org"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-kde-${version}.tar.xz"
-checksum=2aed54ecd6b88a91d047714b384d7bd20d0a8d8bf399923c73cf3509372b36e0
+checksum=a242c968b7f83af21e02113ce5728b9fca98258b6e8f6e7a33d5d6c3cc9e69bb
 conflicts="kdeconnect"
 python_version=3

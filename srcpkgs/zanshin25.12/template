@@ -19,7 +19,7 @@ license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/zanshin"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#zanshin"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=ebd4d528eb266d3c7fec278134be784c785cb1ce51f1fdaf43bdbbc20e53c623
+checksum=4df387da010b1875f73052849634df03bed453b62d0a01e8131d37ba5865cbd2
 conflicts="zanshin"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

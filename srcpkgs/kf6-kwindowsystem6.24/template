@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwindowsystem"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=639a501b877446b19905399d27e2be2b6ebb0bb481abe3209dc4d535a12e12ca
+checksum=2291d95836e8b81263ceea0c1ffa7cfd92773130d6edd130b439874169f13e58
 conflicts="kf6-kwindowsystem"
 
 # stage builds

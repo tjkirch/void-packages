@@ -23,7 +23,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://apps.kde.org/spectacle/"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=2a63a8da331f9249e0ff0091a38f2fa946c7b85c7b7133bd8b60dd524e8e01b8
+checksum=d6cda984f6412787b0acf48d7d9253231852a04befd058757bbf6fcab563ae0e
 conflicts="spectacle"
 
 # stage builds

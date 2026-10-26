@@ -22,7 +22,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/print-manager"
 distfiles="${KDE_SITE}/plasma/${version}/print-manager-${version}.tar.xz"
-checksum=f1658390a7104f2b806176f188ea38f148e7900cb928b4ddfcae0616af52f6ce
+checksum=a015156c2282d10d8920fa1b3dcd4ec2540ab6c871da2a8d1545b8332d4d1fdb
 conflicts="print-manager"
 
 # stage builds

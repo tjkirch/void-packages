@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/syntax-highlighting"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=fc429b093058bec4878306cbbfb3aa0560ff4a3f166c69504036c507fe72afcc
+checksum=061c5946dc6170ecfa91b9c7d4faa5ec81eb53bb5f86eda861c2ce748a65486d
 conflicts="kf6-syntax-highlighting"
 
 # stage builds

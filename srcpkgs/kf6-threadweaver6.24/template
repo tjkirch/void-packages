@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/threadweaver"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=e5400968a41820393e76190ab5dbb276c09513263d1b185d64b40f82dcd9b457
+checksum=aa7608961397e7cdbdc8362ae9d1eaba6c5ba9dae3a84c11830fce155e5ed46f
 conflicts="kf6-threadweaver"
 
 # stage builds

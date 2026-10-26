@@ -51,7 +51,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/utilities/kalarm"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=5ea59c5ed126768b90cef9da7370d32e02f097e5e2e2140456734bd150dc5ac9
+checksum=2ba214f9216f57b97899162aeb9ea7b7223edb2f7dba7ba49e8c9b0b10f72762
 conflicts="kalarm"
 replaces="kalarmcal>=0"
 

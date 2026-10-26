@@ -27,5 +27,5 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kwave"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kwave"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=7f64ac6a23a8e3d7600451f05e610e7d028220a1f0aedcbdcf7e249c3bab3f15
+checksum=d58fe7dceaceaa18206816558f6b640667073966f237fba14abd177bbdcd9dcd
 conflicts="kwave"

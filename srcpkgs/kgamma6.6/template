@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kgamma"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=b45ad6608693034046b65bf68a3843f394f78def02c6f059bc69c5de07cace57
+checksum=b2a451fb97b6b17ad0f289026dc308f30ebeccc2263d34a8b347871acc084363
 conflicts="kgamma"
 
 # stage builds

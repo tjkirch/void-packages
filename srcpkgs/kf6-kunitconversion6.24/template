@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kunitconversion"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=3dcaa45875bab5a2dcadc34cf57cf06689b8d86ff40e20fee01ca2b18987175f
+checksum=a0cd582e48c302d56b5ebcea560b5590f94b8615dbd54bc67bcd165714979fa6
 conflicts="kf6-kunitconversion"
 
 # stage builds

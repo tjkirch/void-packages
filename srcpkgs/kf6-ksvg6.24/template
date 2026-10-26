@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ksvg"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=7b7aba4e9baa88bfb303977e139e8a105b5cd243443029ee773954307b51eb91
+checksum=c4d61f6bb4c61452e83de0427f444cdec296d87333f6c7676fb7dae09480f4d2
 conflicts="kf6-ksvg"
 
 # stage builds

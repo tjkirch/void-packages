@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kimageformats"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=f74ea9ede7877afb66f4d7dea567f074bf63d806a824c87a9d9067d05848a316
+checksum=7e9d35863e2227e37623f390f0e53a216931cd17920582cfc8282a42e04f16e2
 conflicts="kf6-kimageformats"
 
 # stage builds

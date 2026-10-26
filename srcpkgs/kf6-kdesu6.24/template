@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdesu"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=9bf244884b09ce38ad84d00e5879e798b02e1610ec8f3d9ee6c93e7502b356e2
+checksum=be5add002c4f3d96c2632ecebbf5633d9792f9d13d61a91a6a2c349540a807d3
 conflicts="kf6-kdesu"
 
 # stage builds

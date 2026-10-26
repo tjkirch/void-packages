@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdav"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=08d95cf546c941dbe21a76fbc8b88a466f276ab29e866600994f4f60d604c7f4
+checksum=acc5698655403a0d2fbeadf2405218662a42d2201c41edb33651083615642913
 conflicts="kf6-kdav"
 
 # stage builds

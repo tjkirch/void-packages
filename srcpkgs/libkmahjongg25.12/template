@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/games/libkmahjongg"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=11d68a9cbbdab3a0331a6b6a353b522cbdc45ac4dac23ec7a0805595f9e01bac
+checksum=ac5feb1f49db0ee47ac9b1e607ac6ec4582316aed761d9f0b4625ebd25bd97ab
 conflicts="libkmahjongg"
 
 libkmahjongg25.12-devel_package() {

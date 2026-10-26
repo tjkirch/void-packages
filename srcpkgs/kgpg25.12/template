@@ -23,7 +23,7 @@ license="GPL-2.0-only"
 homepage="https://kde.org/applications/en/utilities/org.kde.kgpg"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kgpg"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=76b71fa853e24d6ab521caaf0e180faca06aa5a0e4103c78a59bc932f4c55381
+checksum=ba8a4056a1138b777178ef30510793b20a8dc2f60eadee0aac30989238928f8a
 conflicts="kgpg"
 
 do_check() {

@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdbusaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=063ef80460f76d86dc4b033ef04b65b69ba82ee0de410440fe609465e7f5a997
+checksum=76981431a97dfe706be09faeb8f87db31a4ca6a22fa2bbe1b15acf21f168ad11
 conflicts="kf6-kdbusaddons"
 make_check_pre="dbus-run-session"
 

@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kidletime"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=22873204292ddb757e5a0a57004c57debe1285cd0fd4e796d07e9de2402e60c3
+checksum=be8ce0c791900a1f55e9973bf5faefbe172740424ac9f254ba541552ba3ccb06
 conflicts="kf6-kidletime"
 
 # stage builds

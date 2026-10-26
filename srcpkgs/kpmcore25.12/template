@@ -17,7 +17,7 @@ license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/partitionmanager"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kpmcore"
 distfiles="${KDE_SITE}/release-service/${version}/src/kpmcore-${version}.tar.xz"
-checksum=22cac5b6432c4ad606aef72bf884983d9cb7d5245c43e75edd1c5a36f9058668
+checksum=2e6ff446448b6640e7290784519e19ad326d56f93f8e83cacd11d033197f3e62
 conflicts="kpmcore"
 
 kpmcore25.12-devel_package() {

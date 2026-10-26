@@ -23,7 +23,7 @@ license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later, AGPL-3.0-or-late
 homepage="https://invent.kde.org/pim/kdepim-addons"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdepim-addons"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=09a604e46cbacde0cc99848e18f51ae64019382beb1da11e94319bc48cc8937d
+checksum=0eebf8a6aee397b53ce1365ed6a27af5f7a348865c575ba7ac0f88787f7fa979
 conflicts="kdepim-addons"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

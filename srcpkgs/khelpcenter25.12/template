@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.Help"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=061bd1a929b175cf35c9830f1306b1da8dc9cb3c70d9c371a3767f47401edcfa
+checksum=53f4fd37ced3e882b197600439df43105cd18197124fcfb01e47d1b8ce68b1c1
 conflicts="khelpcenter"
 
 if [ "$CROSS_BUILD" ]; then

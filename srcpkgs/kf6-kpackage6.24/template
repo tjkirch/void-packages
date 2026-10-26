@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kpackage"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=58939af0c553f24963652e10d248e2f8f2b2ca2b87dc26d3220675ed0cf33019
+checksum=50e0c35f61a764f8568760948f4027c51c476701e3ddc529360abd78fe3cc074
 conflicts="kf6-kpackage"
 
 # stage builds

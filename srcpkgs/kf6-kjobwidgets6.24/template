@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kjobwidgets"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=bf36e3619df1c6ad3d900bd36433d97ab295be41c1cc401ff0e766380788bbae
+checksum=b3c5f449bf29b98394157656600e87b91f769afc5f547cef526faddb454f9b61
 conflicts="kf6-kjobwidgets"
 
 # stage builds

@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kstatusnotifieritem"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=373fb23fe6a5c0c5c755c473e7cf272796ea59891c05157c3a7e9607a4c4af4f
+checksum=f76c77dcc27a60007330329a6d6c60298c11ddddba82f710a90715ec81f886ff
 conflicts="kf6-kstatusnotifieritem"
 
 # stage builds

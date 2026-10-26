@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/libksysguard"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=9069bcf3fe4e491ea774d0d70eb17f99b567299871045a38543fcabcdb56dfc4
+checksum=eb612285395028e5bff212d3323a3e09f8ba8a4cb794669469f243f7d24f55d4
 conflicts="libksysguard"
 
 # stage builds

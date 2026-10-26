@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kitemmodels"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=f807e5b37aa913d2563ee1a21b2bce7d34495f32f38c7f35f16262d736bdfd55
+checksum=6636bf47de0df2464a94691a1092340efba2abc91fb305253bbb9058af959727
 conflicts="kf6-kitemmodels"
 
 # stage builds

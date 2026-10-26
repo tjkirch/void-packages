@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ktextwidgets"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=b06b11bb727bf9c3578797b1e40daad5f48e10433e456a337f1c40b4082879c8
+checksum=ba8f7d21014aabcdfa13e0cc1ff5a1db6c04761e080670caa76b7e4163086d15
 conflicts="kf6-ktextwidgets"
 
 # stage builds

@@ -15,5 +15,5 @@ license="GPL-2.0-only"
 homepage="https://kde.org/applications/system/org.kde.kwalletmanager5"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kwalletmanager"
 distfiles="${KDE_SITE}/release-service/${version}/src/kwalletmanager-${version}.tar.xz"
-checksum=9c7476a479884278ebe8024807bf25c6709c5a2da8aaba5aecf24cdd11ee721f
+checksum=b74adfa977f5c3aaae9cb4e225c30acfb1999246820c6c485d45367f1da0ad89
 conflicts="kwalletmanager"

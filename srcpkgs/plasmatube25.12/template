@@ -20,5 +20,5 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/plasmatube"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#plasmatube"
 distfiles="${KDE_SITE}/release-service/${version}/src/plasmatube-${version}.tar.xz"
-checksum=dac36f533e236663fb39478a1a88c22973a59e0e4a838df97da063f0ec814e12
+checksum=c5fe282148181865daa5423ee7595194b1cbfa0168ec722fdcac9ebb67cc52a4
 conflicts="plasmatube"

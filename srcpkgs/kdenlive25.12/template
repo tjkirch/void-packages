@@ -28,7 +28,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://kdenlive.org"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdenlive-${version}.tar.xz"
-checksum=8a0e2cc6451de6901fec778a8b6d00165399879233a264ca5bb1b1b283266513
+checksum=12ef075c6df73637948cdce7725bb8380ccd164b158157d495e6821804ce4a7f
 conflicts="kdenlive"
 
 case "$XBPS_TARGET_MACHINE" in

@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kontact.kde.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=597b9a5c4bf5d643d9da967ba58770aaf6a42ecb5e08dc11860a1cf37384d651
+checksum=d1e7c7ffeb8c1339d2214e7b368a5abb3db6f836115fec4cedb8fc3c18193af4
 conflicts="pim-data-exporter"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

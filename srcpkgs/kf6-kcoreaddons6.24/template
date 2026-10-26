@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcoreaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=cc68fe15beb0fca2036cff8742f468c1345406bf99793fffacbf8f2a3f89bc4b
+checksum=bc2fb0d94de859f6e6bc7413620584f072ace1487e302c65b3398d7c6b0eff7c
 conflicts="kf6-kcoreaddons"
 
 # stage builds

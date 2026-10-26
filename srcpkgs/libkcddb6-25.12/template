@@ -16,7 +16,7 @@ license="GPL-2.0-or-later, LGPL-2.0-or-later, BSD-3-Clause, GFDL-1.2-only"
 homepage="https://projects.kde.org/projects/kde/kdemultimedia/libkcddb"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#libkcddb"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkcddb-${version}.tar.xz"
-checksum=2d86bd59ff8d1d5474e594ca0a8ce2ef5a1cabf9a27f357c6e83c9920dd1dafb
+checksum=e448606348517300496ad86344bd7dde5d6a67f12a247e8c3cbaa7e61a67ce73
 conflicts="libkcddb6"
 
 do_check() {

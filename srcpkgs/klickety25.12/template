@@ -18,5 +18,5 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/klickety"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#klickety"
 distfiles="${KDE_SITE}/release-service/${version}/src/klickety-${version}.tar.xz"
-checksum=b5d4d53f37579a9c029ddb12d4e6c24eaf85fbc0e30288ac65e7ce126f42d9f3
+checksum=c9f59671ef1f026f9780699e4e1572ee038494caebbf73cab05ee0bf15736faa
 conflicts="klickety"

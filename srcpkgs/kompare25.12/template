@@ -26,5 +26,5 @@ license="GPL-2.0-only, GFDL-1.2-only"
 homepage="https://www.kde.org/applications/development/kompare/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kompare"
 distfiles="${KDE_SITE}/release-service/${version}/src/kompare-${version}.tar.xz"
-checksum=0bf656d9bab64b710a7dc44458cba13d4afbe09acff98ff63280efdec7950dcc
+checksum=97b01230aa06ba7e3bfff5e2c2ac4cc43b87ed18e4ae98851d5fb4a1314dc353
 conflicts="kompare"

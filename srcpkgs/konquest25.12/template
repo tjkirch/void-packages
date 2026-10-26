@@ -19,5 +19,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/games/org.kde.konquest"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#konquest"
 distfiles="${KDE_SITE}/release-service/${version}/src/konquest-${version}.tar.xz"
-checksum=ff2eb6e383b4d8e9c4091f24d5bd630b953dc797f3c06707c8be548b550babeb
+checksum=93a91e75b93af3d528ded66327cbba137db7150b0b71cfbbc455bc59962975b7
 conflicts="konquest"

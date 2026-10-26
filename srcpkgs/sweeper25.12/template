@@ -19,5 +19,5 @@ license="LGPL-2.0-or-later"
 homepage="https://apps.kde.org/sweeper"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#sweeper"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=4ad649504927a359eed0aeacff85d74ac958577cf78685a659d69a4890df0603
+checksum=18ad9dba43cb524458ad1f38097212fdaf5d01e3d5d71931b341026a48d3dcd0
 conflicts="sweeper"

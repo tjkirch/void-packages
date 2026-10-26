@@ -26,7 +26,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/pimcommon-${version}.tar.xz"
-checksum=67ea0976c8a3d37c224e0f2a5db08dcb88342f0c77378f28b7aef6f502fccb7e
+checksum=6496e293294e23c6db8a19e4774313426bcdc8478defb2141ec4f6653f9f4b2f
 conflicts="pimcommon"
 
 pimcommon25.12-devel_package() {

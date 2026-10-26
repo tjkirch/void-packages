@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma5support"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=dcd58d280b9c3f9570b1790134f692374ecae633cd15c60b1ee76947d5543e80
+checksum=678c613cd1c77bc1238ba1316bbe3749e3c6c77a6cd16838b2d8fba5bb363e83
 conflicts="plasma5support"
 
 # stage builds

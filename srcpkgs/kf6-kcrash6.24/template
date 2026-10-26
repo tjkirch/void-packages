@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcrash"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=b17f8242309e1502119c48b1ef5059a396a3068596a84fb79fdef6d9e2cd4f49
+checksum=4544428c3c96587e46342daf5b1f083dd7950c7bc940d7bc7921300600ef8074
 conflicts="kf6-kcrash"
 
 # stage builds

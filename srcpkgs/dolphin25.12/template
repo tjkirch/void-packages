@@ -23,7 +23,7 @@ license="GPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.dolphin"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#dolphin"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=f5635feff84e7070d35342d6defb46e9b42ff1c44e3896635f4bd9f43da947c1
+checksum=9961de7cc076d9d7d598bb7f53afdebcfba20567093231f42ba72e031e089a3b
 conflicts="dolphin"
 
 if [ "$CROSS_BUILD" ]; then

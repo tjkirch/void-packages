@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/ktnef-${version}.tar.xz"
-checksum=f044833403ac6d9352287ccaed35af4eea07a95b9d89dfb740b01061e5af48a1
+checksum=f31a9008c62b380a615447669fd96b65aa25062ba4d314de42aadb267d1ec747
 conflicts="ktnef"
 
 ktnef25.12-devel_package() {

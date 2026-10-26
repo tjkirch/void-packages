@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/kglobalacceld"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=83e9a4e226e695fe1544cfa19a9659c5f1000be46c669fe3a9e299029c6c2abf
+checksum=f785888bb56d764e938ff44c766d31c016d50487dcc010f004b6284fe87ac18d
 conflicts="kglobalacceld"
 
 # stage builds
