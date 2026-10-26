@@ -1,7 +1,7 @@
 # Template file for 'kf6-ktexteditor6.24'
 # group=kde-frameworks
 pkgname=kf6-ktexteditor6.24
-version=6.30.0
+version=6.24.0
 revision=1
 build_style=cmake
 configure_args="

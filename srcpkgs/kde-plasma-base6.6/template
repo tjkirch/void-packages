@@ -1,7 +1,7 @@
 # Template file for 'kde-plasma-base6.6'
 # group=kde-plasma
 pkgname=kde-plasma-base6.6
-version=6.7.5
+version=6.6.7
 revision=1
 metapackage=yes
 short_desc="KDE Plasma base package (6.6 series)"

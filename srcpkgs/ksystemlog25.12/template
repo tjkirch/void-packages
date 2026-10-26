@@ -1,7 +1,7 @@
 # Template file for 'ksystemlog25.12'
 # group=kde-gear
 pkgname=ksystemlog25.12
-version=26.08.1
+version=25.12.3
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF

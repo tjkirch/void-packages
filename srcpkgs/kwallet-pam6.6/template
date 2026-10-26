@@ -1,7 +1,7 @@
 # Template file for 'kwallet-pam6.6'
 # group=kde-plasma
 pkgname=kwallet-pam6.6
-version=6.7.5
+version=6.6.7
 revision=1
 build_style=cmake
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools pkg-config"
