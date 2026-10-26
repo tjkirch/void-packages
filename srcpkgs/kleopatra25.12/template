@@ -10,7 +10,7 @@ configure_args="-DBUILD_TESTING=OFF
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
 hostmakedepends="extra-cmake-modules6.24 kf6-kdoctools6.24 qt6-base qt6-tools kf6-kcoreaddons6.24 gettext kf6-kconfig6.24"
 makedepends="kf6-kcmutils6.24-devel AppStream kf6-kitemmodels6.24-devel gpgme-qt6-devel
- libkleo25.12-devel kf6-kmime25.12-devel kf6-kstatusnotifieritem6.24-devel kf6-kcrash6.24-devel
+ libkleo25.12-devel kmime25.12-devel kf6-kstatusnotifieritem6.24-devel kf6-kcrash6.24-devel
  kf6-ktextwidgets6.24-devel akonadi-mime25.12-devel mimetreeparser25.12-devel kmailtransport25.12-devel
  kidentitymanagement25.12-devel kmbox25.12-devel KDSingleApplication"
 depends="gnupg>=2"

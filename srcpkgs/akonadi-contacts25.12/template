@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 kf6-kcmutil
  qt6-base qt6-tools python3 kf6-kconfig6.24"
 makedepends="kf6-kio6.24-devel kf6-kcontacts6.24-devel kf6-prison6.24-devel kf6-ktextwidgets6.24-devel
  kf6-ktexttemplate6.24-devel libkleo25.12-devel kf6-grantleetheme25.12-devel
- kf6-kmime25.12-devel akonadi-mime25.12-devel kf6-syntax-highlighting6.24-devel ktextaddons-devel"
+ kmime25.12-devel akonadi-mime25.12-devel kf6-syntax-highlighting6.24-devel ktextaddons-devel"
 short_desc="Libraries and daemons to implement Contact Management in Akonadi (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"

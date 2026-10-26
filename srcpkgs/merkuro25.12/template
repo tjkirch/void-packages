@@ -36,7 +36,7 @@ makedepends="qt6-base-private-devel qt6-declarative-private-devel
  kmailtransport25.12-devel
  mimetreeparser25.12-devel
  kmbox25.12-devel
- kf6-kmime25.12-devel
+ kmime25.12-devel
  libkdepim25.12-devel
  pimcommon25.12-devel
  kf6-kholidays6.24-devel

@@ -16,7 +16,7 @@ makedepends="qt6-declarative-devel
  kf6-ki18n6.24-devel
  kf6-kxmlgui6.24-devel
  kf6-kitemmodels6.24-devel
- kf6-kmime25.12-devel kf6-akonadi25.12-devel kf6-kconfig6.24-devel kf6-kdoctools6.24-devel
+ kmime25.12-devel kf6-akonadi25.12-devel kf6-kconfig6.24-devel kf6-kdoctools6.24-devel
  kf6-kcoreaddons6.24-devel"
 short_desc="Libraries and daemons to implement basic email handling (25.12 series)"
 maintainer="Tom <void@halffull.org>"
