@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools
 makedepends="libkdegames25.12-devel kf6-kdoctools6.24-devel kf6-kcrash6.24-devel
  kf6-kio6.24-devel kf6-knotifications6.24-devel kf6-kdbusaddons6.24-devel"
 depends="qhull"
-short_desc="Jigsaw puzzle game"
+short_desc="Jigsaw puzzle game (25.12 series)"
 maintainer="Adam Beckmeyer <adam_gpg@thebeckmeyers.xyz>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/palapeli"

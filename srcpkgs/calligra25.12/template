@@ -30,7 +30,7 @@ makedepends="ecm-devel eigen boost-headers zlib-devel
 depends="calligra-filters25.12 calligra-libs25.12 calligra-plugins25.12 calligra-karbon25.12
  kexi calligra-stage25.12 calligra-sheets25.12 calligra-extras25.12
  calligra-words25.12 calligra-handbook25.12 calligra-gemini25.12 calligra-plan"
-short_desc="Illustration application"
+short_desc="Illustration application (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://www.calligra-suite.org/"

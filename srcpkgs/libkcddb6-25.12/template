@@ -10,7 +10,7 @@ configure_args="-DQT_MAJOR_VERSION=6
 hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons6.24
  kf6-kdoctools6.24 qt6-base qt6-tools kf6-kcmutils6.24"
 makedepends="kf6-kcmutils6.24-devel kf6-kio6.24-devel libmusicbrainz5-devel"
-short_desc="KDE CDDB library"
+short_desc="KDE CDDB library (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, BSD-3-Clause, GFDL-1.2-only"
 homepage="https://projects.kde.org/projects/kde/kdemultimedia/libkcddb"

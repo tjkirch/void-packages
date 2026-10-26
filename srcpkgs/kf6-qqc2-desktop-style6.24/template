@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base pkg-config
  qt6-declarative-host-tools kf6-kconfig6.24"
 makedepends="kf6-kcolorscheme6.24-devel kf6-kiconthemes6.24-devel kf6-kirigami6.24-devel
  kf6-kconfig6.24-devel qt6-base-devel qt6-declarative-devel"
-short_desc="Qt Quick Controls 2: Desktop Style"
+short_desc="Qt Quick Controls 2: Desktop Style (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/qqc2-desktop-style"

@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 pkg-config gettext qt6-base
  kf6-kconfig6.24"
 makedepends="qt6-base-devel kf6-kconfig6.24-devel kf6-kio6.24-devel kf6-ki18n6.24-devel
  ffmpeg6-devel taglib-devel"
-short_desc="FFmpeg-based thumbnail creator for video files"
+short_desc="FFmpeg-based thumbnail creator for video files (25.12 series)"
 maintainer="Michael Straube <straubem@gmx.de>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/"

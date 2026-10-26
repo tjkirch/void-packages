@@ -9,7 +9,7 @@ configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  qt6-declarative-host-tools"
 makedepends="qt6-declarative-devel"
-short_desc="Set of item models extending the Qt model-view framework"
+short_desc="Set of item models extending the Qt model-view framework (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kitemmodels"

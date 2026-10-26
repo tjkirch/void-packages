@@ -17,7 +17,7 @@ makedepends="kf6-knewstuff6.24-devel kf6-knotifyconfig6.24-devel kf6-kcrash6.24-
  kf6-kparts6.24-devel kf6-kpty6.24-devel kf6-ktextwidgets6.24-devel qt6-multimedia-devel
  libssh-devel"
 checkdepends="which"
-short_desc="KDE's Terminal Emulator"
+short_desc="KDE's Terminal Emulator (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.konsole"

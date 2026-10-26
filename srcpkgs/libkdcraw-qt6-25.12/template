@@ -8,7 +8,7 @@ configure_args="-DQT_MAJOR_VERSION=6"
 hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-tools
  qt6-base gettext"
 makedepends="qt6-base-devel libraw-devel"
-short_desc="C++ interface around LibRaw library used to decode RAW - Qt6"
+short_desc="C++ interface around LibRaw library used to decode RAW - Qt6 (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/graphics/"

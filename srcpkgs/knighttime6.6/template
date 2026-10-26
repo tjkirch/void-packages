@@ -9,7 +9,7 @@ hostmakedepends="qt6-base extra-cmake-modules6.24 kf6-kconfig6.24 gettext
 makedepends="qt6-base-devel qt6-position-devel
  kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel kf6-kdbusaddons6.24-devel
  kf6-kholidays6.24-devel kf6-ki18n6.24-devel"
-short_desc="Helpers for scheduling the dark-light cycle"
+short_desc="Helpers for scheduling the dark-light cycle (6.6 series)"
 maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/knighttime"

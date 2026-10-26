@@ -23,7 +23,7 @@ makedepends="qt6-base-devel qt6-svg-devel
  kf6-kwidgetsaddons6.24-devel
  kf6-kwindowsystem6.24-devel
  kf6-kxmlgui6.24-devel"
-short_desc="UML modelling tool and code generator"
+short_desc="UML modelling tool and code generator (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://apps.kde.org/umbrello/"

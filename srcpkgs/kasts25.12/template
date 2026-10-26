@@ -19,7 +19,7 @@ makedepends="kf6-kcoreaddons6.24-devel kf6-syndication6.24-devel kf6-kconfig6.24
  kf6-kwindowsystem6.24-devel kf6-kdbusaddons6.24-devel
  qt6-declarative-private-devel"
 depends="kirigami-addons qt6-plugin-sqlite"
-short_desc="Convergent podcast application"
+short_desc="Convergent podcast application (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/kasts"

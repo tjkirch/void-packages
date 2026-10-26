@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  pkg-config"
 makedepends="qt6-base-devel ModemManager-devel"
 checkdepends="dbus"
-short_desc="Qt wrapper for ModemManager DBus API"
+short_desc="Qt wrapper for ModemManager DBus API (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/modemmanager-qt"

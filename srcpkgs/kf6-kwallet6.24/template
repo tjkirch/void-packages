@@ -10,7 +10,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-deve
  kf6-kwindowsystem6.24-devel kf6-kcolorscheme6.24-devel kf6-kdbusaddons6.24-devel
  kf6-knotifications6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kdoctools6.24-devel
  gpgmepp-devel qca-qt6-devel libgcrypt-devel libsecret-devel"
-short_desc="KWallet: Credential Storage"
+short_desc="KWallet: Credential Storage (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwallet"

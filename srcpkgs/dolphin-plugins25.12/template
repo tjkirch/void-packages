@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools kf6-kcoreadd
  kf6-kconfig6.24"
 makedepends="kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-ktexteditor6.24-devel kf6-ktextwidgets6.24-devel
  kf6-kxmlgui6.24-devel dolphin25.12"
-short_desc="Plugins to integrate Dolphin with various revision control systems"
+short_desc="Plugins to integrate Dolphin with various revision control systems (25.12 series)"
 maintainer="Domenico Panella <pandom79@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.dolphin_plugins"

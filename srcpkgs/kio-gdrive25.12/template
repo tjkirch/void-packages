@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 intltool pkg-config qt6-base
 makedepends="libaccounts-qt6-devel kf6-kaccounts-integration25.12-devel kf6-kparts6.24-devel
  libkgapi25.12-devel kf6-purpose6.24-devel"
 depends="kaccounts-providers25.12"
-short_desc="KIO slave that enables access and edit Google Drive files"
+short_desc="KIO slave that enables access and edit Google Drive files (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"
 homepage="https://community.kde.org/KIO_GDrive"

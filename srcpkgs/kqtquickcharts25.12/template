@@ -8,7 +8,7 @@ configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools qt6-declarative-host-tools"
 makedepends="qt6-declarative-devel"
-short_desc="QtQuick plugin to render beautiful and interactive charts"
+short_desc="QtQuick plugin to render beautiful and interactive charts (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://edu.kde.org/"

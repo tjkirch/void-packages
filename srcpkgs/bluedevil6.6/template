@@ -14,7 +14,7 @@ makedepends="kf6-bluez-qt6.24-devel kf6-kded6.24-devel kf6-kio6.24-devel kf6-kcm
  kf6-kwindowsystem6.24-devel
  kf6-ksvg6.24-devel kf6-kpackage6.24-devel libplasma6.6-devel qt6-declarative-devel"
 depends="kf6-kirigami6.24"
-short_desc="KDE Bluetooth integration"
+short_desc="KDE Bluetooth integration (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/bluedevil"

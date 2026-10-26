@@ -14,7 +14,7 @@ makedepends="kf6-kcmutils6.24-devel AppStream kf6-kitemmodels6.24-devel gpgme-qt
  kf6-ktextwidgets6.24-devel akonadi-mime25.12-devel mimetreeparser25.12-devel kmailtransport25.12-devel
  kidentitymanagement25.12-devel kmbox25.12-devel KDSingleApplication"
 depends="gnupg>=2"
-short_desc="Certificate Manager and Unified Crypto GUI"
+short_desc="Certificate Manager and Unified Crypto GUI (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://www.kde.org/applications/utilities/kleopatra/"

@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base python3 gettext
  kf6-kcoreaddons6.24 kf6-kconfig6.24"
 makedepends="kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kio6.24-devel libkgapi25.12-devel
  ksmtp25.12-devel qtkeychain-qt6-devel"
-short_desc="Mail Transport Service"
+short_desc="Mail Transport Service (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

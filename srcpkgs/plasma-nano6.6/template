@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base gettext kf6-kconfig6.24 kf6-kp
 makedepends="qt6-base-devel qt6-declarative-private-devel qt6-svg-devel
  kf6-ki18n6.24-devel kf6-kwindowsystem6.24-devel kf6-kservice6.24-devel kf6-kitemmodels6.24-devel
  kf6-kirigami6.24-devel kf6-kwayland6.6-devel kf6-kconfig6.24-devel libplasma6.6-devel"
-short_desc="Minimal Plasma shell for embedded devices"
+short_desc="Minimal Plasma shell for embedded devices (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later AND LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-nano"

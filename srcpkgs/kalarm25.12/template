@@ -46,7 +46,7 @@ makedepends="
  mailcommon25.12-devel messagelib25.12-devel
  vlc-devel
  mpv-devel"
-short_desc="Personal alarm scheduler"
+short_desc="Personal alarm scheduler (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/utilities/kalarm"

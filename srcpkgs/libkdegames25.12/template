@@ -21,7 +21,7 @@ makedepends="qt6-svg-devel qt6-declarative-devel qt6-base-devel
  kf6-kdeclarative6.24-devel kf6-kcolorscheme6.24-devel kf6-kxmlgui6.24-devel
  kf6-kcompletion6.24-devel kf6-kconfigwidgets6.24-devel
  libopenal-devel libsndfile-devel"
-short_desc="Common code and data for many KDE games"
+short_desc="Common code and data for many KDE games (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games"
