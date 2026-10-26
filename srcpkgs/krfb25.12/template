@@ -20,5 +20,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.krfb"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=4f84ade2d03a0452fa9f9553b95101c24b86b7eebc2e81d3f1d5fea904dd41dd
+checksum=3dd46a3a0e6da3008a11407333453b5e7763057e739025d3525106301ed38c4a
 conflicts="krfb"

@@ -23,5 +23,5 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/utilities/kdialog"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdialog"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdialog-${version}.tar.xz"
-checksum=e7142c812d2b4b202abd12bea054f8368fdba9bb0552a9f46d3a7d7283339c72
+checksum=fee5a3d52394916a7adca76eaea471cdd5137b0d27b2ef2936cf100981105ea1
 conflicts="kdialog"

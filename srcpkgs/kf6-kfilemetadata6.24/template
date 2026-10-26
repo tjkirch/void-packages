@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kfilemetadata"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=5e14cd8e395e927042cb3eb7cff47e0effda5e8bf2520cf18d1082a9403b2e62
+checksum=2efdc2ebacf9af1f66f611fe95d776023590e9dcf97525aa93eaad7f1aa2ce23
 conflicts="kf6-kfilemetadata"
 
 # stage builds

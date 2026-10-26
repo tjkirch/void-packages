@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/ksshaskpass"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=deb5698b5682bc15d22446db9cf8641857d0bd7785e145b7b6e9247a68d35fd2
+checksum=96d5798925eec0c180546f59cc8e5bc8bf5a0e9d8049ab3d2190acdffcf9bf3c
 conflicts="ksshaskpass"
 alternatives="ssh-askpass:/usr/libexec/ssh-askpass:/usr/bin/ksshaskpass"
 

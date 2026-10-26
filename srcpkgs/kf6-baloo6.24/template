@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/baloo"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=a59d33a919bfa1d164c8f3a6f992c609edaf2131ac5f52ea4ecb77f6fbc53be1
+checksum=1f72676817b9636b80c971934fb7f2c5d396da4758c33998abc4b9ae82195ce4
 conflicts="kf6-baloo"
 
 # stage builds

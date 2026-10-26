@@ -19,5 +19,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kmines"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kmines"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmines-${version}.tar.xz"
-checksum=0097fd3f17033f9a8ad518ce613ceb0920668a3c7fd6321af6ab18fa2c058074
+checksum=4bb6fe8eb7a5f5d4aa5d5604258dc907aba491ca9c67066771a55190ec1d751a
 conflicts="kmines"

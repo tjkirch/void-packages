@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/kldap-${version}.tar.xz"
-checksum=e4be78254cfd19976544ad10981bae5aacdd96b778a9eaa4cec28be233722505
+checksum=496cabade483caaea19f77cfa63047c3c0a2ee4dfc9bfe2e810dcffcc08af155
 conflicts="kldap"
 
 kldap25.12-devel_package() {

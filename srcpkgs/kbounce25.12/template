@@ -19,5 +19,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kbounce/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kbounce-${version}.tar.xz"
-checksum=09a7a6aaa5624475da706a4de0d5162f9a05df14b971730e03f4e6fce89424df
+checksum=6d4c9eabc8cc39c3402076dfd0c5a6566a130a81824db106a44da433ee6cae08
 conflicts="kbounce"

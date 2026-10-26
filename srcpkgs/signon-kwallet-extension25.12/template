@@ -13,5 +13,5 @@ license="GPL-2.0-only"
 homepage="https://invent.kde.org/network/signon-kwallet-extension"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#signon-kwallet-extension"
 distfiles="${KDE_SITE}/release-service/${version}/src/signon-kwallet-extension-${version}.tar.xz"
-checksum=d50f42b725e5d1bcb7c9e3caff77c2b9c835715567427e544c3824e484776ced
+checksum=4fc7566893bf8dd0d6e236d52e13319c809642b7e85f6680bcfbad47888a4836
 conflicts="signon-kwallet-extension"

@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="BSD-2-Clause, CC0-1.0"
 homepage="https://invent.kde.org/frameworks/kapidox"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname}-${version}.tar.xz"
-checksum=838d31fa327b6a4ea502536b60f2b2a42f08ef5383248c0c32d481bc01a44725
+checksum=ab10a97a81eb30a40e5af24f2c683e1a347b3ac22a0d23793068eb4190fb1e6e
 conflicts="kapidox"
 
 post_install() {

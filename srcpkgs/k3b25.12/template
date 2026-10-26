@@ -25,7 +25,7 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/multimedia/org.kde.k3b"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#k3b"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=84ca4a064553587e7c6a93ff9b29a36bf05c07dd08269bea43f1ab5ff92374f3
+checksum=51792146c932b58174c475c6e40b47b7dfd6ccce85346b31f711db3c32592be8
 conflicts="k3b"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then

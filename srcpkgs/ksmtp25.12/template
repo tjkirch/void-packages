@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/ksmtp-${version}.tar.xz"
-checksum=227c0578def79612a4cae9745445e5dff023458ffffabf305e06d953248f72a0
+checksum=a4a76de3a2471d8828c086ea04633a3de2d9ba135b80c5c0ede7eb285ac45a9e
 conflicts="ksmtp"
 make_check=no # XXX: requires smtp server?
 

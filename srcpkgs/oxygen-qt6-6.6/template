@@ -27,7 +27,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/oxygen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname%-qt6}-${version}.tar.xz"
-checksum=ffa4b969197f6e09a6ee4f468925e67223666d761ee9801a8ea612e09b756037
+checksum=1f3ba357400b41f8477ac7ec56c68d92648c53a05c53977a41972a9f953363e5
 conflicts="oxygen-qt6"
 
 # stage builds

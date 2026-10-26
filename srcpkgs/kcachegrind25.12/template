@@ -18,6 +18,6 @@ license="GPL-2.0-only, GFDL-1.2-only"
 homepage="https://kde.org/applications/development/kcachegrind/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcachegrind"
 distfiles="${KDE_SITE}/release-service/${version}/src/kcachegrind-${version}.tar.xz"
-checksum=179753cb1884fbad0ad43517ef660dda4ceeb161be741fcd54553485d7fbd852
+checksum=e96acc0d688b12940ecc8896ab89ffd158bdf595fc69ad6d4a380e28e2e8efd2
 conflicts="kcachegrind"
 python_version=3

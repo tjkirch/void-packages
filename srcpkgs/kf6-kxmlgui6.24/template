@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kxmlgui"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=10fb8a0f7b874248ff60d9a8ee4e1f06a0efcf01b0d34d7635dfff86e848c352
+checksum=f87f887323675d8b36ae9d157ce29848ac0eb1731ffd0c0aec9d79405e793616
 conflicts="kf6-kxmlgui"
 
 # stage builds

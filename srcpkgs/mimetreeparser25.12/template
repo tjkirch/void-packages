@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/pim/mimetreeparser"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=b81506a5876039c0aa9969f7bd71040880b171b53014a76a8bbaed02287cc5f9
+checksum=e83b96782634c8d7dda443ffc005d1d2991620ecfb270c4bf16a67d5d3e949f5
 conflicts="mimetreeparser"
 
 mimetreeparser25.12-devel_package() {

@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/layer-shell-qt"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=ccdcfec7081ca956f7a52c9113a4df3a226575bfbe98b56a2a9a4d7d7e19e8f0
+checksum=4b2314fadc6d6d5611c8ace1e6927c65c8303fb6cafc4f228fe9f8ee5eade9cf
 conflicts="layer-shell-qt"
 
 # stage builds

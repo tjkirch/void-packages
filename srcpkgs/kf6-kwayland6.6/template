@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kwayland"
 distfiles="${KDE_SITE}/plasma/${version}/kwayland-${version}.tar.xz"
-checksum=8d4c83524919dc87b5dec546d0fb14c591c03957888cb7b240a4a9d1bbdc8269
+checksum=4fab48e4a2478fc6808635dce2fafd01e721b31ec8d58949fbf14d7d1e275fca
 conflicts="kf6-kwayland"
 
 # stage builds

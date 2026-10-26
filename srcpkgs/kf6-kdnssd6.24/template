@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdnssd"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=6d59a98f58c66842d29fd7a00e07e0f74e375061aabdfb4c52bbe3140c278225
+checksum=2cfbf6d316112a11436b4eb7125f75cf4cc77c9f17ac6365f5fe28ac8d1cc9a0
 conflicts="kf6-kdnssd"
 
 # stage builds

@@ -19,5 +19,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/palapeli"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#palapeli"
 distfiles="${KDE_SITE}/release-service/${version}/src/palapeli-${version}.tar.xz"
-checksum=7d117962db230e30fad9fa00e3604fa352010d2d050fe850b6db4bd20c651825
+checksum=5a8f5cd6ae8fa8f29dada3808417a51c355e4e3077b1063152324d9406cd25e5
 conflicts="palapeli"

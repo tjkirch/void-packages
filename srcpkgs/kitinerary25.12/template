@@ -20,7 +20,7 @@ license="LGPL-2.1-or-later"
 homepage="https://kontact.kde.org"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kitinerary"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=0969f558a912506d52a06a4ca10a52f3b400e8671fd1451efe1b74b2b5bec907
+checksum=dd8374be2e4c488902f6c0b4b9fd12ad7f808de23b7df4561ef30b3f79b44d13
 conflicts="kitinerary"
 
 do_check() {

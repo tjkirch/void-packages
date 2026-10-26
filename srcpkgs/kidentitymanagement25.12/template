@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/kidentitymanagement"
 distfiles="${KDE_SITE}/release-service/${version}/src/kidentitymanagement-${version}.tar.xz"
-checksum=afd285bac8ce85e87b9f06672423311e299ce75ce1baf4720a59c65e4b4d235a
+checksum=18b24c23bd6fdb5e617b0cd7c7b2ce1da6ffb566e309c796176691c633d49e87
 conflicts="kidentitymanagement"
 
 kidentitymanagement25.12-devel_package() {

@@ -21,5 +21,5 @@ license="GPL-2.0-only, GFDL-1.2-only"
 homepage="https://kde.org/applications/system/org.kde.yakuake"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#yakuake"
 distfiles="${KDE_SITE}/release-service/${version}/src/yakuake-${version}.tar.xz"
-checksum=723a806681faeb3d4aa2fbc93e11392f6fbb66d8bfadcc5508c355d2eaa893ee
+checksum=362c9d376c4ff451d42777f8f8f9f21f2042cecb117f1b5cf2da77b10a43c9df
 conflicts="yakuake"

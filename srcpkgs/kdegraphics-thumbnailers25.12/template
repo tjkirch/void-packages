@@ -15,5 +15,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/graphics/kdegraphics-thumbnailers"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdegraphics-thumbnailers-${version}.tar.xz"
-checksum=dfa5ff87674eb255fdf25fa7e5adbef387fc712fe9e1180fe6dcced138f3092d
+checksum=05eb9e268c161d25c6899f1affdb99acaf8ec506a11083fea807e335a5de18f9
 conflicts="kdegraphics-thumbnailers"

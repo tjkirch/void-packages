@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kholidays"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=02bfbc33296fe86b364491f6d5cad9d83360bb4fdd2923386a325b309eac0b9b
+checksum=94a3c4ea003b82e0307ff81a665f957bb5ab9a6043e60faf1a2aee727519b7be
 conflicts="kf6-kholidays"
 
 # stage builds

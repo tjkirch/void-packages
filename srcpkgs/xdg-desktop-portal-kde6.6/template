@@ -24,7 +24,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/xdg-desktop-portal-kde"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=5ebedc3dcf508e85f2f7bbddffa2cca6805650ffe1dce350c4a1dfc5d2f07c50
+checksum=54bb71c14a2c55f2d2e7e5b6804e00a26e18a224c249a81093937239164fd7d1
 conflicts="xdg-desktop-portal-kde"
 
 # stage builds

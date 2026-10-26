@@ -17,7 +17,7 @@ license="LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://www.kdevelop.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdev-python"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdev-python-${version}.tar.xz"
-checksum=b134e0b58307099b49dd3043d5d199d5fe589e543395c3c7a1e65965fd3f4b3d
+checksum=12b71fff7d3b0d780c7f444e236e8736f67ed2b00668a7b33d472aad759e984f
 conflicts="kdevelop-python"
 python_version=3
 

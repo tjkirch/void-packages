@@ -20,5 +20,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kbreakout"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kbreakout"
 distfiles="${KDE_SITE}/release-service/${version}/src/kbreakout-${version}.tar.xz"
-checksum=091dc77db85a11818d69277870dd18875aea63e86078b2b5c466882118492f1b
+checksum=dc9346e793d521e830245b0be339d28ee9fbe75763e1918565070bb335534029
 conflicts="kbreakout"

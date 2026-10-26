@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kitemviews"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=9452f2b0cc5dd0214b88c4ce33297866be89af4177af14f5390cfb616e49c153
+checksum=c7f38b01772782e7893e73115a3564083ce9fa9155e679b5be0647e6482182fa
 conflicts="kf6-kitemviews"
 
 # stage builds

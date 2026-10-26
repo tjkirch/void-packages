@@ -29,5 +29,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kdiamond"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdiamond"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdiamond-${version}.tar.xz"
-checksum=f33d98e23670527120ccc214efdc79dfc9963fea0712c8919c85d7f4b7ed97d0
+checksum=8c546b013c173200e08f953da74efd374324ffa15ab2cf0a22ce707a028b5121
 conflicts="kdiamond"

@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ktexteditor"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=d90f24e33a7aa0e6a179af253dfdeca0977992adb62bf1b6f7ad11537ab6e3e7
+checksum=fd703c777712ad0e20a849f837c3ad7880eb82c1beb50196608cb326373f78e3
 conflicts="kf6-ktexteditor"
 
 # stage builds

@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kglobalaccel"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=e532ebd4cbfc8d6d79c6c38c556f1871315fedae8db2b69b574b9c496f171473
+checksum=9dc5d1f495e951b5402713cc61b01617f586fdc39dbda3ef7e12e661a9b5af0a
 conflicts="kf6-kglobalaccel"
 
 # stage builds

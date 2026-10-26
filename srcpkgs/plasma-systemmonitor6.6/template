@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-only, GPL-3.0-only, LGPL-2.1-only, LGPL-3.0-only"
 homepage="https://invent.kde.org/plasma/plasma-systemmonitor"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=5708e8f0e1833e0829144a14aba1f177262661cc57b20c4a5a34bfd6973d1f1b
+checksum=d77ee055aebe26b81271e36a8cf513a365a8eddb8c4c009e378d1ee1fcc7b404
 conflicts="plasma-systemmonitor"
 
 # stage builds

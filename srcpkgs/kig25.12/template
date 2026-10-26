@@ -31,5 +31,5 @@ license="GPL-2.0-only"
 homepage="https://www.kde.org/applications/education/kig/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kig"
 distfiles="${KDE_SITE}/release-service/${version}/src/kig-${version}.tar.xz"
-checksum=dd3978b04e0a1e35ec40f676052d9ba485830e669fde62bedaa8b1b82a6e5a1f
+checksum=a181598f6a990c194c58e238b6807cae5491bdc47d35a1764b95d39bbca2d6ee
 conflicts="kig"

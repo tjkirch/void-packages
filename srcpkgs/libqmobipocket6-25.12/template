@@ -13,7 +13,7 @@ license="GPL-2.0-or-later"
 homepage="https://projects.kde.org/projects/kde/kdegraphics-mobipocket"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdegraphics-mobipocket"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdegraphics-mobipocket-${version}.tar.xz"
-checksum=69ec5076b02332f23d96cfd7b560ae716726bfab2984ce0285e0a67c1270522a
+checksum=fbe6c0a2a15c124fa8f6052ec44329d3de2850018f4c25edbef8c163626b1e56
 conflicts="libqmobipocket6"
 
 libqmobipocket6-25.12-devel_package() {

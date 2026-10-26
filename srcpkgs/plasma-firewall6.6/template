@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-only, GPL-3.0-only"
 homepage="https://invent.kde.org/network/plasma-firewall"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=adbc6a62d272a3866461274bb78de49e0f83c9971225f619adb3042399be6997
+checksum=ad934b70c57941d94ff4fc6d47419d600acf6870576a4c51cab53ae86f59fded
 conflicts="plasma-firewall"
 
 # stage builds

@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.kaddressbook"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=fb37324db737ccdb3f8680ed7b1f03ac24418aeb6f1545e78486c2b9b05cdec9
+checksum=5c3e77aa683eff9a96a5117768e8b1828f171dade1a035443bda37a1c5abcbd4
 conflicts="kaddressbook"
 
 kaddressbook25.12-devel_package() {

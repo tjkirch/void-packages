@@ -16,5 +16,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://apps.kde.org/kmplot"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=eee7e1c2dfe2e1a2e378871929bb70c984664291526b93c8f2984b09c12e3f1b
+checksum=4d9bf8bc654ce1e4b477e156e5d4c1a117374e2220398c7e7baa818e214eb043
 conflicts="kmplot"

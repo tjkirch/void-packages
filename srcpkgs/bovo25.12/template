@@ -16,5 +16,5 @@ license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/bovo"
 changelog="https://invent.kde.org/games/bovo/-/raw/master/HISTORY"
 distfiles="${KDE_SITE}/release-service/${version}/src/bovo-${version}.tar.xz"
-checksum=09204b4c051e7103188119abe7ed849dea384d018fbf6f865b4dacec83c35a64
+checksum=b5ab38158518353360ce95de017236d3a235afe499fe9fd95a692afead80ae15
 conflicts="bovo"

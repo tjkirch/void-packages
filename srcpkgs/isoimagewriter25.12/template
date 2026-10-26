@@ -15,6 +15,6 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/isoimagewriter"
 distfiles="${KDE_SITE}/release-service/${version}/src/isoimagewriter-${version}.tar.xz"
-checksum=5b477c775740302beec0dc93a644d5f6696a7125371fb5cc499493121843880f
+checksum=c53935393cc080665ce5e8bd79d3ce2eece4abad9efd2eafa21ae7ac4399e909
 conflicts="isoimagewriter"
 python_version=3

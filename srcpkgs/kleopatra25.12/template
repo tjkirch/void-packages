@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://www.kde.org/applications/utilities/kleopatra/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=f05abd1f28c5c61b0c58d96a31ffcf8a005c0f4264aac6d8661a6687688fc756
+checksum=2d5f02713e07594a8e8c693331776d957e91413ce48ac85c240be91fd670d9ab
 conflicts="kleopatra"
 make_check=no # no test found
 

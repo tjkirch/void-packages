@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/messagelib-${version}.tar.xz"
-checksum=0f3d5b72a4c49bee88aa4c432b127f85e1f152eafecd6d5bd6abca5c05206d68
+checksum=d2d9e8e1eb6d053d82254f8962543ce81ce3d44b583d015f91c8e15ad284d6ba
 conflicts="messagelib"
 make_check_pre="dbus-run-session"
 

@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kdecoration"
 distfiles="${KDE_SITE}/plasma/${version}/kdecoration-${version}.tar.xz"
-checksum=7ff1fe2854ca08a21a1ba47f1b0c97d12ea24f1db618631319cba4023ca53d86
+checksum=ce1f0197b003a8ba43ae70e4d942c96de935cc0d5ab493e58f77552e13871cc0
 conflicts="kf6-kdecoration"
 
 # stage builds

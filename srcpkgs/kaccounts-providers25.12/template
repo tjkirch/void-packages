@@ -20,7 +20,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/network/kaccounts-providers"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kaccounts-providers"
 distfiles="${KDE_SITE}/release-service/${version}/src/kaccounts-providers-${version}.tar.xz"
-checksum=59d70593a7b8917500fa65ee8ec6c876d30ea2213d1a7a454aaff7d1da1fccb1
+checksum=0ce6455e601c122ad1179d3808a12d44c5d36377cf0ce5556520d0f8eee3e6bc
 conflicts="kaccounts-providers"
 
 build_options="nextcloud"

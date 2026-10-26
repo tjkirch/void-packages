@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/kclock/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kclock-${version}.tar.xz"
-checksum=60a1a3048bf5d508dfe6dfbf0cc70f9a6041d33476f579a23dc67325368a8de7
+checksum=8cb4b1d502ad04abf04e5d76ed476a607dda885d282bfc367d218588fb8f3e45
 conflicts="kclock"
 
 

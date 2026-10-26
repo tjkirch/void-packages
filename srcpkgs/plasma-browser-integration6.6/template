@@ -24,7 +24,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-browser-integration"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=d88bdf85a990b4ff819e08843c74faa17715d14419981bbe24f68ec7cff0b8ce
+checksum=42916f4f3cf8c1bcd6eae099517a542c06b1ca1f16c6ba72e4589525af4bc1a5
 conflicts="plasma-browser-integration"
 
 # stage builds

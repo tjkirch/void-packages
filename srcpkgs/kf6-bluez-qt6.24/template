@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/bluez-qt"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=f5045b14a6c689bbfded9437582f943dd4f8f74537085ab6115bcacdea2110d8
+checksum=907cf77ca2bf0417dad49ac3ebfe51300102029b93520dce5cfa5c35e25e5ab3
 conflicts="kf6-bluez-qt"
 
 # stage builds
