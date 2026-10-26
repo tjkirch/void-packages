@@ -17,7 +17,7 @@ makedepends="plasma-wayland-protocols wayland-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
 depends="kf6-kguiaddons-geo-uri-handler6.24"
 short_desc="Addons to QtGui (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kguiaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

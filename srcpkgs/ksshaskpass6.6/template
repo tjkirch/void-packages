@@ -9,7 +9,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
  kf6-kdoctools6.24"
 makedepends="kf6-kwallet6.24-devel kf6-kdoctools6.24-devel qtkeychain-qt6-devel"
 short_desc="KDE ssh-add helper (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/ksshaskpass"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

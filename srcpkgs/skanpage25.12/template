@@ -22,7 +22,7 @@ makedepends="qt6-base-devel qt6-declarative-devel qt6-pdf-devel
  tesseract-ocr-devel"
 depends="kf6-kirigami6.24 kf6-qqc2-desktop-style6.24 kquickimageeditor"
 short_desc="Multi-page scanning application (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/skanpage"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#skanpage"

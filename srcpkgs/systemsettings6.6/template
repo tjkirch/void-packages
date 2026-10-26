@@ -20,7 +20,7 @@ makedepends="kf6-kcmutils6.24-devel kf6-kirigami6.24-devel plasma-workspace6.6-d
  kwin6.6 kf6-kdoctools6.24-devel"
 depends="kf6-kirigami6.24 setxkbmap xrdb"
 short_desc="KDE System settings (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only"
 homepage="https://invent.kde.org/plasma/systemsettings"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

@@ -20,7 +20,7 @@ makedepends="qt6-base-private-devel qt6-declarative-devel qt6-svg-devel
  plasma-wayland-protocols qt6-tools-devel"
 depends="kf6-kirigami6.24"
 short_desc="Plasma library and runtime components (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/libplasma"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

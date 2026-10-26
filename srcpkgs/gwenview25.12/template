@@ -18,7 +18,7 @@ makedepends="kf6-baloo6.24-devel kf6-kdoctools6.24-devel kf6-ki18n6.24-devel
  kImageAnnotator-devel phonon-devel cfitsio-devel"
 depends="qt6-imageformats kf6-kimageformats6.24"
 short_desc="Fast and easy to use image viewer by KDE (25.12 series)"
-maintainer="Helmut Pozimski <helmut@pozimski.eu>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/graphics/gwenview"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

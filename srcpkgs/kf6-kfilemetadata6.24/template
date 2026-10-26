@@ -11,7 +11,7 @@ makedepends="qt6-base-devel kf6-kcodecs6.24-devel kf6-ki18n6.24-devel kf6-karchi
  kf6-kcoreaddons6.24-devel kf6-kconfig6.24-devel attr-devel taglib-devel libqmobipocket6-25.12-devel
  exiv2-devel ffmpeg6-devel ebook-tools-devel poppler-qt6-devel"
 short_desc="Library for extracting file metadata (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kfilemetadata"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
