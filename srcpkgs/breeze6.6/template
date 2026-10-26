@@ -1,7 +1,7 @@
 # Template file for 'breeze6.6'
 # group=kde-plasma
 pkgname=breeze6.6
-version=6.7.3
+version=6.6.7
 revision=1
 metapackage=yes
 depends="breeze-icons6.24 breeze-qt5-6.6 breeze-qt6-6.6 qqc2-breeze-style6.6"

@@ -1,7 +1,7 @@
 # Template file for 'kpipewire6.6'
 # group=kde-plasma
 pkgname=kpipewire6.6
-version=6.7.5
+version=6.6.7
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml"
