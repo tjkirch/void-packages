@@ -13,7 +13,7 @@ makedepends="qt6-base-devel kf6-kconfig6.24-devel kpmcore25.12-devel kf6-kdoctoo
  kf6-kconfigwidgets6.24-devel kf6-kdbusaddons6.24-devel kf6-kcrash6.24-devel"
 depends="hicolor-icon-theme"
 short_desc="KDE utility that allows you to manage disks (25.12 series)"
-maintainer="jambonmcyeah <jambonmcyeah@gmail.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/partitionmanager"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#partitionmanager"

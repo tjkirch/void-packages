@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools shared-mime-info
  qt6-declarative-host-tools"
 makedepends="kf6-karchive6.24-devel qt6-base-devel qt6-declarative-devel qt6-qt5compat-devel"
 short_desc="Apple Wallet Pass reader (25.12 series)"
-maintainer="Louis Dupré Bertoni <contact@louisdb.xyz>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://kontact.kde.org"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kpkpass"

@@ -16,7 +16,7 @@ makedepends="kf6-kcolorscheme6.24-devel kf6-kdbusaddons6.24-devel kf6-kdeclarati
  qcoro-qt6-devel qt6-multimedia-devel qt6-svg-devel qt6-websockets-devel
  qt6-webview-devel qtkeychain-qt6-devel"
 short_desc="Mastodon client for Plasma (25.12 series)"
-maintainer="Nafis <mnabid.25@outlook.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/tokodon"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#tokodon"

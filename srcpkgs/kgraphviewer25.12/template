@@ -12,7 +12,7 @@ makedepends="boost-headers graphviz-devel cups-devel
  kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kparts6.24-devel kf6-kwidgetsaddons6.24-devel
  kf6-kdoctools6.24-devel"
 short_desc="Graphviz DOT graph file viewer (25.12 series)"
-maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kgraphviewer/"
 distfiles="https://download.kde.org/stable/kgraphviewer/${version}/kgraphviewer-${version}.tar.xz"

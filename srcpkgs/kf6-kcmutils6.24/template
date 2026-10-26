@@ -13,7 +13,7 @@ makedepends="kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6.24-devel kf6-kio6.24-
  kf6-kxmlgui6.24-devel kf6-kconfig6.24-devel qt6-declarative-devel kf6-kirigami6.24-devel"
 checkdepends="kf6-kirigami6.24"
 short_desc="Utilities for interacting with KCModules (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcmutils"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

@@ -15,7 +15,7 @@ makedepends="kf6-kconfig6.24-devel libcanberra-devel
  qt6-declarative-devel qt6-base-devel qt6-tools-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
 short_desc="KDE Desktop notifications (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/knotifications"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

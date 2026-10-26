@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kcoreaddons6.24 
  gettext"
 makedepends="calendarsupport25.12-devel eventviews25.12-devel kdiagram6-devel"
 short_desc="KDE PIM incidence editor (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

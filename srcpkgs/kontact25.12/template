@@ -14,7 +14,7 @@ makedepends="kontactinterface25.12-devel qt6-location-devel qt6-webchannel-devel
  libkdepim25.12-devel kf6-akonadi25.12-devel kpimtextedit25.12-devel kf6-kcmutils6.24-devel
  qt6-webengine-devel pimcommon25.12-devel"
 short_desc="KDE Personal Information Manager (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.kontact"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

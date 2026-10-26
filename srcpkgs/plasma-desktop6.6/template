@@ -31,7 +31,7 @@ depends="kmenuedit6.6 polkit-kde-agent6.6 powerdevil6.6 systemsettings6.6
  kf6-qqc2-desktop-style6.24 plasma5support6.6
  accountsservice ksystemstats6.6 xdg-user-dirs noto-fonts-emoji"
 short_desc="KDE Plasma Desktop (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://invent.kde.org/plasma/plasma-desktop"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

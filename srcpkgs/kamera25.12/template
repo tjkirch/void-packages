@@ -14,7 +14,7 @@ makedepends="qt6-base-devel kf6-kio6.24-devel kf6-ki18n6.24-devel libgphoto2-dev
  kf6-kcmutils6.24-devel kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kxmlgui6.24-devel
  kf6-kcoreaddons6.24-devel kf6-kdoctools6.24-devel"
 short_desc="KDE integration for gphoto2 cameras (25.12 series)"
-maintainer="Kenneth Raplee <kenrap@kennethraplee.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kamera/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kamera-${version}.tar.xz"

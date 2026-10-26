@@ -18,7 +18,7 @@ makedepends="qt6-tools-devel qt6-qt5compat-devel qt6-multimedia-devel
  kf6-kwindowsystem6.24-devel kf6-kglobalaccel6.24-devel qca-qt6-devel"
 depends="qt6-plugin-tls-openssl qt6-tools"
 short_desc="User friendly IRC client for KDE (25.12 series)"
-maintainer="Piotr Wójcik <chocimier@tlen.pl>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://konversation.kde.org"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#konversation"

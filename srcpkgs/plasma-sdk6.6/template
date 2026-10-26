@@ -15,7 +15,7 @@ makedepends="kf6-kitemmodels6.24-devel kf6-knewstuff6.24-devel kf6-ktexteditor6.
  kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel kf6-kwidgetsaddons6.24-devel
  qt6-base-devel qt6-svg-devel qt6-qt5compat-devel"
 short_desc="Plasma development applications (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-sdk"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

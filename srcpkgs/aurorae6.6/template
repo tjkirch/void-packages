@@ -12,7 +12,7 @@ makedepends="kf6-kconfig6.24-devel kf6-ki18n6.24-devel kf6-kcmutils6.24-devel
  kf6-kpackage6.24-devel kf6-kcoreaddons6.24-devel kf6-kcolorscheme6.24-devel
  kf6-knewstuff6.24-devel kf6-kdecoration6.6-devel kf6-ksvg6.24-devel qt6-tools-devel"
 short_desc="Themeable window decoration for KWin (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/aurorae"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

@@ -13,7 +13,7 @@ makedepends="kf6-kcolorscheme6.24-devel kf6-kconfig6.24-devel kf6-ki18n6.24-deve
  kf6-kiconthemes6.24-devel kf6-knewstuff6.24-devel kf6-knotifications6.24-devel
  kf6-kwidgetsaddons6.24-devel kf6-kpackage6.24-devel"
 short_desc="Framework to integrate applications with a KDE Workspace (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/frameworkintegration"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
