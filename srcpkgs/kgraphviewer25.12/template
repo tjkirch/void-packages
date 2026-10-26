@@ -1,6 +1,6 @@
 # Template file for 'kgraphviewer25.12'
 pkgname=kgraphviewer25.12
-version=2.5.0
+version=25.12.3
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"

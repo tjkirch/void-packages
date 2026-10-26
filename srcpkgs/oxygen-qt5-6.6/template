@@ -1,7 +1,7 @@
 # Template file for 'oxygen-qt5-6.6'
 # group=kde-plasma
 pkgname=oxygen-qt5-6.6
-version=6.7.5
+version=6.6.7
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DBUILD_QT6=OFF"
