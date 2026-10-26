@@ -17,7 +17,7 @@ makedepends="qt6-declarative-devel plasma-workspace6.6-devel libwacom-devel
  kf6-kcmutils6.24-devel kf6-kpackage6.24-devel"
 depends="xf86-input-wacom"
 checkdepends="dbus"
-short_desc="GUI for the Wacom Linux Drivers"
+short_desc="GUI for the Wacom Linux Drivers (6.6 series)"
 maintainer="Piraty <mail@piraty.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/wacomtablet"

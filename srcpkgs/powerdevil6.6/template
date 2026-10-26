@@ -18,7 +18,7 @@ makedepends="kf6-bluez-qt6.24-devel libkf6screen6.6-devel kf6-networkmanager-qt6
  kf6-kwindowsystem6.24-devel libplasma6.6-devel eudev-libudev-devel
  libxcb-devel plasma-wayland-protocols wayland-devel
  plasma-workspace6.6-devel ddcutil-devel qt6-base-private-devel"
-short_desc="Power consumption settings of a Plasma"
+short_desc="Power consumption settings of a Plasma (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/powerdevil"

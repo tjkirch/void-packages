@@ -9,7 +9,7 @@ hostmakedepends="extra-cmake-modules6.24 qt5-qmake qt5-host-tools
  gettext kcmutils-devel kpackage-devel kconfig-devel kcoreaddons-devel"
 makedepends="frameworkintegration-devel kcmutils-devel fftw-devel plasma-framework-devel"
 depends="frameworkintegration breeze-qt6-6.6"
-short_desc="Breeze visual style for the Plasma Desktop"
+short_desc="Breeze visual style for the Plasma Desktop (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/breeze"

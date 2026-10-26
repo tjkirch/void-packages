@@ -15,7 +15,7 @@ makedepends="kf6-knewstuff6.24-devel kf6-knotifyconfig6.24-devel kf6-kparts6.24-
  qt6-svg-devel kf6-kglobalaccel6.24-devel kf6-kiconthemes6.24-devel kf6-knotifications6.24-devel
  kf6-kwayland6.6-devel kf6-kstatusnotifieritem6.24-devel"
 depends="konsole25.12"
-short_desc="Drop-down terminal emulator based on KDE konsole technology"
+short_desc="Drop-down terminal emulator based on KDE konsole technology (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only, GFDL-1.2-only"
 homepage="https://kde.org/applications/system/org.kde.yakuake"

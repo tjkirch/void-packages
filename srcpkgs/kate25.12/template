@@ -15,7 +15,7 @@ makedepends="kf6-kitemmodels6.24-devel kf6-knewstuff6.24-devel kf6-ktexteditor6.
  kf6-kwindowsystem6.24-devel kf6-kwidgetsaddons6.24-devel kf6-karchive6.24-devel
  kf6-kconfig6.24-devel qt6-base-private-devel"
 depends="hicolor-icon-theme"
-short_desc="KDE Text editor"
+short_desc="KDE Text editor (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later, LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/utilities/org.kde.kate"

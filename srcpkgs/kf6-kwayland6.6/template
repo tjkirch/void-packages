@@ -9,7 +9,7 @@ hostmakedepends="kf6-kcoreaddons6.24 pkg-config extra-cmake-modules6.24 qt6-tool
  wayland-devel"
 makedepends="qt6-tools-devel MesaLib-devel wayland-devel wayland-protocols
  libxkbcommon-devel plasma-wayland-protocols qt6-base-private-devel"
-short_desc="Qt-style client and server library wrapper for Wayland libraries"
+short_desc="Qt-style client and server library wrapper for Wayland libraries (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kwayland"

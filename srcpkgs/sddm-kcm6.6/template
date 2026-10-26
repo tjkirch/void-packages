@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-tools qt6-base gettext
 makedepends="kf6-kio6.24-devel xcb-util-image-devel libXcursor-devel kf6-kconfig6.24-devel
  kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel kf6-kauth6.24-devel"
 depends="sddm"
-short_desc="KDE Config Module for SDDM"
+short_desc="KDE Config Module for SDDM (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/sddm-kcm"

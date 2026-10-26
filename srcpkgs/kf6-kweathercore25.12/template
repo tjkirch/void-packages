@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 gettext pkg-config qt6-base qt6-tools"
 makedepends="kf6-kholidays6.24-devel kf6-ki18n6.24-devel qt6-base-devel
  qt6-declarative-devel qt6-position-devel"
-short_desc="Library to facilitate retrieval of weather information"
+short_desc="Library to facilitate retrieval of weather information (25.12 series)"
 maintainer="Nafis <mnabid.25@outlook.com>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/libraries/kweathercore"

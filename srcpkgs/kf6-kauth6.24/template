@@ -9,7 +9,7 @@ configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base"
 makedepends="kf6-kcoreaddons6.24-devel kf6-kwindowsystem6.24-devel polkit-qt6-devel"
 checkdepends="dbus"
-short_desc="KDE Execute actions as privileged user"
+short_desc="KDE Execute actions as privileged user (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kauth"

@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF -DBUILD_WITH_QT6=ON
 hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools kf6-kcoreaddons6.24 kf6-kconfig6.24 kf6-kdoctools6.24"
 makedepends="kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel kf6-kparts6.24-devel kf6-kwidgetsaddons6.24-devel kf6-ktextwidgets6.24-devel qt6-base-devel qt6-svg-devel"
 depends="kf6-kparts6.24 hicolor-icon-theme"
-short_desc="Mathematical Function Plotter"
+short_desc="Mathematical Function Plotter (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://apps.kde.org/kmplot"

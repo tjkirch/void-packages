@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base qt6-shadertools
  qt6-declarative-host-tools"
 makedepends="qt6-declarative-private-devel qt6-shadertools-devel qt6-svg-devel
  qt6-base-private-devel"
-short_desc="QtQuick based components set"
+short_desc="QtQuick based components set (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kirigami"

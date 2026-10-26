@@ -13,7 +13,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-deve
  libplasma6.6-devel qt6-base-devel qt6-declarative-devel qt6-charts-devel qt6-svg-devel
  kf6-krunner6.24-devel"
 depends="kirigami-addons kf6-qqc2-desktop-style6.24"
-short_desc="Weather application for Plasma Mobile"
+short_desc="Weather application for Plasma Mobile (25.12 series)"
 maintainer="Nafis <mnabid.25@outlook.com>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/kweather/"

@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base qt6-declarative-host
 makedepends="qt6-base-devel libical-devel qt6-declarative-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
 checkdepends="perl"
-short_desc="Library for Interfacing with Calendars"
+short_desc="Library for Interfacing with Calendars (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcalendarcore"

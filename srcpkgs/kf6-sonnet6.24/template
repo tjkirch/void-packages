@@ -10,7 +10,7 @@ configure_args="-DBUILD_DESIGNERPLUGIN=ON
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  qt6-declarative-host-tools"
 makedepends="qt6-declarative-devel aspell-devel hunspell-devel qt6-tools-devel"
-short_desc="Spelling framework for Qt"
+short_desc="Spelling framework for Qt (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/sonnet"

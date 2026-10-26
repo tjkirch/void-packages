@@ -8,7 +8,7 @@ configure_args="-DBUILD_TESTING=OFF -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools kf6-kconfig6.24"
 makedepends="kf6-kio6.24-devel kf6-kglobalaccel6.24-devel kf6-kxmlgui6.24-devel
  boost-headers qt6-base-private-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel"
-short_desc="Manage user's activities and track the usage patterns"
+short_desc="Manage user's activities and track the usage patterns (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kactivitymanagerd"

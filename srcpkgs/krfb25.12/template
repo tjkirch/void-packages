@@ -15,7 +15,7 @@ makedepends="kf6-ki18n6.24-devel kf6-kcompletion6.24-devel kf6-kconfig6.24-devel
  kf6-kxmlgui6.24-devel libvncserver-devel libXtst-devel xcb-util-image-devel
  kf6-kwayland6.6-devel pipewire-devel plasma-wayland-protocols kpipewire6.6-devel
  qt6-base-private-devel"
-short_desc="KDE Desktop Sharing"
+short_desc="KDE Desktop Sharing (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.krfb"

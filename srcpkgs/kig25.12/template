@@ -25,7 +25,7 @@ makedepends="boost-devel-minimal boost-python3 python3-devel
  kf6-kcoreaddons6.24-devel
  qt6-svg-devel
  qt6-base-devel"
-short_desc="KDE education tool for interactive geometry"
+short_desc="KDE education tool for interactive geometry (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only"
 homepage="https://www.kde.org/applications/education/kig/"

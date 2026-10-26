@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 qt6-base qt6-tools python3
  gettext kf6-kconfig6.24"
 makedepends="libkdepim25.12-devel pimcommon25.12-devel"
-short_desc="Mail importer library"
+short_desc="Mail importer library (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

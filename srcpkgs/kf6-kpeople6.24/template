@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  kf6-kconfig6.24 qt6-declarative-host-tools gettext"
 makedepends="kf6-kcontacts6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kwidgetsaddons6.24-devel kf6-kitemviews6.24-devel"
-short_desc="Library that provides access to all contacts and people who hold them"
+short_desc="Library that provides access to all contacts and people who hold them (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kpeople"

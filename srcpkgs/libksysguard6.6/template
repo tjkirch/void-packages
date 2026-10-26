@@ -15,7 +15,7 @@ makedepends="qt6-base-devel qt6-declarative-devel qt6-webchannel-devel
  kf6-kservice6.24-devel kf6-kpackage6.24-devel kf6-knewstuff6.24-devel
  kf6-solid6.24-devel libpcap-devel libcap-devel libnl3-devel libsensors-devel
  libdrm-devel zlib-devel qt6-base-private-devel"
-short_desc="KDE libksysguard"
+short_desc="KDE libksysguard (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/libksysguard"

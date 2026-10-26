@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons
 makedepends="qt6-base-private-devel kf6-kwindowsystem6.24-devel kf6-kxmlgui6.24-devel
  kf6-kcrash6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kdoctools6.24-devel
  kf6-kstatusnotifieritem6.24-devel kf6-knotifications6.24-devel"
-short_desc="Screen Ruler"
+short_desc="Screen Ruler (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/graphics/kruler/"

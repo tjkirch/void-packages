@@ -14,7 +14,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kcoreaddons6
  kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel kf6-kwidgetsaddons6.24-devel qt6-svg-devel
  kf6-kdoctools6.24-devel kf6-ki18n6.24-devel kf6-ktextwidgets6.24-devel kf6-kxmlgui6.24-devel
  kf6-kiconthemes6.24-devel kf6-kio6.24-devel libkdegames25.12-devel"
-short_desc="Classic falling blocks game"
+short_desc="Classic falling blocks game (25.12 series)"
 maintainer="toluschr <toluschr@protonmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kblocks"

@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  wayland-devel pkg-config"
 makedepends="plasma-wayland-protocols wayland-protocols
  libXScrnSaver-devel qt6-base-private-devel"
-short_desc="Framework for detection and notification of device idle time"
+short_desc="Framework for detection and notification of device idle time (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kidletime"

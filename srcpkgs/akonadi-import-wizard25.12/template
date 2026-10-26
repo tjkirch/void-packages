@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 kf6-kdoctools6.24 q
  gettext kf6-kconfig6.24 kf6-kauth-tools6.24"
 makedepends="kf6-kcontacts6.24-devel mailcommon25.12-devel mailimporter25.12-devel messagelib25.12-devel
  kcalutils25.12-devel kf6-kdoctools6.24-devel kf6-kconfig6.24-devel kf6-kauth6.24-devel"
-short_desc="Import data from other mail clients to KMail"
+short_desc="Import data from other mail clients to KMail (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

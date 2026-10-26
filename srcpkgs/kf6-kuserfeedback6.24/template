@@ -10,7 +10,7 @@ configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  qt6-declarative-host-tools flex bison"
 makedepends="qt6-base-devel qt6-declarative-devel qt6-charts-devel"
-short_desc="Framework for collecting user feedback via telemetry and surveys"
+short_desc="Framework for collecting user feedback via telemetry and surveys (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kuserfeedback"

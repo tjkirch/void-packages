@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons
  kf6-kdoctools6.24 qt6-base"
 makedepends="kf6-kconfig6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
  kf6-kdoctools6.24-devel libkdegames25.12-devel"
-short_desc="Puzzle game based on number logic"
+short_desc="Puzzle game based on number logic (25.12 series)"
 maintainer="chrysos349 <chrysostom349@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/picmi"

@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  qt6-declarative-host-tools gettext python3"
 makedepends="qt6-declarative-devel"
 depends="iso-codes"
-short_desc="KDE Gettext-based UI text internationalization"
+short_desc="KDE Gettext-based UI text internationalization (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ki18n"

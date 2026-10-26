@@ -28,7 +28,7 @@ makedepends="qt6-base-private-devel qt6-declarative-devel
  layer-shell-qt6.6-devel
  pam-devel
  libkf6screen6.6-devel"
-short_desc="KDE Library and components for secure lock screen architecture"
+short_desc="KDE Library and components for secure lock screen architecture (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kscreenlocker"

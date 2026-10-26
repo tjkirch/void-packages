@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools pkg-config d
  kf6-kconfig6.24 kf6-kcoreaddons6.24"
 makedepends="qt6-base-devel karchive-devel kf6-solid6.24-devel kf6-kio6.24-devel kf6-ki18n6.24-devel
  kf6-kcrash6.24-devel gmp-devel libgcrypt-devel qca-qt6-devel boost-headers"
-short_desc="BitTorrent protocol implementation"
+short_desc="BitTorrent protocol implementation (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/en/ktorrent"
