@@ -9,7 +9,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 qt6-base python3 kf6-kconfig6.24
  gettext kf6-kcoreaddons6.24 kf6-kdoctools6.24"
 makedepends="kf6-kio6.24-devel qtkeychain-qt6-devel kf6-kdoctools6.24-devel"
-short_desc="LDAP access API for KDE"
+short_desc="LDAP access API for KDE (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

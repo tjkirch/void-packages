@@ -17,7 +17,7 @@ makedepends="alsa-lib-devel libcanberra-devel pulseaudio-devel
  kf6-kglobalaccel6.24-devel kf6-ki18n6.24-devel kf6-knotifications6.24-devel
  kf6-solid6.24-devel kf6-kstatusnotifieritem6.24-devel kf6-kwidgetsaddons6.24-devel
  kf6-kwindowsystem6.24-devel kf6-kxmlgui6.24-devel"
-short_desc="KDE's mixer application"
+short_desc="KDE's mixer application (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, GFDL-1.2-only"
 homepage="https://www.kde.org/applications/multimedia/kmix/"

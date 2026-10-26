@@ -7,7 +7,7 @@ build_style=cmake
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  kf6-kconfig6.24 gettext"
 makedepends="qt6-base-devel kf6-kio6.24-devel kf6-ki18n6.24-devel"
-short_desc="DAV protocol implementation with KJobs"
+short_desc="DAV protocol implementation with KJobs (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdav"

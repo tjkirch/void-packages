@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  pkg-config"
 makedepends="qt6-base-devel zlib-devel bzip2-devel liblzma-devel
  libzstd-devel"
-short_desc="Qt addon providing access to numerous types of archives"
+short_desc="Qt addon providing access to numerous types of archives (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/karchive"

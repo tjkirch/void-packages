@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kconfig6.24
  gettext kf6-kcoreaddons6.24"
 makedepends="kf6-kio6.24-devel kf6-kmime25.12-devel"
 depends="cyrus-sasl-modules"
-short_desc="Job-based API for interacting with IMAP servers"
+short_desc="Job-based API for interacting with IMAP servers (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

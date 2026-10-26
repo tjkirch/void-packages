@@ -9,7 +9,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 gettext kf6-kdoctools6.24 pkg-config
  qt6-base qt6-tools kf6-kauth-tools6.24 kf6-kconfig6.24 kf6-kcmutils6.24"
 makedepends="kf6-kauth6.24-devel kf6-karchive6.24-devel kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel kf6-ki18n6.24-devel kf6-kcmutils6.24-devel kf6-kio6.24-devel kf6-kwallet6.24-devel kf6-kwindowsystem6.24-devel kf6-kxmlgui6.24-devel kf6-kcrash6.24-devel kf6-kstatusnotifieritem6.24-devel"
-short_desc="KDE Wallet Management Tools"
+short_desc="KDE Wallet Management Tools (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only"
 homepage="https://kde.org/applications/system/org.kde.kwalletmanager5"

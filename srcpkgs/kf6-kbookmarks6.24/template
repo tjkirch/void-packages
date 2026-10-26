@@ -7,7 +7,7 @@ build_style=cmake
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base kf6-kconfig6.24"
 makedepends="kf6-kconfig6.24-devel qt6-base-devel kf6-kcoreaddons6.24-devel
  kf6-kwidgetsaddons6.24-devel"
-short_desc="KDE Bookmarks management library"
+short_desc="KDE Bookmarks management library (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kbookmarks"

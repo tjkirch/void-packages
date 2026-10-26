@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base flex pkg-config"
 makedepends="qt6-base-devel libmount-devel libplist-devel
  libimobiledevice-devel"
 depends="upower udisks2 media-player-info"
-short_desc="Hardware integration and detection"
+short_desc="Hardware integration and detection (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/solid"

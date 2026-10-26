@@ -18,7 +18,7 @@ makedepends="qt6-base-private-devel qt6-declarative-devel qt6-multimedia-devel
  layer-shell-qt6.6-devel kpipewire6.6-devel libopencv-devel kf6-purpose6.24-devel
  libxcb-devel xcb-util-devel xcb-util-image-devel xcb-util-cursor-devel
  tesseract-ocr-devel"
-short_desc="KDE screenshot capture utility"
+short_desc="KDE screenshot capture utility (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://apps.kde.org/spectacle/"

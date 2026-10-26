@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3
  gettext kf6-kcoreaddons6.24 kf6-kconfig6.24"
 makedepends="kf6-kparts6.24-devel qt6-base-private-devel"
-short_desc="Kontact Plugin Interface Library"
+short_desc="Kontact Plugin Interface Library (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://kontact.kde.org/"

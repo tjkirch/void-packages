@@ -9,7 +9,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  qt6-declarative-host-tools"
 makedepends="qt6-declarative-devel"
 checkdepends="dbus"
-short_desc="Qt wrapper for Bluez 5 DBus API"
+short_desc="Qt wrapper for Bluez 5 DBus API (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/bluez-qt"

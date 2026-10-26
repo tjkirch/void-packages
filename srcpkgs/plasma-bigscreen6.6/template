@@ -15,7 +15,7 @@ makedepends="qt6-multimedia-devel qt6-declarative-private-devel qt6-webengine-de
  SDL3-devel libcec-devel"
 depends="plasma-nano6.6 plasma-nm6.6 plasma-pa6.6 kdeconnect25.12 kde-cli-tools6.6 milou6.6 kscreen6.6
  kwin6.6 plasma-keyboard6.6"
-short_desc="Plasma shell for TVs"
+short_desc="Plasma shell for TVs (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later AND CC-BY-SA-4.0"
 homepage="https://plasma-bigscreen.org"

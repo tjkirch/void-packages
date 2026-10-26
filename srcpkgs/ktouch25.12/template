@@ -23,7 +23,7 @@ makedepends="qt6-base-private-devel qt6-declarative-devel
  libxml2-devel
  libxkbfile-devel"
 depends="kqtquickcharts25.12 kf6-kirigami6.24"
-short_desc="Learn and practive touch typing"
+short_desc="Learn and practive touch typing (25.12 series)"
 maintainer="1is7ac3 <isaac.qa13@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/ktouch"

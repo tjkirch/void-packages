@@ -17,7 +17,7 @@ makedepends="AppStream-qt-devel flatpak-devel qt6-declarative-devel
  kf6-kstatusnotifieritem6.24-devel kirigami-addons-devel discount-devel
  kf6-attica6.24-devel kf6-knewstuff6.24-devel kf6-kitemmodels6.24-devel kf6-kauth6.24-devel"
 depends="kf6-kitemmodels6.24"
-short_desc="KDE resources management flatpak, plasma plugins"
+short_desc="KDE resources management flatpak, plasma plugins (6.6 series)"
 maintainer="1is7ac3 <isaac.qa13@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/discover"

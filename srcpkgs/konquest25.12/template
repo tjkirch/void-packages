@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kcoreaddons6.24
 makedepends="libkdegames25.12-devel qt6-scxml-devel
  kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel"
 depends="hicolor-icon-theme"
-short_desc="KDE galactic conquest game"
+short_desc="KDE galactic conquest game (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/games/org.kde.konquest"

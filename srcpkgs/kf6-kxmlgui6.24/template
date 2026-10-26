@@ -13,7 +13,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel qt6-base-private
  kf6-kguiaddons6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kwidgetsaddons6.24-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
-short_desc="KDE Framework for managing menu and toolbar actions"
+short_desc="KDE Framework for managing menu and toolbar actions (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kxmlgui"

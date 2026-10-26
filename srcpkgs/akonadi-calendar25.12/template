@@ -17,7 +17,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kmime25.12-devel kf6-kcodecs6.24-devel kf
  kf6-kcalendarcore6.24-devel kf6-knotifications6.24-devel kmailtransport25.12-devel
  kidentitymanagement25.12-devel kcalutils25.12-devel messagelib25.12-devel kf6-kcrash6.24-devel
  $(vopt_if python 'libshiboken6-devel libpyside6-devel python3-devel')"
-short_desc="Akonadi calendar integration"
+short_desc="Akonadi calendar integration (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

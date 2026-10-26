@@ -9,7 +9,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
 makedepends="kf6-kcompletion6.24-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel
  kf6-kio6.24-devel kf6-kxmlgui6.24-devel libcanberra-devel kf6-knotifications6.24-devel
  qt6-base-devel"
-short_desc="KDE Configuration dialog for desktop notification"
+short_desc="KDE Configuration dialog for desktop notification (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/knotifyconfig"

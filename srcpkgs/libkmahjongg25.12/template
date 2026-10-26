@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons
  qt6-base"
 makedepends="kf6-kcompletion6.24-devel kf6-kconfig6.24-devel kf6-kconfigwidgets6.24-devel
  kf6-kcoreaddons6.24-devel qt6-svg-devel"
-short_desc="Common code, backgrounds and tile sets for Majhongg games"
+short_desc="Common code, backgrounds and tile sets for Majhongg games (25.12 series)"
 maintainer="chrysos349 <chrysostom349@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/games/libkmahjongg"

@@ -31,7 +31,7 @@ makedepends="libplasma6.6-devel kf6-kcmutils6.24-devel kf6-knewstuff6.24-devel
 # transitive deps from kscreenlocker6.6, for build ordering
 makedepends+=" layer-shell-qt6.6-devel libkf6screen6.6-devel"
 depends="breeze-qt6-6.6 hicolor-icon-theme kglobalacceld6.6 hwids libcap-progs aurorae6.6"
-short_desc="KDE Window manager"
+short_desc="KDE Window manager (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kwin"

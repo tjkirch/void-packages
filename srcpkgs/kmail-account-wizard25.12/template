@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 qt6-base qt6-tools 
  gettext kf6-kdoctools6.24 kf6-kconfig6.24 qt6-declarative-host-tools"
 makedepends="libkleo25.12-devel kmailtransport25.12-devel kidentitymanagement25.12-devel
  pimcommon25.12-devel kf6-knotifyconfig6.24-devel kf6-ktexteditor6.24-devel"
-short_desc="KMail account wizard"
+short_desc="KMail account wizard (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://community.kde.org/KDE_PIM"

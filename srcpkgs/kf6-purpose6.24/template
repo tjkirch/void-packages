@@ -13,7 +13,7 @@ makedepends="qt6-declarative-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kirigami6.24-devel kf6-knotifications6.24-devel kf6-kio6.24-devel
  kf6-kaccounts-integration25.12-devel"
 depends="accounts-qml-module kf6-prison6.24 kf6-kdeclarative6.24 kf6-kitemmodels6.24"
-short_desc="Offers available actions for a specific purpose"
+short_desc="Offers available actions for a specific purpose (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/purpose"

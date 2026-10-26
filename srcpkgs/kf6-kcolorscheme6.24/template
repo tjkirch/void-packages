@@ -10,7 +10,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kguiaddons6.24-devel kf6-ki18n6.24-devel
  qt6-base-private-devel"
 # transitive deps from kf6-kguiaddons6.24, for build ordering
 makedepends+=" libpyside6-devel"
-short_desc="Classes to read and interact with KColorScheme"
+short_desc="Classes to read and interact with KColorScheme (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcolorscheme"

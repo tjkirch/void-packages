@@ -11,7 +11,7 @@ makedepends="qt6-multimedia-devel qt6-svg-devel qt6-webengine-devel
  kf6-kdoctools6.24-devel kf6-kconfig6.24-devel
  kf6-kcoreaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kconfigwidgets6.24-devel"
 depends="hicolor-icon-theme qt6-svg"
-short_desc="Distraction-free Markdown editor"
+short_desc="Distraction-free Markdown editor (25.12 series)"
 maintainer="Andrew Benson <abenson+void@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="http://kde.github.io/ghostwriter"

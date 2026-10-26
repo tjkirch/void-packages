@@ -9,7 +9,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kconfig6.24"
 makedepends="kf6-kglobalaccel6.24-devel kf6-kconfig6.24-devel kf6-kcrash6.24-devel
  kf6-kdbusaddons6.24-devel kf6-kwindowsystem6.24-devel kf6-kservice6.24-devel
  kf6-kio6.24-devel qt6-base-private-devel"
-short_desc="Daemon providing Global Keyboard Shortcut functionality"
+short_desc="Daemon providing Global Keyboard Shortcut functionality (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/kglobalacceld"

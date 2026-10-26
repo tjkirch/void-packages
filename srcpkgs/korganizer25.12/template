@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kdoctools6.24
  kf6-kcmutils6.24 kf6-kcoreaddons6.24 kf6-kconfig6.24 gettext"
 makedepends="akonadi-calendar25.12-devel incidenceeditor25.12-devel
  qt6-multimedia-devel kf6-kholidays6.24-devel kontactinterface25.12-devel"
-short_desc="Calendar and scheduling Program"
+short_desc="Calendar and scheduling Program (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.korganizer"

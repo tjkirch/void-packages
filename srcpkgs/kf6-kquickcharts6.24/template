@@ -9,7 +9,7 @@ configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  qt6-declarative-host-tools qt6-shadertools SPIRV-Tools"
 makedepends="qt6-declarative-devel qt6-shadertools-devel"
-short_desc="QtQuick plugin providing high-performance charts"
+short_desc="QtQuick plugin providing high-performance charts (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kquickcharts"

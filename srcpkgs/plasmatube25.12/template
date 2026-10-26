@@ -14,7 +14,7 @@ makedepends="kf6-kdbusaddons6.24-devel kf6-kdeclarative6.24-devel kf6-ki18n6.24-
  kf6-kwindowsystem6.24-devel kf6-purpose6.24-devel kf6-qqc2-desktop-style6.24-devel
  kirigami-addons-devel mpvqt-devel qt6-svg-devel qtkeychain-qt6-devel"
 depends="yt-dlp"
-short_desc="Kirigami YouTube video player based on QtMultimedia and mpv"
+short_desc="Kirigami YouTube video player based on QtMultimedia and mpv (25.12 series)"
 maintainer="Nafis <mnabid.25@outlook.com>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/plasmatube"

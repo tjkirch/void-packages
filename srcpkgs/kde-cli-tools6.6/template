@@ -14,7 +14,7 @@ makedepends="plasma-activities6.6-devel kf6-kcmutils6.24-devel kf6-kdesu6.24-dev
  kf6-kcoreaddons6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kdoctools6.24-devel
  plasma-workspace6.6-devel kf6-ki18n6.24-devel qt6-base-private-devel"
 depends="xdg-utils"
-short_desc="KDE CLI tools"
+short_desc="KDE CLI tools (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kde-cli-tools"

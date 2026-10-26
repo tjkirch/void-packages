@@ -19,7 +19,7 @@ makedepends="qt6-base-devel qt6-declarative-devel
  libepoxy-devel pipewire-devel libglib-devel"
 depends="xdg-desktop-portal plasma-workspace6.6"
 checkdepends="dbus python3-gobject"
-short_desc="Backend implementation for xdg-desktop-portal that is using Qt/KF6"
+short_desc="Backend implementation for xdg-desktop-portal that is using Qt/KF6 (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/xdg-desktop-portal-kde"

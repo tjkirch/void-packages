@@ -14,7 +14,7 @@ makedepends="kf6-kcmutils6.24-devel libXrandr-devel lcms2-devel
  kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kwidgetsaddons6.24-devel
  kf6-kwindowsystem6.24-devel libplasma6.6-devel kf6-kitemmodels6.24-devel"
 depends="colord"
-short_desc="KDE colord integration"
+short_desc="KDE colord integration (25.12 series)"
 maintainer="Danila Kryukov <danila.kryukov.dev@yandex.ru>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/graphics/colord-kde"

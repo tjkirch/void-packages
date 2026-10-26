@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
 makedepends="kf6-krunner6.24-devel kf6-kitemmodels6.24-devel kf6-ksvg6.24-devel
  qt6-declarative-devel qt6-base-private-devel
  kf6-kpackage6.24-devel kf6-kwindowsystem6.24-devel libplasma6.6-devel"
-short_desc="KDE dedicated search application built on top of Baloo"
+short_desc="KDE dedicated search application built on top of Baloo (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/milou"

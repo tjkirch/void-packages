@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
  gettext kf6-kdoctools6.24 kf6-kconfig6.24"
 makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kdoctools6.24-devel"
-short_desc="KDE Plugin framework for desktop services"
+short_desc="KDE Plugin framework for desktop services (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kservice"

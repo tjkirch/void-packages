@@ -8,7 +8,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base kf6-kdoctools6.24
  gettext"
 makedepends="kf6-karchive6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kdoctools6.24-devel"
-short_desc="Aplications to manage user installable packages of non-binary assets"
+short_desc="Aplications to manage user installable packages of non-binary assets (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kpackage"

@@ -12,7 +12,7 @@ makedepends="kf6-karchive6.24-devel kf6-kcoreaddons6.24-devel kf6-kdoctools6.24-
  kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-ki18n6.24-devel kf6-kconfig6.24-devel
  kf6-kio6.24-devel kf6-kdbusaddons6.24-devel"
 depends="python3 hicolor-icon-theme"
-short_desc="Visualization of Performance Profiling Data"
+short_desc="Visualization of Performance Profiling Data (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-only, GFDL-1.2-only"
 homepage="https://kde.org/applications/development/kcachegrind/"

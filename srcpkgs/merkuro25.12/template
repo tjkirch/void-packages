@@ -44,7 +44,7 @@ makedepends="qt6-base-private-devel qt6-declarative-private-devel
 depends="kf6-qqc2-desktop-style6.24 kdepim-runtime25.12 qt6-location
  kirigami-addons"
 checkdepends="dbus kdepim-runtime25.12"
-short_desc="Calendar application using Akonadi"
+short_desc="Calendar application using Akonadi (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/pim/merkuro"

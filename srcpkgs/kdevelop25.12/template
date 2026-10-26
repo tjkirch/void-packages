@@ -53,7 +53,7 @@ makedepends="
  boost-headers"
 # khelpcenter25.12 is required to display documentation
 depends="khelpcenter25.12"
-short_desc="Integrated Development Environment for C/C++"
+short_desc="Integrated Development Environment for C/C++ (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://www.kdevelop.org/"

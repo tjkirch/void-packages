@@ -16,7 +16,7 @@ makedepends="libplasma6.6-devel kf6-kdeclarative6.24-devel kf6-kstatusnotifierit
  libglib-devel qt6-base-private-devel
  qt6-declarative-devel pulseaudio-devel libcanberra-devel pulseaudio-qt-devel"
 depends="sound-theme-freedesktop kf6-kirigami6.24 kf6-kitemmodels6.24"
-short_desc="PulseAudio Plasma applet"
+short_desc="PulseAudio Plasma applet (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-pa"

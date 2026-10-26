@@ -16,7 +16,7 @@ makedepends="akonadi-calendar25.12-devel kf6-knotifyconfig6.24-devel
  qt6-networkauth-devel qca-qt6-devel qt6-webengine-devel
  kf6-kholidays6.24-devel qt6-webchannel-devel kf6-kdav6.24-devel"
 checkdepends="dbus"
-short_desc="KDE PIM runtime applications/libraries"
+short_desc="KDE PIM runtime applications/libraries (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later, AGPL-3.0-or-later, BSD-3-Clause, BSD-2-Clause"
 homepage="https://invent.kde.org/unmaintained/kdepimlibs"

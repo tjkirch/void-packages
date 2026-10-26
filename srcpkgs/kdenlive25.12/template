@@ -23,7 +23,7 @@ makedepends="
 depends="breeze-icons6.24 dvdauthor ffmpeg frei0r-plugins kf6-kirigami6.24
  kf6-qqc2-desktop-style6.24 mediainfo-cli"
 checkdepends="$depends xvfb-run"
-short_desc="Non-linear video editor"
+short_desc="Non-linear video editor (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-3.0-or-later"
 homepage="https://kdenlive.org"

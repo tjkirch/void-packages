@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext kf6-kcmutils
 makedepends="kf6-ki18n6.24-devel kf6-kcoreaddons6.24-devel kf6-solid6.24-devel
  kf6-kservice6.24-devel kf6-kcmutils6.24-devel kf6-kcrash6.24-devel qt6-websockets-devel"
 checkdepends="dbus"
-short_desc="UnifiedPush client library and distributor daemon"
+short_desc="UnifiedPush client library and distributor daemon (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/libraries/kunifiedpush"

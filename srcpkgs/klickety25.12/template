@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons
  kf6-kdoctools6.24 pkg-config qt6-base"
 makedepends="kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
  kf6-kdoctools6.24-devel kf6-kio6.24-devel libkdegames25.12-devel"
-short_desc="Adaptation of the Clickomania game"
+short_desc="Adaptation of the Clickomania game (25.12 series)"
 maintainer="Nafis <mnabid.25@outlook.com>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/klickety"

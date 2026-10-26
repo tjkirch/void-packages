@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 tar gettext qt6-base
 makedepends="python3-devel kf6-knewstuff6.24-devel kf6-kitemmodels6.24-devel
  kf6-threadweaver6.24-devel kf6-ktexteditor6.24-devel kf6-kcmutils6.24-devel
  kf6-knotifyconfig6.24-devel kdevelop25.12-devel"
-short_desc="Python 3 language and Django project support for KDevelop"
+short_desc="Python 3 language and Django project support for KDevelop (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://www.kdevelop.org/"

@@ -8,7 +8,7 @@ makedepends="python3-Jinja2 python3-yaml"
 depends="python3-Jinja2 python3-yaml doxygen python3-requests
  doxypypy doxyqml"
 checkdepends="python3-requests"
-short_desc="API documentation generation tool for KDE framework"
+short_desc="API documentation generation tool for KDE framework (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="BSD-2-Clause, CC0-1.0"
 homepage="https://invent.kde.org/frameworks/kapidox"

@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons
 makedepends="kf6-akonadi25.12-devel akonadi-calendar25.12-devel kf6-kdoctools6.24-devel kf6-kcalendarcore6.24-devel
  kontactinterface25.12-devel kf6-kpackage6.24-devel kf6-krunner6.24-devel"
 depends="kdepim-runtime25.12"
-short_desc="To-do management application based on Akonadi"
+short_desc="To-do management application based on Akonadi (25.12 series)"
 maintainer="Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/zanshin"

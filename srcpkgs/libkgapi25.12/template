@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 qt6-base python3 qt6-tools kf6-kconfig6.24
  gettext kf6-kcoreaddons6.24"
 makedepends="kf6-kcalendarcore6.24-devel kf6-kcontacts6.24-devel kf6-kio6.24-devel kf6-kwallet6.24-devel"
-short_desc="KDE-based library for accessing various Google services"
+short_desc="KDE-based library for accessing various Google services (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/libkgapi"

@@ -14,7 +14,7 @@ makedepends="libplasma6.6-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kcmutils6.24-devel kf6-kconfig6.24-devel qt6-virtualkeyboard-devel
  qt6-wayland-private-devel qt6-base-private-devel kf6-kcrash6.24-devel
  kf6-kirigami6.24-devel"
-short_desc="Virtual Keyboard for Qt based desktops"
+short_desc="Virtual Keyboard for Qt based desktops (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="(GPL-2.0-only OR GPL-3.0-only OR custom:LicenseRef-KDE-Accepted-GPL) AND GPL-3.0-or-later AND (LGPL-2.1-only OR LGPL-3.0-only OR custom:LicenseRef-KDE-Accepted-LGPL)"
 homepage="https://invent.kde.org/plasma/plasma-keyboard"

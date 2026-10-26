@@ -16,7 +16,7 @@ makedepends=" kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-dev
  kf6-kstatusnotifieritem6.24-devel
  kf6-ktextwidgets6.24-devel
  kf6-kxmlgui6.24-devel"
-short_desc="Handy timer for steeping tea"
+short_desc="Handy timer for steeping tea (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kteatime/"

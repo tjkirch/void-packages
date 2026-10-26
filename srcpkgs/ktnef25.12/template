@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools python3
  gettext kf6-kcoreaddons6.24 kf6-kconfig6.24"
 makedepends="kcalutils25.12-devel kf6-kcontacts6.24-devel kf6-kcalendarcore6.24-devel"
-short_desc="API for handling TNEF data"
+short_desc="API for handling TNEF data (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

@@ -19,7 +19,7 @@ makedepends="qt6-base-devel
  kf6-kservice6.24-devel
  kf6-kwidgetsaddons6.24-devel
  kf6-baloo6.24-devel"
-short_desc="Baloo widgets"
+short_desc="Baloo widgets (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/libraries/baloo-widgets"

@@ -17,7 +17,7 @@ makedepends="plasma-framework-devel kf6-kcmutils6.24-devel cups-devel
  kf6-kirigami6.24-devel libplasma6.6-devel kf6-kconfig6.24-devel kf6-kpackage6.24-devel
  kirigami-addons-devel kf6-kdeclarative6.24"
 depends="kf6-kdeclarative6.24"
-short_desc="Printing management for KDE Plasma"
+short_desc="Printing management for KDE Plasma (6.6 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/print-manager"

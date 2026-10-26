@@ -15,7 +15,7 @@ makedepends="kf6-karchive6.24-devel kf6-kauth6.24-devel kf6-kbookmarks6.24-devel
  kf6-kded6.24-devel qt6-qt5compat-devel qt6-tools-devel acl-devel
  qt6-base-private-devel kf6-kdoctools6.24-devel"
 checkdepends="xvfb-run dbus"
-short_desc="KDE Network transparent access to files and data"
+short_desc="KDE Network transparent access to files and data (6.24 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kio"

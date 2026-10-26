@@ -13,7 +13,7 @@ makedepends="qt6-base-devel ktextaddons-devel kf6-kcodecs6.24-devel kf6-kconfig6
  kf6-kconfigwidgets6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel qt6-tools-devel
  kf6-syntax-highlighting6.24-devel kf6-sonnet6.24-devel kf6-kxmlgui6.24-devel
  kf6-kwidgetsaddons6.24-devel kf6-kiconthemes6.24-devel kf6-ki18n6.24-devel ktextaddons-devel"
-short_desc="Textedit with PIM-specific features"
+short_desc="Textedit with PIM-specific features (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/pim/kpimtextedit"

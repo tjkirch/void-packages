@@ -20,7 +20,7 @@ makedepends="hunspell-devel qt6-base-devel
  kf6-kcolorscheme6.24-devel
  kf6-kdbusaddons6.24-devel"
 depends="hicolor-icon-theme"
-short_desc="Computer-aided translation system"
+short_desc="Computer-aided translation system (25.12 series)"
 maintainer="Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>"
 license="LGPL-2.0-or-later"
 homepage="https://apps.kde.org/lokalize"

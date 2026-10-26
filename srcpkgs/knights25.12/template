@@ -14,7 +14,7 @@ makedepends="libplasma6.6-devel libkdegames25.12-devel qt6-qt5compat-devel
  kf6-kplotting6.24-devel kf6-kdbusaddons6.24-devel kf6-kcrash6.24-devel
  kf6-ktextwidgets6.24-devel kf6-kio6.24-devel kf6-ksvg6.24-devel kf6-kwallet6.24-devel
  kf6-kdoctools6.24-devel"
-short_desc="Chess board program for KDE"
+short_desc="Chess board program for KDE (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/games/org.kde.knights"

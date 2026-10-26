@@ -21,7 +21,7 @@ makedepends="qt6-base-private-devel qt6-plugin-mysql kf6-kconfig6.24-devel
  xcb-util-devel kf6-kcoreaddons6.24-devel"
 depends="qt6-plugin-sqlite"
 checkdepends="dbus"
-short_desc="Cross-platform Qt Web Browser"
+short_desc="Cross-platform Qt Web Browser (25.12 series)"
 maintainer="Helmut Pozimski <helmut@pozimski.eu>"
 license="GPL-3.0-or-later"
 homepage="https://www.falkon.org"

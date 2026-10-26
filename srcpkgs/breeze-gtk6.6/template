@@ -7,7 +7,7 @@ build_style=cmake
 hostmakedepends="extra-cmake-modules6.24 sassc python3 python3-cairo
  qt6-base qt6-tools"
 makedepends="qt6-base-devel libplasma6.6-devel breeze-qt6-6.6"
-short_desc="GTK Theme Built to Match KDE's Breeze"
+short_desc="GTK Theme Built to Match KDE's Breeze (6.6 series)"
 maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/breeze-gtk"

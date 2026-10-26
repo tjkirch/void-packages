@@ -17,7 +17,7 @@ makedepends="qt6-base-devel qt6-declarative-devel qt6-svg-devel
  kf6-kparts6.24-devel kf6-kdoctools6.24-devel kf6-krunner6.24-devel kf6-kpackage6.24-devel
  phonon-devel libplasma6.6-devel
  abseil-cpp-devel protobuf-devel zlib-devel gpsd-devel shapelib-devel"
-short_desc="Virtual globe and world atlas"
+short_desc="Virtual globe and world atlas (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="LGPL-2.1-or-later, GFDL-1.2-only"
 homepage="https://marble.kde.org"

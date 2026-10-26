@@ -14,7 +14,7 @@ makedepends="qt6-base-devel qt6-declarative-devel
  kf6-kparts6.24-devel kf6-kpackage6.24-devel kf6-kaccounts-integration25.12-devel
  qcoro-qt6-devel kf6-ki18n6.24-devel kf6-kpackage6.24-devel
  glib-devel libaccounts-qt6-devel signond-devel"
-short_desc="KDE Accounts Providers"
+short_desc="KDE Accounts Providers (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/network/kaccounts-providers"

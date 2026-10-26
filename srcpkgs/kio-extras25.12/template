@@ -19,7 +19,7 @@ makedepends="qcoro-qt6-devel kf6-karchive6.24-devel kf6-kconfig6.24-devel
  libtirpc-devel libopenexr-devel taglib-devel libkexiv2-25.12-devel libnfs-devel
  libproxy-devel qt6-svg-devel qt6-base-private-devel kf6-knotifications6.24-devel
  kdsoap-ws-discovery-client-devel qt6-qt5compat-devel"
-short_desc="Additional KIO components"
+short_desc="Additional KIO components (25.12 series)"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://invent.kde.org/network/kio-extras"

@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 python3 qt6-base qt6-tools
  gettext kf6-kcoreaddons6.24 kf6-kconfig6.24"
 makedepends="kf6-kitemmodels6.24-devel kpimtextedit25.12-devel gpgme-qt6-devel
  boost-headers gpgmepp-devel"
-short_desc="KDE PIM cryptographic library"
+short_desc="KDE PIM cryptographic library (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

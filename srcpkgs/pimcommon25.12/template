@@ -21,7 +21,7 @@ makedepends="kf6-ktextwidgets6.24-devel kf6-kcmutils6.24-devel kf6-karchive6.24-
  plasma-activities6.6-devel libkleo25.12
  kldap25.12-devel akonadi-search25.12-devel"
 depends="qt6-plugin-networkinformation"
-short_desc="Common libraries for KDE PIM"
+short_desc="Common libraries for KDE PIM (25.12 series)"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"

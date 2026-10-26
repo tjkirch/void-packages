@@ -18,7 +18,7 @@ makedepends="qt6-base-devel
  kf6-kjobwidgets6.24-devel
  kf6-kcrash6.24-devel
  libksane6-25.12-devel"
-short_desc="Free, easy-to-use paint program for KDE"
+short_desc="Free, easy-to-use paint program for KDE (25.12 series)"
 maintainer="Piotr Wójcik <chocimier@tlen.pl>"
 license="BSD-2-Clause, GPL-2.0-or-later, LGPL-2.1-only, GFDL-1.2-only"
 homepage="http://www.kolourpaint.org/"
