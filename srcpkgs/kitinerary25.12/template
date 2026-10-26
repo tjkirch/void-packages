@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 gettext kf6-kcoreaddons6.24 pkg-config
  qt6-tools qt6-tools qt6-tools-devel kf6-kconfig6.24"
 makedepends="kf6-kcalendarcore6.24-devel kf6-kcontacts6.24-devel kf6-kdeclarative6.24-devel
- kf6-karchive6.24-devel kf6-kmime25.12-devel
+ kf6-karchive6.24-devel kmime25.12-devel
  kpkpass25.12-devel libphonenumber-devel poppler-devel libxml2-devel qt6-base-devel
  zxing-cpp-devel"
 short_desc="Data model and extraction system for travel reservation information (25.12 series)"

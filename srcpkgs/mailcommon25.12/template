@@ -37,7 +37,7 @@ do_check() {
 mailcommon25.12-devel_package() {
 	conflicts="mailcommon-devel"
 	depends="${sourcepkg}>=${version}_${revision} qt6-base-devel
-	 kf6-akonadi25.12-devel libkdepim25.12-devel kf6-kmime25.12-devel kf6-kconfig6.24-devel
+	 kf6-akonadi25.12-devel libkdepim25.12-devel kmime25.12-devel kf6-kconfig6.24-devel
 	 kf6-kio6.24-devel messagelib25.12-devel kf6-ki18n6.24-devel akonadi-mime25.12-devel
 	 pimcommon25.12-devel kf6-kcompletion6.24-devel"
 	short_desc+=" - development files"
