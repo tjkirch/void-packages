@@ -10,7 +10,7 @@ configure_args="-DBUILD_TESTING=OFF
  -DECM_MKSPECS_INSTALL_DIR=/usr/lib/qt6/mkspecs/modules"
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools kf6-kconfig6.24
  gettext kf6-kcoreaddons6.24"
-makedepends="kf6-kmime25.12-devel kf6-kio6.24-devel"
+makedepends="kmime25.12-devel kf6-kio6.24-devel"
 short_desc="Job-based library to send email through an SMTP server (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"

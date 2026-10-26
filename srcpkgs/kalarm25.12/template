@@ -37,7 +37,7 @@ makedepends="
  kf6-kiconthemes6.24-devel
  kcalutils25.12-devel
  kidentitymanagement25.12-devel
- kf6-kmime25.12-devel
+ kmime25.12-devel
  kf6-akonadi25.12-devel
  akonadi-contacts25.12-devel
  akonadi-mime25.12-devel

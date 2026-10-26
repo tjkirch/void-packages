@@ -11,7 +11,7 @@ configure_args="
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
  qt6-declarative-host-tools python3 kf6-kconfig6.24"
 makedepends="kf6-kcalendarcore6.24-devel kf6-kcodecs6.24-devel kf6-ki18n6.24-devel
- kf6-kwidgetsaddons6.24-devel kmbox25.12-devel kf6-kmime25.12-devel libkleo25.12-devel
+ kf6-kwidgetsaddons6.24-devel kmbox25.12-devel kmime25.12-devel libkleo25.12-devel
  qt6-qt5compat-devel qt6-base-devel qt6-declarative-devel qt6-tools-devel
  gpgmepp-devel kf6-kcolorscheme6.24-devel kf6-kio6.24-devel"
 short_desc="Parser for MIME trees (25.12 series)"

@@ -12,7 +12,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 python3 qt6-base gettext
  kf6-kcoreaddons6.24 kf6-kconfig6.24
  $(vopt_if python "python3-build python3-setuptools shiboken6 llvm${_llvmver}")"
-makedepends="kf6-kconfig6.24-devel kf6-kmime25.12-devel kf6-kcodecs6.24-devel kf6-ki18n6.24-devel
+makedepends="kf6-kconfig6.24-devel kmime25.12-devel kf6-kcodecs6.24-devel kf6-ki18n6.24-devel
  kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kio6.24-devel kf6-kdbusaddons6.24-devel
  kf6-kcalendarcore6.24-devel kf6-knotifications6.24-devel kmailtransport25.12-devel
  kidentitymanagement25.12-devel kcalutils25.12-devel messagelib25.12-devel kf6-kcrash6.24-devel

@@ -16,7 +16,7 @@ makedepends="kf6-ktextwidgets6.24-devel kf6-kcmutils6.24-devel kf6-karchive6.24-
  kf6-kdbusaddons6.24-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel kf6-kio6.24-devel
  kf6-kitemmodels6.24-devel kf6-kjobwidgets6.24-devel kf6-knewstuff6.24-devel
  kf6-kservice6.24-devel kf6-ktexttemplate6.24-devel kf6-kwidgetsaddons6.24-devel
- kf6-kxmlgui6.24-devel kf6-purpose6.24-devel kf6-kmime25.12-devel libkdepim25.12-devel kimap25.12-devel
+ kf6-kxmlgui6.24-devel kf6-purpose6.24-devel kmime25.12-devel libkdepim25.12-devel kimap25.12-devel
  kpimtextedit25.12-devel ktextaddons-devel kf6-akonadi25.12-devel akonadi-contacts25.12-devel
  plasma-activities6.6-devel libkleo25.12
  kldap25.12-devel akonadi-search25.12-devel"
