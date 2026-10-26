@@ -13,7 +13,8 @@ short_desc="KDE Execute actions as privileged user (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kauth"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=f596667e272524b336f86dd81b9be487e3d75cbedcb2078293f51bb2ee6f384c
 conflicts="kf6-kauth"
 

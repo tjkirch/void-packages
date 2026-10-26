@@ -15,7 +15,7 @@ short_desc="Distraction-free Markdown editor (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="http://kde.github.io/ghostwriter"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=b70127c420e1d8f72379cee4c70c809104b581f63c9da7c83ff344497934d796
 conflicts="ghostwriter"
 

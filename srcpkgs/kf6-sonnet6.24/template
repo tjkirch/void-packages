@@ -14,7 +14,8 @@ short_desc="Spelling framework for Qt (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/sonnet"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=f5f107bd4d154c93bbacc717ec3411bcebce3513df103945e202ffa1f0ee9ae7
 conflicts="kf6-sonnet"
 

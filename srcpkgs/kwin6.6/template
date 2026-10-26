@@ -35,7 +35,7 @@ short_desc="KDE Window manager (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kwin"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=7a395f043d299cd0c6fe985f9dbdcd02eadb2f3d4281aed3acf1c1c5297c355f
 conflicts="kwin"
 replaces="kwayland-server>=0"

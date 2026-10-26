@@ -14,7 +14,7 @@ short_desc="Control Panel for ufw (Uncomplicated Firewall) (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-only, GPL-3.0-only"
 homepage="https://invent.kde.org/network/plasma-firewall"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=ad934b70c57941d94ff4fc6d47419d600acf6870576a4c51cab53ae86f59fded
 conflicts="plasma-firewall"
 

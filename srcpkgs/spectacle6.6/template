@@ -22,7 +22,7 @@ short_desc="KDE screenshot capture utility (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://apps.kde.org/spectacle/"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=d6cda984f6412787b0acf48d7d9253231852a04befd058757bbf6fcab563ae0e
 conflicts="spectacle"
 

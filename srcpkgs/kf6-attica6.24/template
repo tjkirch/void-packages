@@ -10,7 +10,8 @@ short_desc="Qt library that implements the Open Collaboration Services API (6.24
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/attica"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=67ea77148fba093bfdbd9104e3f09b995aefc34b0b6c34bc31a96e63b110abcb
 conflicts="kf6-attica"
 

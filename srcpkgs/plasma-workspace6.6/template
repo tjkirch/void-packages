@@ -42,7 +42,7 @@ short_desc="KDE Plasma Workspace (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-workspace"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=f1883cc9d7884ea35d765fcfbaee407c45d149609b330144fa9ddfe101e1b4ab
 conflicts="plasma-workspace"
 

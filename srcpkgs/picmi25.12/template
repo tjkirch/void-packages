@@ -12,6 +12,6 @@ short_desc="Puzzle game based on number logic (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/picmi"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=0ade2dc87a68fd091c550b0e971f02c1642d4f702819e3302d2ae6aab9c6b7b5
 conflicts="picmi"
