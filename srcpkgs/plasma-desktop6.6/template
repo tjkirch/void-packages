@@ -2,7 +2,7 @@
 # group=kde-plasma
 pkgname=plasma-desktop6.6
 version=6.7.5
-revision=2
+revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"

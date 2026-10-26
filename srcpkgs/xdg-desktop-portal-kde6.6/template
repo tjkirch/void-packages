@@ -2,7 +2,7 @@
 # group=kde-plasma
 pkgname=xdg-desktop-portal-kde6.6
 version=6.7.5
-revision=2
+revision=1
 build_style=cmake
 configure_args="-DWaylandScanner_EXECUTABLE=/usr/bin/wayland-scanner"
 hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools gettext
