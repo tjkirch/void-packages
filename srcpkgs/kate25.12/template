@@ -19,7 +19,7 @@ short_desc="KDE Text editor (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later, LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/utilities/org.kde.kate"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%5}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=d761d976c19922843617211d9069ded08d6eb43891e28e56eb9385b626ce90ab
 conflicts="kate"
 replaces="kate5>=0"

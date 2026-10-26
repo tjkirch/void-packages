@@ -20,7 +20,8 @@ short_desc="Addons to QtGui (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kguiaddons"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=c5e44b56739cbc67e1b6955edc9534f58288ca09d02f85eaae56db8347395eaf
 conflicts="kf6-kguiaddons"
 

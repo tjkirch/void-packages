@@ -18,7 +18,7 @@ short_desc="Hard disk health monitoring for KDE Plasma (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-disks"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=7ca18810d1d361b9e5a23c95791328f403c989f610f9b5c493baf0d498e19d5e
 conflicts="plasma-disks"
 

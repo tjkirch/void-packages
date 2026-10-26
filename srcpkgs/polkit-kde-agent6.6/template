@@ -13,7 +13,7 @@ short_desc="KDE PolKit auth agent (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://commits.kde.org/polkit-kde-agent"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-1-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-1-${version}.tar.xz"
 checksum=741eb8cff6f09f2193d08869af9643c3c84e0ddb5436f3f929fc6adf44862586
 conflicts="polkit-kde-agent"
 

@@ -11,7 +11,7 @@ short_desc="KDE daemon listening for wall and write messages (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kwrited"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=9ce7b06f2344aef5c144276b75cf9821a5a429fd0c1f0130ba4e406d7336d1d1
 conflicts="kwrited"
 

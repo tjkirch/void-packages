@@ -15,7 +15,8 @@ short_desc="Syntax highlighting Engine for Structured Text and Code (6.24 series
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/syntax-highlighting"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=061c5946dc6170ecfa91b9c7d4faa5ec81eb53bb5f86eda861c2ce748a65486d
 conflicts="kf6-syntax-highlighting"
 

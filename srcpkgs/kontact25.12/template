@@ -17,7 +17,7 @@ short_desc="KDE Personal Information Manager (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/office/org.kde.kontact"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=4124c873d26a9047332aeeac8002a5619a1455f19280538f191efbf6edeef604
 conflicts="kontact"
 

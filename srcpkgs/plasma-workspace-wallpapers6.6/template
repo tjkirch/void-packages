@@ -10,7 +10,7 @@ short_desc="KDE Plasma wallpapers (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-workspace-wallpapers"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=2aa1fb82adc2e988868e982c0742c09f5f2e94e65917f58c56b1aecc1b858a1e
 conflicts="plasma-workspace-wallpapers"
 

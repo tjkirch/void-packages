@@ -14,7 +14,8 @@ short_desc="KDE Integration of QML and KDE work spaces (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdeclarative"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=d00d697aa8ce7a5a16864e92bc74f52adb2b3008881d6e12b66155a80b136915
 conflicts="kf6-kdeclarative"
 

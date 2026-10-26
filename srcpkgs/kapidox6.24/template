@@ -12,7 +12,7 @@ short_desc="API documentation generation tool for KDE framework (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="BSD-2-Clause, CC0-1.0"
 homepage="https://invent.kde.org/frameworks/kapidox"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname%6.24}-${version}.tar.xz"
 checksum=ab10a97a81eb30a40e5af24f2c683e1a347b3ac22a0d23793068eb4190fb1e6e
 conflicts="kapidox"
 

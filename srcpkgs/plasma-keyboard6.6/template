@@ -18,7 +18,7 @@ short_desc="Virtual Keyboard for Qt based desktops (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="(GPL-2.0-only OR GPL-3.0-only OR custom:LicenseRef-KDE-Accepted-GPL) AND GPL-3.0-or-later AND (LGPL-2.1-only OR LGPL-3.0-only OR custom:LicenseRef-KDE-Accepted-LGPL)"
 homepage="https://invent.kde.org/plasma/plasma-keyboard"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=5e536ad0622ca741555071fe4a53b727eafbc64b0652b48971920d0f407ab1f2
 conflicts="plasma-keyboard"
 

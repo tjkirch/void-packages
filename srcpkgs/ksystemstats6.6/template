@@ -13,7 +13,7 @@ short_desc="Plugin based system monitoring daemon (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-only,LGPL-3.0-only"
 homepage="https://invent.kde.org/plasma/ksystemstats"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=4b49351a276a2066025c6d66292c8a3c63be7f5947eed610930c9d8662a6bbe3
 conflicts="ksystemstats"
 

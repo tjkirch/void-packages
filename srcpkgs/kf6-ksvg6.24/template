@@ -15,7 +15,8 @@ short_desc="Components for handling SVGs (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ksvg"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=c4d61f6bb4c61452e83de0427f444cdec296d87333f6c7676fb7dae09480f4d2
 conflicts="kf6-ksvg"
 

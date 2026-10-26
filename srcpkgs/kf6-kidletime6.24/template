@@ -14,7 +14,8 @@ short_desc="Framework for detection and notification of device idle time (6.24 s
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kidletime"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=be8ce0c791900a1f55e9973bf5faefbe172740424ac9f254ba541552ba3ccb06
 conflicts="kf6-kidletime"
 

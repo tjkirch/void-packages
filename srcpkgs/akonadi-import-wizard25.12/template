@@ -16,7 +16,7 @@ short_desc="Import data from other mail clients to KMail (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=21d12c6b38b04ea19320afe97907986a9a432a9cf6cff33afe015dc1aa6404b6
 conflicts="akonadi-import-wizard"
 

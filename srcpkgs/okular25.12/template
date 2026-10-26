@@ -24,7 +24,7 @@ short_desc="KDE Document Viewer (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-only"
 homepage="https://kde.org/applications/en/graphics/org.kde.okular"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=9d509a702aa00c82c075e5a60ed224fcf884bbcd983e5e988d2520ff2fb86276
 conflicts="okular"
 

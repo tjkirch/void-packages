@@ -10,7 +10,8 @@ short_desc="KDE Graceful handling of application crashes (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcrash"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
+_distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
+distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
 checksum=4544428c3c96587e46342daf5b1f083dd7950c7bc940d7bc7921300600ef8074
 conflicts="kf6-kcrash"
 

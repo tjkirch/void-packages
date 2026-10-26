@@ -22,7 +22,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later, AGPL-3.0-or-later, BSD-3-Clause, BSD-2-Clause"
 homepage="https://invent.kde.org/pim/kdepim-addons"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdepim-addons"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=0eebf8a6aee397b53ce1365ed6a27af5f7a348865c575ba7ac0f88787f7fa979
 conflicts="kdepim-addons"
 

@@ -11,7 +11,7 @@ short_desc="GTK Theme Built to Match KDE's Breeze (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/breeze-gtk"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%6.6}-${version}.tar.xz"
 checksum=f1979d330b968a71a03f36707ca7b34b38f8e0c117c9d25bd1d058547e123619
 conflicts="breeze-gtk"
 
