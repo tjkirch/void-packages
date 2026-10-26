@@ -9,7 +9,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-base qt6-tools
 makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel plasma-activities6.6-devel
  boost-headers"
 short_desc="Library for accessing the usage data collected by the activities system (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-activities-stats"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

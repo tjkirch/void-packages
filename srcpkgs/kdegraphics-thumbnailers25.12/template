@@ -11,7 +11,7 @@ makedepends="kf6-kio6.24-devel libkexiv2-25.12-devel libqmobipocket6-25.12-devel
  libkdcraw-qt6-25.12-devel"
 depends="ghostscript"
 short_desc="KDE Plasma 6 Thumbnailers for various graphics file formats (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/graphics/kdegraphics-thumbnailers"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdegraphics-thumbnailers-${version}.tar.xz"

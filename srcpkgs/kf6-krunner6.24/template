@@ -12,7 +12,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
  kf6-kitemmodels6.24-devel kf6-kwindowsystem6.24-devel"
 checkdepends="dbus"
 short_desc="Framework for providing different actions given a string query (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/krunner"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

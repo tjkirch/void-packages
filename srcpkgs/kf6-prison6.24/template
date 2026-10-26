@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
 makedepends="qt6-declarative-devel qt6-multimedia-devel zxing-cpp-devel
  libdmtx-devel qrencode-devel"
 short_desc="Barcode API to produce QRCode barcodes and DataMatrix barcodes (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/prison"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

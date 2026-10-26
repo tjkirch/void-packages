@@ -15,7 +15,7 @@ makedepends="kf6-kirigami6.24-devel libksysguard6.6-devel kf6-kitemmodels6.24-de
  kf6-kservice6.24-devel kf6-kglobalaccel6.24-devel kirigami-addons-devel"
 depends="kf6-kirigami6.24 kf6-qqc2-desktop-style6.24 kf6-kquickcharts6.24 ksystemstats6.6"
 short_desc="Application for monitoring system resources (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-only, GPL-3.0-only, LGPL-2.1-only, LGPL-3.0-only"
 homepage="https://invent.kde.org/plasma/plasma-systemmonitor"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

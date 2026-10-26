@@ -17,7 +17,7 @@ makedepends="kcalutils25.12-devel kf6-knotifyconfig6.24-devel kontactinterface25
 depends="kdepim-runtime25.12 kmail-account-wizard25.12 mariadb akonadi-import-wizard25.12
  pim-data-exporter25.12"
 short_desc="KDE Mail Client (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/internet/org.kde.kmail2"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmail-${version}.tar.xz"

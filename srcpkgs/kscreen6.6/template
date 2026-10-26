@@ -16,7 +16,7 @@ makedepends="kf6-kxmlgui6.24-devel kf6-kcmutils6.24-devel kf6-ksvg6.24-devel
  kf6-kitemmodels6.24-devel plasma5support6.6-devel"
 depends="hicolor-icon-theme kf6-kimageformats6.24"
 short_desc="KDE screen management software (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kscreen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 qt5-devel qt5-qmake wayland-devel
 makedepends="kwayland6.6-devel kwindowsystem-devel kguiaddons-devel
  libxkbcommon-devel qt5-wayland-devel wayland-protocols wayland-devel"
 short_desc="Integration plugins for Kwayland (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kwayland-integration"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

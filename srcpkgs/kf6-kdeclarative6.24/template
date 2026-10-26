@@ -11,7 +11,7 @@ makedepends="kf6-kconfig6.24-devel kf6-kglobalaccel6.24-devel kf6-ki18n6.24-deve
  kf6-kwidgetsaddons6.24-devel kf6-kguiaddons6.24-devel qt6-shadertools-devel
  qt6-declarative-devel"
 short_desc="KDE Integration of QML and KDE work spaces (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdeclarative"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

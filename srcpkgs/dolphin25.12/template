@@ -18,7 +18,7 @@ makedepends="kf6-baloo6.24-devel kf6-kbookmarks6.24-devel kf6-kcmutils6.24-devel
  baloo-widgets25.12-devel phonon-devel plasma-activities6.6-devel"
 depends="kio-extras25.12"
 short_desc="KDE File manager (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.dolphin"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#dolphin"

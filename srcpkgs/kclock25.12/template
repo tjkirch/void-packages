@@ -15,7 +15,7 @@ makedepends="qt6-base-private-devel qt6-declarative-devel qt6-multimedia-devel
  libplasma6.6-devel plasma-wayland-protocols wayland-protocols"
 depends="kirigami-addons"
 short_desc="Clock app for Plasma Mobile (25.12 series)"
-maintainer="Nafis <mnabid.25@outlook.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/kclock/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kclock-${version}.tar.xz"

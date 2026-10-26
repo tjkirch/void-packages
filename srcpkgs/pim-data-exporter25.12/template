@@ -13,7 +13,7 @@ hostmakedepends="extra-cmake-modules6.24 kf6-kdoctools6.24 qt6-base qt6-tools
 makedepends="mailcommon25.12-devel calendarsupport25.12-devel
  messagelib25.12-devel kf6-kstatusnotifieritem6.24-devel"
 short_desc="Import and export KDE PIM settings (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kontact.kde.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

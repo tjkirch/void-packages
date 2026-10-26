@@ -15,7 +15,7 @@ makedepends="qt6-base-devel libplasma6.6-devel kf6-kconfig6.24-devel kf6-kcoread
  kf6-kdbusaddons6.24-devel kf6-kauth6.24-devel kf6-kcmutils6.24-devel"
 depends="smartmontools"
 short_desc="Hard disk health monitoring for KDE Plasma (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-disks"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

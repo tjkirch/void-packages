@@ -20,7 +20,7 @@ makedepends="kf6-kcmutils6.24-devel kf6-kfilemetadata6.24-devel kf6-knewstuff6.2
  libmusicbrainz5-devel libsamplerate-devel kf6-kauth6.24-devel"
 depends="cdrdao cdrtools dvd+rw-tools"
 short_desc="CD/DVD Kreator for Linux (25.12 series)"
-maintainer="Enno Boland <gottox@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/multimedia/org.kde.k3b"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#k3b"

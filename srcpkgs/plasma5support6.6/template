@@ -15,7 +15,7 @@ makedepends="qt6-declarative-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel
  kf6-kholidays6.24-devel kf6-networkmanager-qt6.24-devel plasma-activities6.6-devel
  qt6-base-private-devel libglib-devel"
 short_desc="Support components for porting from KF5/Qt5 to KF6/Qt6 (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma5support"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

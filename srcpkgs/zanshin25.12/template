@@ -14,7 +14,7 @@ makedepends="kf6-akonadi25.12-devel akonadi-calendar25.12-devel kf6-kdoctools6.2
  kontactinterface25.12-devel kf6-kpackage6.24-devel kf6-krunner6.24-devel"
 depends="kdepim-runtime25.12"
 short_desc="To-do management application based on Akonadi (25.12 series)"
-maintainer="Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/zanshin"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#zanshin"

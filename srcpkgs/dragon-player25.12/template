@@ -15,7 +15,7 @@ makedepends="kf6-kio6.24-devel kf6-kparts6.24-devel kf6-kirigami6.24-devel
  kf6-kcrash6.24-devel ffmpeg6-devel"
 depends="hicolor-icon-theme kf6-kirigami6.24"
 short_desc="Multimedia player where the focus is on simplicity (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/multimedia/org.kde.dragonplayer"
 distfiles="${KDE_SITE}/release-service/${version}/src/dragon-${version}.tar.xz"

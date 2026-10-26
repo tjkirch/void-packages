@@ -21,7 +21,7 @@ makedepends="kquickimageeditor-devel libQuotient-devel qtkeychain-qt6-devel
  $(vopt_if webview qt6-webview-devel)"
 depends="kquickimageeditor kf6-kquickcharts6.24 qt6-location"
 short_desc="Client for matrix from KDE (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-only, GPL-3.0-or-later, GPL-2.0-or-later, BSD-2-Clause"
 homepage="https://apps.kde.org/en/neochat"
 distfiles="${KDE_SITE}/release-service/${version}/src/neochat-${version}.tar.xz"

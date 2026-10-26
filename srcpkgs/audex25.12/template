@@ -18,7 +18,7 @@ makedepends="qt6-base-devel qt6-declarative-devel
  libcdio-devel libcdio-paranoia-devel libkcddb6-25.12-devel
  qt6-base-devel kf6-solid6.24-devel"
 short_desc="KDE CD ripping application (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/audex/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

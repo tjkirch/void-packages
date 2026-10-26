@@ -13,7 +13,7 @@ makedepends="qt6-declarative-devel kf6-kcoreaddons6.24-devel kf6-kconfig6.24-dev
  kf6-kdbusaddons6.24-devel kf6-ki18n6.24-devel kf6-kidletime6.24-devel kf6-solid6.24-devel
  kf6-kcrash6.24-devel kf6-kio6.24-devel kf6-kfilemetadata6.24-devel lmdb-devel"
 short_desc="Framework for searching and managing metadata (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/baloo"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

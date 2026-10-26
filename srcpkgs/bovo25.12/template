@@ -11,7 +11,7 @@ makedepends="kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-
  kf6-kwidgetsaddons6.24-devel kf6-kxmlgui6.24-devel kf6-kiconthemes6.24-devel
  kf6-kdoctools6.24-devel libkdegames25.12-devel"
 short_desc="Gomoku like game for two players (25.12 series)"
-maintainer="chrysos349 <chrysostom349@gmail.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/bovo"
 changelog="https://invent.kde.org/games/bovo/-/raw/master/HISTORY"

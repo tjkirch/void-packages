@@ -15,7 +15,7 @@ makedepends="qt6-base-devel qt6-svg-devel kf6-kcoreaddons6.24-devel kf6-kconfig6
  kf6-kwidgetsaddons6.24-devel kf6-kiconthemes6.24-devel
  kf6-kdbusaddons6.24-devel kf6-kdoctools6.24-devel libkdegames25.12-devel"
 short_desc="Clone of the well known game Pac-Man (25.12 series)"
-maintainer="toluschr <toluschr@protonmail.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kapman"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kapman"

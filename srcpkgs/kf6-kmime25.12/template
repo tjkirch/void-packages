@@ -11,7 +11,7 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 python3 qt6-base qt6-tools gettext"
 makedepends="kf6-kcodecs6.24-devel kf6-ki18n6.24-devel"
 short_desc="Library for handling mail messages and newsgroup articles (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/kmime-${version}.tar.xz"

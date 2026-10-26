@@ -21,7 +21,7 @@ makedepends="qt6-base-devel
  kf6-ki18n6.24-devel
  libkomparediff2-25.12-devel"
 short_desc="File difference viewer (25.12 series)"
-maintainer="Piotr Wójcik <chocimier@tlen.pl>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-only, GFDL-1.2-only"
 homepage="https://www.kde.org/applications/development/kompare/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kompare"

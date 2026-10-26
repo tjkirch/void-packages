@@ -23,7 +23,7 @@ makedepends="qt6-base-private-devel qt6-declarative-devel
  kf6-kdecoration6.6-devel
  libplasma6.6-devel"
 short_desc="Oxygen visual style for the Plasma Desktop (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/oxygen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname%-qt6}-${version}.tar.xz"

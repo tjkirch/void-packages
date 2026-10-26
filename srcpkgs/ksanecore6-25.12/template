@@ -9,7 +9,7 @@ configure_args="-DQT_MAJOR_VERSION=6
 hostmakedepends="extra-cmake-modules6.24 gettext qt6-base"
 makedepends="qt6-base-devel sane-devel kf6-kconfig6.24-devel kf6-ki18n6.24-devel"
 short_desc="Library providing logic to interface scanners (25.12 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://kde.org/applications/graphics"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ksanecore"

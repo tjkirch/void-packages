@@ -20,7 +20,7 @@ makedepends="qt6-base-devel
  kf6-kstatusnotifieritem6.24-devel kf6-purpose6.24-devel
  plasma-activities6.6-devel plasma-workspace6.6-devel"
 short_desc="Integration of web browsers with the KDE Plasma 6 desktop (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-browser-integration"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

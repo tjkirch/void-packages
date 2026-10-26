@@ -9,7 +9,7 @@ makedepends="qt6-base-devel libmount-devel libplist-devel
  libimobiledevice-devel"
 depends="upower udisks2 media-player-info"
 short_desc="Hardware integration and detection (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/solid"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules6.24 kf6-kcoreaddons6.24 gettext qt6-tools q
  kf6-kcoreaddons6.24 kf6-kconfig6.24"
 makedepends="qt6-base-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kxmlgui6.24-devel"
 short_desc="KDE's Color Chooser (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="MIT"
 homepage="https://kde.org/applications/en/graphics/org.kde.kcolorchooser"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcolorchooser"

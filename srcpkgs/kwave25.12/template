@@ -22,7 +22,7 @@ depends="audiofile fftw hicolor-icon-theme id3lib lame libmad libsamplerate
  opus twolame"
 checkdepends="xvfb-run"
 short_desc="Sound editor for KDE (25.12 series)"
-maintainer="Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/kwave"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kwave"

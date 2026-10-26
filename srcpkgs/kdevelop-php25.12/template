@@ -11,7 +11,7 @@ makedepends="kf6-knewstuff6.24-devel kf6-kitemmodels6.24-devel kf6-ki18n6.24-dev
  kf6-threadweaver6.24-devel kf6-ktexteditor6.24-devel kf6-kcmutils6.24-devel
  kf6-knotifyconfig6.24-devel kdevelop25.12-devel"
 short_desc="PHP language support for KDevelop (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://www.kdevelop.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdev-php"

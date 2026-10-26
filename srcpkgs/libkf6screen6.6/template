@@ -11,7 +11,7 @@ hostmakedepends="pkg-config extra-cmake-modules6.24 qt6-tools qt6-base
 makedepends="qt6-base-devel libXrandr-devel qt6-base-private-devel
  kf6-kconfig6.24-devel wayland-devel plasma-wayland-protocols"
 short_desc="KDE screen management software (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/libkscreen"
 distfiles="${KDE_SITE}/plasma/${version}/libkscreen-${version}.tar.xz"

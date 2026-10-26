@@ -12,7 +12,7 @@ makedepends="kf6-kcmutils6.24-devel kf6-kconfig6.24-devel kf6-kdbusaddons6.24-de
  qt6-declarative-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-knotifications6.24-devel"
 depends="bolt"
 short_desc="Plasma integration for controlling Thunderbolt devices (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-thunderbolt"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

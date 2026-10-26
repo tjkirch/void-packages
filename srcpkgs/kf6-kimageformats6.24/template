@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base
 makedepends="kf6-karchive6.24-devel libopenexr-devel libheif-devel libraw-devel
  libjxl-devel libavif-devel"
 short_desc="KDE Plugins to allow QImage to support extra file formats (6.24 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kimageformats"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"

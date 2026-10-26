@@ -20,7 +20,7 @@ makedepends="freerdp freerdp-devel fuse3-devel
  plasma-activities6.6-devel qt6-base-private-devel qtkeychain-qt6-devel"
 depends="freerdp"
 short_desc="Remote Desktop Client supporting VNC and RDP (25.12 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-only, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/en/internet/org.kde.krdc"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"

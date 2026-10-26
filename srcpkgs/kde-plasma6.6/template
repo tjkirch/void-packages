@@ -30,7 +30,7 @@ depends="bluedevil6.6>=${version}
  upower
  udisks2"
 short_desc="KDE Plasma Desktop meta-package for Void Linux (6.6 series)"
-maintainer="John <me@johnnynator.dev>"
+maintainer="Tom <void@halffull.org>"
 license="Public Domain"
 homepage="https://kde.org/plasma-desktop"
 replaces="kde5>=0"

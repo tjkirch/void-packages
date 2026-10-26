@@ -26,7 +26,7 @@ makedepends="kf6-kdeclarative6.24-devel kf6-kholidays6.24-devel kf6-krunner6.24-
 depends="qt6-plugin-networkinformation qt6-location kf6-kirigami6.24 kf6-purpose6.24
  kf6-kitemmodels6.24"
 short_desc="Various Plasma addons (6.6 series)"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kdeplasma-addons"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"

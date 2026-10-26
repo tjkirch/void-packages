@@ -18,7 +18,7 @@ makedepends="akonadi-import-wizard25.12-devel discount-devel incidenceeditor25.1
  kf6-kpackage6.24-devel kaddressbook25.12-devel"
 checkdepends=dbus
 short_desc="Addons for KDE PIM applications (25.12 series)"
-maintainer="Louis Dupré Bertoni <contact@louis.xyz>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later, AGPL-3.0-or-later, BSD-3-Clause, BSD-2-Clause"
 homepage="https://invent.kde.org/pim/kdepim-addons"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdepim-addons"

@@ -12,7 +12,7 @@ makedepends="qt6-base-devel libatasmart-devel libparted-devel kf6-kwidgetsaddons
  kf6-ki18n6.24-devel polkit-qt6-devel kf6-kauth6.24-devel kf6-kcoreaddons6.24-devel"
 depends="parted"
 short_desc="Library for managing partitions (25.12 series)"
-maintainer="jambonmcyeah <jambonmcyeah@gmail.com>"
+maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/partitionmanager"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kpmcore"
