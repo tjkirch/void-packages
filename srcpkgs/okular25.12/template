@@ -38,6 +38,7 @@ editformstest|calculatetexttest|mainshelltest|annotationtoolbartest|signaturefor
 }
 
 libokular25.12_package() {
+	conflicts="libokular"
 	short_desc+=" - runtime library"
 	pkg_install() {
 		vmove "usr/lib/*.so.*"
@@ -45,7 +46,7 @@ libokular25.12_package() {
 }
 
 libokular25.12-devel_package() {
-	conflicts="okular-devel"
+	conflicts="libokular-devel"
 	short_desc+=" - development files"
 	depends="lib${sourcepkg}>=${version}_${revision}"
 	pkg_install() {
