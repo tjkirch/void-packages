@@ -14,7 +14,7 @@ short_desc="Oxygen visual style for the Plasma Desktop (6.6 series)"
 maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/oxygen"
-distfiles="${KDE_SITE}/plasma/${version}/${pkgname%-qt5}-${version}.tar.xz"
+distfiles="${KDE_SITE}/plasma/${version}/${pkgname%-qt5-6.6}-${version}.tar.xz"
 checksum=1f3ba357400b41f8477ac7ec56c68d92648c53a05c53977a41972a9f953363e5
 conflicts="oxygen-qt5"
 

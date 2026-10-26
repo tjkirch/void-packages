@@ -18,6 +18,6 @@ short_desc="KDE colord integration (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/graphics/colord-kde"
-distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
+distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname%25.12}-${version}.tar.xz"
 checksum=a9ceeea73efa2c9d11de6cbf81a42c4d627aba99790c1b4872deca873d299f47
 conflicts="colord-kde"
