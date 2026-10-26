@@ -42,6 +42,7 @@ case "$XBPS_TARGET_MACHINE" in
 esac
 
 kf6-kguiaddons-geo-uri-handler6.24_package() {
+	conflicts="kf6-kguiaddons-geo-uri-handler"
 	short_desc+=" - Geo URI handler"
 	pkg_install() {
 		vmove usr/share/applications

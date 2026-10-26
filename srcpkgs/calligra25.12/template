@@ -74,6 +74,7 @@ do_install() {
 }
 
 calligra-filters25.12_package() {
+	conflicts="calligra-filters"
 	short_desc+=" - filters"
 	depends="pstoedit"
 	pkg_install() {
@@ -83,6 +84,7 @@ calligra-filters25.12_package() {
 }
 
 calligra-libs25.12_package() {
+	conflicts="calligra-libs"
 	short_desc+=" - libraries"
 	pkg_install() {
 		for d in interfaces libs pics servicetypes; do
@@ -93,6 +95,7 @@ calligra-libs25.12_package() {
 }
 
 calligra-plugins25.12_package() {
+	conflicts="calligra-plugins"
 	short_desc+=" - plugins"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
@@ -101,6 +104,7 @@ calligra-plugins25.12_package() {
 }
 
 calligra-karbon25.12_package() {
+	conflicts="calligra-karbon"
 	short_desc+=" - Create scalable vector drawings"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
@@ -109,6 +113,7 @@ calligra-karbon25.12_package() {
 }
 
 calligra-stage25.12_package() {
+	conflicts="calligra-stage"
 	short_desc+=" - Write presentation documents"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
@@ -117,6 +122,7 @@ calligra-stage25.12_package() {
 }
 
 calligra-sheets25.12_package() {
+	conflicts="calligra-sheets"
 	short_desc+=" - Write spreadsheet documents"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
@@ -125,6 +131,7 @@ calligra-sheets25.12_package() {
 }
 
 calligra-words25.12_package() {
+	conflicts="calligra-words"
 	short_desc+=" - Word Processor"
 	depends="calligra-plugins25.12"
 	pkg_install() {
@@ -134,6 +141,7 @@ calligra-words25.12_package() {
 }
 
 calligra-handbook25.12_package() {
+	conflicts="calligra-handbook"
 	metapackage=yes
 	short_desc+=" - Documentation (removed temporarily)"
 	#pkg_install() {
@@ -143,6 +151,7 @@ calligra-handbook25.12_package() {
 }
 
 calligra-extras25.12_package() {
+	conflicts="calligra-extras"
 	short_desc+=" - Extras"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
@@ -153,6 +162,7 @@ calligra-extras25.12_package() {
 }
 
 calligra-devtools25.12_package() {
+	conflicts="calligra-devtools"
 	short_desc+=" - Developer tools"
 	pkg_install() {
 		DESTDIR=$PKGDESTDIR \
@@ -163,6 +173,7 @@ calligra-devtools25.12_package() {
 }
 
 calligra-gemini25.12_package() {
+	conflicts="calligra-gemini"
 	short_desc+=" - QML interface for Calligra Words and Stage"
 	depends="kf6-kirigami6.24"
 	if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then

@@ -25,13 +25,14 @@ else
 fi
 
 libbreeze-icons6.24_package() {
+	conflicts="libbreeze-icons"
 	pkg_install() {
 		vmove "usr/lib/*.so.*"
 	}
 }
 
 libbreeze-icons6.24-devel_package() {
-	conflicts="breeze-icons-devel"
+	conflicts="libbreeze-icons-devel"
 	depends="libbreeze-icons6.24>=${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {
