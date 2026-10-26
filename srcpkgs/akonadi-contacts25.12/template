@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later, GPL-2.0-or-later"
 homepage="https://community.kde.org/KDE_PIM/Akonadi"
 distfiles="${KDE_SITE}/release-service/${version}/src/akonadi-contacts-${version}.tar.xz"
-checksum=96894e82adff3e0ff84db4e6ed757a62971d4835c785efb353663a76550050e4
+checksum=575bb419a6bfde2bb3eaceda9636878492f8601fe87c767721f9cea5c250898f
 conflicts="akonadi-contacts"
 
 akonadi-contacts25.12-devel_package() {

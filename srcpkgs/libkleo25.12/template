@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkleo-${version}.tar.xz"
-checksum=57868f2f89ec307423d4986aa181380be58bea311e45fc29a617f7f0a32e4eec
+checksum=5fab807b445305cdc790a9a9c93804e809c897919576426f3ea8cd543a59de2c
 conflicts="libkleo"
 
 do_check() {

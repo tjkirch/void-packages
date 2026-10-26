@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kscreen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=a1742210a0cf4ea76959f708c55180b2573648e9cd35cb4e38f349fe5694c9df
+checksum=81d44fe7ec513daa664e57bf74def4ccad7acac7f77c6c9021b8d5bc16d55d76
 conflicts="kscreen"
 
 # stage builds

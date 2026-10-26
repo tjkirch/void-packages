@@ -15,5 +15,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://invent.kde.org/system/kio-admin"
 distfiles="${KDE_SITE}/release-service/${version}/src/kio-admin-${version}.tar.xz"
-checksum=7389765ae8e4495234bd72f062d5e87a169360a5380c6078ef6871e1403cb3d6
+checksum=b85d0c63d5dc032049e2bc52ddb21322ecf596e1ab47a764cca28f457e4daee0
 conflicts="kio-admin"

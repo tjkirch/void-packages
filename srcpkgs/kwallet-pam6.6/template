@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kwallet-pam"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=d71f5945ef3086f56f52f531508c2ab363078fbbd5ae4084bd3647049e6ee94f
+checksum=24757769b6869249eab7b6c3b471973916ba36e1580b60d3d2aa4ce93c12f50a
 conflicts="kwallet<=5.115.0_1 kwallet-pam"
 
 # stage builds

@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="(LGPL-2.1-only OR LGPL-3.0-only) AND GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-activities"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=d93f31b6f33733ad3803098f4f622e55e3ef52cb5cd97e621a7b803e6f0e3f7c
+checksum=3ae22da1aadfe0ad196d3a665b8d9500b9a8ae81ee5bb2b3ba314e11a7f17720
 conflicts="plasma-activities"
 
 # stage builds

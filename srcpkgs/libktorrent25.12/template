@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/en/ktorrent"
 distfiles="${KDE_SITE}/release-service/${version}/src/libktorrent-${version}.tar.xz"
-checksum=0a55d129024f39b474ceb108bfa536caca15fea6cb0fb3aa7bb0b87acc476845
+checksum=e462cba899d4d122923aa4d0c6efd395ebc4ef9eb688e6b7a405234da6c8c302
 conflicts="libktorrent"
 
 libktorrent25.12-devel_package() {

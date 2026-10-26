@@ -19,5 +19,5 @@ license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/graphics/kruler/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kruler"
 distfiles="${KDE_SITE}/release-service/${version}/src/kruler-${version}.tar.xz"
-checksum=a913d993e2cf2b1deaa27b26ba6801a2b20bcf9232b3ff52dfd2f17e4fdaaa29
+checksum=c211bec09a71bda55b1ab86223729603ec7c3206296466bc8ae98dcb76cb7084
 conflicts="kruler"

@@ -15,5 +15,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.dolphin_plugins"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=f9edc41bb0fc75dba1ac32a8c15ef33fb8152740f10b90265dbc6f1724eb929b
+checksum=a738d4f9f1148283ff0552ffc5a440cabc5f216aa2473c22e699593b3b01a7c0
 conflicts="dolphin-plugins"

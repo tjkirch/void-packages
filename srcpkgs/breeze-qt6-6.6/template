@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/breeze"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname%-qt6}-${version}.tar.xz"
-checksum=aa05c0c31c852ed5b137327e7798fd763a54c643875d5d8070625475e0af6976
+checksum=82785a7c71c50df4771a164bd0f300ec878394831cb3d3aa2154e4983fcb0191
 conflicts="breeze-qt6"
 replaces="breeze<6.0.0_1 breeze-snow-cursor-theme>=0"
 

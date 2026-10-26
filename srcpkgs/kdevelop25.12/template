@@ -59,7 +59,7 @@ license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://www.kdevelop.org/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kdevelop"
 distfiles="${KDE_SITE}/release-service/${version}/src/kdevelop-${version}.tar.xz"
-checksum=dd77921d7e403bfbb60bfa8a7998a2e2c1eb53ab7b4b1a2f8a52360493c586ab
+checksum=b6e8f6a02b3ab843b2212eda13aadee3f5d7039dc0b90c2070fec56e337dfcd5
 conflicts="kdevelop"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

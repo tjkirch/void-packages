@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/calendarsupport-${version}.tar.xz"
-checksum=6490d2a70fcf393a8af1daaf571ba0b88972f9ab1b091ffb2dff19ac520423bc
+checksum=455785712a32f0dba7947a314eb99065d902ac6c432947e9e699a44ca18c70a1
 conflicts="calendarsupport"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

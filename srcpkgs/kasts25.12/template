@@ -24,5 +24,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/kasts"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=175b9cfc837c6ca5b3b31909088e18ced5fda885ae1897a611235c7087264515
+checksum=b5d19512a5887a1a763eb9de9530dd7f861d667631cd78a84a79a50e410c00d0
 conflicts="kasts"

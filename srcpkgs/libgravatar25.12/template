@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/libgravatar-${version}.tar.xz"
-checksum=459e245db0872ee5f780d4cc90808e90d9fcb63f0ee9c22552c15d60754c388f
+checksum=3a7388ad15f0da3556e36be0b9ae604b3e5b1a6bb1424220122767bc0d3c88a6
 conflicts="libgravatar"
 
 libgravatar25.12-devel_package() {

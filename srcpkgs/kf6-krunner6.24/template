@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/krunner"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=0885d0936aec6dc8553c673f1c685013e345b933a52812a07c5bddd1eebdb551
+checksum=5775d7292a31c0ca339b385c18f3716fda5486317423c53809a10d8008ff8e4d
 conflicts="kf6-krunner"
 
 # stage builds

@@ -20,7 +20,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-integration"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=0786c49f2f357744e0f4cfda49f55284faa1a97da85a667ca6cf1d8ab07aff89
+checksum=d9b9289188b1e11bb90097c0985cbc88e21a3bfc0d0a092f802b0743e1a8afa7
 conflicts="plasma-integration"
 
 # stage builds

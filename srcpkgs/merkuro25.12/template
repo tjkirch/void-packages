@@ -49,7 +49,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/pim/merkuro"
 distfiles="${KDE_SITE}/release-service/${version}/src/merkuro-${version}.tar.xz"
-checksum=036df52be52c1fc7b239ada44bd45eb7f875c13f59b5009e7029d303b152a16e
+checksum=f56169db85cb600ba2a49b32bf53d17eadd137e116d19f4b69ef2a5eab2c8bae
 conflicts="merkuro"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

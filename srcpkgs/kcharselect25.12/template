@@ -17,5 +17,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/utilities/org.kde.kcharselect"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kcharselect"
 distfiles="${KDE_SITE}/release-service/${version}/src/kcharselect-${version}.tar.xz"
-checksum=fbc0a7f9ffaac49f1f2069d01d47e31a5eede9932e1324374465bf58c727a896
+checksum=90df5543516dc72d83edff79f9bdca9763061d0dc3b0bd3eb7295ca912fcecde
 conflicts="kcharselect"

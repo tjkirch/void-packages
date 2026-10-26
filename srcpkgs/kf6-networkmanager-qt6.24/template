@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/networkmanager-qt"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=f6ba5f54d413ea0b2642207a6ebd0803e7cb8392b91fcf8a1679fd0c21062865
+checksum=b9d44f80e054353f87b4274481b320676d95bd3835ffbbfdf19ef4f2a2ef0fff
 conflicts="kf6-networkmanager-qt"
 
 # stage builds

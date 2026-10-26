@@ -43,7 +43,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GFDL-1.2-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-workspace"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=94ab21e2243b7876f65c315f1e545081c6437f5bd0a041ca4fb6c2533ae874c9
+checksum=f1883cc9d7884ea35d765fcfbaee407c45d149609b330144fa9ddfe101e1b4ab
 conflicts="plasma-workspace"
 
 # stage builds

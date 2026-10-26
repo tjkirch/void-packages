@@ -18,7 +18,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kde-gtk-config"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=6590fefad29e37be7d51ed89e9dbaf67884ae0a3fed14f8d58ac1352c0c0503d
+checksum=162c09a31a5c4857a7ec2888376442bb433c22fe2b7eaf331eda8ed2e28718fa
 conflicts="kde-gtk-config"
 
 # stage builds

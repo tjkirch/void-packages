@@ -17,7 +17,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/milou"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=b43c7cb765109a91ad9ef7d5856c4584b380349837baf63ccca4b45a67925ab5
+checksum=07ba7ea28abdf93886fd44a2f884090a3657ca158d1041bfee51d97c5583e431
 conflicts="milou"
 
 # stage builds

@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL"
 homepage="https://invent.kde.org/plasma/qqc2-breeze-style"
 distfiles="${KDE_SITE}/plasma/${version}/qqc2-breeze-style-${version}.tar.xz"
-checksum=788f0698c904112cc33bf6f8fb446b2e4fd7231d38c0955cbc3baa50d375d1ee
+checksum=c4f8caab8bc3133d6346166adf274020fb375cd1e876921adb62d8523e6c62fb
 conflicts="qqc2-breeze-style"
 
 # stage builds

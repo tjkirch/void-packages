@@ -26,7 +26,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-nm"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=6469ff89e26d44565292c968df595b3a68f353707255ba48725c1bae2a67f3be
+checksum=2d310992f6105b22d60ba8a8515b1ae5dabb4bd9825057e49ca0b6ccb05dd41a
 conflicts="plasma-nm"
 
 # stage builds

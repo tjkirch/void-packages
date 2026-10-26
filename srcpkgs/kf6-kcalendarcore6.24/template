@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcalendarcore"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=e8bf60e398e2f8098a4db7db44c5475d70540ad8f8948a123c8bc109dc4db776
+checksum=57102463c93a4c7d9033fcc99f65583256461d9a1745cbeb65afb6e2a4fc245a
 conflicts="kf6-kcalendarcore"
 
 # stage builds

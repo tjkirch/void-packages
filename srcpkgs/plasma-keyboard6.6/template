@@ -19,7 +19,7 @@ maintainer="Tom <void@halffull.org>"
 license="(GPL-2.0-only OR GPL-3.0-only OR custom:LicenseRef-KDE-Accepted-GPL) AND GPL-3.0-or-later AND (LGPL-2.1-only OR LGPL-3.0-only OR custom:LicenseRef-KDE-Accepted-LGPL)"
 homepage="https://invent.kde.org/plasma/plasma-keyboard"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=0dd91212308e6c6999db55b95b5b462cadc2766935272e9caf2f138b9a063788
+checksum=5e536ad0622ca741555071fe4a53b727eafbc64b0652b48971920d0f407ab1f2
 conflicts="plasma-keyboard"
 
 # stage builds

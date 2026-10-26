@@ -21,7 +21,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kguiaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=e98864228d1c5e23f3428025eb9928697374fdc3eddebb3a9dec570de028a62d
+checksum=c5e44b56739cbc67e1b6955edc9534f58288ca09d02f85eaae56db8347395eaf
 conflicts="kf6-kguiaddons"
 
 # stage builds

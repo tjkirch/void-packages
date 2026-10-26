@@ -24,7 +24,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/libplasma"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=27b28823254aa489c094c40a314ce1575fd7906eeb521e636bb8fd2dc2981f2f
+checksum=438edc134456bdca75b216a2cc2fdc242bb3e3c62687484325da01836b018017
 conflicts="libplasma"
 
 # stage builds

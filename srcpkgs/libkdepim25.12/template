@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkdepim-${version}.tar.xz"
-checksum=f4de990ab9a8e38b9f73870c1f9523d51c69ede75b8ccf2d62e51be48a861682
+checksum=5b2ffc63f30ffdf513061b634db3df6019ab4aad56b1c11f50dadec081b8cf43
 conflicts="libkdepim"
 
 if [ "$CROSS_BUILD" ]; then

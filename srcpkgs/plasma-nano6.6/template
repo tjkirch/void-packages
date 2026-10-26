@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later AND LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/plasma-nano"
 distfiles="${KDE_SITE}/plasma/${version}/plasma-nano-${version}.tar.xz"
-checksum=9a5356f6526daec0873c8dd35d98d88122c2bc7739eb69fb9585146a6772f202
+checksum=07e6b70a8839b6dc756239b4c6efe8efb5ff6c83795ca1d1e7b7550fe84a6c8d
 conflicts="plasma-nano"
 
 # stage builds

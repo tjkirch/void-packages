@@ -11,7 +11,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcompletion"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=96ad9c429ca53b830359c45614ca4c32ed6b759f3023f1b3db1650ba1c19bd58
+checksum=1bdfb8f2dcb8da558d7210d7f21f054c4f0d934d69e86aed36675755ded370d5
 conflicts="kf6-kcompletion"
 
 # stage builds

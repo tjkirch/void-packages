@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/kmime-${version}.tar.xz"
-checksum=2969a5ef484e98f91bf78e88c98a9d613bdd3bb86ac154ceece0557b70f373bc
+checksum=fce3c603cac3fec9a3f0e101c49785c32ace07b8f60b52739b638d329f43826d
 conflicts="kf6-kmime"
 
 makedepends+=" kf6-base6.24"

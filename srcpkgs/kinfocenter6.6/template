@@ -21,7 +21,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-only"
 homepage="https://invent.kde.org/plasma/kinfocenter"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=e3aeb4b6f7237fddff4e68f4d7d715772cc47bd0ac376febe24ae3d717680416
+checksum=6e95f42aca77efb2d8d87270f1d9edbaad92dac4273590edb913816d2f4aa678
 conflicts="kinfocenter"
 
 # stage builds

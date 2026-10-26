@@ -21,5 +21,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"
 homepage="https://kde.org/applications/en/multimedia/org.kde.elisa"
 distfiles="${KDE_SITE}/release-service/${version}/src/elisa-${version}.tar.xz"
-checksum=e6a36f4c6cd8b775cc8f60f41dc950db86c45107ef74672616c8c683611aecc1
+checksum=ee530970f11bfda48a5569505cfc87eb6ccad2135d6226423dd42c0c3ba7fd4a
 conflicts="elisa"

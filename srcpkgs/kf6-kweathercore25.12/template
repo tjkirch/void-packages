@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/libraries/kweathercore"
 distfiles="${KDE_SITE}/release-service/${version}/src/kweathercore-${version}.tar.xz"
-checksum=e89bcad036347f76b39bf4d83b68ab37d903e13cde24347e3d724b0e509ea7fd
+checksum=83cda4953ac7ac3f3473ce053e3d13b36c57dc0e198bc176663fdd30ba4b0945
 conflicts="kf6-kweathercore"
 
 if [ "$CROSS_BUILD" ]; then

@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kirigami"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=6de811e559c20dc1086c0cf2c34bb98712dbe4d45f960c62c3c3f887332c95f8
+checksum=7b3247dfe349867d44244335beb8d549ad4a8f6b3179d1736d231512dea5b0ce
 conflicts="kf6-kirigami"
 
 # stage builds

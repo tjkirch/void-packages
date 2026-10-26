@@ -22,5 +22,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/audex/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=cf558c7421bccc611628ba2e333a1ca3efb80922aeb99d407026ebbe0c384162
+checksum=ecc7a2ebdda77ccb4395f802f6dba668b2baa75ba190d3ace778edcb46de21df
 conflicts="audex"

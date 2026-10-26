@@ -21,7 +21,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, GPL-3.0-or-later, LGPL-2.1-or-later, AGPL-3.0-or-later, BSD-3-Clause, BSD-2-Clause"
 homepage="https://invent.kde.org/unmaintained/kdepimlibs"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=524910cc66b8279c1fa8eba517ec63121e4b74cccbfe0549d73ddf5cfd6ee837
+checksum=9c034771cc66ed5103acf5276fd2a5f9f43b503393e3779208c4f97c4d274689
 conflicts="kdepim-runtime"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

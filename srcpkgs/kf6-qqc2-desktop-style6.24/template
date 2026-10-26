@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/qqc2-desktop-style"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=74c6402fa697a76254e1c68ebd86136be49e03fad86482e86a27e5478f662c41
+checksum=45967a1b596f1dfd21371948275a330ab3ede6fd94fdfd22f6ae5eb0b122de64
 conflicts="kf6-qqc2-desktop-style"
 
 # stage builds

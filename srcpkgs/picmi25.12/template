@@ -13,5 +13,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/picmi"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=c200a8e8ecaa286bc2c057f37a83f63953a49c9e0bbcb27adb9e482fc245cca4
+checksum=0ade2dc87a68fd091c550b0e971f02c1642d4f702819e3302d2ae6aab9c6b7b5
 conflicts="picmi"

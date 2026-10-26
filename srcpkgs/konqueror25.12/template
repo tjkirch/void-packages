@@ -22,7 +22,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://kde.org/applications/internet/org.kde.konqueror"
 distfiles="${KDE_SITE}/release-service/${version}/src/konqueror-${version}.tar.xz"
-checksum=d974853fc14a356e76ac7901c7270323bf93a38e5ae4470b0a32e4b749854ccd
+checksum=8f383beada857b522a59b9259ae1f1f83554c5d25d3c39a39fb6f172ec0f889d
 conflicts="konqueror"
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" != "64$XBPS_TARGET_WORDSIZE" ]; then

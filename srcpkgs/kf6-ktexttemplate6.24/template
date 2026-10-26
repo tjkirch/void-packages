@@ -14,7 +14,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ktexttemplate"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=c3c229944d25294102e4e8a5b49fa0c0f481da9d33f8bec3782e8a53afd47493
+checksum=85021f69f61d09fe5b1b01075dff4fc90b4d3598f7e83bdd4fee31d4a01488e0
 conflicts="kf6-ktexttemplate"
 
 # stage builds

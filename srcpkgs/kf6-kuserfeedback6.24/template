@@ -15,7 +15,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kuserfeedback"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=c8a463c8e570f6d532cbe150732220575c6385df97c91399b6c84450691771ca
+checksum=3004be541acf03b6e2203b5eafede7f9d9a8fe41d77cdd2aee35e03f13929a30
 conflicts="kf6-kuserfeedback"
 
 # stage builds

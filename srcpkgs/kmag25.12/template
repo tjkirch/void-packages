@@ -16,5 +16,5 @@ license="GPL-2.0-or-later"
 homepage="https://www.kde.org/applications/utilities/kmag/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kmag"
 distfiles="${KDE_SITE}/release-service/${version}/src/kmag-${version}.tar.xz"
-checksum=7e6b7d29bbc492b697f22a9a7bd1b707d9cfd7559da46f54f80be096a6bf8f2c
+checksum=fad2b53162bf0cd1bb751fcf6d6c88b1cd2f8ff43c7257657eeb0802646227ac
 conflicts="kmag"

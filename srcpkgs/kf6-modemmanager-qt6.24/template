@@ -13,7 +13,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/modemmanager-qt"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=d7c4106dc130729fdfd435abaeaf85039a874fc18563a41755e14f7ea174ae21
+checksum=c658ff8e19e27c9d7980552d4094233fbe0ad286f5a6927fa687255e84e80ed2
 conflicts="kf6-modemmanager-qt"
 
 # stage builds

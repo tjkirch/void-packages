@@ -18,5 +18,5 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
 homepage="https://apps.kde.org/audiotube/"
 distfiles="${KDE_SITE}/release-service/${version}/src/audiotube-${version}.tar.xz"
-checksum=f26bf29ff28cda7f79dc1dc6b46c159edf32149d98aa41926ab3d4190dbae7d3
+checksum=9e77fd4930f796e352dbe2a839dcd8cbb601605cb026497595a4767e7117e318
 conflicts="audiotube"

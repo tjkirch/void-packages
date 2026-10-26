@@ -12,7 +12,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcodecs"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=a42c79ff3237b73789d1c63cdfd848c0d59671ce5e93723a2efa128f00cb3450
+checksum=5010a371944e052f65d94ed694c52b618d4c468855b1c77f078a8f614aefd6f7
 conflicts="kf6-kcodecs"
 
 # stage builds

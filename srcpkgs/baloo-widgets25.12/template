@@ -24,7 +24,7 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/libraries/baloo-widgets"
 distfiles="${KDE_SITE}/release-service/${version}/src/baloo-widgets-${version}.tar.xz"
-checksum=b4af5cc65d886ab9d2a807254e11295e585d7cedd993d2b3b78f2f17e3a7f544
+checksum=0b03fc0adfeda46deeb53fb5e22bb9108715ebc1d8f5b19ca4e5c2216332c711
 conflicts="baloo-widgets"
 replaces="baloo-widgets5>=0"
 

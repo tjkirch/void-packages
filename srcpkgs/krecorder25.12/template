@@ -17,5 +17,5 @@ license="GPL-3.0-or-later"
 homepage="https://apps.kde.org/krecorder/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#krecorder"
 distfiles="${KDE_SITE}/release-service/${version}/src/krecorder-${version}.tar.xz"
-checksum=bbf1e147e9f89d222404eda2be3ad146ca0ed7c7415a03f96183c84db28ea4b4
+checksum=3996e5235d6e61bfe2b221c25ffb0e836b7aec7afd12763f4e2e7655d0733fb1
 conflicts="krecorder"

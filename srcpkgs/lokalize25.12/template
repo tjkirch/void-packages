@@ -26,6 +26,6 @@ license="LGPL-2.0-or-later"
 homepage="https://apps.kde.org/lokalize"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#lokalize"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=085526120fbcd7335a48373ef6305612a5e8a41c063710f282abe3f90da7417e
+checksum=f62c5c1116d0fa8c7c3d24b1b642060bc3a0fddc6aa65218f375303de4191e8e
 conflicts="lokalize"
 python_version=3

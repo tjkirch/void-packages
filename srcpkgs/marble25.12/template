@@ -23,7 +23,7 @@ license="LGPL-2.1-or-later, GFDL-1.2-only"
 homepage="https://marble.kde.org"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#marble"
 distfiles="${KDE_SITE}/release-service/${version}/src/marble-${version}.tar.xz"
-checksum=a8d5fbfb6b8cc4a8517df6e75143afcdaebcd7995f88f7a459d6b17c9bae1a98
+checksum=6f444e70f61ae3e4b7a2c9cc07bea788a795263693278ac637d8afc86a0c3dd4
 conflicts="marble"
 replaces="marble5>=0"
 

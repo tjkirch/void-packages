@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/plasma-vault"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=2a25bb2bd75c9d92894d3e75a19b2bcb01adaa937980579f9422e8c1df84dda5
+checksum=99b7e1f7c28bdbcb913024f7e58558529dcb755e6c9aae509ec9b5e9fb895ce6
 conflicts="plasma-vault"
 
 # stage builds

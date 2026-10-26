@@ -16,7 +16,7 @@ maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/sddm-kcm"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=b7641d15996f590df27d8f820dffc79d83ce9e4e19a88f03bb1d8651faa25887
+checksum=306e6123af08eda8459b2f069c4a8e058a857a244d5ae98f06b4eb32b5b7fc90
 conflicts="sddm-kcm"
 
 # stage builds

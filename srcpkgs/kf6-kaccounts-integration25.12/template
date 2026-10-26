@@ -20,7 +20,7 @@ license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/network/kaccounts-integration"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kaccounts-integration"
 distfiles="${KDE_SITE}/release-service/${version}/src/kaccounts-integration-${version}.tar.xz"
-checksum=7b12dc58c368690428ccaa71528f1dfe231eb99fc3a222cf2a8d6cf93dccbb6a
+checksum=71c20ae5ca1459f732cc3c92248885b2d1d84e251f2d1b0f462b00adda8fc3b6
 conflicts="kf6-kaccounts-integration"
 
 # depends on webengine

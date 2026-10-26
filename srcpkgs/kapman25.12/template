@@ -20,5 +20,5 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/games/org.kde.kapman"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#kapman"
 distfiles="${KDE_SITE}/release-service/${version}/src/kapman-${version}.tar.xz"
-checksum=4b167b53f50f04397d1f97baa51133278472b0597db95dd89e217b819267cb78
+checksum=7059b1341d4ff142388ed502f903256262722c2fbe4f73c1b288e4d713c8d261
 conflicts="kapman"
