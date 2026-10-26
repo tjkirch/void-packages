@@ -25,6 +25,7 @@ conflicts="kate"
 replaces="kate5>=0"
 
 libkate25.12_package() {
+	conflicts="libkate"
 	short_desc+=" - libraries"
 	pkg_install() {
 		vmove usr/lib/libkateprivate.so.*
@@ -32,6 +33,7 @@ libkate25.12_package() {
 }
 
 kwrite25.12_package() {
+	conflicts="kwrite"
 	short_desc+=" - kwrite"
 	pkg_install() {
 		vmove usr/bin/kwrite

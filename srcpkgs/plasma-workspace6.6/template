@@ -55,6 +55,7 @@ if [ "$XBPS_TARGET_LIBC" = "glibc" ]; then
 fi
 
 kworkspace6.6_package() {
+	conflicts="kworkspace"
 	short_desc="Plasma Workspace Library for KF6"
 	pkg_install() {
 		vmove "usr/lib/libkworkspace6.so.6*"
@@ -62,6 +63,7 @@ kworkspace6.6_package() {
 }
 
 plasma-workspace-x11-6.6_package() {
+	conflicts="plasma-workspace-x11"
 	short_desc+=" - X11 Session"
 	depends="${sourcepkg} kwin-x11-6.6"
 	pkg_install() {
