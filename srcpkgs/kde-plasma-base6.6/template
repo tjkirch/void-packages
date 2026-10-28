@@ -12,6 +12,6 @@ shlib_provides="KDE_Plasma.${version}"
 
 case "$XBPS_TARGET_MACHINE" in
 x86_64)
-	provides="kde-plasma-base-32bit-${version}_${revision}"
+	provides="kde-plasma-base6.6-32bit-${version}_${revision}"
 esac
 conflicts="kde-plasma-base"
