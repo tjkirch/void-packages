@@ -9,10 +9,10 @@ configure_args="-DBUILD_TESTING=OFF
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml"
 hostmakedepends="extra-cmake-modules6.24 gettext pkg-config python3 qt6-base qt6-tools"
 makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-ki18n6.24-devel
- kf6-kirigami6.24-devel kf6-knotifications6.24-devel kf6-kweathercore25.12-devel kirigami-addons-devel
+ kf6-kirigami6.24-devel kf6-knotifications6.24-devel kf6-kweathercore25.12-devel kirigami-addons6.24-devel
  libplasma6.6-devel qt6-base-devel qt6-declarative-devel qt6-charts-devel qt6-svg-devel
  kf6-krunner6.24-devel"
-depends="kirigami-addons kf6-qqc2-desktop-style6.24"
+depends="kirigami-addons6.24 kf6-qqc2-desktop-style6.24"
 short_desc="Weather application for Plasma Mobile (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"

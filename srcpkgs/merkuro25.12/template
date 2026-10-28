@@ -21,7 +21,7 @@ makedepends="qt6-base-private-devel qt6-declarative-private-devel
  kf6-kirigami6.24-devel
  kf6-kio6.24-devel
  kf6-kpackage6.24-devel kf6-kpeople6.24-devel kf6-kwindowsystem6.24-devel kf6-qqc2-desktop-style6.24-devel
- kirigami-addons-devel
+ kirigami-addons6.24-devel
  libkleo25.12-devel
  gpgmepp-devel
  messagelib25.12-devel
@@ -42,7 +42,7 @@ makedepends="qt6-base-private-devel qt6-declarative-private-devel
  kf6-kholidays6.24-devel
  eventviews25.12-devel"
 depends="kf6-qqc2-desktop-style6.24 kdepim-runtime25.12 qt6-location
- kirigami-addons"
+ kirigami-addons6.24"
 checkdepends="dbus kdepim-runtime25.12"
 short_desc="Calendar application using Akonadi (25.12 series)"
 maintainer="Tom <void@halffull.org>"

@@ -13,7 +13,7 @@ makedepends="kquickimageeditor-devel libQuotient-devel qtkeychain-qt6-devel
  kf6-knotifications6.24-devel kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel
  kf6-kstatusnotifieritem6.24-devel kf6-qqc2-desktop-style6.24-devel kf6-sonnet6.24-devel
  kf6-kitemmodels6.24-devel kf6-kconfigwidgets6.24-devel kf6-kio6.24-devel
- kirigami-addons-devel qcoro-qt6-devel olm-devel qt6-plugin-sqlite
+ kirigami-addons6.24-devel qcoro-qt6-devel olm-devel qt6-plugin-sqlite
  kf6-purpose6.24-devel kf6-syntax-highlighting6.24-devel kunifiedpush25.12-devel
  qt6-speech-devel qt6-speech-plugin-mock qt6-speech-plugin-flite
  qt6-speech-plugin-speechd kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel

@@ -12,7 +12,7 @@ hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 kf6-kcoreaddons
 makedepends="kf6-kcolorscheme6.24-devel kf6-kdbusaddons6.24-devel kf6-kdeclarative6.24-devel
  kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-kirigami6.24-devel kf6-kitemmodels6.24-devel
  kf6-knotifications6.24-devel kf6-prison6.24-devel kf6-purpose6.24-devel
- kf6-qqc2-desktop-style6.24-devel kirigami-addons-devel kunifiedpush25.12-devel
+ kf6-qqc2-desktop-style6.24-devel kirigami-addons6.24-devel kunifiedpush25.12-devel
  qcoro-qt6-devel qt6-multimedia-devel qt6-svg-devel qt6-websockets-devel
  qt6-webview-devel qtkeychain-qt6-devel"
 short_desc="Mastodon client for Plasma (25.12 series)"

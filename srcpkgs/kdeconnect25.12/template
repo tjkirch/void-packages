@@ -18,9 +18,9 @@ makedepends="kf6-kcmutils6.24-devel kf6-kconfigwidgets6.24-devel kf6-kdbusaddons
  kf6-kpackage6.24-devel kf6-kpeople6.24-devel kf6-kwayland6.6-devel kf6-kitemmodels6.24-devel
  kf6-kcrash6.24-devel libei-devel libevdev-devel libfakekey-devel qca-qt6-devel
  pulseaudio-qt-devel qt6-base-private-devel qt6-connectivity-devel
- qt6-multimedia-devel kirigami-addons-devel"
+ qt6-multimedia-devel kirigami-addons6.24-devel"
 depends="kde-cli-tools6.6 qca-qt6 fuse-sshfs kf6-kirigami6.24 kf6-qqc2-desktop-style6.24
- breeze-icons6.24 kirigami-addons qt6-plugin-tls-openssl kf6-sonnet6.24
+ breeze-icons6.24 kirigami-addons6.24 qt6-plugin-tls-openssl kf6-sonnet6.24
  kf6-kitemmodels6.24"
 #checkdepends="qca-qt5-ossl"
 short_desc="Multi-platform app that allows your devices to communicate (25.12 series)"

@@ -1,0 +1,36 @@
+# Template file for 'kirigami-addons6.24'
+# Note: this is not technically part of KDE Frameworks, but Kirigami itself is,
+# and this ties to a bunch of other Frameworks packages, so I put it into the
+# 6.24 LTS series.
+pkgname=kirigami-addons6.24
+version=1.13.1
+revision=1
+build_style=cmake
+configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
+ -DBUILD_TESTING=OFF -DBUILD_QCH=ON"
+hostmakedepends="extra-cmake-modules6.24 gettext qt6-base qt6-tools
+ qt6-declarative-host-tools kf6-kconfig6.24"
+makedepends="qt6-base-devel qt6-declarative-devel
+ kf6-ki18n6.24-devel kf6-kirigami6.24-devel kf6-kconfig6.24-devel
+ kf6-kcoreaddons6.24-devel kf6-kguiaddons6.24-devel
+ kf6-kcolorscheme6.24-devel kf6-kcrash6.24-devel
+ kf6-kiconthemes6.24-devel kf6-kglobalaccel6.24-devel
+ qt6-base-private-devel"
+depends="kf6-kirigami6.24 kf6-qqc2-desktop-style6.24 kf6-kconfig6.24 kf6-kcoreaddons6.24
+ kf6-kiconthemes6.24 kf6-kitemmodels6.24 kf6-sonnet6.24"
+short_desc="Add-ons for the Kirigami framework (6.24 series)"
+maintainer="Tom <void@halffull.org>"
+license="GPL-3.0-or-later"
+homepage="https://invent.kde.org/libraries/kirigami-addons"
+distfiles="${KDE_SITE}/kirigami-addons/kirigami-addons-${version}.tar.xz"
+checksum=76026f0abe8c948208ce75a02a9ecac60c618ac5288ca546e09da64bc4af7050
+
+kirigami-addons6.24-devel_package() {
+	depends="qt6-base-devel ${sourcepkg}-${version}_${revision}"
+	short_desc+=" - development files"
+	pkg_install() {
+		vmove usr/include
+		vmove usr/lib/cmake
+		vmove "usr/lib/*.so"
+	}
+}
