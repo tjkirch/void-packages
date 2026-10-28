@@ -12,6 +12,6 @@ shlib_provides="KDE_Frameworks.${version%.*}"
 
 case "$XBPS_TARGET_MACHINE" in
 x86_64)
-	provides="kf6-base-32bit-${version}_${revision}"
+	provides="kf6-base6.24-32bit-${version}_${revision}"
 esac
 conflicts="kf6-base"
