@@ -13,7 +13,7 @@ makedepends="kf6-kcmutils6.24-devel kf6-kconfig6.24-devel kf6-kcoreaddons6.24-de
  kf6-ki18n6.24-devel kpipewire6.6-devel kf6-kstatusnotifieritem6.24-devel
  kf6-kdbusaddons6.24-devel kf6-kcrash6.24-devel kf6-kguiaddons6.24-devel pam-devel
  qtkeychain-qt6-devel plasma-wayland-protocols freerdp-devel
- qt6-declarative-devel libxkbcommon-devel kirigami-addons-devel
+ qt6-declarative-devel libxkbcommon-devel kirigami-addons6.24-devel
  libxcb-devel pipewire-devel qt6-base-private-devel freerdp"
 short_desc="Plasma rdp server and library (6.6 series)"
 maintainer="Tom <void@halffull.org>"

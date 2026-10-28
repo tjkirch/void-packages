@@ -15,7 +15,7 @@ makedepends="plasma-framework-devel kf6-kcmutils6.24-devel cups-devel
  kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-knotifications6.24-devel
  kf6-kwidgetsaddons6.24-devel kf6-kwindowsystem6.24-devel system-config-printer
  kf6-kirigami6.24-devel libplasma6.6-devel kf6-kconfig6.24-devel kf6-kpackage6.24-devel
- kirigami-addons-devel kf6-kdeclarative6.24"
+ kirigami-addons6.24-devel kf6-kdeclarative6.24"
 depends="kf6-kdeclarative6.24"
 short_desc="Printing management for KDE Plasma (6.6 series)"
 maintainer="Tom <void@halffull.org>"
