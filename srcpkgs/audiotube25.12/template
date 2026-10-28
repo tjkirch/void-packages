@@ -8,11 +8,11 @@ configure_args="-DBUILD_TESTING=OFF"
 hostmakedepends="extra-cmake-modules6.24 qt6-tools qt6-base qt6-declarative-host-tools
  kf6-kconfig6.24 kf6-kcoreaddons6.24 gettext pkg-config yt-dlp python3-ytmusicapi"
 makedepends="futuresql-devel kf6-kconfig6.24-devel kf6-kcrash6.24-devel kf6-ki18n6.24-devel
- kf6-kiconthemes6.24-devel kf6-kirigami6.24-devel kirigami-addons-devel
+ kf6-kiconthemes6.24-devel kf6-kirigami6.24-devel kirigami-addons6.24-devel
  kf6-kwindowsystem6.24-devel kf6-purpose6.24-devel qt6-multimedia-devel qt6-svg-devel
  python3-devel python3-pybind11 qcoro-qt6-devel"
 depends="python3-ytmusicapi yt-dlp qt6-imageformats gst-plugins-bad1 gst-plugins-good1
- kirigami-addons kf6-purpose6.24 qt6-plugin-sqlite"
+ kirigami-addons6.24 kf6-purpose6.24 qt6-plugin-sqlite"
 short_desc="Client for YouTube Music (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"

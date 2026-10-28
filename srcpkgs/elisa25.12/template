@@ -11,7 +11,7 @@ hostmakedepends="extra-cmake-modules6.24 kf6-kdoctools6.24 gettext qt6-base qt6-
  pkg-config"
 makedepends="kf6-kirigami6.24-devel kf6-qqc2-desktop-style6.24-devel kf6-baloo6.24-devel
  kf6-kpackage6.24-devel kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcmutils6.24-devel
- vlc-devel kirigami-addons-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel
+ vlc-devel kirigami-addons6.24-devel kf6-ki18n6.24-devel kf6-kiconthemes6.24-devel
  kf6-kfilemetadata6.24-devel kf6-kdoctools6.24-devel kf6-kxmlgui6.24-devel kf6-kcolorscheme6.24-devel
  kf6-kconfigwidgets6.24-devel kf6-kcrash6.24-devel kf6-kio6.24-devel kf6-kdbusaddons6.24-devel
  qt6-svg-devel qt6-base-private-devel kf6-kcodecs6.24-devel

@@ -15,10 +15,10 @@ makedepends="kf6-kcoreaddons6.24-devel kf6-syndication6.24-devel kf6-kconfig6.24
  qt6-plugin-mysql libglib-devel kf6-kcrash6.24-devel
  qt6-plugin-sqlite qt6-multimedia-devel kf6-kiconthemes6.24-devel
  taglib-devel kf6-networkmanager-qt6.24-devel qtkeychain-qt6-devel
- kf6-kirigami6.24-devel vlc-devel gstreamer1-devel kirigami-addons-devel
+ kf6-kirigami6.24-devel vlc-devel gstreamer1-devel kirigami-addons6.24-devel
  kf6-kwindowsystem6.24-devel kf6-kdbusaddons6.24-devel
  qt6-declarative-private-devel"
-depends="kirigami-addons qt6-plugin-sqlite"
+depends="kirigami-addons6.24 qt6-plugin-sqlite"
 short_desc="Convergent podcast application (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"

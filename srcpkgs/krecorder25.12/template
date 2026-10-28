@@ -8,9 +8,9 @@ configure_args="-DBUILD_TESTING=OFF"
 hostmakedepends="extra-cmake-modules6.24 gettext kf6-kconfig6.24 qt6-base
  qt6-declarative-host-tools qt6-tools"
 makedepends="kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-ki18n6.24-devel
- kf6-kio6.24-devel kf6-kirigami6.24-devel kirigami-addons-devel qt6-base-devel
+ kf6-kio6.24-devel kf6-kirigami6.24-devel kirigami-addons6.24-devel qt6-base-devel
  qt6-declarative-devel qt6-multimedia-devel qt6-svg-devel"
-depends="kirigami-addons"
+depends="kirigami-addons6.24"
 short_desc="Convergent audio recording application for Plasma (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-3.0-or-later"

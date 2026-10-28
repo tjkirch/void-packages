@@ -10,10 +10,10 @@ configure_args="-DBUILD_TESTING=OFF
 hostmakedepends="extra-cmake-modules6.24 gettext pkg-config qt6-base qt6-tools"
 makedepends="qt6-base-private-devel qt6-declarative-devel qt6-multimedia-devel
  qt6-svg-devel kf6-kconfig6.24-devel kf6-kcoreaddons6.24-devel kf6-kcrash6.24-devel kf6-kdbusaddons6.24-devel
- kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-kirigami6.24-devel kirigami-addons-devel kf6-kjobwidgets6.24-devel
+ kf6-ki18n6.24-devel kf6-kio6.24-devel kf6-kirigami6.24-devel kirigami-addons6.24-devel kf6-kjobwidgets6.24-devel
  kf6-knotifications6.24-devel kf6-kservice6.24-devel kf6-kstatusnotifieritem6.24-devel kf6-ksvg6.24-devel
  libplasma6.6-devel plasma-wayland-protocols wayland-protocols"
-depends="kirigami-addons"
+depends="kirigami-addons6.24"
 short_desc="Clock app for Plasma Mobile (25.12 series)"
 maintainer="Tom <void@halffull.org>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later"
