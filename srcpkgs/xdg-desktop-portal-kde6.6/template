@@ -16,6 +16,7 @@ makedepends="qt6-base-devel qt6-declarative-devel
  kf6-kconfig6.24-devel kf6-ki18n6.24-devel kf6-kglobalaccel6.24-devel
  qt6-base-private-devel qt6-declarative-devel kf6-kio6.24-devel kf6-knotifications6.24-devel
  kf6-kservice6.24-devel kf6-kwidgetsaddons6.24-devel kf6-kwindowsystem6.24-devel
+ kf6-kguiaddons6.24-devel
  libepoxy-devel pipewire-devel libglib-devel"
 depends="xdg-desktop-portal plasma-workspace6.6"
 checkdepends="dbus python3-gobject"
