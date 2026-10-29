@@ -4545,6 +4545,7 @@ libKF6SonnetCore.so.6 kf6-sonnet6.24-6.24.0_1
 libKF6Syndication.so.6 kf6-syndication6.24-6.24.0_1
 libKF6SyntaxHighlighting.so.6 kf6-syntax-highlighting6.24-6.24.0_1
 libKF6ThreadWeaver.so.6 kf6-threadweaver6.24-6.24.0_1
+libKQuickImageEditor.so.1 kquickimageeditor6.24-0.6.0_1
 # KDE Plasma 6.6 LTS
 KDE_Plasma.6.6.7 kde-plasma-base6.6-6.6.7_1
 libKNightTime.so.0 knighttime6.6-6.6.7_1
