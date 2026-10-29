@@ -2316,7 +2316,6 @@ libgnunettransportapplication.so.0 gnunet-0.12.2_1
 libgnunettransportcore.so.0 gnunet-0.12.2_1
 libgnunettransportcommunicator.so.0 gnunet-0.12.2_1
 libskarnet.so.2.15 skalibs-2.15.0.0_1
-libKF6BalooWidgets.so.6 baloo-widgets-24.02.0_1
 libtidy.so.58 libtidy5-5.8.0_1
 libSDL2_gfx-1.0.so.0 SDL2_gfx-1.0.1_1
 libinjeqt.so.1 injeqt-1.1.0_1
@@ -4616,7 +4615,6 @@ libkmailconfirmbeforedeleting.so.6 kdepim-addons25.12-25.12.3_1
 libKUnifiedPush.so.1 kunifiedpush25.12-25.12.3_1
 libKSaneCore6.so.1 ksanecore6-25.12-25.12.3_1
 libKSaneWidgets6.so.6 libksane6-25.12-25.12.3_1
-libKF6BalooWidgets.so.6 baloo-widgets25.12-25.12.3_1
 # KDE Akonadi (Gear) 25.12 LTS
 libKPim6GAPIBlogger.so.6 libkgapi25.12-25.12.3_1
 libKPim6GAPICalendar.so.6 libkgapi25.12-25.12.3_1
