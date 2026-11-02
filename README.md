@@ -1,3 +1,108 @@
+## KDE LTS branch
+
+This branch adds the packages required to run the KDE long-term support (LTS) release on Void Linux, including Plasma 6.6, Frameworks 6.24, and Gear 25.12.
+
+The LTS release was sponsored by Kubuntu and discussed on their blog: [post one](https://kubuntu.org/news/plasma-6.6-lts/), [post two](https://kubuntu.org/news/kubuntu-26-04-1-bullet-proof-kde/).
+If you're interested in a more stable KDE experience, or you don't like the direction KDE is going, this might interest you.
+
+These packages can't be contributed to Void Linux because XBPS does not yet provide a mechanism to select different [shlibs](https://github.com/void-linux/void-packages/blob/master/common/shlibs) for certain package builds.
+KDE provides (and then uses) many shared libraries, and their versions almost all match between KDE and KDE LTS.
+While Void's shlibs file _can_ list multiple packages for the same SONAME, it will always pick the first option if multiple are available.
+Given that non-LTS KDE is the default, it must be listed first, and therefore, when building KDE LTS, there's no way for XBPS to select the LTS SONAMEs to create proper package dependencies.
+The solution in this branch is to remove the conflicting SONAMEs from shlibs for KDE and list them only for KDE LTS.
+This is only acceptable for use in local builds of KDE LTS, because it would break builds of non-LTS KDE.
+
+Note that you follow these instructions at your own risk.
+I don't represent KDE, Void, Kubuntu, or anyone else.
+I've been using these packages for about a week after installing them, as of the time I'm writing these instructions, and I haven't had any issues, but your situation could be different.
+Read everything before starting and make sure you're comfortable with the types of changes required; it's not for beginners.
+
+### How to build KDE LTS
+
+Since this can't be contributed to Void (see above) you must build it yourself.
+The basic process is as follows:
+1. Check out this branch of void-packages.
+1. Inspect all the changes I made. Don't just trust a stranger's code!
+1. Use `xbps-src` to build Plasma and its dependencies. (I recommend using nice, ionice, and taskset to reduce the impact to your system, but you can remove those if you want the fastest build.)
+  * `nice ionice -c3 taskset --cpu-list 0-5 ./xbps-src pkg -e -j6 kde-plasma6.6`
+  * Adjust the `0-5` and `-j6` based on the number of CPU cores you want to use.
+1. Repeat the build command for other desired KDE packages, replacing `kde-plasma6.6`.
+  * For example, you may want to build `kde-baseapps25.12` to get dolphin, konsole, and other core applications, or `discover6.6`, `okular25.12`, etc.
+  * You can get a sense of which KDE packages you've installed with a command like this:
+    * Fish: `comm -12 (xbps-query -m | psub) (xbps-query -l | grep -i -e plasma -e kde | awk '{print $2}' | psub)`
+    * Bash: `comm -12 <(xbps-query -m) <(xbps-query -l | grep -i -e plasma -e kde | awk '{print $2}')`
+  * Note: The tool `xbulk` from the `xtools` package lets you build a whole list of packages at once.
+
+### How to install KDE LTS
+
+In case you haven't built Void packages locally before: you can install them with the `--repository` flag to `xbps-install`.
+`xbps-src` puts them in a directory named for the branch.
+So, to install package X, you can run `sudo xbps-install --repository hostdir/binpkgs/kde-lts X`.
+If you're only installing KDE LTS on one machine, this is OK, but otherwise I recommend [creating a repository](https://docs.voidlinux.org/xbps/repositories/custom.html).
+You can serve the repository with any basic HTTP server, e.g. darkhttpd.
+I made a repo, so the install commands below omit the `--repository` flag.
+
+Swapping out KDE is more involved than a normal package upgrade, because it can't use XBPS's "replaces" feature, so we have to uninstall everything KDE first, then install KDE LTS.
+Here's the basic process:
+1. Fully back up your system.
+1. Log out of KDE and switch to a virtual terminal.
+1. Save your installed packages: `xbps-query -l > all-installed-xbps-before.txt; xbps-query -m > manually-installed-xbps-before.txt`
+  * We'll use these files to confirm that we got everything reinstalled.
+1. Uninstall the base KDE Plasma package: `sudo xbps-remove -R kde-plasma kde-plasma-base`
+1. Uninstall other KDE packages you use. For me, it was something like this: `sudo xbps-remove -R spectacle skanpage plasma-vault plasma-disks picmi partitionmanager okular ocean-sound-theme libreoffice-kde kwrite kpat kolourpaint kfind kdegraphics-thumbnailers kde-baseapps kcalc gwenview flatpak-kcm filelight discover ark print-manager plasma-activities`
+1. Uninstall other straggler packages: `sudo xbps-remove -R libkdcraw-qt6 libplasma plasma-activities-stats kpipewire layer-shell-qt libksysguard kirigami-addons libkexiv2 libkdegames kdialog ffmpegthumbs kquickimageeditor ksanecore6`
+1. Uninstall any Frameworks packages still lying around: `xbps-query -l | grep kf6- | awk '{print $2}' | xargs sudo xbps-remove -R --yes`
+1. Install Plasma LTS: `sudo xbps-install kde-plasma6.6`
+  * This will expose any other packages you need to remove because there are conflicts between every LTS and non-LTS package.  Remove them and try again until it succeeds.
+1. Install the LTS versions of other KDE packages you use. For me, it was something like this: `sudo xbps-install kde-baseapps25.12 spectacle6.6 skanpage25.12 plasma-vault6.6 plasma-disks6.6 picmi25.12 partitionmanager25.12 okular25.12 ocean-sound-theme6.6 kwrite25.12 kpat25.12 kolourpaint25.12 kfind25.12 kdegraphics-thumbnailers25.12 kcalc25.12 gwenview25.12 flatpak-kcm6.6 filelight25.12 discover6.6 ark25.12 print-manager6.6 libreoffice-qt6 ffmpegthumbs25.12`
+  * The `6.6` packages are those in Plasma itself, and the `25.12` packages are those in the [KDE Gear set](https://apps.kde.org/).
+1. Save your installed packages again, to new files: `xbps-query -l > all-installed-xbps-after.txt; xbps-query -m > manually-installed-xbps-after.txt`
+1. Diff the before and after files to make sure you haven't lost any packages you care about; only the versions should have changed.
+  * For example, with vimdiff: `vimdiff manually-installed-xbps-before.txt manually-installed-xbps-after.txt` and `vimdiff all-installed-xbps-before.txt all-installed-xbps-after.txt`
+1. Assuming you were running KDE Plasma 6.7 or later, there's one configuration change made by 6.7 that you'll want to undo:
+  1. In `~/.config/plasma-org.kde.plasma.desktop-appletsrc`, find the section containing `plugin=org.kde.plasma.folder` - it'll be called `[Containments][some number]`.
+  1. In that section, find the line with `activityId=` and delete the text after the equals sign.
+  * This fixes "folder view" i.e. icons on your desktop.
+1. You should be able to start KDE LTS now.
+
+### Caveats
+
+I haven't built and run every package I created.
+(Does anyone really run _all_ of KDE?)
+I scripted most of the changes (with my own brain power plus perl, sed, etc.) and made manual fixes as necessary for things the scripting missed.
+
+So if you use KDE packages I don't, there may be issues building or installing them.
+Once they're built and installed, I'd say they're fairly likely to work; the most common issue is XBPS setting a dependency on a non-LTS KDE package, which will fail to install because of the conflicts.
+There are also some patches that need to be adjusted for non-LTS KDE, and I only did that for packages I use.
+If you let me know of an issue, I can probably help fix it.
+
+Another issue with not having this in Void repositories is that packages depending on KDE either need to be duplicated (if they refer to KDE packages directly) or at least rebuilt (if they pick up KDE dependencies automatically during build).
+For example, libreoffice-kde is built as part of LibreOffice, and in the build process it automatically picks up dependencies on non-LTS KDE libraries.
+You'd need to merge libreoffice changes and build it locally every time Void issues an update, since the Void repo version would no longer be compatible.
+I don't use many packages that depend on KDE but aren't in KDE themselves, so this didn't affect me.
+
+### Packaging notes
+
+This section is for people familiar with Void Linux packaging, or at least Linux packaging in general.
+It covers some choices I made during this project.
+
+* LTS packages have a version suffix of `6.6` for Plasma packages, `6.24` for Frameworks, and `25.12` for Gear.
+  * Packages that end with a number, like `libksane6`, also get a hyphen.
+* Some packages are managed like a KDE Frameworks package in Void even though they're not part of Frameworks and not versioned like Frameworks - namely kquickimageeditor and kirigami-addons.  I kept this convention, but gave them the Frameworks suffix.
+  * Similarly, Akonadi packages are in Gear but named with a kf6 prefix, which I kept.
+  * And kgraphviewer is packaged with version 2.5.0 matching its KDE Apps listing, but its source and forge show versioning matching Gear, so I went with Gear.
+* kmime switched from Gear to Frameworks in Frameworks 6.27, but in these LTS versions, it's still in Gear.  I used commit a2323dfb83b250f2acb6c956dd2f45c9a11f0376 as a reference for switching back.
+* I did not include transitional or KDE5 packages.
+* I kept the commits I used in my process rather than per-package Void-style commits, because I figured it would be more useful for archaeology, and it can't be submitted anyway.
+* I removed the `/update` files for LTS packages, since they would alert for non-LTS versions that would always be greater.
+
+### Credits
+
+None of this would have been possible without the mature packaging of KDE on Void Linux.
+Thank you to all of the contributors to its packaging, and particularly to johnnynator, the maintainer.
+
+### Original README follows:
+
 ## The XBPS source packages collection
 
 This repository contains the XBPS source packages collection to build binary packages
