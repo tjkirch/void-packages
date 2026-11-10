@@ -2,7 +2,7 @@
 # group=kde-gear
 pkgname=libkdcraw-qt6-25.12
 version=25.12.3
-revision=1
+revision=2
 build_style=cmake
 configure_args="-DQT_MAJOR_VERSION=6"
 hostmakedepends="extra-cmake-modules6.24 pkg-config qt6-tools
