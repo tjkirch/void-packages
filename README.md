@@ -17,6 +17,16 @@ I don't represent KDE, Void, Kubuntu, or anyone else.
 I've been using these packages for about a week after installing them, as of the time I'm writing these instructions, and I haven't had any issues, but your situation could be different.
 Read everything before starting and make sure you're comfortable with the types of changes required; it's not for beginners.
 
+### Warning: branch rebasing
+
+I'll occasionally rebase this branch on top of void-packages master.
+
+As Void updates KDE dependencies, the shared libraries provided by Void change, and the ones needed by already-built KDE packages will no longer be available.
+When this happens, the KDE package needs to be rebuilt against the new dependency.
+This can be done one by one, cherry-picking dependency updates, but for now I'll sometimes just rebase on master to get multiple dependency updates at once.
+This is a convenience for me that I only do because I'm not aware of anyone else using this branch.
+If you're using this branch and don't want to deal with the branch being rebased, let me know, and I can do individual revision bumps.
+
 ### How to build KDE LTS
 
 Since this can't be contributed to Void (see above) you must build it yourself.
