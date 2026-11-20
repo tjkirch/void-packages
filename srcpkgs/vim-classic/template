@@ -2,8 +2,8 @@
 # Note: this conflicts with vim* because I couldn't figure out how to build
 #       vim-classic with proper suffixes.
 pkgname=vim-classic
-version=8.3.0
-revision=2
+version=8.3.1
+revision=1
 create_wrksrc=required
 hostmakedepends="gettext glib-devel pkg-config
  $(vopt_if gtk3 wayland-devel)"
@@ -19,7 +19,7 @@ maintainer="Orphaned <orphan@voidlinux.org>"
 license="Vim"
 homepage="https://vim-classic.org/"
 distfiles="https://git.sr.ht/~sircmpwn/vim-classic/archive/v${version}.tar.gz"
-checksum=6e1c97c8269e9354bbc474f0efa7e1e0b23fcdb6075067474d731a9bfac6e8ef
+checksum=1d9baef8dab6751145b7c4460e85c0af1f4c432bf8ff03d8db13b977fca31e8c
 python_version=3
 
 build_options="x11 gtk3 huge"
