@@ -1,7 +1,7 @@
 # Template file for 'kf6-kcoreaddons6.24'
 # group=kde-frameworks
 pkgname=kf6-kcoreaddons6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 _llvmver=21
@@ -19,8 +19,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcoreaddons"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=bc2fb0d94de859f6e6bc7413620584f072ace1487e302c65b3398d7c6b0eff7c
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=5db2bb5e1134519af100d52f6b744ef8f93f94331db760ef224c4fb60da1c674
 conflicts="kf6-kcoreaddons"
 
 # stage builds

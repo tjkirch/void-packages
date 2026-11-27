@@ -1,7 +1,7 @@
 # Template file for 'kf6-krunner6.24'
 # group=kde-frameworks
 pkgname=kf6-krunner6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
@@ -16,8 +16,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/krunner"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=5775d7292a31c0ca339b385c18f3716fda5486317423c53809a10d8008ff8e4d
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=816315eddfda5745c228f0cd71aa49d9f22279704b1f7f3503b985ff87014a1f
 conflicts="kf6-krunner"
 
 # stage builds

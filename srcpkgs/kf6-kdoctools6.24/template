@@ -1,7 +1,7 @@
 # Template file for 'kf6-kdoctools6.24'
 # group=kde-frameworks
 pkgname=kf6-kdoctools6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 build_helper=qemu
@@ -14,8 +14,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdoctools"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=aee351c52f783813c6c114ade520c8578c570ee6dc25ecbd64c83e3d2d9660d4
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=17c1f68530f720f16c08e2618d56eda435639122bd8124a1903f1a1b8a6e4da7
 conflicts="kf6-kdoctools"
 
 # stage builds

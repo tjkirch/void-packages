@@ -1,7 +1,7 @@
 # Template file for 'kf6-kguiaddons6.24'
 # group=kde-frameworks
 pkgname=kf6-kguiaddons6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 _llvmver=21
@@ -21,8 +21,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kguiaddons"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=c5e44b56739cbc67e1b6955edc9534f58288ca09d02f85eaae56db8347395eaf
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=e1c18652d20b08a2144342a8926152dcc338bc4054a0b0c789788c7158e0ed4a
 conflicts="kf6-kguiaddons"
 
 # stage builds

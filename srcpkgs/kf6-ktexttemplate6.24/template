@@ -1,7 +1,7 @@
 # Template file for 'kf6-ktexttemplate6.24'
 # group=kde-frameworks
 pkgname=kf6-ktexttemplate6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
@@ -14,8 +14,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/ktexttemplate"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=85021f69f61d09fe5b1b01075dff4fc90b4d3598f7e83bdd4fee31d4a01488e0
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=ef84ccfc34a31afa9555616818989bb7393ba6482e6476cfbe76142bd7778fcc
 conflicts="kf6-ktexttemplate"
 
 # stage builds

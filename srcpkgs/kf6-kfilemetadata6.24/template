@@ -1,7 +1,7 @@
 # Template file for 'kf6-kfilemetadata6.24'
 # group=kde-frameworks
 pkgname=kf6-kfilemetadata6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
@@ -15,8 +15,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kfilemetadata"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=2efdc2ebacf9af1f66f611fe95d776023590e9dcf97525aa93eaad7f1aa2ce23
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=c3a62fe5bc92f4fd73b9755a43cb7da6412e2340570818256032e2fc813b9cd1
 conflicts="kf6-kfilemetadata"
 
 # stage builds

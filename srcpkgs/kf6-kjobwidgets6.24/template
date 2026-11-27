@@ -1,7 +1,7 @@
 # Template file for 'kf6-kjobwidgets6.24'
 # group=kde-frameworks
 pkgname=kf6-kjobwidgets6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 _llvmver=21
@@ -16,8 +16,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kjobwidgets"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=b3c5f449bf29b98394157656600e87b91f769afc5f547cef526faddb454f9b61
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=8fbd42ff12b2fbb9e2dd6aeb3bdc0c4b7a9a4e42d03ca0564cd30e6990eb89a0
 conflicts="kf6-kjobwidgets"
 
 # stage builds

@@ -1,7 +1,7 @@
 # Template file for 'kf6-kpeople6.24'
 # group=kde-frameworks
 pkgname=kf6-kpeople6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
@@ -15,8 +15,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kpeople"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=d3e267753eb64c3bbba8e4af4a4503695ee62d015b30c2dad1a1f1343890fea4
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=b03c2787c482179f83777aff3767b6835168b9934c8a4dca075e4f134ec62f50
 conflicts="kf6-kpeople"
 
 # stage builds

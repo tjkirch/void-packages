@@ -1,7 +1,7 @@
 # Template file for 'kf6-kitemmodels6.24'
 # group=kde-frameworks
 pkgname=kf6-kitemmodels6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
@@ -14,8 +14,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kitemmodels"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=6636bf47de0df2464a94691a1092340efba2abc91fb305253bbb9058af959727
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=22263a72fe9bc6cf106c40c47a590d765baa626406dbb71093b21961f9bfd830
 conflicts="kf6-kitemmodels"
 
 # stage builds

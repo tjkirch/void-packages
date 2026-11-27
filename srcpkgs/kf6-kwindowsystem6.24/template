@@ -1,7 +1,7 @@
 # Template file for 'kf6-kwindowsystem6.24'
 # group=kde-frameworks
 pkgname=kf6-kwindowsystem6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
@@ -15,8 +15,8 @@ maintainer="Tom <void@halffull.org>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwindowsystem"
 _distname="${pkgname#kf6-}"; _distname="${_distname%6.24}"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${_distname}-${version}.tar.xz"
-checksum=2291d95836e8b81263ceea0c1ffa7cfd92773130d6edd130b439874169f13e58
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${_distname}-${version}.tar.xz"
+checksum=0c3d1399a0709a1d0ba0ae55f5413045d09b1b3b6fadfef8806a13ea501e700a
 conflicts="kf6-kwindowsystem"
 
 # stage builds

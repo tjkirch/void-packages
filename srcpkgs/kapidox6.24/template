@@ -1,6 +1,6 @@
 # Template file for 'kapidox6.24'
 pkgname=kapidox6.24
-version=6.24.0
+version=6.24.1
 revision=1
 build_style=python3-module
 hostmakedepends="python3 python3-setuptools"
@@ -12,8 +12,8 @@ short_desc="API documentation generation tool for KDE framework (6.24 series)"
 maintainer="Tom <void@halffull.org>"
 license="BSD-2-Clause, CC0-1.0"
 homepage="https://invent.kde.org/frameworks/kapidox"
-distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname%6.24}-${version}.tar.xz"
-checksum=ab10a97a81eb30a40e5af24f2c683e1a347b3ac22a0d23793068eb4190fb1e6e
+distfiles="${KDE_SITE}/frameworks/${version%.0}/${pkgname%6.24}-${version}.tar.xz"
+checksum=4789db571083e1aaa37bf31dae6a5654326ca88f542a3fb635a970f4ea544ccd
 conflicts="kapidox"
 
 post_install() {
